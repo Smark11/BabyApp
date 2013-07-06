@@ -166,9 +166,14 @@ namespace BabyApp
             }
         }
 
+        //TO DO - This is the guts of how the continious play should work
+        //Not sure where this needs to live and how it gets kicked off (i.e. do we need a completely new page, do we call into DisplayPicture.xaml with a parameter
+        //indicating it is continious play
+
+        //Also need to decide how on the app we are going to let user turn on and off continious play (do not think it should be from the Options page, not accessible enough)
         private void ContiniousPlay(string category)
         {         
-            List<Box> continuousPlayList=new List<Box>;
+            List<Box> continuousPlayList=new List<Box>();
 
             switch (category)
             {
