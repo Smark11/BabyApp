@@ -1,0 +1,48 @@
+en-US,Female,Microsoft Zira Mobile - English (United States)
+
+de-DE,Male,Microsoft Stefan Mobile - German (Germany)
+
+en-GB,Male,Microsoft George Mobile - English (United Kingdom)
+en-GB,Female,Microsoft Susan Mobile - English (United Kingdom)
+en-IN,Female,Microsoft Heera Mobile - English (India)
+en-IN,Male,Microsoft Ravi Mobile - English (India)
+en-US,Male,Microsoft Mark Mobile - English (United States)
+
+de-DE,Female,Microsoft Katja Mobile - German (Germany)
+
+es-ES,Female,Microsoft Laura Mobile - Spanish (Spain)
+es-ES,Male,Microsoft Pablo Mobile - Spanish (Spain)
+es-MX,Male,Microsoft Raul Mobile - Spanish (Mexico)
+es-MX,Female,Microsoft Sabina Mobile - Spanish (Mexico)
+
+fr-FR,Female,Microsoft Julie Mobile - French (France)
+fr-FR,Male,Microsoft Paul Mobile - French (France)
+
+it-IT,Male,Microsoft Cosimo Mobile - Italian (Italy)
+it-IT,Female,Microsoft Elsa Mobile - Italian (Italy)
+
+ja-JP,Female,Microsoft Ayumi Mobile - Japanese (Japan)
+ja-JP,Male,Microsoft Ichiro Mobile - Japanese (Japan)
+
+pl-PL,Male,Microsoft Adam Mobile - Polish (Poland)
+pl-PL,Female,Microsoft Paulina Mobile - Polish (Poland)
+
+pt-BR,Male,Microsoft Daniel Mobile - Portuguese (Brazil)
+pt-BR,Female,Microsoft Maria Mobile - Portuguese (Brazil)
+
+ru-RU,Female,Microsoft Irina Mobile - Russian (Russia)
+ru-RU,Male,Microsoft Pavel Mobile - Russian (Russia)
+
+zh-CN,Male,Microsoft Kangkang Mobile - Chinese (Simplified, PRC)
+zh-CN,Female,Microsoft Yaoyao Mobile - Chinese (Simplified, PRC)
+zh-HK,Male,Microsoft Danny Mobile - Chinese (Traditional, Hong Kong S.A.R.)
+zh-HK,Female,Microsoft Tracy Mobile - Chinese (Traditional, Hong Kong S.A.R.)
+zh-TW,Female,Microsoft Yating Mobile - Chinese (Traditional, Taiwan)
+zh-TW,Male,Microsoft Zhiwei Mobile - Chinese (Traditional, Taiwan)
+
+This is the code I used to generate the above list:
+ IEnumerable<VoiceInformation> tedtest = from voice in InstalledVoices.All select voice;
+                foreach (var item in tedtest)
+                {
+                    Debug.WriteLine(item.Language + "," + item.Gender + ","+ item.Description);
+                }
