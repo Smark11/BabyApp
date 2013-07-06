@@ -212,7 +212,7 @@ namespace BabyApp
                         }
                     }
                 }
-                else
+                else //for now show 'Text Display Off' just so we know we correctly identified 'Show Text' was off, when publishing simply show nothing.
                 {
                     returnValue = "Text Display Off";
                 }
@@ -226,10 +226,6 @@ namespace BabyApp
 
             return returnValue;
         }
-
-
-
-
 
         #endregion "Methods"
     }
