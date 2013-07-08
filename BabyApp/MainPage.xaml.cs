@@ -166,33 +166,7 @@ namespace BabyApp
             }
         }
 
-        //TO DO - This is the guts of how the continious play should work
-        //Not sure where this needs to live and how it gets kicked off (i.e. do we need a completely new page, do we call into DisplayPicture.xaml with a parameter
-        //indicating it is continious play
-
-        //Also need to decide how on the app we are going to let user turn on and off continious play (do not think it should be from the Options page, not accessible enough)
-        private void ContiniousPlay(string category)
-        {         
-            List<Box> continuousPlayList=new List<Box>();
-
-            switch (category)
-            {
-                case "BabyAnimals":
-                    continuousPlayList = BabyAnimals;
-                    break;
-                case "BabyMisc":
-                    continuousPlayList = BabyMisc;
-                    break;
-            }
-
-             for(int i=0; i<continuousPlayList.Count-1; i++) 
-             {
-                 App.gDisplayPicture = continuousPlayList[i].ImageSource;
-                 App.gDisplayDescription = continuousPlayList[i].Description;
-                 App.gDisplaySound = continuousPlayList[i].SoundSource;
-                 NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
-             }                           
-        }
+     
 
         #endregion "Methods"
 
@@ -412,6 +386,36 @@ namespace BabyApp
         #endregion "Properties"
 
         #region "Events"
+
+        //TO DO - This is the guts of how the continious play should work
+        //Not sure where this needs to live and how it gets kicked off (i.e. do we need a completely new page, do we call into DisplayPicture.xaml with a parameter
+        //indicating it is continious play
+
+        //Also need to decide how on the app we are going to let user turn on and off continious play (do not think it should be from the Options page, not accessible enough)
+      //Also need to change the pic of the play button to pause when playing, and to play when paused...
+        private void ContiniousPlay_Click(object sender, EventArgs e)
+        {        
+            List<Box> continuousPlayList=new List<Box>();
+
+            //TJY TO DO, need to figure out the category selected here
+            //switch (category)
+            //{
+            //    case "BabyAnimals":
+            //        continuousPlayList = BabyAnimals;
+            //        break;
+            //    case "BabyMisc":
+            //        continuousPlayList = BabyMisc;
+            //        break;
+            //}
+
+            // for(int i=0; i<continuousPlayList.Count-1; i++) 
+            // {
+            //     App.gDisplayPicture = continuousPlayList[i].ImageSource;
+            //     App.gDisplayDescription = continuousPlayList[i].Description;
+            //     App.gDisplaySound = continuousPlayList[i].SoundSource;
+            //     NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
+            // }                           
+        }
 
         private void Box_Click(object sender, EventArgs e)
         {

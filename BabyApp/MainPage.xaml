@@ -26,7 +26,10 @@
             </Grid.RowDefinitions>
 
             <!--TitlePanel contains the name of the application and page title-->
-            <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <StackPanel Orientation="Horizontal" x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+                <Button x:Name="ContinuiousPlay" Click="ContiniousPlay_Click">
+                    <Image Source="/Assets/transport.play.png"/>
+                </Button>
                 <TextBlock Text="Baby Sounds" HorizontalAlignment="Center"
             		Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
             </StackPanel>
@@ -35,9 +38,9 @@
                 <Grid x:Name="PictureGrid" Grid.Row="1" >
                     <Grid>
                         <Grid.RowDefinitions>
-                            <RowDefinition></RowDefinition>
-                            <RowDefinition></RowDefinition>
-                            <RowDefinition></RowDefinition>
+                            <RowDefinition Height="225"></RowDefinition>
+                            <RowDefinition Height="225"></RowDefinition>
+                            <RowDefinition Height="225"></RowDefinition>
                         </Grid.RowDefinitions>
 
                         <Grid.ColumnDefinitions>
