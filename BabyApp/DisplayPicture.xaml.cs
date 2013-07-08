@@ -195,14 +195,14 @@ namespace BabyApp
 
         private string TextDesription()
         {
-            string returnValue = string.Empty;
+            string returnValue = "No languages selected";
             try
             {
                 if (App.gShowTextSetting == "On")
                 {
                     foreach (string language in App.gLanguages)
                     {
-                        if (returnValue == string.Empty)
+                        if (returnValue == "No languages selected")
                         {
                             returnValue = App.gDisplayDescription;
                         }

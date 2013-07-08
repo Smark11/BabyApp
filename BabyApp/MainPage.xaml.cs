@@ -87,6 +87,8 @@ namespace BabyApp
 
         private void LoadPicsOnScreen(string category)
         {
+            App.gCategory = category;
+
             switch (category)
             {
                 case "BabyAnimals":
@@ -165,8 +167,6 @@ namespace BabyApp
                     break;
             }
         }
-
-     
 
         #endregion "Methods"
 
@@ -397,24 +397,33 @@ namespace BabyApp
         {        
             List<Box> continuousPlayList=new List<Box>();
 
-            //TJY TO DO, need to figure out the category selected here
-            //switch (category)
-            //{
-            //    case "BabyAnimals":
-            //        continuousPlayList = BabyAnimals;
-            //        break;
-            //    case "BabyMisc":
-            //        continuousPlayList = BabyMisc;
-            //        break;
-            //}
+            switch (App.gCategory)
+            {
+                case "BabyAnimals":
+                    continuousPlayList = BabyAnimals;
+                    break;
+                case "BabyMisc":
+                    continuousPlayList = BabyMisc;
+                    break;
+            }
 
-            // for(int i=0; i<continuousPlayList.Count-1; i++) 
-            // {
-            //     App.gDisplayPicture = continuousPlayList[i].ImageSource;
-            //     App.gDisplayDescription = continuousPlayList[i].Description;
-            //     App.gDisplaySound = continuousPlayList[i].SoundSource;
-            //     NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
-            // }                           
+             for(int i=0; i<continuousPlayList.Count-1; i++) 
+             {
+                 App.gDisplayPicture = continuousPlayList[i].ImageSource;
+                 App.gDisplayDescription = continuousPlayList[i].Description;
+                 App.gDisplaySound = continuousPlayList[i].SoundSource;
+
+                 //MarkS, this will not work (i.e. simply navigating to DisplayPicture.xaml)  as it never comes back here, it simply
+                 //will stay on that page forever.
+
+                 //Currently, and to get it to work for when the user clicks one at a time, I added code in DisplayPicture's timerevent,
+                 //to navigate to MainPage.xaml when it is done, that works great for clicking on one image at a time.
+
+                 //But how do I get this to work for a slideshow?  As you said, yes I want to iterate through the collection,
+                 //which I am doing below.  But then what?  Yes, I want DisplayPicture to display it, BUT then I want it to come back here
+                 //to continue to iterate through the collection.
+                 NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
+             }                           
         }
 
         private void Box_Click(object sender, EventArgs e)
@@ -477,11 +486,6 @@ namespace BabyApp
             App.gDisplayDescription = description;
             App.gDisplaySound = soundSource;
             NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
-        }
-
-        private void Play_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void BabyAnimals_Click(object sender, EventArgs e)
@@ -578,7 +582,7 @@ namespace BabyApp
                 ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem("Review");
                 ApplicationBar.MenuItems.Add(appBarMenuItem3);
                 appBarMenuItem3.Click += new EventHandler(Review_Click);
-
+                
                 ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem("More Apps");
                 ApplicationBar.MenuItems.Add(appBarMenuItem4);
                 appBarMenuItem4.Click += new EventHandler(MoreApps_Click);

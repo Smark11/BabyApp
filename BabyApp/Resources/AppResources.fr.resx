@@ -122,23 +122,23 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>fr</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>MY APPLICATION</value>
+    <value>MON APPLICATION</value>
   </data>
   <data name="AppBarButtonText" xml:space="preserve">
-    <value>add</value>
+    <value>Ajouter</value>
   </data>
   <data name="AppBarMenuItemText" xml:space="preserve">
-    <value>Menu Item</value>
+    <value>Élément de menu</value>
   </data>
   <data name="Cow" xml:space="preserve">
-    <value>Cow</value>
+    <value>Vache</value>
   </data>
   <data name="Duck" xml:space="preserve">
-    <value>Duck</value>
+    <value>Canard</value>
   </data>
   <data name="Lion" xml:space="preserve">
     <value>Lion</value>
