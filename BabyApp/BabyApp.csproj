@@ -223,7 +223,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
-      <HintPath>..\packages\WPtoolkit.4.2013.06.11\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+      <HintPath>..\Libraries\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
