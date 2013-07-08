@@ -26,6 +26,7 @@ namespace BabyApp
         public static string gPlaySoundSetting;
         public static string gPlayMusicSetting;
         public static string gShowTextSetting;
+        public static string gCategory;
 
         Common commonCode = new Common();
 
@@ -244,7 +245,8 @@ namespace BabyApp
 
             if (commonCode.GetSetting("BabyApp-PlaySounds") == string.Empty)
             {
-                gPlaySoundSetting = "Off";
+                gPlaySoundSetting = "On";
+                commonCode.SaveSettings("BabyApp-PlaySounds", "On");
             }
             else
             {
@@ -266,7 +268,8 @@ namespace BabyApp
 
             if (commonCode.GetSetting("BabyApp-PlayMusic") == string.Empty)
             {
-                gPlayMusicSetting = "Off";
+                gPlayMusicSetting = "On";
+                commonCode.SaveSettings("BabyApp-PlayMusic", "On");
             }
             else
             {
@@ -288,7 +291,8 @@ namespace BabyApp
 
             if (commonCode.GetSetting("BabyApp-ShowText") == string.Empty)
             {
-                gShowTextSetting = "Off";
+                gShowTextSetting = "On";
+                commonCode.SaveSettings("BabyApp-ShowText", "On");
             }
             else
             {
@@ -313,156 +317,163 @@ namespace BabyApp
             {
                 if (commonCode.GetSetting("BabyApp-English") == string.Empty)
                 {
-                    App.gLanguages.Remove("English");
+                    gLanguages.Remove("English");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-English");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("English");
+                        gLanguages.Add("English");
                     }
                     else
                     {
-                        App.gLanguages.Remove("English");
+                        gLanguages.Remove("English");
                     }
                 }
 
                 if (commonCode.GetSetting("BabyApp-Spanish") == string.Empty)
                 {
-                    App.gLanguages.Remove("Spanish");
+                    gLanguages.Remove("Spanish");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-Spanish");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("Spanish");
+                        gLanguages.Add("Spanish");
                     }
                     else
                     {
-                        App.gLanguages.Remove("Spanish");
+                        gLanguages.Remove("Spanish");
                     }
                 }
 
                 if (commonCode.GetSetting("BabyApp-Italian") == string.Empty)
                 {
-                    App.gLanguages.Remove("Italian");
+                    gLanguages.Remove("Italian");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-Italian");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("Italian");
+                        gLanguages.Add("Italian");
                     }
                     else
                     {
-                        App.gLanguages.Remove("Italian");
+                        gLanguages.Remove("Italian");
                     }
                 }
 
                 if (commonCode.GetSetting("BabyApp-French") == string.Empty)
                 {
-                    App.gLanguages.Remove("French");
+                    gLanguages.Remove("French");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-French");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("French");
+                        gLanguages.Add("French");
                     }
                     else
                     {
-                        App.gLanguages.Remove("French");
+                        gLanguages.Remove("French");
                     }
                 }
 
                 if (commonCode.GetSetting("BabyApp-Irish") == string.Empty)
                 {
-                    App.gLanguages.Remove("Irish");
+                    gLanguages.Remove("Irish");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-Irish");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("Irish");
+                        gLanguages.Add("Irish");
                     }
                     else
                     {
-                        App.gLanguages.Remove("Irish");
+                        gLanguages.Remove("Irish");
                     }
                 }
 
                 if (commonCode.GetSetting("BabyApp-German") == string.Empty)
                 {
-                    App.gLanguages.Remove("German");
+                    gLanguages.Remove("German");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-German");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("German");
+                        gLanguages.Add("German");
                     }
                     else
                     {
-                        App.gLanguages.Remove("German");
+                        gLanguages.Remove("German");
                     }
                 }
 
                 if (commonCode.GetSetting("BabyApp-Portuguese") == string.Empty)
                 {
-                    App.gLanguages.Remove("Portuguese");
+                    gLanguages.Remove("Portuguese");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-Portuguese");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("Portuguese");
+                        gLanguages.Add("Portuguese");
                     }
                     else
                     {
-                        App.gLanguages.Remove("Portuguese");
+                        gLanguages.Remove("Portuguese");
                     }
                 }
 
                 if (commonCode.GetSetting("BabyApp-Japanese") == string.Empty)
                 {
-                    App.gLanguages.Remove("Japanese");
+                    gLanguages.Remove("Japanese");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-Japanese");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("Japanese");
+                        gLanguages.Add("Japanese");
                     }
                     else
                     {
-                        App.gLanguages.Remove("Japanese");
+                        gLanguages.Remove("Japanese");
                     }
                 }
 
                 if (commonCode.GetSetting("BabyApp-Chinese") == string.Empty)
                 {
-                    App.gLanguages.Remove("Chinese");
+                    gLanguages.Remove("Chinese");
                 }
                 else
                 {
                     settingValue = commonCode.GetSetting("BabyApp-Chinese");
                     if (settingValue == "Yes")
                     {
-                        App.gLanguages.Add("Chinese");
+                        gLanguages.Add("Chinese");
                     }
                     else
                     {
-                        App.gLanguages.Remove("Chinese");
+                        gLanguages.Remove("Chinese");
                     }
                 }
+
+                if (gLanguages.Count == 0)
+                {
+                    gLanguages.Add("English");
+                    commonCode.SaveSettings("BabyApp-English", "Yes");
+                }
+
             }
             catch (Exception ex)
             {
