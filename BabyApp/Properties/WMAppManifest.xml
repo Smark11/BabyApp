@@ -2,9 +2,15 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <Languages xmlns="">
+    <Language code="de" />
+    <Language code="en" />
+    <Language code="es" />
     <Language code="fr" />
     <Language code="ga-IE" />
     <Language code="it" />
+    <Language code="ja-JP" />
+    <Language code="pt" />
+    <Language code="zh-Hant" />
   </Languages>
   <App xmlns="" ProductID="{2484440c-4420-4ba0-8a0e-c127f24906eb}" Title="BabyApp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BabyApp author" Description="Sample description" Publisher="BabyApp" PublisherID="{c5d2b96a-5e02-4a02-9d5f-1a3a5904d5d7}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>

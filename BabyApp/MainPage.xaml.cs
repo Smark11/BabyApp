@@ -44,7 +44,7 @@ namespace BabyApp
             BabyAnimals.Add(new Box("Deer", "/Assets/Pics/BabyAnimals/Deer.png", "/Assets/Sounds/BabyAnimals/Deer.wav"));
             BabyAnimals.Add(new Box("Dolphin", "/Assets/Pics/BabyAnimals/Dolphin.png", "/Assets/Sounds/BabyAnimals/Dolphin.wav"));
             BabyAnimals.Add(new Box("Duck", "/Assets/Pics/BabyAnimals/Duck.png", "/Assets/Sounds/BabyAnimals/Duck.wav"));
-            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/Elephant.png", "/Assets/Sounds/BabyAnimals/Elephnat.wav"));
+            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/Elephant80x100.png", "/Assets/Sounds/BabyAnimals/Elephant.wav"));
             BabyAnimals.Add(new Box("Fish", "/Assets/Pics/BabyAnimals/Fish.png", "/Assets/Sounds/BabyAnimals/Fish.wav"));
             BabyAnimals.Add(new Box("Frog", "/Assets/Pics/BabyAnimals/Frog.png", "/Assets/Sounds/BabyAnimals/Frog.wav"));
             BabyAnimals.Add(new Box("Giraffe", "/Assets/Pics/BabyAnimals/Giraffe.png", "/Assets/Sounds/BabyAnimals/Giraffe.wav"));
@@ -543,7 +543,7 @@ namespace BabyApp
             {
                 // Set the page's ApplicationBar to a new instance of ApplicationBar.
                 ApplicationBar = new ApplicationBar();
-
+               
                 ApplicationBar.Mode = ApplicationBarMode.Default;
                 ApplicationBar.Opacity = 1.0;
                 ApplicationBar.IsVisible = true;

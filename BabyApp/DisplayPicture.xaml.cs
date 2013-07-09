@@ -15,6 +15,7 @@ using System.Windows.Threading;
 using Windows.Phone.Speech.Synthesis;
 using System.Threading;
 using System.Diagnostics;
+using BabyApp.Resources;
 
 
 
@@ -34,7 +35,7 @@ namespace BabyApp
                 InitializeComponent();
 
                 this.DataContext = this;
-
+                
                 synthesizer = new SpeechSynthesizer();
 
                 _timer = new DispatcherTimer();
@@ -150,7 +151,7 @@ namespace BabyApp
                     }
 
                     // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
-                    synthesizer.SpeakTextAsync(App.gDisplayDescription);
+                    synthesizer.SpeakTextAsync(GetTextTranslation(language, App.gDisplayDescription));
                     Thread.Sleep(2000);
 
                 }
@@ -192,7 +193,7 @@ namespace BabyApp
             {
             }
         }
-
+        
         private string TextDesription()
         {
             string returnValue = "No languages selected";
@@ -204,11 +205,11 @@ namespace BabyApp
                     {
                         if (returnValue == "No languages selected")
                         {
-                            returnValue = App.gDisplayDescription;
+                            returnValue = GetTextTranslation(language, App.gDisplayDescription);
                         }
                         else
                         {
-                            returnValue = returnValue + "   " + App.gDisplayDescription;
+                            returnValue = returnValue + "   " + GetTextTranslation(language, App.gDisplayDescription);
                         }
                     }
                 }
@@ -226,6 +227,82 @@ namespace BabyApp
 
             return returnValue;
         }
+
+        
+        private string GetTextTranslation(string language, string textToTranslate)
+        {
+            string returnValue = string.Empty;
+            try
+            {
+                
+                  switch (language)
+                    {
+                        case "English":
+                            AppResources.Culture = new System.Globalization.CultureInfo("en");                      
+                            break;
+                        case "Spanish":
+                            AppResources.Culture = new System.Globalization.CultureInfo("es");                        
+                            break;
+                        case "French":
+                            AppResources.Culture = new System.Globalization.CultureInfo("fr");                                                 
+                            break;
+                        case "Irish":
+                            AppResources.Culture = new System.Globalization.CultureInfo("ga");
+                            break;
+                        case "Chinese":
+                            AppResources.Culture = new System.Globalization.CultureInfo("zh-Hant");                                                
+                            break;
+                        case "Italian":
+                            AppResources.Culture = new System.Globalization.CultureInfo("it");                                                 
+                            break;
+                        case "German":
+                            AppResources.Culture = new System.Globalization.CultureInfo("de");                                                 
+                            break;
+                        case "Portuguese":
+                            AppResources.Culture = new System.Globalization.CultureInfo("pt");                                                 
+                            break;
+                        case "Japanese":
+                            AppResources.Culture = new System.Globalization.CultureInfo("ja");                                                 
+                            break;
+                    }
+                  returnValue = GetText(textToTranslate);
+            }
+            catch (Exception)
+            {
+                AppResources.Culture = new System.Globalization.CultureInfo("en");
+                return textToTranslate;               
+            }
+
+            AppResources.Culture = new System.Globalization.CultureInfo("en");
+            return returnValue;
+        }
+
+        private string GetText(string textToTranslate)
+        {
+            string returnValue = string.Empty;
+            try
+            {
+                switch (textToTranslate)
+                {
+                    case "Cow":
+                        returnValue = AppResources.Cow;
+                        break;
+                    case "Lion":
+                        returnValue = AppResources.Lion;
+                        break;
+                    case "Duck":
+                        returnValue = AppResources.Duck;
+                        break;               
+                }
+            }
+            catch (Exception)
+            {
+                return returnValue;
+            }
+            return returnValue;
+        }
+
+
 
         #endregion "Methods"
     }
