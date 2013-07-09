@@ -44,6 +44,10 @@
           <source>Baby Misc</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">赤ちゃんその他</target>
         </trans-unit>
+        <trans-unit id="Resx/Elephant" translate="yes" xml:space="preserve">
+          <source>Elephant</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">象</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -36,53 +36,53 @@ namespace BabyApp
         {
             BabyAnimals = new List<Box>();
 
-            BabyAnimals.Add(new Box("Bear", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Sounds/BabyAnimals/Bear.wav"));
-            BabyAnimals.Add(new Box("Bison", "/Assets/Pics/BabyAnimals/Bison.png", "/Assets/Sounds/BabyAnimals/Bison.wav"));
-            BabyAnimals.Add(new Box("Cat", "/Assets/Pics/BabyAnimals/Cat.png", "/Assets/Sounds/BabyAnimals/Cat.wav"));
-            BabyAnimals.Add(new Box("Chick", "/Assets/Pics/BabyAnimals/Chick.png", "/Assets/Sounds/BabyAnimals/Chick.wav"));
-            BabyAnimals.Add(new Box("Cow", "/Assets/Pics/BabyAnimals/Cow.png", "/Assets/Sounds/BabyAnimals/Cow.wav"));
-            BabyAnimals.Add(new Box("Deer", "/Assets/Pics/BabyAnimals/Deer.png", "/Assets/Sounds/BabyAnimals/Deer.wav"));
-            BabyAnimals.Add(new Box("Dolphin", "/Assets/Pics/BabyAnimals/Dolphin.png", "/Assets/Sounds/BabyAnimals/Dolphin.wav"));
-            BabyAnimals.Add(new Box("Duck", "/Assets/Pics/BabyAnimals/Duck.png", "/Assets/Sounds/BabyAnimals/Duck.wav"));
-            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/Elephant80x100.png", "/Assets/Sounds/BabyAnimals/Elephant.wav"));
-            BabyAnimals.Add(new Box("Fish", "/Assets/Pics/BabyAnimals/Fish.png", "/Assets/Sounds/BabyAnimals/Fish.wav"));
-            BabyAnimals.Add(new Box("Frog", "/Assets/Pics/BabyAnimals/Frog.png", "/Assets/Sounds/BabyAnimals/Frog.wav"));
-            BabyAnimals.Add(new Box("Giraffe", "/Assets/Pics/BabyAnimals/Giraffe.png", "/Assets/Sounds/BabyAnimals/Giraffe.wav"));
-            BabyAnimals.Add(new Box("Goat", "/Assets/Pics/BabyAnimals/Goat.png", "/Assets/Sounds/BabyAnimals/Goat.wav"));
-            BabyAnimals.Add(new Box("Hippo", "/Assets/Pics/BabyAnimals/Hippo.png", "/Assets/Sounds/BabyAnimals/Hippo.wav"));
-            BabyAnimals.Add(new Box("Monkey", "/Assets/Pics/BabyAnimals/Monkey.png", "/Assets/Sounds/BabyAnimals/Monkey.wav"));
-            BabyAnimals.Add(new Box("Mouse", "/Assets/Pics/BabyAnimals/Mouse.png", "/Assets/Sounds/BabyAnimals/Mouse.wav"));
-            BabyAnimals.Add(new Box("Owl", "/Assets/Pics/BabyAnimals/Owl.png", "/Assets/Sounds/BabyAnimals/Owl.wav"));
-            BabyAnimals.Add(new Box("Panda", "/Assets/Pics/BabyAnimals/Panda.png", "/Assets/Sounds/BabyAnimals/Panda.wav"));
-            BabyAnimals.Add(new Box("Penguin", "/Assets/Pics/BabyAnimals/Penquin.png", "/Assets/Sounds/BabyAnimals/Penquin.wav"));
-            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/Pig.png", "/Assets/Sounds/BabyAnimals/Pig.wav"));
-            BabyAnimals.Add(new Box("Rabbit", "/Assets/Pics/BabyAnimals/Rabbit.png", "/Assets/Sounds/BabyAnimals/Rabbit.wav"));
-            BabyAnimals.Add(new Box("Seal", "/Assets/Pics/BabyAnimals/Seal.png", "/Assets/Sounds/BabyAnimals/Seal.wav"));
-            BabyAnimals.Add(new Box("Sheep", "/Assets/Pics/BabyAnimals/Sheep.png", "/Assets/Sounds/BabyAnimals/Sheep.wav"));
-            BabyAnimals.Add(new Box("Tiger", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Sounds/BabyAnimals/Tiger.wav"));
-            BabyAnimals.Add(new Box("Turkey", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Sounds/BabyAnimals/Turkey.wav"));
-            BabyAnimals.Add(new Box("Zebra", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Sounds/BabyAnimals/Zebra.wav"));
+            BabyAnimals.Add(new Box("Bear", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Sounds/BabyAnimals/Bear.wav"));
+            BabyAnimals.Add(new Box("Bison", "/Assets/Pics/BabyAnimals/Bison.png", "/Assets/Pics/BabyAnimals/Bison.png", "/Assets/Sounds/BabyAnimals/Bison.wav"));
+            BabyAnimals.Add(new Box("Cat", "/Assets/Pics/BabyAnimals/Cat.png", "/Assets/Pics/BabyAnimals/Cat.png", "/Assets/Sounds/BabyAnimals/Cat.wav"));
+            BabyAnimals.Add(new Box("Chick", "/Assets/Pics/BabyAnimals/Chick.png", "/Assets/Pics/BabyAnimals/Chick.png", "/Assets/Sounds/BabyAnimals/Chick.wav"));
+            BabyAnimals.Add(new Box("Cow", "/Assets/Pics/BabyAnimals/Cow.png", "/Assets/Pics/BabyAnimals/Cow.png", "/Assets/Sounds/BabyAnimals/Cow.wav"));
+            BabyAnimals.Add(new Box("Deer", "/Assets/Pics/BabyAnimals/Deer.png", "/Assets/Pics/BabyAnimals/Deer.png", "/Assets/Sounds/BabyAnimals/Deer.wav"));
+            BabyAnimals.Add(new Box("Dolphin", "/Assets/Pics/BabyAnimals/Dolphin.png", "/Assets/Pics/BabyAnimals/Dolphin.png", "/Assets/Sounds/BabyAnimals/Dolphin.wav"));
+            BabyAnimals.Add(new Box("Duck", "/Assets/Pics/BabyAnimals/Duck.png", "/Assets/Pics/BabyAnimals/Duck.png", "/Assets/Sounds/BabyAnimals/Duck.wav"));
+            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/Elephant80x100.png", "/Assets/Pics/BabyAnimals/Elephant480x800.png", "/Assets/Sounds/BabyAnimals/Elephant.wav"));
+            BabyAnimals.Add(new Box("Fish", "/Assets/Pics/BabyAnimals/Fish.png", "/Assets/Pics/BabyAnimals/Fish.png", "/Assets/Sounds/BabyAnimals/Fish.wav"));
+            BabyAnimals.Add(new Box("Frog", "/Assets/Pics/BabyAnimals/Frog.png", "/Assets/Pics/BabyAnimals/Frog.png", "/Assets/Sounds/BabyAnimals/Frog.wav"));
+            BabyAnimals.Add(new Box("Giraffe", "/Assets/Pics/BabyAnimals/Giraffe.png", "/Assets/Pics/BabyAnimals/Giraffe.png", "/Assets/Sounds/BabyAnimals/Giraffe.wav"));
+            BabyAnimals.Add(new Box("Goat", "/Assets/Pics/BabyAnimals/Goat.png", "/Assets/Pics/BabyAnimals/Goat.png", "/Assets/Sounds/BabyAnimals/Goat.wav"));
+            BabyAnimals.Add(new Box("Hippo", "/Assets/Pics/BabyAnimals/Hippo.png", "/Assets/Pics/BabyAnimals/Hippo.png", "/Assets/Sounds/BabyAnimals/Hippo.wav"));
+            BabyAnimals.Add(new Box("Monkey", "/Assets/Pics/BabyAnimals/Monkey.png", "/Assets/Pics/BabyAnimals/Monkey.png", "/Assets/Sounds/BabyAnimals/Monkey.wav"));
+            BabyAnimals.Add(new Box("Mouse", "/Assets/Pics/BabyAnimals/Mouse.png", "/Assets/Pics/BabyAnimals/Mouse.png", "/Assets/Sounds/BabyAnimals/Mouse.wav"));
+            BabyAnimals.Add(new Box("Owl", "/Assets/Pics/BabyAnimals/Owl.png", "/Assets/Pics/BabyAnimals/Owl.png", "/Assets/Sounds/BabyAnimals/Owl.wav"));
+            BabyAnimals.Add(new Box("Panda", "/Assets/Pics/BabyAnimals/Panda.png", "/Assets/Pics/BabyAnimals/Panda.png", "/Assets/Sounds/BabyAnimals/Panda.wav"));
+            BabyAnimals.Add(new Box("Penguin", "/Assets/Pics/BabyAnimals/Penquin.png", "/Assets/Pics/BabyAnimals/Penquin.png", "/Assets/Sounds/BabyAnimals/Penquin.wav"));
+            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/Pig.png", "/Assets/Pics/BabyAnimals/Pig.png", "/Assets/Sounds/BabyAnimals/Pig.wav"));
+            BabyAnimals.Add(new Box("Rabbit", "/Assets/Pics/BabyAnimals/Rabbit.png", "/Assets/Pics/BabyAnimals/Rabbit.png", "/Assets/Sounds/BabyAnimals/Rabbit.wav"));
+            BabyAnimals.Add(new Box("Seal", "/Assets/Pics/BabyAnimals/Seal.png", "/Assets/Pics/BabyAnimals/Seal.png", "/Assets/Sounds/BabyAnimals/Seal.wav"));
+            BabyAnimals.Add(new Box("Sheep", "/Assets/Pics/BabyAnimals/Sheep.png", "/Assets/Pics/BabyAnimals/Sheep.png", "/Assets/Sounds/BabyAnimals/Sheep.wav"));
+            BabyAnimals.Add(new Box("Tiger", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Sounds/BabyAnimals/Tiger.wav"));
+            BabyAnimals.Add(new Box("Turkey", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Sounds/BabyAnimals/Turkey.wav"));
+            BabyAnimals.Add(new Box("Zebra", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Sounds/BabyAnimals/Zebra.wav"));
 
             BabyMisc = new List<Box>();
 
-            BabyMisc.Add(new Box("Airpane", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Sounds/BabyMisc/Airplane.wav"));
-            BabyMisc.Add(new Box("Ambulance", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Sounds/BabyMisc/Ambulance.wav"));
-            BabyMisc.Add(new Box("Bike", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Sounds/BabyMisc/Bike.wav"));
-            BabyMisc.Add(new Box("Camera", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Sounds/BabyMisc/Camera.wav"));
-            BabyMisc.Add(new Box("Car", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Sounds/BabyMisc/Car.wav"));
-            BabyMisc.Add(new Box("Clock", "/Assets/Pics/BabyMisc/Clock.png", "/Assets/Sounds/BabyMisc/Clock.wav"));
-            BabyMisc.Add(new Box("Firetruck", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Sounds/BabyMisc/Firetruck.wav"));
-            BabyMisc.Add(new Box("Iron", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Sounds/BabyMisc/Iron.wav"));
-            BabyMisc.Add(new Box("Key", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Sounds/BabyMisc/Key.wav"));
-            BabyMisc.Add(new Box("Lock", "/Assets/Pics/BabyMisc/Lock.png", "/Assets/Sounds/BabyMisc/Lock.wav"));
-            BabyMisc.Add(new Box("Pencil", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Sounds/BabyMisc/Pencil.wav"));
-            BabyMisc.Add(new Box("Phone", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Sounds/BabyMisc/Phone.wav"));
-            BabyMisc.Add(new Box("Scissors", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Sounds/BabyMisc/Scissors.wav"));
-            BabyMisc.Add(new Box("Stapler", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Sounds/BabyMisc/Stapler.wav"));
-            BabyMisc.Add(new Box("Toothbrush", "/Assets/Pics/BabyMisc/Toothbrush.png", "/Assets/Sounds/BabyMisc/Toothbrush.wav"));
-            BabyMisc.Add(new Box("Tractor", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Sounds/BabyMisc/Tractor.wav"));
-            BabyMisc.Add(new Box("TV", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Sounds/BabyMisc/TV.wav"));
-            BabyMisc.Add(new Box("Vacuum", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Sounds/BabyMisc/Vacuum.wav"));
+            BabyMisc.Add(new Box("Airpane", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Sounds/BabyMisc/Airplane.wav"));
+            BabyMisc.Add(new Box("Ambulance", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Sounds/BabyMisc/Ambulance.wav"));
+            BabyMisc.Add(new Box("Bike", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Sounds/BabyMisc/Bike.wav"));
+            BabyMisc.Add(new Box("Camera", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Sounds/BabyMisc/Camera.wav"));
+            BabyMisc.Add(new Box("Car", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Sounds/BabyMisc/Car.wav"));
+            BabyMisc.Add(new Box("Clock", "/Assets/Pics/BabyMisc/Clock.png", "/Assets/Pics/BabyMisc/clock.png", "/Assets/Sounds/BabyMisc/Clock.wav"));
+            BabyMisc.Add(new Box("Firetruck", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Sounds/BabyMisc/Firetruck.wav"));
+            BabyMisc.Add(new Box("Iron", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Sounds/BabyMisc/Iron.wav"));
+            BabyMisc.Add(new Box("Key", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Sounds/BabyMisc/Key.wav"));
+            BabyMisc.Add(new Box("Lock", "/Assets/Pics/BabyMisc/Lock.png", "/Assets/Pics/BabyMisc/Lock.png", "/Assets/Sounds/BabyMisc/Lock.wav"));
+            BabyMisc.Add(new Box("Pencil", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Sounds/BabyMisc/Pencil.wav"));
+            BabyMisc.Add(new Box("Phone", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Sounds/BabyMisc/Phone.wav"));
+            BabyMisc.Add(new Box("Scissors", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Sounds/BabyMisc/Scissors.wav"));
+            BabyMisc.Add(new Box("Stapler", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Sounds/BabyMisc/Stapler.wav"));
+            BabyMisc.Add(new Box("Toothbrush", "/Assets/Pics/BabyMisc/Toothbrush.png", "/Assets/Pics/BabyMisc/Tooothbrush.png", "/Assets/Sounds/BabyMisc/Toothbrush.wav"));
+            BabyMisc.Add(new Box("Tractor", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Sounds/BabyMisc/Tractor.wav"));
+            BabyMisc.Add(new Box("TV", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Sounds/BabyMisc/TV.wav"));
+            BabyMisc.Add(new Box("Vacuum", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Sounds/BabyMisc/Vacuum.wav"));
         }
 
         private void LoadPicsOnScreen(string category)
@@ -92,76 +92,94 @@ namespace BabyApp
             switch (category)
             {
                 case "BabyAnimals":
-                    Box1ImageSource = BabyAnimals[0].ImageSource;
+                    Box1ImageSourceSmall = BabyAnimals[0].ImageSourceSmall;
+                    Box1ImageSourceLarge = BabyAnimals[0].ImageSourceLarge;
                     Box1Description = BabyAnimals[0].Description;
                     Box1SoundSource = BabyAnimals[0].SoundSource;
 
-                    Box2ImageSource = BabyAnimals[1].ImageSource;
+                    Box2ImageSourceSmall = BabyAnimals[1].ImageSourceSmall;
+                    Box2ImageSourceLarge = BabyAnimals[1].ImageSourceLarge;
                     Box2Description = BabyAnimals[1].Description;
                     Box2SoundSource = BabyAnimals[1].SoundSource;
 
-                    Box3ImageSource = BabyAnimals[2].ImageSource;
+                    Box3ImageSourceSmall = BabyAnimals[2].ImageSourceSmall;
+                    Box3ImageSourceLarge = BabyAnimals[2].ImageSourceLarge;
                     Box3Description = BabyAnimals[2].Description;
                     Box3SoundSource = BabyAnimals[2].SoundSource;
 
-                    Box4ImageSource = BabyAnimals[3].ImageSource;
+                    Box4ImageSourceSmall = BabyAnimals[3].ImageSourceSmall;
+                    Box4ImageSourceLarge = BabyAnimals[3].ImageSourceLarge;
                     Box4Description = BabyAnimals[3].Description;
                     Box4SoundSource = BabyAnimals[3].SoundSource;
 
-                    Box5ImageSource = BabyAnimals[4].ImageSource;
+                    Box5ImageSourceSmall = BabyAnimals[4].ImageSourceSmall;
+                    Box5ImageSourceLarge = BabyAnimals[4].ImageSourceLarge;
                     Box5Description = BabyAnimals[4].Description;
                     Box5SoundSource = BabyAnimals[4].SoundSource;
 
-                    Box6ImageSource = BabyAnimals[5].ImageSource;
+                    Box6ImageSourceSmall = BabyAnimals[5].ImageSourceSmall;
+                    Box6ImageSourceLarge = BabyAnimals[5].ImageSourceLarge;
                     Box6Description = BabyAnimals[5].Description;
                     Box6SoundSource = BabyAnimals[5].SoundSource;
 
-                    Box7ImageSource = BabyAnimals[6].ImageSource;
+                    Box7ImageSourceSmall = BabyAnimals[6].ImageSourceSmall;
+                    Box7ImageSourceLarge = BabyAnimals[6].ImageSourceLarge;
                     Box7Description = BabyAnimals[6].Description;
                     Box7SoundSource = BabyAnimals[6].SoundSource;
 
-                    Box8ImageSource = BabyAnimals[7].ImageSource;
+                    Box8ImageSourceSmall = BabyAnimals[7].ImageSourceSmall;
+                    Box8ImageSourceLarge = BabyAnimals[7].ImageSourceLarge;
                     Box8Description = BabyAnimals[7].Description;
                     Box8SoundSource = BabyAnimals[7].SoundSource;
 
-                    Box9ImageSource = BabyAnimals[8].ImageSource;
+                    Box9ImageSourceSmall = BabyAnimals[8].ImageSourceSmall;
+                    Box9ImageSourceLarge = BabyAnimals[8].ImageSourceLarge;
                     Box9Description = BabyAnimals[8].Description;
                     Box9SoundSource = BabyAnimals[8].SoundSource;
                     break;
                 case "BabyMisc":
-                    Box1ImageSource = BabyMisc[0].ImageSource;
+                    Box1ImageSourceSmall = BabyMisc[0].ImageSourceSmall;
+                    Box1ImageSourceLarge = BabyMisc[0].ImageSourceLarge;
                     Box1Description = BabyMisc[0].Description;
                     Box1SoundSource = BabyMisc[0].SoundSource;
 
-                    Box2ImageSource = BabyMisc[1].ImageSource;
+                    Box2ImageSourceSmall = BabyMisc[1].ImageSourceSmall;
+                    Box2ImageSourceLarge = BabyMisc[1].ImageSourceLarge;
                     Box2Description = BabyMisc[1].Description;
                     Box2SoundSource = BabyMisc[1].SoundSource;
 
-                    Box3ImageSource = BabyMisc[2].ImageSource;
+                    Box3ImageSourceSmall = BabyMisc[2].ImageSourceSmall;
+                    Box3ImageSourceLarge = BabyMisc[2].ImageSourceLarge;
                     Box3Description = BabyMisc[2].Description;
                     Box3SoundSource = BabyMisc[2].SoundSource;
 
-                    Box4ImageSource = BabyMisc[3].ImageSource;
+                    Box4ImageSourceSmall = BabyMisc[3].ImageSourceSmall;
+                    Box4ImageSourceLarge = BabyMisc[3].ImageSourceLarge;
                     Box4Description = BabyMisc[3].Description;
                     Box4SoundSource = BabyMisc[3].SoundSource;
 
-                    Box5ImageSource = BabyMisc[4].ImageSource;
+                    Box5ImageSourceSmall = BabyMisc[4].ImageSourceSmall;
+                    Box5ImageSourceLarge = BabyMisc[4].ImageSourceLarge;
                     Box5Description = BabyMisc[4].Description;
                     Box5SoundSource = BabyMisc[4].SoundSource;
 
-                    Box6ImageSource = BabyMisc[5].ImageSource;
+                    Box6ImageSourceSmall = BabyMisc[5].ImageSourceSmall;
+                    Box6ImageSourceLarge = BabyMisc[5].ImageSourceLarge;
                     Box6Description = BabyMisc[5].Description;
                     Box6SoundSource = BabyMisc[5].SoundSource;
 
-                    Box7ImageSource = BabyMisc[6].ImageSource;
+                    Box7ImageSourceSmall = BabyMisc[6].ImageSourceSmall;
+                    Box7ImageSourceLarge = BabyMisc[6].ImageSourceLarge;
                     Box7Description = BabyMisc[6].Description;
                     Box7SoundSource = BabyMisc[6].SoundSource;
 
-                    Box8ImageSource = BabyMisc[7].ImageSource;
+                    Box8ImageSourceSmall = BabyMisc[7].ImageSourceSmall;
+                    Box8ImageSourceLarge = BabyMisc[7].ImageSourceLarge;
                     Box8Description = BabyMisc[7].Description;
                     Box8SoundSource = BabyMisc[7].SoundSource;
 
-                    Box9ImageSource = BabyMisc[8].ImageSource;
+                    Box9ImageSourceSmall = BabyMisc[8].ImageSourceSmall;
+                    Box9ImageSourceLarge = BabyMisc[8].ImageSourceLarge;
                     Box9Description = BabyMisc[8].Description;
                     Box9SoundSource = BabyMisc[8].SoundSource;
                     break;
@@ -201,11 +219,18 @@ namespace BabyApp
             set { _box1Description = value; NotifyPropertyChanged("Box1Description"); }
         }
 
-        private string _box1ImageSource;
-        public string Box1ImageSource
+        private string _box1ImageSourceSmall;
+        public string Box1ImageSourceSmall
         {
-            get { return _box1ImageSource; }
-            set { _box1ImageSource = value; NotifyPropertyChanged("Box1ImageSource"); }
+            get { return _box1ImageSourceSmall; }
+            set { _box1ImageSourceSmall = value; NotifyPropertyChanged("Box1ImageSourceSmall"); }
+        }
+
+        private string _box1ImageSourceLarge;
+        public string Box1ImageSourceLarge
+        {
+            get { return _box1ImageSourceLarge; }
+            set { _box1ImageSourceLarge = value; NotifyPropertyChanged("Box1ImageSourceLarge"); }
         }
 
         private string _box1SoundSource;
@@ -222,11 +247,18 @@ namespace BabyApp
             set { _box2Description = value; NotifyPropertyChanged("Box2Description"); }
         }
 
-        private string _box2ImageSource;
-        public string Box2ImageSource
+        private string _box2ImageSourceSmall;
+        public string Box2ImageSourceSmall
         {
-            get { return _box2ImageSource; }
-            set { _box2ImageSource = value; NotifyPropertyChanged("Box2ImageSource"); }
+            get { return _box2ImageSourceSmall; }
+            set { _box2ImageSourceSmall = value; NotifyPropertyChanged("Box2ImageSourceSmall"); }
+        }
+
+        private string _box2ImageSourceLarge;
+        public string Box2ImageSourceLarge
+        {
+            get { return _box2ImageSourceLarge; }
+            set { _box2ImageSourceLarge = value; NotifyPropertyChanged("Box2ImageSourceLarge"); }
         }
 
         private string _box2SoundSource;
@@ -243,11 +275,18 @@ namespace BabyApp
             set { _box3Description = value; NotifyPropertyChanged("Box3Description"); }
         }
 
-        private string _box3ImageSource;
-        public string Box3ImageSource
+        private string _box3ImageSourceSmall;
+        public string Box3ImageSourceSmall
         {
-            get { return _box3ImageSource; }
-            set { _box3ImageSource = value; NotifyPropertyChanged("Box3ImageSource"); }
+            get { return _box3ImageSourceSmall; }
+            set { _box3ImageSourceSmall = value; NotifyPropertyChanged("Box3ImageSourceSmall"); }
+        }
+
+        private string _box3ImageSourceLarge;
+        public string Box3ImageSourceLarge
+        {
+            get { return _box3ImageSourceLarge; }
+            set { _box3ImageSourceLarge = value; NotifyPropertyChanged("Box3ImageSourceLarge"); }
         }
 
         private string _box3SoundSource;
@@ -264,11 +303,18 @@ namespace BabyApp
             set { _box4Description = value; NotifyPropertyChanged("Box4Description"); }
         }
 
-        private string _box4ImageSource;
-        public string Box4ImageSource
+        private string _box4ImageSourceSmall;
+        public string Box4ImageSourceSmall
         {
-            get { return _box4ImageSource; }
-            set { _box4ImageSource = value; NotifyPropertyChanged("Box4ImageSource"); }
+            get { return _box4ImageSourceSmall; }
+            set { _box4ImageSourceSmall = value; NotifyPropertyChanged("Box4ImageSourceSmall"); }
+        }
+
+        private string _box4ImageSourceLarge;
+        public string Box4ImageSourceLarge
+        {
+            get { return _box4ImageSourceLarge; }
+            set { _box4ImageSourceLarge = value; NotifyPropertyChanged("Box4ImageSourceLarge"); }
         }
 
         private string _box4SoundSource;
@@ -285,11 +331,18 @@ namespace BabyApp
             set { _box5Description = value; NotifyPropertyChanged("Box5Description"); }
         }
 
-        private string _box5ImageSource;
-        public string Box5ImageSource
+        private string _box5ImageSourceSmall;
+        public string Box5ImageSourceSmall
         {
-            get { return _box5ImageSource; }
-            set { _box5ImageSource = value; NotifyPropertyChanged("Box5ImageSource"); }
+            get { return _box5ImageSourceSmall; }
+            set { _box5ImageSourceSmall = value; NotifyPropertyChanged("Box5ImageSourceSmall"); }
+        }
+
+        private string _box5ImageSourceLarge;
+        public string Box5ImageSourceLarge
+        {
+            get { return _box5ImageSourceLarge; }
+            set { _box5ImageSourceLarge = value; NotifyPropertyChanged("Box5ImageSourceLarge"); }
         }
 
         private string _box5SoundSource;
@@ -306,11 +359,18 @@ namespace BabyApp
             set { _box6Description = value; NotifyPropertyChanged("Box6Description"); }
         }
 
-        private string _box6ImageSource;
-        public string Box6ImageSource
+        private string _box6ImageSourceSmall;
+        public string Box6ImageSourceSmall
         {
-            get { return _box6ImageSource; }
-            set { _box6ImageSource = value; NotifyPropertyChanged("Box6ImageSource"); }
+            get { return _box6ImageSourceSmall; }
+            set { _box6ImageSourceSmall = value; NotifyPropertyChanged("Box6ImageSourceSmall"); }
+        }
+
+        private string _box6ImageSourceLarge;
+        public string Box6ImageSourceLarge
+        {
+            get { return _box6ImageSourceLarge; }
+            set { _box6ImageSourceLarge = value; NotifyPropertyChanged("Box6ImageSourceLarge"); }
         }
 
         private string _box6SoundSource;
@@ -327,11 +387,18 @@ namespace BabyApp
             set { _box7Description = value; NotifyPropertyChanged("Box7Description"); }
         }
 
-        private string _box7ImageSource;
-        public string Box7ImageSource
+        private string _box7ImageSourceSmall;
+        public string Box7ImageSourceSmall
         {
-            get { return _box7ImageSource; }
-            set { _box7ImageSource = value; NotifyPropertyChanged("Box7ImageSource"); }
+            get { return _box7ImageSourceSmall; }
+            set { _box7ImageSourceSmall = value; NotifyPropertyChanged("Box7ImageSourceSmall"); }
+        }
+
+        private string _box7ImageSourceLarge;
+        public string Box7ImageSourceLarge
+        {
+            get { return _box7ImageSourceLarge; }
+            set { _box7ImageSourceLarge = value; NotifyPropertyChanged("Box7ImageSourceLarge"); }
         }
 
         private string _box7SoundSource;
@@ -348,11 +415,18 @@ namespace BabyApp
             set { _box8Description = value; NotifyPropertyChanged("Box8Description"); }
         }
 
-        private string _box8ImageSource;
-        public string Box8ImageSource
+        private string _box8ImageSourceSmall;
+        public string Box8ImageSourceSmall
         {
-            get { return _box8ImageSource; }
-            set { _box8ImageSource = value; NotifyPropertyChanged("Box8ImageSource"); }
+            get { return _box8ImageSourceSmall; }
+            set { _box8ImageSourceSmall = value; NotifyPropertyChanged("Box8ImageSourceSmall"); }
+        }
+
+        private string _box8ImageSourceLarge;
+        public string Box8ImageSourceLarge
+        {
+            get { return _box8ImageSourceLarge; }
+            set { _box8ImageSourceLarge = value; NotifyPropertyChanged("Box8ImageSourceLarge"); }
         }
 
         private string _box8SoundSource;
@@ -369,11 +443,18 @@ namespace BabyApp
             set { _box9Description = value; NotifyPropertyChanged("Box9Description"); }
         }
 
-        private string _box9ImageSource;
-        public string Box9ImageSource
+        private string _box9ImageSourceSmall;
+        public string Box9ImageSourceSmall
         {
-            get { return _box9ImageSource; }
-            set { _box9ImageSource = value; NotifyPropertyChanged("Box9ImageSource"); }
+            get { return _box9ImageSourceSmall; }
+            set { _box9ImageSourceSmall = value; NotifyPropertyChanged("Box9ImageSourceSmall"); }
+        }
+
+        private string _box9ImageSourceLarge;
+        public string Box9ImageSourceLarge
+        {
+            get { return _box9ImageSourceLarge; }
+            set { _box9ImageSourceLarge = value; NotifyPropertyChanged("Box9ImageSourceLarge"); }
         }
 
         private string _box9SoundSource;
@@ -409,7 +490,8 @@ namespace BabyApp
 
              for(int i=0; i<continuousPlayList.Count-1; i++) 
              {
-                 App.gDisplayPicture = continuousPlayList[i].ImageSource;
+                 App.gDisplayPictureSmall = continuousPlayList[i].ImageSourceSmall;
+                 App.gDisplayPictureLarge = continuousPlayList[i].ImageSourceLarge;
                  App.gDisplayDescription = continuousPlayList[i].Description;
                  App.gDisplaySound = continuousPlayList[i].SoundSource;
 
@@ -429,60 +511,71 @@ namespace BabyApp
         private void Box_Click(object sender, EventArgs e)
         {
             string tag = ((Button)sender).Tag.ToString();
-            string imageSource = string.Empty;
+            string imageSourceSmall = string.Empty;
+            string imageSourceLarge = string.Empty;
             string description = string.Empty;
             string soundSource = string.Empty;
 
             switch (tag)
             {
                 case "Box1":
-                    imageSource = Box1ImageSource;
+                    imageSourceSmall = Box1ImageSourceSmall;
+                    imageSourceLarge = Box1ImageSourceLarge;
                     description = Box1Description;
                     soundSource = Box1SoundSource;
                     break;
                 case "Box2":
-                    imageSource = Box2ImageSource;
+                    imageSourceSmall = Box2ImageSourceSmall;
+                    imageSourceLarge = Box2ImageSourceLarge;
                     description = Box2Description;
                     soundSource = Box2SoundSource;
                     break;
                 case "Box3":
-                    imageSource = Box3ImageSource;
+                    imageSourceSmall = Box3ImageSourceSmall;
+                    imageSourceLarge = Box3ImageSourceLarge;
                     description = Box3Description;
                     soundSource = Box3SoundSource;
                     break;
                 case "Box4":
-                    imageSource = Box4ImageSource;
+                    imageSourceSmall = Box4ImageSourceSmall;
+                    imageSourceLarge = Box4ImageSourceLarge;
                     description = Box4Description;
                     soundSource = Box4SoundSource;
                     break;
                 case "Box5":
-                    imageSource = Box5ImageSource;
+                    imageSourceSmall = Box5ImageSourceSmall;
+                    imageSourceLarge = Box5ImageSourceLarge;
                     description = Box5Description;
                     soundSource = Box5SoundSource;
                     break;
                 case "Box6":
-                    imageSource = Box6ImageSource;
+                    imageSourceSmall = Box6ImageSourceSmall;
+                    imageSourceLarge = Box6ImageSourceLarge;
                     description = Box6Description;
                     soundSource = Box6SoundSource;
                     break;
                 case "Box7":
-                    imageSource = Box7ImageSource;
+                    imageSourceSmall = Box7ImageSourceSmall;
+                    imageSourceLarge = Box7ImageSourceLarge;
                     description = Box7Description;
                     soundSource = Box7SoundSource;
                     break;
                 case "Box8":
-                    imageSource = Box8ImageSource;
+                    imageSourceSmall = Box8ImageSourceSmall;
+                    imageSourceLarge = Box8ImageSourceLarge;
                     description = Box8Description;
                     soundSource = Box8SoundSource;
                     break;
                 case "Box9":
-                    imageSource = Box9ImageSource;
+                    imageSourceSmall = Box9ImageSourceSmall;
+                    imageSourceLarge = Box9ImageSourceLarge;
                     description = Box9Description;
                     soundSource = Box9SoundSource;
                     break;
             }
 
-            App.gDisplayPicture = imageSource;
+            App.gDisplayPictureSmall = imageSourceSmall;
+            App.gDisplayPictureLarge = imageSourceLarge;
             App.gDisplayDescription = description;
             App.gDisplaySound = soundSource;
             NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));

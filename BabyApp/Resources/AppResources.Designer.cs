@@ -115,6 +115,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Elephant.
+        /// </summary>
+        public static string Elephant {
+            get {
+                return ResourceManager.GetString("Elephant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lion.
         /// </summary>
         public static string Lion {

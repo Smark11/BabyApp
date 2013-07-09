@@ -44,6 +44,10 @@
           <source>Baby Misc</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Baby Misc</target>
         </trans-unit>
+        <trans-unit id="Resx/Elephant" translate="yes" xml:space="preserve">
+          <source>Elephant</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Elefante</target>
+        </trans-unit>
       </group>
     </body>
   </file>

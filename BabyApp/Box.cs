@@ -13,13 +13,13 @@ namespace BabyApp
         public event PropertyChangedEventHandler PropertyChanged;
 
         //Constructor
-        public Box(string description, string imageSource, string soundSource)
+        public Box(string description, string imageSourceSmall, string imageSourceLarge, string soundSource)
         {
             Description = description;
-            ImageSource = imageSource;
+            ImageSourceSmall = imageSourceSmall;
+            ImageSourceLarge = imageSourceLarge;
             SoundSource = soundSource;
         }
-
 
         #region "Properties"
 
@@ -38,13 +38,19 @@ namespace BabyApp
             set { _description = value; NotifyPropertyChanged("Description"); }
         }
 
-        private string _imageSource;
-        public string ImageSource
+        private string _imageSourceSmall;
+        public string ImageSourceSmall
         {
-            get { return _imageSource; }
-            set { _imageSource = value; NotifyPropertyChanged("ImageSource"); }
+            get { return _imageSourceSmall; }
+            set { _imageSourceSmall = value; NotifyPropertyChanged("ImageSourceSmall"); }
         }
 
+        private string _imageSourceLarge;
+        public string ImageSourceLarge
+        {
+            get { return _imageSourceLarge; }
+            set { _imageSourceLarge = value; NotifyPropertyChanged("ImageSourceLarge"); }
+        }
         private string _soundSource;
         public string SoundSource
         {

@@ -64,7 +64,7 @@ namespace BabyApp
         private string _imageSource;
         public string ImageSource
         {
-            get { return App.gDisplayPicture; }
+            get { return App.gDisplayPictureLarge; }
             set { _imageSource = value; NotifyPropertyChanged("ImageSource"); }
         }
 
@@ -292,7 +292,10 @@ namespace BabyApp
                         break;
                     case "Duck":
                         returnValue = AppResources.Duck;
-                        break;               
+                        break;
+                    case "Elephant":
+                        returnValue = AppResources.Elephant;
+                        break;
                 }
             }
             catch (Exception)

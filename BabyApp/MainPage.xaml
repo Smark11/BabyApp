@@ -51,39 +51,39 @@
 
                         <Button x:Name="Box1" Grid.Row="0" Grid.Column="0" 
                                 Click="Box_Click" Tag="Box1">
-                            <Image Source="{Binding Box1ImageSource}"/>
+                            <Image Source="{Binding Box1ImageSourceSmall}"/>
                         </Button>
                         <Button x:Name="Box2" Grid.Row="0" Grid.Column="1"
                                 Click="Box_Click" Tag="Box2">
-                            <Image Source="{Binding Box2ImageSource}"/>
+                            <Image Source="{Binding Box2ImageSourceSmall}"/>
                         </Button>
                         <Button x:Name="Box3" Grid.Row="0" Grid.Column="2"
                                 Click="Box_Click" Tag="Box3">
-                            <Image Source="{Binding Box3ImageSource}"/>
+                            <Image Source="{Binding Box3ImageSourceSmall}"/>
                         </Button>
                         <Button x:Name="Box4" Grid.Row="1" Grid.Column="0"
                                 Click="Box_Click" Tag="Box4">
-                            <Image Source="{Binding Box4ImageSource}"/>
+                            <Image Source="{Binding Box4ImageSourceSmall}"/>
                         </Button>
                         <Button x:Name="Box5" Grid.Row="1" Grid.Column="1"
                                 Click="Box_Click" Tag="Box5">
-                            <Image Source="{Binding Box5ImageSource}"/>
+                            <Image Source="{Binding Box5ImageSourceSmall}"/>
                         </Button>
                         <Button x:Name="Box6" Grid.Row="1" Grid.Column="2"
                                 Click="Box_Click" Tag="Box6">
-                            <Image Source="{Binding Box6ImageSource}"/>
+                            <Image Source="{Binding Box6ImageSourceSmall}"/>
                         </Button>
                         <Button x:Name="Box7" Grid.Row="2" Grid.Column="0"
                                 Click="Box_Click" Tag="Box7">
-                            <Image Source="{Binding Box7ImageSource}"/>
+                            <Image Source="{Binding Box7ImageSourceSmall}"/>
                         </Button>
                         <Button x:Name="Box8" Grid.Row="2" Grid.Column="1"
                                 Click="Box_Click" Tag="Box8">
-                            <Image Source="{Binding Box8ImageSource}"/>
+                            <Image Source="{Binding Box8ImageSourceSmall}"/>
                         </Button>
                         <Button x:Name="Box9" Grid.Row="2" Grid.Column="2"
                                 Click="Box_Click" Tag="Box9">
-                            <Image Source="{Binding Box9ImageSource}"/>
+                            <Image Source="{Binding Box9ImageSourceSmall}"/>
                         </Button>
 
                     </Grid>

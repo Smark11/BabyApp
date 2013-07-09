@@ -146,4 +146,7 @@
   <data name="AppBarBabyMiscButton" xml:space="preserve">
     <value>Bébé divers</value>
   </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Éléphant</value>
+  </data>
 </root>

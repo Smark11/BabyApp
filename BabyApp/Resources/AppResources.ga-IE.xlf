@@ -44,6 +44,10 @@
           <source>Baby Misc</source>
           <target state="new">Baby Misc</target>
         </trans-unit>
+        <trans-unit id="Resx/Elephant" translate="yes" xml:space="preserve">
+          <source>Elephant</source>
+          <target state="new">Elephant</target>
+        </trans-unit>
       </group>
     </body>
   </file>
