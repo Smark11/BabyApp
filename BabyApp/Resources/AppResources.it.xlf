@@ -40,6 +40,10 @@
           <source>Lion</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Leone</target>
         </trans-unit>
+        <trans-unit id="Resx/AppBarBabyMiscButton" translate="yes" xml:space="preserve">
+          <source>Baby Misc</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baby Misc</target>
+        </trans-unit>
       </group>
     </body>
   </file>

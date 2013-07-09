@@ -235,7 +235,7 @@ namespace BabyApp
         
         private void chkIrish_Unchecked_1(object sender, RoutedEventArgs e)
         {
-            App.gLanguages.Add("Irish");
+            App.gLanguages.Remove("Irish");
             commonCode.SaveSettings("BabyApp-Irish", "No");
        }
 

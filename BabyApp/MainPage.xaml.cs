@@ -551,7 +551,7 @@ namespace BabyApp
 
                 // Create a new button and set the text value to the localized string from AppResources.
                 ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/feature.email.png", UriKind.Relative));
-                appBarButton1.Text = "Baby Misc";
+                appBarButton1.Text = AppResources.AppBarBabyMiscButton;
                 ApplicationBar.Buttons.Add(appBarButton1);
                 appBarButton1.Click += new EventHandler(BabyMisc_Click);
 

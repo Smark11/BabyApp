@@ -61,6 +61,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Baby Misc.
+        /// </summary>
+        public static string AppBarBabyMiscButton {
+            get {
+                return ResourceManager.GetString("AppBarBabyMiscButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to add.
         /// </summary>
         public static string AppBarButtonText {
