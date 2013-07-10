@@ -26,7 +26,7 @@ namespace BabyApp
             this.DataContext = this;
 
             LoadPicsIntoCollection();
-            LoadPicsOnScreen("BabyAnimals");
+            LoadPicsOnScreen(App.gCategory);
             BuildLocalizedApplicationBar();
         }
 
@@ -37,7 +37,7 @@ namespace BabyApp
             BabyAnimals = new List<Box>();
 
             BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/Elephant80x100.png", "/Assets/Pics/BabyAnimals/Elephant480x800.png", "/Assets/Sounds/Animals/Elephant.wav"));
-            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/Pig80x100.png", "/Assets/Pics/BabyAnimals/Pig480x800.png", "/Assets/Sounds/Animals/Elephant.wav"));
+            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/Pig80x100.png", "/Assets/Pics/BabyAnimals/Pig480x800.png", "/Assets/Sounds/Animals/Pig.wav"));
 
 
             BabyAnimals.Add(new Box("Bear", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Sounds/Animals/Bear.wav"));
@@ -89,8 +89,8 @@ namespace BabyApp
 
             Animals = new List<Box>();
 
-            Animals.Add(new Box("Elephant", "/Assets/Pics/Animals/Elephant80x100.png", "/Assets/Pics/Animals/Elephant480x800.png", "/Assets/Sounds/BabyAnimals/Elephant.wav"));
-            Animals.Add(new Box("Pig", "/Assets/Pics/Animals/Pig80x100.png", "/Assets/Pics/Animals/Pig480x800.png", "/Assets/Sounds/BabyAnimals/Elephant.wav"));
+            Animals.Add(new Box("Elephant", "/Assets/Pics/Animals/Elephant80x100.png", "/Assets/Pics/Animals/Elephant480x800.png", "/Assets/Sounds/Animals/Elephant.wav"));
+            Animals.Add(new Box("Pig", "/Assets/Pics/Animals/Pig80x100.png", "/Assets/Pics/Animals/Pig480x800.png", "/Assets/Sounds/Animals/Pig.wav"));
 
 
         }

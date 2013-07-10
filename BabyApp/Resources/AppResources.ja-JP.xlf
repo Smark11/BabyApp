@@ -48,6 +48,10 @@
           <source>Elephant</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">象</target>
         </trans-unit>
+        <trans-unit id="Resx/Pig" translate="yes" xml:space="preserve">
+          <source>Pig</source>
+          <target state="new">Pig</target>
+        </trans-unit>
       </group>
     </body>
   </file>

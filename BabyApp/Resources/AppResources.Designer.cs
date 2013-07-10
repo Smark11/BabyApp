@@ -133,6 +133,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pig.
+        /// </summary>
+        public static string Pig {
+            get {
+                return ResourceManager.GetString("Pig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LeftToRight.
         /// </summary>
         public static string ResourceFlowDirection {

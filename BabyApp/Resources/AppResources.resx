@@ -149,4 +149,7 @@
   <data name="Elephant" xml:space="preserve">
     <value>Elephant</value>
   </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Pig</value>
+  </data>
 </root>

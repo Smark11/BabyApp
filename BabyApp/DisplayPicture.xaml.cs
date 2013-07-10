@@ -296,6 +296,9 @@ namespace BabyApp
                     case "Elephant":
                         returnValue = AppResources.Elephant;
                         break;
+                    case "Pig":
+                        returnValue = AppResources.Pig;
+                        break;
                 }
             }
             catch (Exception)

@@ -27,7 +27,7 @@ namespace BabyApp
         public static string gPlaySoundSetting;
         public static string gPlayMusicSetting;
         public static string gShowTextSetting;
-        public static string gCategory;
+        public static string gCategory = "BabyAnimals";
 
         Common commonCode = new Common();
 
