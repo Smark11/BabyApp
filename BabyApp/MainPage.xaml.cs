@@ -726,7 +726,7 @@ namespace BabyApp
                 ApplicationBar.Buttons.Add(appBarButton1);
                 appBarButton1.Click += new EventHandler(BabyMisc_Click);
 
-                ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/cancel.png", UriKind.Relative));
+                ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
                 appBarButton2.Text = "Baby Animals";
                 ApplicationBar.Buttons.Add(appBarButton2);
                 appBarButton2.Click += new EventHandler(BabyAnimals_Click);
@@ -736,7 +736,7 @@ namespace BabyApp
                 ApplicationBar.Buttons.Add(appBarButton3);
                 appBarButton3.Click += new EventHandler(Misc_Click);
 
-                ApplicationBarIconButton appBarButton4 = new ApplicationBarIconButton(new Uri("/Assets/cancel.png", UriKind.Relative));
+                ApplicationBarIconButton appBarButton4 = new ApplicationBarIconButton(new Uri("/Assets/Pics/Animals/Elephant80x100.png", UriKind.Relative));
                 appBarButton4.Text = "Animals";
                 ApplicationBar.Buttons.Add(appBarButton4);
                 appBarButton4.Click += new EventHandler(Animals_Click);
