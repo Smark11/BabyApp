@@ -163,6 +163,8 @@
     <Content Include="Assets\Pics\BabyAnimals\Panda.png" />
     <Content Include="Assets\Pics\BabyAnimals\Penguin.png" />
     <Content Include="Assets\Pics\BabyAnimals\Pig.png" />
+    <Content Include="Assets\Pics\BabyAnimals\pig480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\pig80x100.png" />
     <Content Include="Assets\Pics\BabyAnimals\Rabbit.png" />
     <Content Include="Assets\Pics\BabyAnimals\Seal.png" />
     <Content Include="Assets\Pics\BabyAnimals\Sheep.png" />
@@ -187,15 +189,15 @@
     <Content Include="Assets\Pics\BabyMisc\Tractor.png" />
     <Content Include="Assets\Pics\BabyMisc\TV.png" />
     <Content Include="Assets\Pics\BabyMisc\Vacuum.png" />
-    <Content Include="Assets\Sounds\BabyAnimals\Cow.wav" />
-    <Content Include="Assets\Sounds\BabyAnimals\Cow2.wav" />
-    <Content Include="Assets\Sounds\BabyAnimals\Duck.wav" />
-    <Content Include="Assets\Sounds\BabyAnimals\Elephant.wav" />
-    <Content Include="Assets\Sounds\BabyAnimals\Goat.wav" />
-    <Content Include="Assets\Sounds\BabyAnimals\Pig.wav" />
-    <Content Include="Assets\Sounds\BabyAnimals\Pig2.wav" />
-    <Content Include="Assets\Sounds\BabyAnimals\Sheep.wav" />
-    <Content Include="Assets\Sounds\BabyAnimals\Sheep2.wav" />
+    <Content Include="Assets\Sounds\Animals\Cow.wav" />
+    <Content Include="Assets\Sounds\Animals\Cow2.wav" />
+    <Content Include="Assets\Sounds\Animals\Duck.wav" />
+    <Content Include="Assets\Sounds\Animals\Elephant.wav" />
+    <Content Include="Assets\Sounds\Animals\Goat.wav" />
+    <Content Include="Assets\Sounds\Animals\Pig.wav" />
+    <Content Include="Assets\Sounds\Animals\Pig2.wav" />
+    <Content Include="Assets\Sounds\Animals\Sheep.wav" />
+    <Content Include="Assets\Sounds\Animals\Sheep2.wav" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -285,7 +287,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Sounds\BabyMisc\" />
+    <Folder Include="Assets\Pics\Misc\" />
+    <Folder Include="Assets\Sounds\Misc\" />
   </ItemGroup>
   <ItemGroup>
     <XliffResource Include="Resources\AppResources.de.xlf">

@@ -24,8 +24,11 @@
 
         <Image Grid.Row="1" Source="{Binding ImageSource}"/>
 
-        <TextBlock Grid.Row="3" FontSize="55" HorizontalAlignment="Center" Text="{Binding Description}" VerticalAlignment="Top"/>
-
+        <TextBlock Grid.Row="3" FontSize="55" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top"
+                   Text="{Binding Description}" />
+                   
         <MediaElement x:Name="myBoundSound" Source="{Binding ImageSound}"
                       AutoPlay="False" Visibility="Collapsed"></MediaElement>
 

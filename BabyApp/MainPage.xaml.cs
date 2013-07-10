@@ -36,153 +36,217 @@ namespace BabyApp
         {
             BabyAnimals = new List<Box>();
 
-            BabyAnimals.Add(new Box("Bear", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Sounds/BabyAnimals/Bear.wav"));
-            BabyAnimals.Add(new Box("Bison", "/Assets/Pics/BabyAnimals/Bison.png", "/Assets/Pics/BabyAnimals/Bison.png", "/Assets/Sounds/BabyAnimals/Bison.wav"));
-            BabyAnimals.Add(new Box("Cat", "/Assets/Pics/BabyAnimals/Cat.png", "/Assets/Pics/BabyAnimals/Cat.png", "/Assets/Sounds/BabyAnimals/Cat.wav"));
-            BabyAnimals.Add(new Box("Chick", "/Assets/Pics/BabyAnimals/Chick.png", "/Assets/Pics/BabyAnimals/Chick.png", "/Assets/Sounds/BabyAnimals/Chick.wav"));
-            BabyAnimals.Add(new Box("Cow", "/Assets/Pics/BabyAnimals/Cow.png", "/Assets/Pics/BabyAnimals/Cow.png", "/Assets/Sounds/BabyAnimals/Cow.wav"));
-            BabyAnimals.Add(new Box("Deer", "/Assets/Pics/BabyAnimals/Deer.png", "/Assets/Pics/BabyAnimals/Deer.png", "/Assets/Sounds/BabyAnimals/Deer.wav"));
-            BabyAnimals.Add(new Box("Dolphin", "/Assets/Pics/BabyAnimals/Dolphin.png", "/Assets/Pics/BabyAnimals/Dolphin.png", "/Assets/Sounds/BabyAnimals/Dolphin.wav"));
-            BabyAnimals.Add(new Box("Duck", "/Assets/Pics/BabyAnimals/Duck.png", "/Assets/Pics/BabyAnimals/Duck.png", "/Assets/Sounds/BabyAnimals/Duck.wav"));
-            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/Elephant80x100.png", "/Assets/Pics/BabyAnimals/Elephant480x800.png", "/Assets/Sounds/BabyAnimals/Elephant.wav"));
-            BabyAnimals.Add(new Box("Fish", "/Assets/Pics/BabyAnimals/Fish.png", "/Assets/Pics/BabyAnimals/Fish.png", "/Assets/Sounds/BabyAnimals/Fish.wav"));
-            BabyAnimals.Add(new Box("Frog", "/Assets/Pics/BabyAnimals/Frog.png", "/Assets/Pics/BabyAnimals/Frog.png", "/Assets/Sounds/BabyAnimals/Frog.wav"));
-            BabyAnimals.Add(new Box("Giraffe", "/Assets/Pics/BabyAnimals/Giraffe.png", "/Assets/Pics/BabyAnimals/Giraffe.png", "/Assets/Sounds/BabyAnimals/Giraffe.wav"));
-            BabyAnimals.Add(new Box("Goat", "/Assets/Pics/BabyAnimals/Goat.png", "/Assets/Pics/BabyAnimals/Goat.png", "/Assets/Sounds/BabyAnimals/Goat.wav"));
-            BabyAnimals.Add(new Box("Hippo", "/Assets/Pics/BabyAnimals/Hippo.png", "/Assets/Pics/BabyAnimals/Hippo.png", "/Assets/Sounds/BabyAnimals/Hippo.wav"));
-            BabyAnimals.Add(new Box("Monkey", "/Assets/Pics/BabyAnimals/Monkey.png", "/Assets/Pics/BabyAnimals/Monkey.png", "/Assets/Sounds/BabyAnimals/Monkey.wav"));
-            BabyAnimals.Add(new Box("Mouse", "/Assets/Pics/BabyAnimals/Mouse.png", "/Assets/Pics/BabyAnimals/Mouse.png", "/Assets/Sounds/BabyAnimals/Mouse.wav"));
-            BabyAnimals.Add(new Box("Owl", "/Assets/Pics/BabyAnimals/Owl.png", "/Assets/Pics/BabyAnimals/Owl.png", "/Assets/Sounds/BabyAnimals/Owl.wav"));
-            BabyAnimals.Add(new Box("Panda", "/Assets/Pics/BabyAnimals/Panda.png", "/Assets/Pics/BabyAnimals/Panda.png", "/Assets/Sounds/BabyAnimals/Panda.wav"));
-            BabyAnimals.Add(new Box("Penguin", "/Assets/Pics/BabyAnimals/Penquin.png", "/Assets/Pics/BabyAnimals/Penquin.png", "/Assets/Sounds/BabyAnimals/Penquin.wav"));
-            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/Pig.png", "/Assets/Pics/BabyAnimals/Pig.png", "/Assets/Sounds/BabyAnimals/Pig.wav"));
-            BabyAnimals.Add(new Box("Rabbit", "/Assets/Pics/BabyAnimals/Rabbit.png", "/Assets/Pics/BabyAnimals/Rabbit.png", "/Assets/Sounds/BabyAnimals/Rabbit.wav"));
-            BabyAnimals.Add(new Box("Seal", "/Assets/Pics/BabyAnimals/Seal.png", "/Assets/Pics/BabyAnimals/Seal.png", "/Assets/Sounds/BabyAnimals/Seal.wav"));
-            BabyAnimals.Add(new Box("Sheep", "/Assets/Pics/BabyAnimals/Sheep.png", "/Assets/Pics/BabyAnimals/Sheep.png", "/Assets/Sounds/BabyAnimals/Sheep.wav"));
-            BabyAnimals.Add(new Box("Tiger", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Sounds/BabyAnimals/Tiger.wav"));
-            BabyAnimals.Add(new Box("Turkey", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Sounds/BabyAnimals/Turkey.wav"));
-            BabyAnimals.Add(new Box("Zebra", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Sounds/BabyAnimals/Zebra.wav"));
+            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/Elephant80x100.png", "/Assets/Pics/BabyAnimals/Elephant480x800.png", "/Assets/Sounds/Animals/Elephant.wav"));
+            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/Pig80x100.png", "/Assets/Pics/BabyAnimals/Pig480x800.png", "/Assets/Sounds/Animals/Elephant.wav"));
+
+
+            BabyAnimals.Add(new Box("Bear", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Pics/BabyAnimals/Bear.png", "/Assets/Sounds/Animals/Bear.wav"));
+            BabyAnimals.Add(new Box("Bison", "/Assets/Pics/BabyAnimals/Bison.png", "/Assets/Pics/BabyAnimals/Bison.png", "/Assets/Sounds/Animals/Bison.wav"));
+            BabyAnimals.Add(new Box("Cat", "/Assets/Pics/BabyAnimals/Cat.png", "/Assets/Pics/BabyAnimals/Cat.png", "/Assets/Sounds/Animals/Cat.wav"));
+            BabyAnimals.Add(new Box("Chick", "/Assets/Pics/BabyAnimals/Chick.png", "/Assets/Pics/BabyAnimals/Chick.png", "/Assets/Sounds/Animals/Chick.wav"));
+            BabyAnimals.Add(new Box("Cow", "/Assets/Pics/BabyAnimals/Cow.png", "/Assets/Pics/BabyAnimals/Cow.png", "/Assets/Sounds/Animals/Cow.wav"));
+            BabyAnimals.Add(new Box("Deer", "/Assets/Pics/BabyAnimals/Deer.png", "/Assets/Pics/BabyAnimals/Deer.png", "/Assets/Sounds/Animals/Deer.wav"));
+            BabyAnimals.Add(new Box("Dolphin", "/Assets/Pics/BabyAnimals/Dolphin.png", "/Assets/Pics/BabyAnimals/Dolphin.png", "/Assets/Sounds/Animals/Dolphin.wav"));
+            BabyAnimals.Add(new Box("Duck", "/Assets/Pics/BabyAnimals/Duck.png", "/Assets/Pics/BabyAnimals/Duck.png", "/Assets/Sounds/Animals/Duck.wav"));
+            BabyAnimals.Add(new Box("Fish", "/Assets/Pics/BabyAnimals/Fish.png", "/Assets/Pics/BabyAnimals/Fish.png", "/Assets/Sounds/Animals/Fish.wav"));
+            BabyAnimals.Add(new Box("Frog", "/Assets/Pics/BabyAnimals/Frog.png", "/Assets/Pics/BabyAnimals/Frog.png", "/Assets/Sounds/Animals/Frog.wav"));
+            BabyAnimals.Add(new Box("Giraffe", "/Assets/Pics/BabyAnimals/Giraffe.png", "/Assets/Pics/BabyAnimals/Giraffe.png", "/Assets/Sounds/Animals/Giraffe.wav"));
+            BabyAnimals.Add(new Box("Goat", "/Assets/Pics/BabyAnimals/Goat.png", "/Assets/Pics/BabyAnimals/Goat.png", "/Assets/Sounds/Animals/Goat.wav"));
+            BabyAnimals.Add(new Box("Hippo", "/Assets/Pics/BabyAnimals/Hippo.png", "/Assets/Pics/BabyAnimals/Hippo.png", "/Assets/Sounds/Animals/Hippo.wav"));
+            BabyAnimals.Add(new Box("Monkey", "/Assets/Pics/BabyAnimals/Monkey.png", "/Assets/Pics/BabyAnimals/Monkey.png", "/Assets/Sounds/Animals/Monkey.wav"));
+            BabyAnimals.Add(new Box("Mouse", "/Assets/Pics/BabyAnimals/Mouse.png", "/Assets/Pics/BabyAnimals/Mouse.png", "/Assets/Sounds/Animals/Mouse.wav"));
+            BabyAnimals.Add(new Box("Owl", "/Assets/Pics/BabyAnimals/Owl.png", "/Assets/Pics/BabyAnimals/Owl.png", "/Assets/Sounds/Animals/Owl.wav"));
+            BabyAnimals.Add(new Box("Panda", "/Assets/Pics/BabyAnimals/Panda.png", "/Assets/Pics/BabyAnimals/Panda.png", "/Assets/Sounds/Animals/Panda.wav"));
+            BabyAnimals.Add(new Box("Penguin", "/Assets/Pics/BabyAnimals/Penquin.png", "/Assets/Pics/BabyAnimals/Penquin.png", "/Assets/Sounds/Animals/Penquin.wav"));
+            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/Pig.png", "/Assets/Pics/BabyAnimals/Pig.png", "/Assets/Sounds/Animals/Pig.wav"));
+            BabyAnimals.Add(new Box("Rabbit", "/Assets/Pics/BabyAnimals/Rabbit.png", "/Assets/Pics/BabyAnimals/Rabbit.png", "/Assets/Sounds/Animals/Rabbit.wav"));
+            BabyAnimals.Add(new Box("Seal", "/Assets/Pics/BabyAnimals/Seal.png", "/Assets/Pics/BabyAnimals/Seal.png", "/Assets/Sounds/Animals/Seal.wav"));
+            BabyAnimals.Add(new Box("Sheep", "/Assets/Pics/BabyAnimals/Sheep.png", "/Assets/Pics/BabyAnimals/Sheep.png", "/Assets/Sounds/Animals/Sheep.wav"));
+            BabyAnimals.Add(new Box("Tiger", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Sounds/Animals/Tiger.wav"));
+            BabyAnimals.Add(new Box("Turkey", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Sounds/Animals/Turkey.wav"));
+            BabyAnimals.Add(new Box("Zebra", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Sounds/Animals/Zebra.wav"));
 
             BabyMisc = new List<Box>();
 
-            BabyMisc.Add(new Box("Airpane", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Sounds/BabyMisc/Airplane.wav"));
-            BabyMisc.Add(new Box("Ambulance", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Sounds/BabyMisc/Ambulance.wav"));
-            BabyMisc.Add(new Box("Bike", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Sounds/BabyMisc/Bike.wav"));
-            BabyMisc.Add(new Box("Camera", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Sounds/BabyMisc/Camera.wav"));
-            BabyMisc.Add(new Box("Car", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Sounds/BabyMisc/Car.wav"));
-            BabyMisc.Add(new Box("Clock", "/Assets/Pics/BabyMisc/Clock.png", "/Assets/Pics/BabyMisc/clock.png", "/Assets/Sounds/BabyMisc/Clock.wav"));
-            BabyMisc.Add(new Box("Firetruck", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Sounds/BabyMisc/Firetruck.wav"));
-            BabyMisc.Add(new Box("Iron", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Sounds/BabyMisc/Iron.wav"));
-            BabyMisc.Add(new Box("Key", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Sounds/BabyMisc/Key.wav"));
+            BabyMisc.Add(new Box("Airpane", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Sounds/Misc/Airplane.wav"));
+            BabyMisc.Add(new Box("Ambulance", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Sounds/Misc/Ambulance.wav"));
+            BabyMisc.Add(new Box("Bike", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Sounds/Misc/Bike.wav"));
+            BabyMisc.Add(new Box("Camera", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Sounds/Misc/Camera.wav"));
+            BabyMisc.Add(new Box("Car", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Sounds/Misc/Car.wav"));
+            BabyMisc.Add(new Box("Clock", "/Assets/Pics/BabyMisc/Clock.png", "/Assets/Pics/BabyMisc/clock.png", "/Assets/Sounds/Misc/Clock.wav"));
+            BabyMisc.Add(new Box("Firetruck", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Sounds/Misc/Firetruck.wav"));
+            BabyMisc.Add(new Box("Iron", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Sounds/Misc/Iron.wav"));
+            BabyMisc.Add(new Box("Key", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Sounds/Misc/Key.wav"));
             BabyMisc.Add(new Box("Lock", "/Assets/Pics/BabyMisc/Lock.png", "/Assets/Pics/BabyMisc/Lock.png", "/Assets/Sounds/BabyMisc/Lock.wav"));
-            BabyMisc.Add(new Box("Pencil", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Sounds/BabyMisc/Pencil.wav"));
-            BabyMisc.Add(new Box("Phone", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Sounds/BabyMisc/Phone.wav"));
-            BabyMisc.Add(new Box("Scissors", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Sounds/BabyMisc/Scissors.wav"));
-            BabyMisc.Add(new Box("Stapler", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Sounds/BabyMisc/Stapler.wav"));
-            BabyMisc.Add(new Box("Toothbrush", "/Assets/Pics/BabyMisc/Toothbrush.png", "/Assets/Pics/BabyMisc/Tooothbrush.png", "/Assets/Sounds/BabyMisc/Toothbrush.wav"));
-            BabyMisc.Add(new Box("Tractor", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Sounds/BabyMisc/Tractor.wav"));
-            BabyMisc.Add(new Box("TV", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Sounds/BabyMisc/TV.wav"));
-            BabyMisc.Add(new Box("Vacuum", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Sounds/BabyMisc/Vacuum.wav"));
+            BabyMisc.Add(new Box("Pencil", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Sounds/Misc/Pencil.wav"));
+            BabyMisc.Add(new Box("Phone", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Sounds/Misc/Phone.wav"));
+            BabyMisc.Add(new Box("Scissors", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Sounds/Misc/Scissors.wav"));
+            BabyMisc.Add(new Box("Stapler", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Sounds/Misc/Stapler.wav"));
+            BabyMisc.Add(new Box("Toothbrush", "/Assets/Pics/BabyMisc/Toothbrush.png", "/Assets/Pics/BabyMisc/Tooothbrush.png", "/Assets/Sounds/Misc/Toothbrush.wav"));
+            BabyMisc.Add(new Box("Tractor", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Sounds/Misc/Tractor.wav"));
+            BabyMisc.Add(new Box("TV", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Sounds/Misc/TV.wav"));
+            BabyMisc.Add(new Box("Vacuum", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Sounds/Misc/Vacuum.wav"));
+
+            Animals = new List<Box>();
+
+            Animals.Add(new Box("Elephant", "/Assets/Pics/Animals/Elephant80x100.png", "/Assets/Pics/Animals/Elephant480x800.png", "/Assets/Sounds/BabyAnimals/Elephant.wav"));
+            Animals.Add(new Box("Pig", "/Assets/Pics/Animals/Pig80x100.png", "/Assets/Pics/Animals/Pig480x800.png", "/Assets/Sounds/BabyAnimals/Elephant.wav"));
+
+
         }
 
         private void LoadPicsOnScreen(string category)
         {
-            App.gCategory = category;
-
-            switch (category)
+            try
             {
-                case "BabyAnimals":
-                    Box1ImageSourceSmall = BabyAnimals[0].ImageSourceSmall;
-                    Box1ImageSourceLarge = BabyAnimals[0].ImageSourceLarge;
-                    Box1Description = BabyAnimals[0].Description;
-                    Box1SoundSource = BabyAnimals[0].SoundSource;
+                App.gCategory = category;
 
-                    Box2ImageSourceSmall = BabyAnimals[1].ImageSourceSmall;
-                    Box2ImageSourceLarge = BabyAnimals[1].ImageSourceLarge;
-                    Box2Description = BabyAnimals[1].Description;
-                    Box2SoundSource = BabyAnimals[1].SoundSource;
+                switch (category)
+                {
+                    case "BabyAnimals":
+                        Box1ImageSourceSmall = BabyAnimals[0].ImageSourceSmall;
+                        Box1ImageSourceLarge = BabyAnimals[0].ImageSourceLarge;
+                        Box1Description = BabyAnimals[0].Description;
+                        Box1SoundSource = BabyAnimals[0].SoundSource;
 
-                    Box3ImageSourceSmall = BabyAnimals[2].ImageSourceSmall;
-                    Box3ImageSourceLarge = BabyAnimals[2].ImageSourceLarge;
-                    Box3Description = BabyAnimals[2].Description;
-                    Box3SoundSource = BabyAnimals[2].SoundSource;
+                        Box2ImageSourceSmall = BabyAnimals[1].ImageSourceSmall;
+                        Box2ImageSourceLarge = BabyAnimals[1].ImageSourceLarge;
+                        Box2Description = BabyAnimals[1].Description;
+                        Box2SoundSource = BabyAnimals[1].SoundSource;
 
-                    Box4ImageSourceSmall = BabyAnimals[3].ImageSourceSmall;
-                    Box4ImageSourceLarge = BabyAnimals[3].ImageSourceLarge;
-                    Box4Description = BabyAnimals[3].Description;
-                    Box4SoundSource = BabyAnimals[3].SoundSource;
+                        Box3ImageSourceSmall = BabyAnimals[2].ImageSourceSmall;
+                        Box3ImageSourceLarge = BabyAnimals[2].ImageSourceLarge;
+                        Box3Description = BabyAnimals[2].Description;
+                        Box3SoundSource = BabyAnimals[2].SoundSource;
 
-                    Box5ImageSourceSmall = BabyAnimals[4].ImageSourceSmall;
-                    Box5ImageSourceLarge = BabyAnimals[4].ImageSourceLarge;
-                    Box5Description = BabyAnimals[4].Description;
-                    Box5SoundSource = BabyAnimals[4].SoundSource;
+                        Box4ImageSourceSmall = BabyAnimals[3].ImageSourceSmall;
+                        Box4ImageSourceLarge = BabyAnimals[3].ImageSourceLarge;
+                        Box4Description = BabyAnimals[3].Description;
+                        Box4SoundSource = BabyAnimals[3].SoundSource;
 
-                    Box6ImageSourceSmall = BabyAnimals[5].ImageSourceSmall;
-                    Box6ImageSourceLarge = BabyAnimals[5].ImageSourceLarge;
-                    Box6Description = BabyAnimals[5].Description;
-                    Box6SoundSource = BabyAnimals[5].SoundSource;
+                        Box5ImageSourceSmall = BabyAnimals[4].ImageSourceSmall;
+                        Box5ImageSourceLarge = BabyAnimals[4].ImageSourceLarge;
+                        Box5Description = BabyAnimals[4].Description;
+                        Box5SoundSource = BabyAnimals[4].SoundSource;
 
-                    Box7ImageSourceSmall = BabyAnimals[6].ImageSourceSmall;
-                    Box7ImageSourceLarge = BabyAnimals[6].ImageSourceLarge;
-                    Box7Description = BabyAnimals[6].Description;
-                    Box7SoundSource = BabyAnimals[6].SoundSource;
+                        Box6ImageSourceSmall = BabyAnimals[5].ImageSourceSmall;
+                        Box6ImageSourceLarge = BabyAnimals[5].ImageSourceLarge;
+                        Box6Description = BabyAnimals[5].Description;
+                        Box6SoundSource = BabyAnimals[5].SoundSource;
 
-                    Box8ImageSourceSmall = BabyAnimals[7].ImageSourceSmall;
-                    Box8ImageSourceLarge = BabyAnimals[7].ImageSourceLarge;
-                    Box8Description = BabyAnimals[7].Description;
-                    Box8SoundSource = BabyAnimals[7].SoundSource;
+                        Box7ImageSourceSmall = BabyAnimals[6].ImageSourceSmall;
+                        Box7ImageSourceLarge = BabyAnimals[6].ImageSourceLarge;
+                        Box7Description = BabyAnimals[6].Description;
+                        Box7SoundSource = BabyAnimals[6].SoundSource;
 
-                    Box9ImageSourceSmall = BabyAnimals[8].ImageSourceSmall;
-                    Box9ImageSourceLarge = BabyAnimals[8].ImageSourceLarge;
-                    Box9Description = BabyAnimals[8].Description;
-                    Box9SoundSource = BabyAnimals[8].SoundSource;
-                    break;
-                case "BabyMisc":
-                    Box1ImageSourceSmall = BabyMisc[0].ImageSourceSmall;
-                    Box1ImageSourceLarge = BabyMisc[0].ImageSourceLarge;
-                    Box1Description = BabyMisc[0].Description;
-                    Box1SoundSource = BabyMisc[0].SoundSource;
+                        Box8ImageSourceSmall = BabyAnimals[7].ImageSourceSmall;
+                        Box8ImageSourceLarge = BabyAnimals[7].ImageSourceLarge;
+                        Box8Description = BabyAnimals[7].Description;
+                        Box8SoundSource = BabyAnimals[7].SoundSource;
 
-                    Box2ImageSourceSmall = BabyMisc[1].ImageSourceSmall;
-                    Box2ImageSourceLarge = BabyMisc[1].ImageSourceLarge;
-                    Box2Description = BabyMisc[1].Description;
-                    Box2SoundSource = BabyMisc[1].SoundSource;
+                        Box9ImageSourceSmall = BabyAnimals[8].ImageSourceSmall;
+                        Box9ImageSourceLarge = BabyAnimals[8].ImageSourceLarge;
+                        Box9Description = BabyAnimals[8].Description;
+                        Box9SoundSource = BabyAnimals[8].SoundSource;
+                        break;
+                    case "BabyMisc":
+                        Box1ImageSourceSmall = BabyMisc[0].ImageSourceSmall;
+                        Box1ImageSourceLarge = BabyMisc[0].ImageSourceLarge;
+                        Box1Description = BabyMisc[0].Description;
+                        Box1SoundSource = BabyMisc[0].SoundSource;
 
-                    Box3ImageSourceSmall = BabyMisc[2].ImageSourceSmall;
-                    Box3ImageSourceLarge = BabyMisc[2].ImageSourceLarge;
-                    Box3Description = BabyMisc[2].Description;
-                    Box3SoundSource = BabyMisc[2].SoundSource;
+                        Box2ImageSourceSmall = BabyMisc[1].ImageSourceSmall;
+                        Box2ImageSourceLarge = BabyMisc[1].ImageSourceLarge;
+                        Box2Description = BabyMisc[1].Description;
+                        Box2SoundSource = BabyMisc[1].SoundSource;
 
-                    Box4ImageSourceSmall = BabyMisc[3].ImageSourceSmall;
-                    Box4ImageSourceLarge = BabyMisc[3].ImageSourceLarge;
-                    Box4Description = BabyMisc[3].Description;
-                    Box4SoundSource = BabyMisc[3].SoundSource;
+                        Box3ImageSourceSmall = BabyMisc[2].ImageSourceSmall;
+                        Box3ImageSourceLarge = BabyMisc[2].ImageSourceLarge;
+                        Box3Description = BabyMisc[2].Description;
+                        Box3SoundSource = BabyMisc[2].SoundSource;
 
-                    Box5ImageSourceSmall = BabyMisc[4].ImageSourceSmall;
-                    Box5ImageSourceLarge = BabyMisc[4].ImageSourceLarge;
-                    Box5Description = BabyMisc[4].Description;
-                    Box5SoundSource = BabyMisc[4].SoundSource;
+                        Box4ImageSourceSmall = BabyMisc[3].ImageSourceSmall;
+                        Box4ImageSourceLarge = BabyMisc[3].ImageSourceLarge;
+                        Box4Description = BabyMisc[3].Description;
+                        Box4SoundSource = BabyMisc[3].SoundSource;
 
-                    Box6ImageSourceSmall = BabyMisc[5].ImageSourceSmall;
-                    Box6ImageSourceLarge = BabyMisc[5].ImageSourceLarge;
-                    Box6Description = BabyMisc[5].Description;
-                    Box6SoundSource = BabyMisc[5].SoundSource;
+                        Box5ImageSourceSmall = BabyMisc[4].ImageSourceSmall;
+                        Box5ImageSourceLarge = BabyMisc[4].ImageSourceLarge;
+                        Box5Description = BabyMisc[4].Description;
+                        Box5SoundSource = BabyMisc[4].SoundSource;
 
-                    Box7ImageSourceSmall = BabyMisc[6].ImageSourceSmall;
-                    Box7ImageSourceLarge = BabyMisc[6].ImageSourceLarge;
-                    Box7Description = BabyMisc[6].Description;
-                    Box7SoundSource = BabyMisc[6].SoundSource;
+                        Box6ImageSourceSmall = BabyMisc[5].ImageSourceSmall;
+                        Box6ImageSourceLarge = BabyMisc[5].ImageSourceLarge;
+                        Box6Description = BabyMisc[5].Description;
+                        Box6SoundSource = BabyMisc[5].SoundSource;
 
-                    Box8ImageSourceSmall = BabyMisc[7].ImageSourceSmall;
-                    Box8ImageSourceLarge = BabyMisc[7].ImageSourceLarge;
-                    Box8Description = BabyMisc[7].Description;
-                    Box8SoundSource = BabyMisc[7].SoundSource;
+                        Box7ImageSourceSmall = BabyMisc[6].ImageSourceSmall;
+                        Box7ImageSourceLarge = BabyMisc[6].ImageSourceLarge;
+                        Box7Description = BabyMisc[6].Description;
+                        Box7SoundSource = BabyMisc[6].SoundSource;
 
-                    Box9ImageSourceSmall = BabyMisc[8].ImageSourceSmall;
-                    Box9ImageSourceLarge = BabyMisc[8].ImageSourceLarge;
-                    Box9Description = BabyMisc[8].Description;
-                    Box9SoundSource = BabyMisc[8].SoundSource;
-                    break;
+                        Box8ImageSourceSmall = BabyMisc[7].ImageSourceSmall;
+                        Box8ImageSourceLarge = BabyMisc[7].ImageSourceLarge;
+                        Box8Description = BabyMisc[7].Description;
+                        Box8SoundSource = BabyMisc[7].SoundSource;
+
+                        Box9ImageSourceSmall = BabyMisc[8].ImageSourceSmall;
+                        Box9ImageSourceLarge = BabyMisc[8].ImageSourceLarge;
+                        Box9Description = BabyMisc[8].Description;
+                        Box9SoundSource = BabyMisc[8].SoundSource;
+                        break;
+                    case "Animals":
+                        Box1ImageSourceSmall = Animals[0].ImageSourceSmall;
+                        Box1ImageSourceLarge = Animals[0].ImageSourceLarge;
+                        Box1Description = Animals[0].Description;
+                        Box1SoundSource = Animals[0].SoundSource;
+
+                        Box2ImageSourceSmall = Animals[1].ImageSourceSmall;
+                        Box2ImageSourceLarge = Animals[1].ImageSourceLarge;
+                        Box2Description = Animals[1].Description;
+                        Box2SoundSource = Animals[1].SoundSource;
+
+                        Box3ImageSourceSmall = Animals[2].ImageSourceSmall;
+                        Box3ImageSourceLarge = Animals[2].ImageSourceLarge;
+                        Box3Description = Animals[2].Description;
+                        Box3SoundSource = Animals[2].SoundSource;
+
+                        Box4ImageSourceSmall = Animals[3].ImageSourceSmall;
+                        Box4ImageSourceLarge = Animals[3].ImageSourceLarge;
+                        Box4Description = Animals[3].Description;
+                        Box4SoundSource = Animals[3].SoundSource;
+
+                        Box5ImageSourceSmall = Animals[4].ImageSourceSmall;
+                        Box5ImageSourceLarge = Animals[4].ImageSourceLarge;
+                        Box5Description = Animals[4].Description;
+                        Box5SoundSource = Animals[4].SoundSource;
+
+                        Box6ImageSourceSmall = Animals[5].ImageSourceSmall;
+                        Box6ImageSourceLarge = Animals[5].ImageSourceLarge;
+                        Box6Description = Animals[5].Description;
+                        Box6SoundSource = Animals[5].SoundSource;
+
+                        Box7ImageSourceSmall = Animals[6].ImageSourceSmall;
+                        Box7ImageSourceLarge = Animals[6].ImageSourceLarge;
+                        Box7Description = Animals[6].Description;
+                        Box7SoundSource = Animals[6].SoundSource;
+
+                        Box8ImageSourceSmall = Animals[7].ImageSourceSmall;
+                        Box8ImageSourceLarge = Animals[7].ImageSourceLarge;
+                        Box8Description = Animals[7].Description;
+                        Box8SoundSource = Animals[7].SoundSource;
+
+                        Box9ImageSourceSmall = Animals[8].ImageSourceSmall;
+                        Box9ImageSourceLarge = Animals[8].ImageSourceLarge;
+                        Box9Description = Animals[8].Description;
+                        Box9SoundSource = Animals[8].SoundSource;
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+
+               
             }
         }
 
@@ -210,6 +274,20 @@ namespace BabyApp
         {
             get { return _babyMisc; }
             set { _babyMisc = value; NotifyPropertyChanged("BabyMisc"); }
+        }
+
+        private List<Box> _animals;
+        public List<Box> Animals
+        {
+            get { return _animals; }
+            set { _animals = value; NotifyPropertyChanged("Animals"); }
+        }
+
+        private List<Box> _misc;
+        public List<Box> Misc
+        {
+            get { return _misc; }
+            set { _misc = value; NotifyPropertyChanged("Misc"); }
         }
 
         private string _box1Description;
@@ -473,10 +551,10 @@ namespace BabyApp
         //indicating it is continious play
 
         //Also need to decide how on the app we are going to let user turn on and off continious play (do not think it should be from the Options page, not accessible enough)
-      //Also need to change the pic of the play button to pause when playing, and to play when paused...
+        //Also need to change the pic of the play button to pause when playing, and to play when paused...
         private void ContiniousPlay_Click(object sender, EventArgs e)
-        {        
-            List<Box> continuousPlayList=new List<Box>();
+        {
+            List<Box> continuousPlayList = new List<Box>();
 
             switch (App.gCategory)
             {
@@ -488,24 +566,24 @@ namespace BabyApp
                     break;
             }
 
-             for(int i=0; i<continuousPlayList.Count-1; i++) 
-             {
-                 App.gDisplayPictureSmall = continuousPlayList[i].ImageSourceSmall;
-                 App.gDisplayPictureLarge = continuousPlayList[i].ImageSourceLarge;
-                 App.gDisplayDescription = continuousPlayList[i].Description;
-                 App.gDisplaySound = continuousPlayList[i].SoundSource;
+            for (int i = 0; i < continuousPlayList.Count - 1; i++)
+            {
+                App.gDisplayPictureSmall = continuousPlayList[i].ImageSourceSmall;
+                App.gDisplayPictureLarge = continuousPlayList[i].ImageSourceLarge;
+                App.gDisplayDescription = continuousPlayList[i].Description;
+                App.gDisplaySound = continuousPlayList[i].SoundSource;
 
-                 //MarkS, this will not work (i.e. simply navigating to DisplayPicture.xaml)  as it never comes back here, it simply
-                 //will stay on that page forever.
+                //MarkS, this will not work (i.e. simply navigating to DisplayPicture.xaml)  as it never comes back here, it simply
+                //will stay on that page forever.
 
-                 //Currently, and to get it to work for when the user clicks one at a time, I added code in DisplayPicture's timerevent,
-                 //to navigate to MainPage.xaml when it is done, that works great for clicking on one image at a time.
+                //Currently, and to get it to work for when the user clicks one at a time, I added code in DisplayPicture's timerevent,
+                //to navigate to MainPage.xaml when it is done, that works great for clicking on one image at a time.
 
-                 //But how do I get this to work for a slideshow?  As you said, yes I want to iterate through the collection,
-                 //which I am doing below.  But then what?  Yes, I want DisplayPicture to display it, BUT then I want it to come back here
-                 //to continue to iterate through the collection.
-                 NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
-             }                           
+                //But how do I get this to work for a slideshow?  As you said, yes I want to iterate through the collection,
+                //which I am doing below.  But then what?  Yes, I want DisplayPicture to display it, BUT then I want it to come back here
+                //to continue to iterate through the collection.
+                NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
+            }
         }
 
         private void Box_Click(object sender, EventArgs e)
@@ -636,7 +714,7 @@ namespace BabyApp
             {
                 // Set the page's ApplicationBar to a new instance of ApplicationBar.
                 ApplicationBar = new ApplicationBar();
-               
+
                 ApplicationBar.Mode = ApplicationBarMode.Default;
                 ApplicationBar.Opacity = 1.0;
                 ApplicationBar.IsVisible = true;
@@ -675,7 +753,7 @@ namespace BabyApp
                 ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem("Review");
                 ApplicationBar.MenuItems.Add(appBarMenuItem3);
                 appBarMenuItem3.Click += new EventHandler(Review_Click);
-                
+
                 ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem("More Apps");
                 ApplicationBar.MenuItems.Add(appBarMenuItem4);
                 appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
