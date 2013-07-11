@@ -94,9 +94,6 @@
     </Compile>
     <Compile Include="Box.cs" />
     <Compile Include="Common.cs" />
-    <Compile Include="DisplayPicture.xaml.cs">
-      <DependentUpon>DisplayPicture.xaml</DependentUpon>
-    </Compile>
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -116,10 +113,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="DisplayPicture.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

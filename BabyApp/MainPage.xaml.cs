@@ -7,27 +7,41 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using BabyApp.Resources;
 using System.ComponentModel;
 using System.Windows.Media.Imaging;
 using Microsoft.Phone.Tasks;
+using Windows.Phone.Speech.Synthesis;
+using System.Threading;
+using System.Windows.Threading;
+using System.Diagnostics;
+using BabyApp.Resources;
+using System.IO;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework;
+
 
 namespace BabyApp
 {
     public partial class MainPage : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+        DispatcherTimer _timer;
+        SpeechSynthesizer synthesizer;
 
 
         // Constructor
         public MainPage()
         {
             InitializeComponent();
+
+            synthesizer = new SpeechSynthesizer();
             this.DataContext = this;
 
             LoadPicsIntoCollection();
             LoadPicsOnScreen(App.gCategory);
             BuildLocalizedApplicationBar();
+            ButtonDisplay = "/Assets/transport.play.png";
+            Mode = "Grid";
         }
 
         #region "Methods"
@@ -246,8 +260,211 @@ namespace BabyApp
             catch (Exception ex)
             {
 
-               
+
             }
+        }
+
+        //await casues execution to be suspended until the SpeakTextAsynch
+        //private async void PlayText()
+        private void PlayVoiceText()
+        {
+            try
+            {
+                foreach (string language in App.gLanguages)
+                {
+
+                    switch (language)
+                    {
+                        case "English":
+                            IEnumerable<VoiceInformation> englishVoices = from voice in InstalledVoices.All where voice.Language == "en-US" && voice.Gender == VoiceGender.Female select voice;
+                            synthesizer.SetVoice(englishVoices.ElementAt(0));
+                            break;
+                        case "Spanish":
+                            IEnumerable<VoiceInformation> spanishVoices = from voice in InstalledVoices.All where voice.Language == "es-ES" && voice.Gender == VoiceGender.Female select voice;
+                            synthesizer.SetVoice(spanishVoices.ElementAt(0));
+                            break;
+                        case "French":
+                            IEnumerable<VoiceInformation> frenchVoices = from voice in InstalledVoices.All where voice.Language == "fr-FR" && voice.Gender == VoiceGender.Female select voice;
+                            synthesizer.SetVoice(frenchVoices.ElementAt(0));
+                            break;
+                        case "Chinese":
+                            IEnumerable<VoiceInformation> chineseVoices = from voice in InstalledVoices.All where voice.Language == "zh-HK" && voice.Gender == VoiceGender.Female select voice;
+                            synthesizer.SetVoice(chineseVoices.ElementAt(0));
+                            break;
+                        case "Italian":
+                            IEnumerable<VoiceInformation> italianVoices = from voice in InstalledVoices.All where voice.Language == "it-IT" && voice.Gender == VoiceGender.Female select voice;
+                            synthesizer.SetVoice(italianVoices.ElementAt(0));
+                            break;
+                        case "German":
+                            IEnumerable<VoiceInformation> germanVoices = from voice in InstalledVoices.All where voice.Language == "de-DE" && voice.Gender == VoiceGender.Female select voice;
+                            synthesizer.SetVoice(germanVoices.ElementAt(0));
+                            break;
+                        case "Portuguese":
+                            IEnumerable<VoiceInformation> portugueseVoices = from voice in InstalledVoices.All where voice.Language == "pt-BR" && voice.Gender == VoiceGender.Female select voice;
+                            synthesizer.SetVoice(portugueseVoices.ElementAt(0));
+                            break;
+                        case "Japanese":
+                            IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
+                            synthesizer.SetVoice(JapaneseVoices.ElementAt(0));
+                            break;
+                    }
+
+                    // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
+                    synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
+                    Thread.Sleep(2000);
+
+                }
+            }
+            catch (Exception ex)
+            {
+
+
+            }
+        }
+
+        //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
+        private void PlayMusic()
+        {
+            try
+            {
+                if (myBoundSound.CurrentState == System.Windows.Media.MediaElementState.Playing)
+                    myBoundSound.Pause();
+                else
+                    myBoundSound.Play();
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
+        private void PlaySound()
+        {
+            try
+            {
+                var soundfile = ImageSound.Substring(1); //Note no slash before the Assets folder, and it's a WAV file!
+                Stream stream = TitleContainer.OpenStream(soundfile);
+                SoundEffect effect = SoundEffect.FromStream(stream);
+                FrameworkDispatcher.Update();
+                effect.Play();
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        private string GetTextDesription(string textDescription)
+        {
+            string returnValue = "No languages selected";
+            try
+            {
+                if (App.gShowTextSetting == "On")
+                {
+                    foreach (string language in App.gLanguages)
+                    {
+                        if (returnValue == "No languages selected")
+                        {
+                            returnValue = GetTextTranslation(language, textDescription);
+                        }
+                        else
+                        {
+                            returnValue = returnValue + "   " + GetTextTranslation(language, textDescription);
+                        }
+                    }
+                }
+                else //for now show 'Text Display Off' just so we know we correctly identified 'Show Text' was off, when publishing simply show nothing.
+                {
+                    returnValue = "Text Display Off";
+                }
+
+            }
+            catch (Exception)
+            {
+                returnValue = textDescription;
+
+            }
+
+            return returnValue;
+        }
+
+
+        private string GetTextTranslation(string language, string textToTranslate)
+        {
+            string returnValue = string.Empty;
+            try
+            {
+
+                switch (language)
+                {
+                    case "English":
+                        AppResources.Culture = new System.Globalization.CultureInfo("en");
+                        break;
+                    case "Spanish":
+                        AppResources.Culture = new System.Globalization.CultureInfo("es");
+                        break;
+                    case "French":
+                        AppResources.Culture = new System.Globalization.CultureInfo("fr");
+                        break;
+                    case "Irish":
+                        AppResources.Culture = new System.Globalization.CultureInfo("ga");
+                        break;
+                    case "Chinese":
+                        AppResources.Culture = new System.Globalization.CultureInfo("zh-Hant");
+                        break;
+                    case "Italian":
+                        AppResources.Culture = new System.Globalization.CultureInfo("it");
+                        break;
+                    case "German":
+                        AppResources.Culture = new System.Globalization.CultureInfo("de");
+                        break;
+                    case "Portuguese":
+                        AppResources.Culture = new System.Globalization.CultureInfo("pt");
+                        break;
+                    case "Japanese":
+                        AppResources.Culture = new System.Globalization.CultureInfo("ja");
+                        break;
+                }
+                returnValue = GetText(textToTranslate);
+            }
+            catch (Exception)
+            {
+                AppResources.Culture = new System.Globalization.CultureInfo("en");
+                return textToTranslate;
+            }
+
+            AppResources.Culture = new System.Globalization.CultureInfo("en");
+            return returnValue;
+        }
+
+        private string GetText(string textToTranslate)
+        {
+            string returnValue = string.Empty;
+            try
+            {
+                switch (textToTranslate)
+                {
+                    case "Cow":
+                        returnValue = AppResources.Cow;
+                        break;
+                    case "Lion":
+                        returnValue = AppResources.Lion;
+                        break;
+                    case "Duck":
+                        returnValue = AppResources.Duck;
+                        break;
+                    case "Elephant":
+                        returnValue = AppResources.Elephant;
+                        break;
+                    case "Pig":
+                        returnValue = AppResources.Pig;
+                        break;
+                }
+            }
+            catch (Exception)
+            {
+                return returnValue;
+            }
+            return returnValue;
         }
 
         #endregion "Methods"
@@ -542,121 +759,173 @@ namespace BabyApp
             set { _box9SoundSource = value; NotifyPropertyChanged("Box9SoundSource"); }
         }
 
+        private string _imageSourceSmall;
+        public string ImageSourceSmall
+        {
+            get { return _imageSourceSmall; }
+            set { _imageSourceSmall = value; NotifyPropertyChanged("ImageSourceSmall"); }
+        }
+
+        private string _imageSourceLarge;
+        public string ImageSourceLarge
+        {
+            get { return _imageSourceLarge; }
+            set { _imageSourceLarge = value; NotifyPropertyChanged("ImageSourceLarge"); }
+        }
+
+        private string _imageSound;
+        public string ImageSound
+        {
+            get { return _imageSound; }
+            set { _imageSound = value; NotifyPropertyChanged("ImageSound"); }
+        }
+
+        private string _description;
+        public string Description
+        {
+            get { return _description; }
+            set { _description = value; NotifyPropertyChanged("Description"); }
+        }
+
+        private string _buttonDisplay;
+        public string ButtonDisplay
+        {
+            get { return _buttonDisplay; }
+            set { _buttonDisplay = value; NotifyPropertyChanged("ButtonDisplay"); }
+        }
+
+        private string _mode;
+        public string Mode
+        {
+            get { return _mode; }
+            set { _mode = value; NotifyPropertyChanged("Mode"); }
+        }
+
         #endregion "Properties"
 
         #region "Events"
 
-        //TO DO - This is the guts of how the continious play should work
-        //Not sure where this needs to live and how it gets kicked off (i.e. do we need a completely new page, do we call into DisplayPicture.xaml with a parameter
-        //indicating it is continious play
-
-        //Also need to decide how on the app we are going to let user turn on and off continious play (do not think it should be from the Options page, not accessible enough)
-        //Also need to change the pic of the play button to pause when playing, and to play when paused...
         private void ContiniousPlay_Click(object sender, EventArgs e)
         {
             List<Box> continuousPlayList = new List<Box>();
 
-            switch (App.gCategory)
+            switch (Mode)
             {
-                case "BabyAnimals":
-                    continuousPlayList = BabyAnimals;
+                case "Grid":
+                    Mode = "SlideShow";
+                    ButtonDisplay = "/Assets/transport.pause.png";
+                    this.PictureGrid.Visibility = Visibility.Collapsed;
+                    this.SlideShow.Visibility = Visibility.Visible;
+
+                    switch (App.gCategory)
+                    {
+                        case "BabyAnimals":
+                            continuousPlayList = BabyAnimals;
+                            break;
+                        case "BabyMisc":
+                            continuousPlayList = BabyMisc;
+                            break;
+                    }
+
+                    for (int i = 0; i < continuousPlayList.Count - 1; i++)
+                    {
+                        Description = GetTextDesription(continuousPlayList[i].Description);
+                        ImageSound = continuousPlayList[i].SoundSource;
+                        ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
+                        ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
+
+                        PlayVoiceText();
+
+                        if (App.gPlaySoundSetting == "On")
+                        {
+                            PlaySound();
+                            Thread.Sleep(5000);
+                        }
+
+                    }
                     break;
-                case "BabyMisc":
-                    continuousPlayList = BabyMisc;
+                case "SlideShow":
+                    Mode = "Grid";
+                    ButtonDisplay = "/Assets/transport.play.png";
+                    this.PictureGrid.Visibility = Visibility.Visible;
+                    this.SlideShow.Visibility = Visibility.Collapsed;
                     break;
-            }
-
-            for (int i = 0; i < continuousPlayList.Count - 1; i++)
-            {
-                App.gDisplayPictureSmall = continuousPlayList[i].ImageSourceSmall;
-                App.gDisplayPictureLarge = continuousPlayList[i].ImageSourceLarge;
-                App.gDisplayDescription = continuousPlayList[i].Description;
-                App.gDisplaySound = continuousPlayList[i].SoundSource;
-
-                //MarkS, this will not work (i.e. simply navigating to DisplayPicture.xaml)  as it never comes back here, it simply
-                //will stay on that page forever.
-
-                //Currently, and to get it to work for when the user clicks one at a time, I added code in DisplayPicture's timerevent,
-                //to navigate to MainPage.xaml when it is done, that works great for clicking on one image at a time.
-
-                //But how do I get this to work for a slideshow?  As you said, yes I want to iterate through the collection,
-                //which I am doing below.  But then what?  Yes, I want DisplayPicture to display it, BUT then I want it to come back here
-                //to continue to iterate through the collection.
-                NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
             }
         }
 
         private void Box_Click(object sender, EventArgs e)
         {
             string tag = ((Button)sender).Tag.ToString();
-            string imageSourceSmall = string.Empty;
-            string imageSourceLarge = string.Empty;
-            string description = string.Empty;
-            string soundSource = string.Empty;
+
+            //Want to show the SlideShow grid for this ONE IMAGE
+            this.PictureGrid.Visibility = Visibility.Collapsed;
+            this.SlideShow.Visibility = Visibility.Visible;
 
             switch (tag)
             {
                 case "Box1":
-                    imageSourceSmall = Box1ImageSourceSmall;
-                    imageSourceLarge = Box1ImageSourceLarge;
-                    description = Box1Description;
-                    soundSource = Box1SoundSource;
+                    ImageSourceSmall = Box1ImageSourceSmall;
+                    ImageSourceLarge = Box1ImageSourceLarge;
+                    Description = Box1Description;
+                    ImageSound = Box1SoundSource;
                     break;
                 case "Box2":
-                    imageSourceSmall = Box2ImageSourceSmall;
-                    imageSourceLarge = Box2ImageSourceLarge;
-                    description = Box2Description;
-                    soundSource = Box2SoundSource;
+                    ImageSourceSmall = Box2ImageSourceSmall;
+                    ImageSourceLarge = Box2ImageSourceLarge;
+                    Description = Box2Description;
+                    ImageSound = Box2SoundSource;
                     break;
                 case "Box3":
-                    imageSourceSmall = Box3ImageSourceSmall;
-                    imageSourceLarge = Box3ImageSourceLarge;
-                    description = Box3Description;
-                    soundSource = Box3SoundSource;
+                    ImageSourceSmall = Box3ImageSourceSmall;
+                    ImageSourceLarge = Box3ImageSourceLarge;
+                    Description = Box3Description;
+                    ImageSound = Box3SoundSource;
                     break;
                 case "Box4":
-                    imageSourceSmall = Box4ImageSourceSmall;
-                    imageSourceLarge = Box4ImageSourceLarge;
-                    description = Box4Description;
-                    soundSource = Box4SoundSource;
+                    ImageSourceSmall = Box4ImageSourceSmall;
+                    ImageSourceLarge = Box4ImageSourceLarge;
+                    Description = Box4Description;
+                    ImageSound = Box4SoundSource;
                     break;
                 case "Box5":
-                    imageSourceSmall = Box5ImageSourceSmall;
-                    imageSourceLarge = Box5ImageSourceLarge;
-                    description = Box5Description;
-                    soundSource = Box5SoundSource;
+                    ImageSourceSmall = Box5ImageSourceSmall;
+                    ImageSourceLarge = Box5ImageSourceLarge;
+                    Description = Box5Description;
+                    ImageSound = Box5SoundSource;
                     break;
                 case "Box6":
-                    imageSourceSmall = Box6ImageSourceSmall;
-                    imageSourceLarge = Box6ImageSourceLarge;
-                    description = Box6Description;
-                    soundSource = Box6SoundSource;
+                    ImageSourceSmall = Box6ImageSourceSmall;
+                    ImageSourceLarge = Box6ImageSourceLarge;
+                    Description = Box6Description;
+                    ImageSound = Box6SoundSource;
                     break;
                 case "Box7":
-                    imageSourceSmall = Box7ImageSourceSmall;
-                    imageSourceLarge = Box7ImageSourceLarge;
-                    description = Box7Description;
-                    soundSource = Box7SoundSource;
+                    ImageSourceSmall = Box7ImageSourceSmall;
+                    ImageSourceLarge = Box7ImageSourceLarge;
+                    Description = Box7Description;
+                    ImageSound = Box7SoundSource;
                     break;
                 case "Box8":
-                    imageSourceSmall = Box8ImageSourceSmall;
-                    imageSourceLarge = Box8ImageSourceLarge;
-                    description = Box8Description;
-                    soundSource = Box8SoundSource;
+                    ImageSourceSmall = Box8ImageSourceSmall;
+                    ImageSourceLarge = Box8ImageSourceLarge;
+                    Description = Box8Description;
+                    ImageSound = Box8SoundSource;
                     break;
                 case "Box9":
-                    imageSourceSmall = Box9ImageSourceSmall;
-                    imageSourceLarge = Box9ImageSourceLarge;
-                    description = Box9Description;
-                    soundSource = Box9SoundSource;
+                    ImageSourceSmall = Box9ImageSourceSmall;
+                    ImageSourceLarge = Box9ImageSourceLarge;
+                    Description = Box9Description;
+                    ImageSound = Box9SoundSource;
                     break;
             }
 
-            App.gDisplayPictureSmall = imageSourceSmall;
-            App.gDisplayPictureLarge = imageSourceLarge;
-            App.gDisplayDescription = description;
-            App.gDisplaySound = soundSource;
-            NavigationService.Navigate(new Uri("/DisplayPicture.xaml", UriKind.Relative));
+            Thread.Sleep(3000);
+
+            //Now want to show the grid view for all the images
+            this.PictureGrid.Visibility = Visibility.Visible;
+            this.SlideShow.Visibility = Visibility.Collapsed;
+
+            Thread.Sleep(1000);
         }
 
         private void BabyAnimals_Click(object sender, EventArgs e)

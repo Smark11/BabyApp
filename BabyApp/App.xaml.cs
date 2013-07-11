@@ -19,10 +19,6 @@ namespace BabyApp
         /// <returns>The root frame of the Phone Application.</returns>
         public static PhoneApplicationFrame RootFrame { get; private set; }
 
-        public static string gDisplayPictureSmall;
-        public static string gDisplayPictureLarge;
-        public static string gDisplayDescription;
-        public static string gDisplaySound;
         public static List<string> gLanguages = new List<string>();
         public static string gPlaySoundSetting;
         public static string gPlayMusicSetting;

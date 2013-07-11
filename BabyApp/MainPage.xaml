@@ -18,77 +18,96 @@
         <!--LayoutRoot is the root grid where all page content is placed-->
         <Grid x:Name="LayoutRoot" Background="Transparent">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="675"/>
+
             </Grid.RowDefinitions>
 
             <!--TitlePanel contains the name of the application and page title-->
             <StackPanel Orientation="Horizontal" x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
                 <Button x:Name="ContinuiousPlay" Click="ContiniousPlay_Click">
-                    <Image Source="/Assets/transport.play.png"/>
+                    <Image Source="{Binding ButtonDisplay}"/>
                 </Button>
                 <TextBlock Text="Baby Sounds" HorizontalAlignment="Center"
             		Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
             </StackPanel>
-            <Border Grid.Row="3" BorderBrush="Gray" BorderThickness="2" >
-                <!--ContentPanel - place additional content here-->
-                <Grid x:Name="PictureGrid" Grid.Row="1" >
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="225"></RowDefinition>
-                            <RowDefinition Height="225"></RowDefinition>
-                            <RowDefinition Height="225"></RowDefinition>
-                        </Grid.RowDefinitions>
 
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="200"></ColumnDefinition>
-                            <ColumnDefinition Width="200"></ColumnDefinition>
-                            <ColumnDefinition Width="200"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
+            <Grid x:Name="PictureGrid" Grid.Row="1" Visibility="Visible">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="225"></RowDefinition>
+                        <RowDefinition Height="225"></RowDefinition>
+                        <RowDefinition Height="225"></RowDefinition>
+                    </Grid.RowDefinitions>
 
-                        <Button x:Name="Box1" Grid.Row="0" Grid.Column="0" 
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="Box1" Grid.Row="0" Grid.Column="0" 
                                 Click="Box_Click" Tag="Box1">
-                            <Image Source="{Binding Box1ImageSourceSmall}"/>
-                        </Button>
-                        <Button x:Name="Box2" Grid.Row="0" Grid.Column="1"
+                        <Image Source="{Binding Box1ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box2" Grid.Row="0" Grid.Column="1"
                                 Click="Box_Click" Tag="Box2">
-                            <Image Source="{Binding Box2ImageSourceSmall}"/>
-                        </Button>
-                        <Button x:Name="Box3" Grid.Row="0" Grid.Column="2"
+                        <Image Source="{Binding Box2ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box3" Grid.Row="0" Grid.Column="2"
                                 Click="Box_Click" Tag="Box3">
-                            <Image Source="{Binding Box3ImageSourceSmall}"/>
-                        </Button>
-                        <Button x:Name="Box4" Grid.Row="1" Grid.Column="0"
+                        <Image Source="{Binding Box3ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box4" Grid.Row="1" Grid.Column="0"
                                 Click="Box_Click" Tag="Box4">
-                            <Image Source="{Binding Box4ImageSourceSmall}"/>
-                        </Button>
-                        <Button x:Name="Box5" Grid.Row="1" Grid.Column="1"
+                        <Image Source="{Binding Box4ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box5" Grid.Row="1" Grid.Column="1"
                                 Click="Box_Click" Tag="Box5">
-                            <Image Source="{Binding Box5ImageSourceSmall}"/>
-                        </Button>
-                        <Button x:Name="Box6" Grid.Row="1" Grid.Column="2"
+                        <Image Source="{Binding Box5ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box6" Grid.Row="1" Grid.Column="2"
                                 Click="Box_Click" Tag="Box6">
-                            <Image Source="{Binding Box6ImageSourceSmall}"/>
-                        </Button>
-                        <Button x:Name="Box7" Grid.Row="2" Grid.Column="0"
+                        <Image Source="{Binding Box6ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box7" Grid.Row="2" Grid.Column="0"
                                 Click="Box_Click" Tag="Box7">
-                            <Image Source="{Binding Box7ImageSourceSmall}"/>
-                        </Button>
-                        <Button x:Name="Box8" Grid.Row="2" Grid.Column="1"
+                        <Image Source="{Binding Box7ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box8" Grid.Row="2" Grid.Column="1"
                                 Click="Box_Click" Tag="Box8">
-                            <Image Source="{Binding Box8ImageSourceSmall}"/>
-                        </Button>
-                        <Button x:Name="Box9" Grid.Row="2" Grid.Column="2"
+                        <Image Source="{Binding Box8ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box9" Grid.Row="2" Grid.Column="2"
                                 Click="Box_Click" Tag="Box9">
-                            <Image Source="{Binding Box9ImageSourceSmall}"/>
-                        </Button>
+                        <Image Source="{Binding Box9ImageSourceSmall}"/>
+                    </Button>
 
-                    </Grid>
                 </Grid>
-            </Border>
+            </Grid>
+
+            <Grid x:Name="SlideShow" Grid.Row="1"  Background="Transparent" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90*"/>
+                    <RowDefinition Height="10*"/>
+                </Grid.RowDefinitions>
+                <Viewbox Grid.Row="0">
+                    <Image Grid.Row="0" Source="{Binding ImageSourceLarge}"/>
+                </Viewbox>
+                <Viewbox Grid.Row="1">
+                    <TextBlock Grid.Row="1" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top"
+                   Text="{Binding Description}" />
+                </Viewbox>
+                <MediaElement x:Name="myBoundSound" Source="{Binding ImageSound}"
+                      AutoPlay="False" Visibility="Collapsed"></MediaElement>
+
+            </Grid>
+
+
+
+
         </Grid>
     </Viewbox>
 
