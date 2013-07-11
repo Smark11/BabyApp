@@ -18,6 +18,7 @@ using BabyApp.Resources;
 using System.IO;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework;
+using System.Threading.Tasks;
 
 
 namespace BabyApp
@@ -28,6 +29,11 @@ namespace BabyApp
         DispatcherTimer _timer;
         SpeechSynthesizer synthesizer;
 
+        public enum Screen
+        {
+            MainGrid,
+            SlideShow
+        }
 
         // Constructor
         public MainPage()
@@ -41,7 +47,7 @@ namespace BabyApp
             LoadPicsOnScreen(App.gCategory);
             BuildLocalizedApplicationBar();
             ButtonDisplay = "/Assets/transport.play.png";
-            Mode = "Grid";
+            Mode = Screen.MainGrid;
         }
 
         #region "Methods"
@@ -309,8 +315,11 @@ namespace BabyApp
                             break;
                     }
 
-                    // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
-                    synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
+                    if (Description != null)
+                    {
+                        // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
+                        synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
+                    }
                     Thread.Sleep(2000);
 
                 }
@@ -794,8 +803,8 @@ namespace BabyApp
             set { _buttonDisplay = value; NotifyPropertyChanged("ButtonDisplay"); }
         }
 
-        private string _mode;
-        public string Mode
+        private Screen _mode;
+        public Screen Mode
         {
             get { return _mode; }
             set { _mode = value; NotifyPropertyChanged("Mode"); }
@@ -805,52 +814,89 @@ namespace BabyApp
 
         #region "Events"
 
+        private bool _slideShowInProgress = false;
+        private bool _stopSlideShow = false;
+
         private void ContiniousPlay_Click(object sender, EventArgs e)
+        {
+            switch (Mode)
+            {
+                case Screen.MainGrid:
+                    Mode = Screen.SlideShow;
+                    ButtonDisplay = "/Assets/transport.pause.png";
+                    NavigateToScreen(Screen.SlideShow);
+
+                    _slideShowInProgress = true;
+                    //Start the slide-show
+                    Task.Factory.StartNew(PlaySlideShowAsync);
+
+                    break;
+                case Screen.SlideShow:
+                    Mode = Screen.MainGrid;
+                    ButtonDisplay = "/Assets/transport.play.png";
+                    //stop the slideshow
+                    _stopSlideShow = true;
+                    _slideShowInProgress = false;
+                    NavigateToScreen(Screen.MainGrid);
+                    break;
+            }
+        }
+
+        private void NavigateToScreen(Screen screenToGoTo)
+        {
+            switch(screenToGoTo)
+            {
+                case Screen.MainGrid:
+                    this.PictureGrid.Visibility = Visibility.Visible;
+                    this.SlideShow.Visibility = Visibility.Collapsed;
+                    break;
+                case Screen.SlideShow:
+                    this.PictureGrid.Visibility = Visibility.Collapsed;
+                    this.SlideShow.Visibility = Visibility.Visible;
+                    break;
+            }
+        }
+
+        private void PlaySlideShowAsync()
         {
             List<Box> continuousPlayList = new List<Box>();
 
-            switch (Mode)
+            switch (App.gCategory)
             {
-                case "Grid":
-                    Mode = "SlideShow";
-                    ButtonDisplay = "/Assets/transport.pause.png";
-                    this.PictureGrid.Visibility = Visibility.Collapsed;
-                    this.SlideShow.Visibility = Visibility.Visible;
+                case "BabyAnimals":
+                    continuousPlayList = BabyAnimals;
+                    break;
+                case "BabyMisc":
+                    continuousPlayList = BabyMisc;
+                    break;
+            }
 
-                    switch (App.gCategory)
-                    {
-                        case "BabyAnimals":
-                            continuousPlayList = BabyAnimals;
-                            break;
-                        case "BabyMisc":
-                            continuousPlayList = BabyMisc;
-                            break;
-                    }
-
-                    for (int i = 0; i < continuousPlayList.Count - 1; i++)
+            for (int i = 0; i < continuousPlayList.Count - 1; i++)
+            {
+                Dispatcher.BeginInvoke(() =>
                     {
                         Description = GetTextDesription(continuousPlayList[i].Description);
                         ImageSound = continuousPlayList[i].SoundSource;
                         ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
                         ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
+                    });
 
-                        PlayVoiceText();
+                PlayVoiceText();
 
-                        if (App.gPlaySoundSetting == "On")
-                        {
-                            PlaySound();
-                            Thread.Sleep(5000);
-                        }
+                if (App.gPlaySoundSetting == "On")
+                {
+                    PlaySound();
+                    Thread.Sleep(5000);
+                }
 
-                    }
+                if (_stopSlideShow)
+                {
+                    //stop the slide show, user said so
                     break;
-                case "SlideShow":
-                    Mode = "Grid";
-                    ButtonDisplay = "/Assets/transport.play.png";
-                    this.PictureGrid.Visibility = Visibility.Visible;
-                    this.SlideShow.Visibility = Visibility.Collapsed;
-                    break;
+                }
             }
+            //set so user can re-start slide-show
+            _stopSlideShow = false;
         }
 
         private void Box_Click(object sender, EventArgs e)
