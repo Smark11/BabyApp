@@ -19,6 +19,7 @@ using System.IO;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework;
 using System.Threading.Tasks;
+using Common.Utilities;
 
 
 namespace BabyApp
@@ -318,7 +319,8 @@ namespace BabyApp
                     if (Description != null)
                     {
                         // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
-                        synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
+                        //synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
+                         synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(Description, Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, "en-US"));
                     }
                     Thread.Sleep(2000);
 
