@@ -8,6 +8,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using BabyApp.Resources;
+using Common.IsolatedStoreage;
 
 namespace BabyApp
 {
@@ -24,8 +25,6 @@ namespace BabyApp
         public static string gPlayMusicSetting;
         public static string gShowTextSetting;
         public static string gCategory = "BabyAnimals";
-
-        Common commonCode = new Common();
 
         /// <summary>
         /// Constructor for the Application object.
@@ -235,19 +234,18 @@ namespace BabyApp
             }
         }
 
-
         private void LoadPlaySoundSetting()
         {
             string settingValue = string.Empty;
 
-            if (commonCode.GetSetting("BabyApp-PlaySounds") == string.Empty)
+            if (IS.GetSetting("BabyApp-PlaySounds") == null)
             {
                 gPlaySoundSetting = "On";
-                commonCode.SaveSettings("BabyApp-PlaySounds", "On");
+                IS.SaveSetting("BabyApp-PlaySounds", "On");
             }
             else
             {
-                settingValue = commonCode.GetSetting("BabyApp-PlaySounds");
+                settingValue = IS.GetSetting("BabyApp-PlaySounds").ToString();
                 if (settingValue == "On")
                 {
                     gPlaySoundSetting = "On";
@@ -263,14 +261,14 @@ namespace BabyApp
         {
             string settingValue = string.Empty;
 
-            if (commonCode.GetSetting("BabyApp-PlayMusic") == string.Empty)
+            if (IS.GetSetting("BabyApp-PlayMusic") == null)
             {
                 gPlayMusicSetting = "On";
-                commonCode.SaveSettings("BabyApp-PlayMusic", "On");
+                IS.SaveSetting("BabyApp-PlayMusic", "On");
             }
             else
             {
-                settingValue = commonCode.GetSetting("BabyApp-PlayMusic");
+                settingValue = IS.GetSetting("BabyApp-PlayMusic").ToString();
                 if (settingValue == "On")
                 {
                     gPlayMusicSetting = "On";
@@ -286,14 +284,14 @@ namespace BabyApp
         {
             string settingValue = string.Empty;
 
-            if (commonCode.GetSetting("BabyApp-ShowText") == string.Empty)
+            if (IS.GetSetting("BabyApp-ShowText") == null)
             {
                 gShowTextSetting = "On";
-                commonCode.SaveSettings("BabyApp-ShowText", "On");
+                IS.SaveSetting("BabyApp-ShowText", "On");
             }
             else
             {
-                settingValue = commonCode.GetSetting("BabyApp-ShowText");
+                settingValue = IS.GetSetting("BabyApp-ShowText").ToString();
                 if (settingValue == "On")
                 {
                     gShowTextSetting = "On";
@@ -312,13 +310,13 @@ namespace BabyApp
 
             try
             {
-                if (commonCode.GetSetting("BabyApp-English") == string.Empty)
+                if (IS.GetSetting("BabyApp-English") == null)
                 {
                     gLanguages.Remove("English");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-English");
+                    settingValue = IS.GetSetting("BabyApp-English").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("English");
@@ -329,13 +327,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Spanish") == string.Empty)
+                if (IS.GetSetting("BabyApp-Spanish") == null)
                 {
                     gLanguages.Remove("Spanish");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Spanish");
+                    settingValue = IS.GetSetting("BabyApp-Spanish").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("Spanish");
@@ -346,13 +344,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Italian") == string.Empty)
+                if (IS.GetSetting("BabyApp-Italian") == null)
                 {
                     gLanguages.Remove("Italian");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Italian");
+                    settingValue = IS.GetSetting("BabyApp-Italian").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("Italian");
@@ -363,13 +361,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-French") == string.Empty)
+                if (IS.GetSetting("BabyApp-French") == null)
                 {
                     gLanguages.Remove("French");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-French");
+                    settingValue = IS.GetSetting("BabyApp-French").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("French");
@@ -380,13 +378,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Irish") == string.Empty)
+                if (IS.GetSetting("BabyApp-Irish") == null)
                 {
                     gLanguages.Remove("Irish");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Irish");
+                    settingValue = IS.GetSetting("BabyApp-Irish").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("Irish");
@@ -397,13 +395,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-German") == string.Empty)
+                if (IS.GetSetting("BabyApp-German") == null)
                 {
                     gLanguages.Remove("German");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-German");
+                    settingValue = IS.GetSetting("BabyApp-German").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("German");
@@ -414,13 +412,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Portuguese") == string.Empty)
+                if (IS.GetSetting("BabyApp-Portuguese") == null)
                 {
                     gLanguages.Remove("Portuguese");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Portuguese");
+                    settingValue = IS.GetSetting("BabyApp-Portuguese").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("Portuguese");
@@ -431,13 +429,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Japanese") == string.Empty)
+                if (IS.GetSetting("BabyApp-Japanese") == null)
                 {
                     gLanguages.Remove("Japanese");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Japanese");
+                    settingValue = IS.GetSetting("BabyApp-Japanese").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("Japanese");
@@ -448,13 +446,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Chinese") == string.Empty)
+                if (IS.GetSetting("BabyApp-Chinese") == null)
                 {
                     gLanguages.Remove("Chinese");
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Chinese");
+                    settingValue = IS.GetSetting("BabyApp-Chinese").ToString();
                     if (settingValue == "Yes")
                     {
                         gLanguages.Add("Chinese");
@@ -468,7 +466,7 @@ namespace BabyApp
                 if (gLanguages.Count == 0)
                 {
                     gLanguages.Add("English");
-                    commonCode.SaveSettings("BabyApp-English", "Yes");
+                    IS.SaveSetting("BabyApp-English", "Yes");
                 }
 
             }

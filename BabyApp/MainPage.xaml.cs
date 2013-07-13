@@ -908,7 +908,7 @@ namespace BabyApp
             //Want to show the SlideShow grid for this ONE IMAGE
             this.PictureGrid.Visibility = Visibility.Collapsed;
             this.SlideShow.Visibility = Visibility.Visible;
-
+   
             switch (tag)
             {
                 case "Box1":
@@ -966,6 +966,7 @@ namespace BabyApp
                     ImageSound = Box9SoundSource;
                     break;
             }
+
 
             Thread.Sleep(3000);
 

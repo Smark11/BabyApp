@@ -7,19 +7,19 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Common.IsolatedStoreage;
 
 namespace BabyApp
 {
     public partial class Options
     {
-        Common commonCode = new Common();
-
+        
         public Options()
         {
             string settingValue = string.Empty;
 
             InitializeComponent();
-
+            
             App.gLanguages = new List<string>();
 
             LoadPlaySoundSetting();
@@ -33,7 +33,7 @@ namespace BabyApp
         private void togglePlayMusic_Checked(object sender, RoutedEventArgs e)
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
-            commonCode.SaveSettings("BabyApp-PlayMusic", "On");
+            IS.SaveSetting("BabyApp-PlayMusic", "On");
             togglePlayMusic.Content = "On";
             App.gPlayMusicSetting = "On";
         }
@@ -41,7 +41,7 @@ namespace BabyApp
         private void togglePlayMusic_Unchecked(object sender, RoutedEventArgs e)
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-            commonCode.SaveSettings("BabyApp-PlayMusic", "Off");
+            IS.SaveSetting("BabyApp-PlayMusic", "Off");
             togglePlayMusic.Content = "Off";
             App.gPlayMusicSetting = "Off";
         }
@@ -49,7 +49,7 @@ namespace BabyApp
         private void togglePlaySounds_Checked(object sender, RoutedEventArgs e)
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
-            commonCode.SaveSettings("BabyApp-PlaySounds", "On");
+            IS.SaveSetting("BabyApp-PlaySounds", "On");
             togglePlaySounds.Content = "On";
             App.gPlaySoundSetting = "On";
         }
@@ -57,7 +57,7 @@ namespace BabyApp
         private void togglePlaySounds_Unchecked(object sender, RoutedEventArgs e)
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-            commonCode.SaveSettings("BabyApp-PlaySounds", "Off");
+            IS.SaveSetting("BabyApp-PlaySounds", "Off");
             togglePlaySounds.Content = "Off";
             App.gPlaySoundSetting = "Off";
         }
@@ -65,7 +65,7 @@ namespace BabyApp
         private void toggleShowText_Checked(object sender, RoutedEventArgs e)
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
-            commonCode.SaveSettings("BabyApp-ShowText", "On");
+            IS.SaveSetting("BabyApp-ShowText", "On");
             toggleShowText.Content = "On";
             App.gShowTextSetting = "On";
         }
@@ -73,7 +73,7 @@ namespace BabyApp
         private void toggleShowText_Unchecked(object sender, RoutedEventArgs e)
         {
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-            commonCode.SaveSettings("BabyApp-ShowText", "Off");
+            IS.SaveSetting("BabyApp-ShowText", "Off");
             toggleShowText.Content = "Off";
             App.gShowTextSetting = "Off";
         }
@@ -83,7 +83,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("English");
-                commonCode.SaveSettings("BabyApp-English", "Yes");
+                IS.SaveSetting("BabyApp-English", "Yes");
             }
             else
             {
@@ -96,7 +96,7 @@ namespace BabyApp
         private void chkEnglish_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("English");
-            commonCode.SaveSettings("BabyApp-English", "No");
+            IS.SaveSetting("BabyApp-English", "No");
         }
 
         private void chkSpanish_Checked_1(object sender, RoutedEventArgs e)
@@ -104,7 +104,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("Spanish");
-                commonCode.SaveSettings("BabyApp-Spanish", "Yes");
+                IS.SaveSetting("BabyApp-Spanish", "Yes");
             }
             else
             {
@@ -116,7 +116,7 @@ namespace BabyApp
         private void chkSpanish_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("Spanish");
-            commonCode.SaveSettings("BabyApp-Spanish", "No");
+            IS.SaveSetting("BabyApp-Spanish", "No");
         }
 
         private void chkItalian_Checked_1(object sender, RoutedEventArgs e)
@@ -124,7 +124,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("Italian");
-                commonCode.SaveSettings("BabyApp-Italian", "Yes");
+                IS.SaveSetting("BabyApp-Italian", "Yes");
             }
             else
             {
@@ -136,7 +136,7 @@ namespace BabyApp
         private void chkItalian_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("Italian");
-            commonCode.SaveSettings("BabyApp-Italian", "No");
+            IS.SaveSetting("BabyApp-Italian", "No");
         }
 
         private void chkGerman_Checked_1(object sender, RoutedEventArgs e)
@@ -144,7 +144,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("German");
-                commonCode.SaveSettings("BabyApp-German", "Yes");
+                IS.SaveSetting("BabyApp-German", "Yes");
             }
             else
             {
@@ -156,7 +156,7 @@ namespace BabyApp
         private void chkGerman_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("German");
-            commonCode.SaveSettings("BabyApp-German", "No");
+            IS.SaveSetting("BabyApp-German", "No");
         }
 
         private void chkChinese_Checked_1(object sender, RoutedEventArgs e)
@@ -164,7 +164,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("Chinese");
-                commonCode.SaveSettings("BabyApp-Chinese", "Yes");
+                IS.SaveSetting("BabyApp-Chinese", "Yes");
             }
             else
             {
@@ -176,7 +176,7 @@ namespace BabyApp
         private void chkChinese_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("Chinese");
-            commonCode.SaveSettings("BabyApp-Chinese", "No");
+            IS.SaveSetting("BabyApp-Chinese", "No");
         }
 
         private void chkFrench_Checked_1(object sender, RoutedEventArgs e)
@@ -184,7 +184,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("French");
-                commonCode.SaveSettings("BabyApp-French", "Yes");
+                IS.SaveSetting("BabyApp-French", "Yes");
             }
             else
             {
@@ -196,7 +196,7 @@ namespace BabyApp
         private void chkFrench_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("French");
-            commonCode.SaveSettings("BabyApp-French", "No");
+            IS.SaveSetting("BabyApp-French", "No");
        }
 
         private void chkPortuguese_Checked_1(object sender, RoutedEventArgs e)
@@ -204,7 +204,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("Portuguese");
-                commonCode.SaveSettings("BabyApp-Portuguese", "Yes");
+                IS.SaveSetting("BabyApp-Portuguese", "Yes");
             }
             else
             {
@@ -216,7 +216,7 @@ namespace BabyApp
         private void chkPortuguese_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("Portuguese");
-            commonCode.SaveSettings("BabyApp-Portuguese", "No");
+            IS.SaveSetting("BabyApp-Portuguese", "No");
         }
 
         private void chkIrish_Checked_1(object sender, RoutedEventArgs e)
@@ -224,7 +224,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("Irish");
-                commonCode.SaveSettings("BabyApp-Irish", "Yes");
+                IS.SaveSetting("BabyApp-Irish", "Yes");
             }
             else
             {
@@ -236,7 +236,7 @@ namespace BabyApp
         private void chkIrish_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("Irish");
-            commonCode.SaveSettings("BabyApp-Irish", "No");
+            IS.SaveSetting("BabyApp-Irish", "No");
        }
 
         private void chkJapanese_Checked_1(object sender, RoutedEventArgs e)
@@ -244,7 +244,7 @@ namespace BabyApp
             if (App.gLanguages.Count < 3)
             {
                 App.gLanguages.Add("Japanese");
-                commonCode.SaveSettings("BabyApp-Japanese", "Yes");
+                IS.SaveSetting("BabyApp-Japanese", "Yes");
             }
             else
             {
@@ -256,7 +256,7 @@ namespace BabyApp
         private void chkJapanese_Unchecked_1(object sender, RoutedEventArgs e)
         {
             App.gLanguages.Remove("Japanese");
-            commonCode.SaveSettings("BabyApp-Japanese", "No");
+            IS.SaveSetting("BabyApp-Japanese", "No");
         }
 
         #endregion "Events"
@@ -267,14 +267,14 @@ namespace BabyApp
         {
             string settingValue = string.Empty;
 
-            if (commonCode.GetSetting("BabyApp-PlaySounds") == string.Empty)
+            if (IS.GetSetting("BabyApp-PlaySounds").ToString() == string.Empty)
             {
                 togglePlaySounds.IsChecked = false;
                 togglePlaySounds.Content = "Off";
             }
             else
             {
-                settingValue = commonCode.GetSetting("BabyApp-PlaySounds");
+                settingValue = IS.GetSetting("BabyApp-PlaySounds").ToString();
                 if (settingValue == "On")
                 {
                     togglePlaySounds.IsChecked = true;
@@ -292,14 +292,14 @@ namespace BabyApp
         {
             string settingValue = string.Empty;
 
-            if (commonCode.GetSetting("BabyApp-PlayMusic") == string.Empty)
+            if (IS.GetSetting("BabyApp-PlayMusic").ToString() == string.Empty)
             {
                 togglePlayMusic.IsChecked = false;
                 togglePlayMusic.Content = "Off";
             }
             else
             {
-                settingValue = commonCode.GetSetting("BabyApp-PlayMusic");
+                settingValue = IS.GetSetting("BabyApp-PlayMusic").ToString();
                 if (settingValue == "On")
                 {
                     togglePlayMusic.IsChecked = true;
@@ -317,14 +317,14 @@ namespace BabyApp
         {
             string settingValue = string.Empty;
 
-            if (commonCode.GetSetting("BabyApp-ShowText") == string.Empty)
+            if (IS.GetSetting("BabyApp-ShowText").ToString() == string.Empty)
             {
                 toggleShowText.IsChecked = false;
                 toggleShowText.Content = "Off";
             }
             else
             {
-                settingValue = commonCode.GetSetting("BabyApp-ShowText");
+                settingValue = IS.GetSetting("BabyApp-ShowText").ToString();
                 if (settingValue == "On")
                 {
                     toggleShowText.IsChecked = true;
@@ -344,13 +344,13 @@ namespace BabyApp
 
             try
             {
-                if (commonCode.GetSetting("BabyApp-English") == string.Empty)
+                if (IS.GetSetting("BabyApp-English").ToString() == string.Empty)
                 {
                     chkEnglish.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-English");
+                    settingValue = IS.GetSetting("BabyApp-English").ToString();
                     if (settingValue == "Yes")
                     {
                         chkEnglish.IsChecked = true;
@@ -361,13 +361,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Spanish") == string.Empty)
+                if (IS.GetSetting("BabyApp-Spanish").ToString() == string.Empty)
                 {
                     chkSpanish.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Spanish");
+                    settingValue = IS.GetSetting("BabyApp-Spanish").ToString();
                     if (settingValue == "Yes")
                     {
                         chkSpanish.IsChecked = true;
@@ -378,13 +378,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Italian") == string.Empty)
+                if (IS.GetSetting("BabyApp-Italian") == string.Empty)
                 {
                     chkItalian.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Italian");
+                    settingValue = IS.GetSetting("BabyApp-Italian").ToString();
                     if (settingValue == "Yes")
                     {
                         chkItalian.IsChecked = true;
@@ -395,13 +395,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-French") == string.Empty)
+                if (IS.GetSetting("BabyApp-French") == string.Empty)
                 {
                     chkFrench.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-French");
+                    settingValue = IS.GetSetting("BabyApp-French").ToString();
                     if (settingValue == "Yes")
                     {
                         chkFrench.IsChecked = true;
@@ -412,13 +412,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Irish") == string.Empty)
+                if (IS.GetSetting("BabyApp-Irish") == string.Empty)
                 {
                     chkIrish.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Irish");
+                    settingValue = IS.GetSetting("BabyApp-Irish").ToString();
                     if (settingValue == "Yes")
                     {
                         chkIrish.IsChecked = true;
@@ -429,13 +429,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-German") == string.Empty)
+                if (IS.GetSetting("BabyApp-German") == string.Empty)
                 {
                     chkGerman.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-German");
+                    settingValue = IS.GetSetting("BabyApp-German").ToString();
                     if (settingValue == "Yes")
                     {
                         chkGerman.IsChecked = true;
@@ -446,13 +446,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Portuguese") == string.Empty)
+                if (IS.GetSetting("BabyApp-Portuguese") == string.Empty)
                 {
                     chkPortuguese.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Portuguese");
+                    settingValue = IS.GetSetting("BabyApp-Portuguese").ToString();
                     if (settingValue == "Yes")
                     {
                         chkPortuguese.IsChecked = true;
@@ -463,13 +463,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Japanese") == string.Empty)
+                if (IS.GetSetting("BabyApp-Japanese") == string.Empty)
                 {
                     chkJapanese.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Japanese");
+                    settingValue = IS.GetSetting("BabyApp-Japanese").ToString();
                     if (settingValue == "Yes")
                     {
                         chkJapanese.IsChecked = true;
@@ -480,13 +480,13 @@ namespace BabyApp
                     }
                 }
 
-                if (commonCode.GetSetting("BabyApp-Chinese") == string.Empty)
+                if (IS.GetSetting("BabyApp-Chinese").ToString() == string.Empty)
                 {
                     chkChinese.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = commonCode.GetSetting("BabyApp-Chinese");
+                    settingValue = IS.GetSetting("BabyApp-Chinese").ToString();
                     if (settingValue == "Yes")
                     {
                         chkChinese.IsChecked = true;
