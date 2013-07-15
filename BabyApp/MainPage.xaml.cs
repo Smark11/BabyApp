@@ -27,8 +27,12 @@ namespace BabyApp
     public partial class MainPage : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
-        DispatcherTimer _timer;
+    //    DispatcherTimer _timer;
         SpeechSynthesizer synthesizer;
+
+        private bool _slideShowInProgress = false;
+        private bool _stopSlideShow = false;
+
 
         public enum Screen
         {
@@ -320,7 +324,7 @@ namespace BabyApp
                     {
                         // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
                         //synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
-                         synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(Description, Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, "en-US"));
+                        synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(Description, Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, "en-US"));
                     }
                     Thread.Sleep(2000);
 
@@ -477,6 +481,159 @@ namespace BabyApp
             }
             return returnValue;
         }
+
+        private void OnePicSlideShowAsync(string tag)
+        {
+            Dispatcher.BeginInvoke(() =>
+            {
+                //Want to show the SlideShow grid for this ONE IMAGE
+                this.PictureGrid.Visibility = Visibility.Collapsed;
+                this.SlideShow.Visibility = Visibility.Visible;
+            });
+
+            //Task.Factory.StartNew(() => SetOnePicGrid(tag));
+            SetOnePicGrid(tag);
+
+           // Thread.Sleep(1000);
+
+            Dispatcher.BeginInvoke(() =>
+            {
+
+                this.PictureGrid.Visibility = Visibility.Visible;
+                this.SlideShow.Visibility = Visibility.Collapsed;
+            }
+            );
+        }
+
+        private void SetOnePicGrid(string tag)
+        {
+            Dispatcher.BeginInvoke(() =>
+            {
+                switch (tag)
+                {
+                    case "Box1":
+                        ImageSourceSmall = Box1ImageSourceSmall;
+                        ImageSourceLarge = Box1ImageSourceLarge;
+                        Description = Box1Description;
+                        ImageSound = Box1SoundSource;
+                        break;
+                    case "Box2":
+                        ImageSourceSmall = Box2ImageSourceSmall;
+                        ImageSourceLarge = Box2ImageSourceLarge;
+                        Description = Box2Description;
+                        ImageSound = Box2SoundSource;
+                        break;
+                    case "Box3":
+                        ImageSourceSmall = Box3ImageSourceSmall;
+                        ImageSourceLarge = Box3ImageSourceLarge;
+                        Description = Box3Description;
+                        ImageSound = Box3SoundSource;
+                        break;
+                    case "Box4":
+                        ImageSourceSmall = Box4ImageSourceSmall;
+                        ImageSourceLarge = Box4ImageSourceLarge;
+                        Description = Box4Description;
+                        ImageSound = Box4SoundSource;
+                        break;
+                    case "Box5":
+                        ImageSourceSmall = Box5ImageSourceSmall;
+                        ImageSourceLarge = Box5ImageSourceLarge;
+                        Description = Box5Description;
+                        ImageSound = Box5SoundSource;
+                        break;
+                    case "Box6":
+                        ImageSourceSmall = Box6ImageSourceSmall;
+                        ImageSourceLarge = Box6ImageSourceLarge;
+                        Description = Box6Description;
+                        ImageSound = Box6SoundSource;
+                        break;
+                    case "Box7":
+                        ImageSourceSmall = Box7ImageSourceSmall;
+                        ImageSourceLarge = Box7ImageSourceLarge;
+                        Description = Box7Description;
+                        ImageSound = Box7SoundSource;
+                        break;
+                    case "Box8":
+                        ImageSourceSmall = Box8ImageSourceSmall;
+                        ImageSourceLarge = Box8ImageSourceLarge;
+                        Description = Box8Description;
+                        ImageSound = Box8SoundSource;
+                        break;
+                    case "Box9":
+                        ImageSourceSmall = Box9ImageSourceSmall;
+                        ImageSourceLarge = Box9ImageSourceLarge;
+                        Description = Box9Description;
+                        ImageSound = Box9SoundSource;
+                        break;
+                }
+
+                
+            });
+
+            PlayVoiceTextAndSound();
+        }
+
+        private void NavigateToScreen(Screen screenToGoTo)
+        {
+            switch (screenToGoTo)
+            {
+                case Screen.MainGrid:
+                    this.PictureGrid.Visibility = Visibility.Visible;
+                    this.SlideShow.Visibility = Visibility.Collapsed;
+                    break;
+                case Screen.SlideShow:
+                    this.PictureGrid.Visibility = Visibility.Collapsed;
+                    this.SlideShow.Visibility = Visibility.Visible;
+                    break;
+            }
+        }
+
+        private void PlaySlideShowAsync()
+        {
+            List<Box> continuousPlayList = new List<Box>();
+
+            switch (App.gCategory)
+            {
+                case "BabyAnimals":
+                    continuousPlayList = BabyAnimals;
+                    break;
+                case "BabyMisc":
+                    continuousPlayList = BabyMisc;
+                    break;
+            }
+
+            for (int i = 0; i < continuousPlayList.Count - 1; i++)
+            {
+                Dispatcher.BeginInvoke(() =>
+                {
+                    Description = GetTextDesription(continuousPlayList[i].Description);
+                    ImageSound = continuousPlayList[i].SoundSource;
+                    ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
+                    ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
+                });
+
+                PlayVoiceTextAndSound();
+
+                if (_stopSlideShow)
+                {
+                    //stop the slide show, user said so
+                    break;
+                }
+            }
+            //set so user can re-start slide-show
+            _stopSlideShow = false;
+        }
+
+        private void PlayVoiceTextAndSound()
+        {
+            PlayVoiceText();
+
+            if (App.gPlaySoundSetting == "On")
+            {
+                PlaySound();
+                Thread.Sleep(5000);
+            }
+        }            
 
         #endregion "Methods"
 
@@ -816,9 +973,6 @@ namespace BabyApp
 
         #region "Events"
 
-        private bool _slideShowInProgress = false;
-        private bool _stopSlideShow = false;
-
         private void ContiniousPlay_Click(object sender, EventArgs e)
         {
             switch (Mode)
@@ -843,138 +997,11 @@ namespace BabyApp
                     break;
             }
         }
-
-        private void NavigateToScreen(Screen screenToGoTo)
-        {
-            switch(screenToGoTo)
-            {
-                case Screen.MainGrid:
-                    this.PictureGrid.Visibility = Visibility.Visible;
-                    this.SlideShow.Visibility = Visibility.Collapsed;
-                    break;
-                case Screen.SlideShow:
-                    this.PictureGrid.Visibility = Visibility.Collapsed;
-                    this.SlideShow.Visibility = Visibility.Visible;
-                    break;
-            }
-        }
-
-        private void PlaySlideShowAsync()
-        {
-            List<Box> continuousPlayList = new List<Box>();
-
-            switch (App.gCategory)
-            {
-                case "BabyAnimals":
-                    continuousPlayList = BabyAnimals;
-                    break;
-                case "BabyMisc":
-                    continuousPlayList = BabyMisc;
-                    break;
-            }
-
-            for (int i = 0; i < continuousPlayList.Count - 1; i++)
-            {
-                Dispatcher.BeginInvoke(() =>
-                    {
-                        Description = GetTextDesription(continuousPlayList[i].Description);
-                        ImageSound = continuousPlayList[i].SoundSource;
-                        ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
-                        ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
-                    });
-
-                PlayVoiceText();
-
-                if (App.gPlaySoundSetting == "On")
-                {
-                    PlaySound();
-                    Thread.Sleep(5000);
-                }
-
-                if (_stopSlideShow)
-                {
-                    //stop the slide show, user said so
-                    break;
-                }
-            }
-            //set so user can re-start slide-show
-            _stopSlideShow = false;
-        }
-
+     
         private void Box_Click(object sender, EventArgs e)
         {
             string tag = ((Button)sender).Tag.ToString();
-
-            //Want to show the SlideShow grid for this ONE IMAGE
-            this.PictureGrid.Visibility = Visibility.Collapsed;
-            this.SlideShow.Visibility = Visibility.Visible;
-   
-            switch (tag)
-            {
-                case "Box1":
-                    ImageSourceSmall = Box1ImageSourceSmall;
-                    ImageSourceLarge = Box1ImageSourceLarge;
-                    Description = Box1Description;
-                    ImageSound = Box1SoundSource;
-                    break;
-                case "Box2":
-                    ImageSourceSmall = Box2ImageSourceSmall;
-                    ImageSourceLarge = Box2ImageSourceLarge;
-                    Description = Box2Description;
-                    ImageSound = Box2SoundSource;
-                    break;
-                case "Box3":
-                    ImageSourceSmall = Box3ImageSourceSmall;
-                    ImageSourceLarge = Box3ImageSourceLarge;
-                    Description = Box3Description;
-                    ImageSound = Box3SoundSource;
-                    break;
-                case "Box4":
-                    ImageSourceSmall = Box4ImageSourceSmall;
-                    ImageSourceLarge = Box4ImageSourceLarge;
-                    Description = Box4Description;
-                    ImageSound = Box4SoundSource;
-                    break;
-                case "Box5":
-                    ImageSourceSmall = Box5ImageSourceSmall;
-                    ImageSourceLarge = Box5ImageSourceLarge;
-                    Description = Box5Description;
-                    ImageSound = Box5SoundSource;
-                    break;
-                case "Box6":
-                    ImageSourceSmall = Box6ImageSourceSmall;
-                    ImageSourceLarge = Box6ImageSourceLarge;
-                    Description = Box6Description;
-                    ImageSound = Box6SoundSource;
-                    break;
-                case "Box7":
-                    ImageSourceSmall = Box7ImageSourceSmall;
-                    ImageSourceLarge = Box7ImageSourceLarge;
-                    Description = Box7Description;
-                    ImageSound = Box7SoundSource;
-                    break;
-                case "Box8":
-                    ImageSourceSmall = Box8ImageSourceSmall;
-                    ImageSourceLarge = Box8ImageSourceLarge;
-                    Description = Box8Description;
-                    ImageSound = Box8SoundSource;
-                    break;
-                case "Box9":
-                    ImageSourceSmall = Box9ImageSourceSmall;
-                    ImageSourceLarge = Box9ImageSourceLarge;
-                    Description = Box9Description;
-                    ImageSound = Box9SoundSource;
-                    break;
-            }
-
-
-            Thread.Sleep(3000);
-
-            //Now want to show the grid view for all the images
-            this.PictureGrid.Visibility = Visibility.Visible;
-            this.SlideShow.Visibility = Visibility.Collapsed;
-
-            Thread.Sleep(1000);
+            Task.Factory.StartNew(() => OnePicSlideShowAsync(tag));
         }
 
         private void BabyAnimals_Click(object sender, EventArgs e)
