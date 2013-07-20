@@ -267,14 +267,14 @@ namespace BabyApp
         {
             string settingValue = string.Empty;
 
-            if (IS.GetSetting("BabyApp-PlaySounds").ToString() == string.Empty)
+            if (IS.GetSettingStringValue("BabyApp-PlaySounds").ToString() == string.Empty)
             {
                 togglePlaySounds.IsChecked = false;
                 togglePlaySounds.Content = "Off";
             }
             else
             {
-                settingValue = IS.GetSetting("BabyApp-PlaySounds").ToString();
+                settingValue = IS.GetSettingStringValue("BabyApp-PlaySounds").ToString();
                 if (settingValue == "On")
                 {
                     togglePlaySounds.IsChecked = true;
@@ -292,14 +292,14 @@ namespace BabyApp
         {
             string settingValue = string.Empty;
 
-            if (IS.GetSetting("BabyApp-PlayMusic").ToString() == string.Empty)
+            if (IS.GetSettingStringValue("BabyApp-PlayMusic").ToString() == string.Empty)
             {
                 togglePlayMusic.IsChecked = false;
                 togglePlayMusic.Content = "Off";
             }
             else
             {
-                settingValue = IS.GetSetting("BabyApp-PlayMusic").ToString();
+                settingValue = IS.GetSettingStringValue("BabyApp-PlayMusic").ToString();
                 if (settingValue == "On")
                 {
                     togglePlayMusic.IsChecked = true;
@@ -317,14 +317,14 @@ namespace BabyApp
         {
             string settingValue = string.Empty;
 
-            if (IS.GetSetting("BabyApp-ShowText").ToString() == string.Empty)
+            if (IS.GetSettingStringValue("BabyApp-ShowText").ToString() == string.Empty)
             {
                 toggleShowText.IsChecked = false;
                 toggleShowText.Content = "Off";
             }
             else
             {
-                settingValue = IS.GetSetting("BabyApp-ShowText").ToString();
+                settingValue = IS.GetSettingStringValue("BabyApp-ShowText").ToString();
                 if (settingValue == "On")
                 {
                     toggleShowText.IsChecked = true;
@@ -344,13 +344,13 @@ namespace BabyApp
 
             try
             {
-                if (IS.GetSetting("BabyApp-English").ToString() == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-English").ToString() == string.Empty)
                 {
                     chkEnglish.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-English").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-English").ToString();
                     if (settingValue == "Yes")
                     {
                         chkEnglish.IsChecked = true;
@@ -361,13 +361,13 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-Spanish").ToString() == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-Spanish").ToString() == string.Empty)
                 {
                     chkSpanish.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-Spanish").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-Spanish").ToString();
                     if (settingValue == "Yes")
                     {
                         chkSpanish.IsChecked = true;
@@ -378,13 +378,13 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-Italian") == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-Italian") == string.Empty)
                 {
                     chkItalian.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-Italian").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-Italian").ToString();
                     if (settingValue == "Yes")
                     {
                         chkItalian.IsChecked = true;
@@ -395,13 +395,13 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-French") == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-French") == string.Empty)
                 {
                     chkFrench.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-French").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-French").ToString();
                     if (settingValue == "Yes")
                     {
                         chkFrench.IsChecked = true;
@@ -412,13 +412,13 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-Irish") == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-Irish") == string.Empty)
                 {
                     chkIrish.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-Irish").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-Irish").ToString();
                     if (settingValue == "Yes")
                     {
                         chkIrish.IsChecked = true;
@@ -429,13 +429,13 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-German") == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-German") == string.Empty)
                 {
                     chkGerman.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-German").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-German").ToString();
                     if (settingValue == "Yes")
                     {
                         chkGerman.IsChecked = true;
@@ -446,13 +446,13 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-Portuguese") == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-Portuguese") == string.Empty)
                 {
                     chkPortuguese.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-Portuguese").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-Portuguese").ToString();
                     if (settingValue == "Yes")
                     {
                         chkPortuguese.IsChecked = true;
@@ -463,13 +463,13 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-Japanese") == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-Japanese") == string.Empty)
                 {
                     chkJapanese.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-Japanese").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-Japanese").ToString();
                     if (settingValue == "Yes")
                     {
                         chkJapanese.IsChecked = true;
@@ -480,13 +480,13 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-Chinese").ToString() == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-Chinese").ToString() == string.Empty)
                 {
                     chkChinese.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-Chinese").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-Chinese").ToString();
                     if (settingValue == "Yes")
                     {
                         chkChinese.IsChecked = true;
