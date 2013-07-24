@@ -24,7 +24,7 @@ namespace BabyApp
         public static string gPlaySoundSetting;
         public static string gPlayMusicSetting;
         public static string gShowTextSetting;
-        public static string gCategory = "BabyAnimals";
+        public static string gCategory = "Animals";
 
         /// <summary>
         /// Constructor for the Application object.
