@@ -48,6 +48,7 @@ namespace BabyApp
             LoadPlayMusicSetting();
             LoadShowTextSetting();
             LoadLanguageSettings();
+            
 
             // Show graphics profiling information while debugging.
             if (Debugger.IsAttached)
