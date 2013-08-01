@@ -20,6 +20,7 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework;
 using System.Threading.Tasks;
 using Common.Utilities;
+using System.Collections.ObjectModel;
 
 
 namespace BabyApp
@@ -44,6 +45,8 @@ namespace BabyApp
         public MainPage()
         {
             InitializeComponent();
+
+            PivotSlides = new ObservableCollection<PivotSlide>();
 
             synthesizer = new SpeechSynthesizer();
             this.DataContext = this;
@@ -90,6 +93,14 @@ namespace BabyApp
             BabyAnimals.Add(new Box("Tiger", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Pics/BabyAnimals/Tiger.png", "/Assets/Sounds/Animals/Tiger.wav"));
             BabyAnimals.Add(new Box("Turkey", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Pics/BabyAnimals/Turkey.png", "/Assets/Sounds/Animals/Turkey.wav"));
             BabyAnimals.Add(new Box("Zebra", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Pics/BabyAnimals/Zebra.png", "/Assets/Sounds/Animals/Zebra.wav"));
+
+            //TJY LOOK HERE:
+            //I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
+            //The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
+            //The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
+            PivotSlides.Add(new PivotSlide("Slide1", BabyAnimals[0], BabyAnimals[1], BabyAnimals[2], BabyAnimals[3], BabyAnimals[4], BabyAnimals[5], BabyAnimals[6], BabyAnimals[7], BabyAnimals[8]));
+            PivotSlides.Add(new PivotSlide("Slide2", BabyAnimals[9], BabyAnimals[10], BabyAnimals[11], BabyAnimals[12], BabyAnimals[13], BabyAnimals[14], BabyAnimals[15], BabyAnimals[16], BabyAnimals[17]));
+
 
             BabyMisc = new List<Box>();
 
@@ -646,6 +657,14 @@ namespace BabyApp
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
+
+        private ObservableCollection<PivotSlide> _pivotSlides;
+        public ObservableCollection<PivotSlide> PivotSlides
+        {
+            get { return _pivotSlides; }
+            set { _pivotSlides = value; NotifyPropertyChanged("PivotSlides"); }
+        }
+        
 
         private List<Box> _babyAnimals;
         public List<Box> BabyAnimals

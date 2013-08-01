@@ -12,6 +12,64 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     shell:SystemTray.IsVisible="True">
+    
+    <phone:PhoneApplicationPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="PivotTemplate">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="225"></RowDefinition>
+                        <RowDefinition Height="225"></RowDefinition>
+                        <RowDefinition Height="225"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="Box1" Grid.Row="0" Grid.Column="0" 
+                                Click="Box_Click" Tag="Box1">
+                        <Image Source="{Binding Box1.ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box2" Grid.Row="0" Grid.Column="1"
+                                Click="Box_Click" Tag="Box2">
+                        <Image Source="{Binding Box2.ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box3" Grid.Row="0" Grid.Column="2"
+                                Click="Box_Click" Tag="Box3">
+                        <Image Source="{Binding Box3.ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box4" Grid.Row="1" Grid.Column="0"
+                                Click="Box_Click" Tag="Box4">
+                        <Image Source="{Binding Box4.ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box5" Grid.Row="1" Grid.Column="1"
+                                Click="Box_Click" Tag="Box5">
+                        <Image Source="{Binding Box5.ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box6" Grid.Row="1" Grid.Column="2"
+                                Click="Box_Click" Tag="Box6">
+                        <Image Source="{Binding Box6.ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box7" Grid.Row="2" Grid.Column="0"
+                                Click="Box_Click" Tag="Box7">
+                        <Image Source="{Binding Box7.ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box8" Grid.Row="2" Grid.Column="1"
+                                Click="Box_Click" Tag="Box8">
+                        <Image Source="{Binding Box8.ImageSourceSmall}"/>
+                    </Button>
+                    <Button x:Name="Box9" Grid.Row="2" Grid.Column="2"
+                                Click="Box_Click" Tag="Box9">
+                        <Image Source="{Binding Box9.ImageSourceSmall}"/>
+                    </Button>
+
+                </Grid>
+            </DataTemplate>
+        </ResourceDictionary>
+    </phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Viewbox>
@@ -33,7 +91,17 @@
             </StackPanel>
 
             <Grid x:Name="PictureGrid" Grid.Row="1" Visibility="Visible">
-                <Grid>
+                <phone:Pivot  x:Name="CardPivot" ItemsSource="{Binding PivotSlides}" ItemTemplate="{StaticResource PivotTemplate}">
+                    <phone:Pivot.HeaderTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="50" Foreground="White" Text="{Binding Header}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </phone:Pivot.HeaderTemplate>
+                </phone:Pivot>
+
+                <!--<Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="225"></RowDefinition>
                         <RowDefinition Height="225"></RowDefinition>
@@ -83,7 +151,7 @@
                         <Image Source="{Binding Box9ImageSourceSmall}"/>
                     </Button>
 
-                </Grid>
+                </Grid>-->
             </Grid>
 
             <Grid x:Name="SlideShow" Grid.Row="1"  Background="Transparent" Visibility="Collapsed">
