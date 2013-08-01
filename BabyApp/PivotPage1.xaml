@@ -15,6 +15,7 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
+        <TextBlock Text="Pivot Page1" Foreground="White"/>
         <!--Pivot Control-->
         <phone:Pivot  x:Name="BoxGrid" ItemsSource="{Binding Animals}" >                                     
             <phone:Pivot.HeaderTemplate>

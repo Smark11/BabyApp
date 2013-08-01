@@ -51,6 +51,7 @@ namespace BabyApp
             synthesizer = new SpeechSynthesizer();
             this.DataContext = this;
 
+            NavigateToScreen(Screen.MainGrid);
             LoadPicsIntoCollection();
             LoadPicsOnScreen(App.gCategory);
             BuildLocalizedApplicationBar();
