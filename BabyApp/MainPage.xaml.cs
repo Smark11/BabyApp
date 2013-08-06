@@ -101,6 +101,7 @@ namespace BabyApp
             //The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
             PivotSlides.Add(new PivotSlide("Slide1", BabyAnimals[0], BabyAnimals[1], BabyAnimals[2], BabyAnimals[3], BabyAnimals[4], BabyAnimals[5], BabyAnimals[6], BabyAnimals[7], BabyAnimals[8]));
             PivotSlides.Add(new PivotSlide("Slide2", BabyAnimals[9], BabyAnimals[10], BabyAnimals[11], BabyAnimals[12], BabyAnimals[13], BabyAnimals[14], BabyAnimals[15], BabyAnimals[16], BabyAnimals[17]));
+            PivotSlides.Add(new PivotSlide("Slide3", BabyAnimals[18], BabyAnimals[19], BabyAnimals[20], BabyAnimals[21], BabyAnimals[22], BabyAnimals[23], BabyAnimals[24], BabyAnimals[25], BabyAnimals[26]));
 
 
             BabyMisc = new List<Box>();
