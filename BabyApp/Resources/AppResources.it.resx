@@ -149,4 +149,40 @@
   <data name="Elephant" xml:space="preserve">
     <value>Elefante</value>
   </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Maiale</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Formichiere</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Antilope</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Badger</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Orso</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Farfalla</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Caribou</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Camaleonte</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Ghepardo</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Granchio</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Cane</value>
+  </data>
 </root>

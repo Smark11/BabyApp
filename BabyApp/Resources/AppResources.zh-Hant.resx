@@ -149,4 +149,40 @@
   <data name="Elephant" xml:space="preserve">
     <value>大象</value>
   </data>
+  <data name="Pig" xml:space="preserve">
+    <value>豬</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>食蟻獸</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>羚羊</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>獾</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>熊</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>蝴蝶</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>馴鹿</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>變色龍</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>獵豹</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>蟹</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>狗</value>
+  </data>
 </root>

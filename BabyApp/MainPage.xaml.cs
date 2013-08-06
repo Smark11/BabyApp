@@ -28,7 +28,7 @@ namespace BabyApp
     public partial class MainPage : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
-    //    DispatcherTimer _timer;
+        //    DispatcherTimer _timer;
         SpeechSynthesizer synthesizer;
 
         private bool _slideShowInProgress = false;
@@ -63,115 +63,96 @@ namespace BabyApp
 
         private void LoadPicsIntoCollection()
         {
-            BabyAnimals = new List<Box>();
-            Box blankBox = new Box("","","","");
+            Animals = new List<Box>();
 
-            BabyAnimals.Add(new Box("Anteater", "/Assets/Pics/Animals/anteater80x100.png", "/Assets/Pics/Animals/anteater480x800.png", "/Assets/Sounds/Animals/anteater.wav"));
-            BabyAnimals.Add(new Box("Antelope", "/Assets/Pics/Animals/antelope80x100.png", "/Assets/Pics/Animals/antelope480x800.png", "/Assets/Sounds/Animals/antelope.wav"));
-            BabyAnimals.Add(new Box("Badger", "/Assets/Pics/Animals/badger80x100.png", "/Assets/Pics/Animals/badger480x800.png", "/Assets/Sounds/Animals/badger.wav"));
-            BabyAnimals.Add(new Box("Bear", "/Assets/Pics/Animals/bear80x100.png", "/Assets/Pics/Animals/bear80x800.png", "/Assets/Sounds/Animals/bear.wav"));
-            BabyAnimals.Add(new Box("Butterfly", "/Assets/Pics/Animals/butterfly80x100.png", "/Assets/Pics/Animals/butterfly480x800.png", "/Assets/Sounds/Animals/butterfly.wav"));
-            BabyAnimals.Add(new Box("Capuchinmonkey", "/Assets/Pics/Animals/capuchinmonkey80x100.png", "/Assets/Pics/Animals/capuchinmonkey480x800.png", "/Assets/Sounds/Animals/capuchinmonkey.wav"));
-            BabyAnimals.Add(new Box("Caribou", "/Assets/Pics/Animals/caribou80x100.png", "/Assets/Pics/Animals/caribou480x800.png", "/Assets/Sounds/Animals/caribou.wav"));
-            BabyAnimals.Add(new Box("Chameleon", "/Assets/Pics/Animals/chameleon80x100.png", "/Assets/Pics/Animals/chameleon80x800.png", "/Assets/Sounds/Animals/chameleon.wav"));        
-            BabyAnimals.Add(new Box("Cheetah", "/Assets/Pics/Animals/cheetah80x100.png", "/Assets/Pics/Animals/cheetah80x800.png", "/Assets/Sounds/Animals/cheetah.wav"));
-            BabyAnimals.Add(new Box("Crab", "/Assets/Pics/Animals/crab80x100.png", "/Assets/Pics/Animals/crab480x800.png", "/Assets/Sounds/Animals/crab.wav"));
-            BabyAnimals.Add(new Box("Dog", "/Assets/Pics/Animals/dog80x100.png", "/Assets/Pics/Animals/dog480x800.png", "/Assets/Sounds/Animals/dog.wav"));
-            BabyAnimals.Add(new Box("Dolphin", "/Assets/Pics/Animals/dolphin80x100.png", "/Assets/Pics/Animals/dolphin480x800.png", "/Assets/Sounds/Animals/dolphin.wav"));
-            BabyAnimals.Add(new Box("Dragonfly", "/Assets/Pics/Animals/dragonfly80x100.png", "/Assets/Pics/Animals/dragonfly480x800.png", "/Assets/Sounds/Animals/dragonfly.wav"));            
-            BabyAnimals.Add(new Box("Duck", "/Assets/Pics/Animals/duck80x100.png", "/Assets/Pics/Animals/duck80x800.png", "/Assets/Sounds/Animals/duck.wav"));
-            BabyAnimals.Add(new Box("Eagle", "/Assets/Pics/Animals/eagle80x100.png", "/Assets/Pics/Animals/eagle480x800.png", "/Assets/Sounds/Animals/eagle.wav"));
-            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/Animals/elephant80x100.png", "/Assets/Pics/Animals/elephant480x800.png", "/Assets/Sounds/Animals/elephant.wav"));
-            BabyAnimals.Add(new Box("Elk", "/Assets/Pics/Animals/elk80x100.png", "/Assets/Pics/Animals/elk480x800.png", "/Assets/Sounds/Animals/elk.wav"));                    
-            BabyAnimals.Add(new Box("Fish", "/Assets/Pics/Animals/fish80x100.png", "/Assets/Pics/Animals/fish480x800.png", "/Assets/Sounds/Animals/fish.wav"));
-            BabyAnimals.Add(new Box("Fox", "/Assets/Pics/Animals/fox80x100.png", "/Assets/Pics/Animals/fox80x800.png", "/Assets/Sounds/Animals/fox.wav"));
-            BabyAnimals.Add(new Box("Giraffe", "/Assets/Pics/Animals/giraffe80x100.png", "/Assets/Pics/Animals/giraffe480x800.png", "/Assets/Sounds/Animals/giraffe.wav"));
-            BabyAnimals.Add(new Box("Guineapig", "/Assets/Pics/Animals/guineapig80x100.png", "/Assets/Pics/Animals/guineapig480x800.png", "/Assets/Sounds/Animals/guineapig.wav"));
-            BabyAnimals.Add(new Box("Hippopotamus", "/Assets/Pics/Animals/hippopotamus80x100.png", "/Assets/Pics/Animals/hippopotamus480x800.png", "/Assets/Sounds/Animals/hippopotamus.wav"));
-            BabyAnimals.Add(new Box("Horse", "/Assets/Pics/Animals/horse80x100.png", "/Assets/Pics/Animals/horse480x800.png", "/Assets/Sounds/Animals/horse.wav"));
-            BabyAnimals.Add(new Box("Iguana", "/Assets/Pics/Animals/iguana80x100.png", "/Assets/Pics/Animals/iguana480x800.png", "/Assets/Sounds/Animals/iguana.wav"));
-            BabyAnimals.Add(new Box("Jaguar", "/Assets/Pics/Animals/jaguar80x100.png", "/Assets/Pics/Animals/jaguar480x800.png", "/Assets/Sounds/Animals/jaguar.wav"));
-            BabyAnimals.Add(new Box("Kangaroo", "/Assets/Pics/Animals/kangaroo80x100.png", "/Assets/Pics/Animals/kangaroo480x800.png", "/Assets/Sounds/Animals/kangaroo.wav"));    
-            BabyAnimals.Add(new Box("Kitten", "/Assets/Pics/Animals/kitten80x100.png", "/Assets/Pics/Animals/kitten480x800.png", "/Assets/Sounds/Animals/kitten.wav"));
-            BabyAnimals.Add(new Box("Koala", "/Assets/Pics/Animals/koala80x100.png", "/Assets/Pics/Animals/koala480x800.png", "/Assets/Sounds/Animals/koala.wav"));
-            BabyAnimals.Add(new Box("Lemur", "/Assets/Pics/Animals/lemur80x100.png", "/Assets/Pics/Animals/lemur480x800.png", "/Assets/Sounds/Animals/lemur.wav"));               
-            BabyAnimals.Add(new Box("Lion", "/Assets/Pics/Animals/lion80x100.png", "/Assets/Pics/Animals/lion80x800.png", "/Assets/Sounds/Animals/lion.wav"));
-            BabyAnimals.Add(new Box("Macaw", "/Assets/Pics/Animals/macaw80x100.png", "/Assets/Pics/Animals/macaw480x800.png", "/Assets/Sounds/Animals/macaw.wav"));
-            BabyAnimals.Add(new Box("Marmot", "/Assets/Pics/Animals/marmot80x100.png", "/Assets/Pics/Animals/marmot480x800.png", "/Assets/Sounds/Animals/marmot.wav"));                       
-            BabyAnimals.Add(new Box("Monkey", "/Assets/Pics/Animals/monkey80x100.png", "/Assets/Pics/Animals/monkey480x800.png", "/Assets/Sounds/Animals/monkey.wav"));
-            BabyAnimals.Add(new Box("Ocelot", "/Assets/Pics/Animals/ocelot80x100.png", "/Assets/Pics/Animals/ocelot480x800.png", "/Assets/Sounds/Animals/ocelot.wav"));
-            BabyAnimals.Add(new Box("Octopus", "/Assets/Pics/Animals/octopus80x100.png", "/Assets/Pics/Animals/octopus480x800.png", "/Assets/Sounds/Animals/octopus.wav"));
-            BabyAnimals.Add(new Box("Orca", "/Assets/Pics/Animals/orca80x100.png", "/Assets/Pics/Animals/orca480x800.png", "/Assets/Sounds/Animals/orca.wav"));                        
-            BabyAnimals.Add(new Box("Otter", "/Assets/Pics/Animals/otter80x100.png", "/Assets/Pics/Animals/otter480x800.png", "/Assets/Sounds/Animals/otter.wav"));
-            BabyAnimals.Add(new Box("Owl", "/Assets/Pics/Animals/owl80x100.png", "/Assets/Pics/Animals/owl80x800.png", "/Assets/Sounds/Animals/owl.wav"));
-            BabyAnimals.Add(new Box("Panda", "/Assets/Pics/Animals/panda80x100.png", "/Assets/Pics/Animals/panda480x800.png", "/Assets/Sounds/Animals/panda.wav"));
-            BabyAnimals.Add(new Box("Penguin", "/Assets/Pics/Animals/penguin80x100.png", "/Assets/Pics/Animals/penguin480x800.png", "/Assets/Sounds/Animals/penguin.wav"));
-            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/Animals/pig80x100.png", "/Assets/Pics/Animals/pig80x800.png", "/Assets/Sounds/Animals/pig.wav"));
-            BabyAnimals.Add(new Box("Prayingmantis", "/Assets/Pics/Animals/prayingmantis80x100.png", "/Assets/Pics/Animals/prayingmantis480x800.png", "/Assets/Sounds/Animals/prayingmantis.wav"));
-            BabyAnimals.Add(new Box("Rabbit", "/Assets/Pics/Animals/rabbit80x100.png", "/Assets/Pics/Animals/rabbit480x800.png", "/Assets/Sounds/Animals/rabbit.wav"));
-            BabyAnimals.Add(new Box("Raccoon", "/Assets/Pics/Animals/raccoon80x100.png", "/Assets/Pics/Animals/raccoon480x800.png", "/Assets/Sounds/Animals/raccoon.wav"));
-            BabyAnimals.Add(new Box("Redfox", "/Assets/Pics/Animals/redfox80x100.png", "/Assets/Pics/Animals/redfox480x800.png", "/Assets/Sounds/Animals/redfox.wav"));
-            BabyAnimals.Add(new Box("Redpanda", "/Assets/Pics/Animals/redpanda80x100.png", "/Assets/Pics/Animals/redpanda480x800.png", "/Assets/Sounds/Animals/redpanda.wav"));
-            BabyAnimals.Add(new Box("Rhino", "/Assets/Pics/Animals/rhino80x100.png", "/Assets/Pics/Animals/rhino480x800.png", "/Assets/Sounds/Animals/rhino.wav"));                              
-            BabyAnimals.Add(new Box("Shark", "/Assets/Pics/Animals/shark80x100.png", "/Assets/Pics/Animals/shark480x800.png", "/Assets/Sounds/Animals/shark.wav"));
-            BabyAnimals.Add(new Box("Sheep", "/Assets/Pics/Animals/sheep80x100.png", "/Assets/Pics/Animals/sheep480x800.png", "/Assets/Sounds/Animals/sheep.wav"));
-            BabyAnimals.Add(new Box("Skink", "/Assets/Pics/Animals/skink80x100.png", "/Assets/Pics/Animals/skink480x800.png", "/Assets/Sounds/Animals/skink.wav"));              
-            BabyAnimals.Add(new Box("Snake", "/Assets/Pics/Animals/snake80x100.png", "/Assets/Pics/Animals/snake480x800.png", "/Assets/Sounds/Animals/snake.wav"));
-            BabyAnimals.Add(new Box("Snowleopard", "/Assets/Pics/Animals/snowleopard80x100.png", "/Assets/Pics/Animals/snowleopard480x800.png", "/Assets/Sounds/Animals/snowleopard.wav"));
-            BabyAnimals.Add(new Box("Squid", "/Assets/Pics/Animals/squid80x100.png", "/Assets/Pics/Animals/squid80x800.png", "/Assets/Sounds/Animals/squid.wav"));
-            BabyAnimals.Add(new Box("Squirrel", "/Assets/Pics/Animals/squirrel80x100.png", "/Assets/Pics/Animals/squirrel80x800.png", "/Assets/Sounds/Animals/squirrel.wav"));                                                
-            BabyAnimals.Add(new Box("Starfish", "/Assets/Pics/Animals/starfish80x100.png", "/Assets/Pics/Animals/starfish80x800.png", "/Assets/Sounds/Animals/starfish.wav"));
-            BabyAnimals.Add(new Box("Sumatrantiger", "/Assets/Pics/Animals/sumatrantiger80x100.png", "/Assets/Pics/Animals/sumatrantiger480x800.png", "/Assets/Sounds/Animals/sumatrantiger.wav"));
-            BabyAnimals.Add(new Box("Tayra", "/Assets/Pics/Animals/tayra80x100.png", "/Assets/Pics/Animals/tayra480x800.png", "/Assets/Sounds/Animals/tayra.wav"));
-            BabyAnimals.Add(new Box("Tiger", "/Assets/Pics/Animals/tiger80x100.png", "/Assets/Pics/Animals/tiger480x800.png", "/Assets/Sounds/Animals/tiger.wav"));
-            BabyAnimals.Add(new Box("Tortoise", "/Assets/Pics/Animals/tortoise80x100.png", "/Assets/Pics/Animals/tortoise480x800.png", "/Assets/Sounds/Animals/tortoise.wav"));
-            BabyAnimals.Add(new Box("Walrus", "/Assets/Pics/Animals/walrus80x100.png", "/Assets/Pics/Animals/walrus480x800.png", "/Assets/Sounds/Animals/walrus.wav"));  
-            BabyAnimals.Add(new Box("Wolf", "/Assets/Pics/Animals/wolf80x100.png", "/Assets/Pics/Animals/wolf480x800.png", "/Assets/Sounds/Animals/wolf.wav"));
+            Animals.Add(new Box("Anteater", "/Assets/Pics/Animals/anteater80x100.png", "/Assets/Pics/Animals/anteater480x800.png", "/Assets/Sounds/Animals/anteater.wav"));
+            Animals.Add(new Box("Antelope", "/Assets/Pics/Animals/antelope80x100.png", "/Assets/Pics/Animals/antelope480x800.png", "/Assets/Sounds/Animals/antelope.wav"));
+            Animals.Add(new Box("Badger", "/Assets/Pics/Animals/badger80x100.png", "/Assets/Pics/Animals/badger480x800.png", "/Assets/Sounds/Animals/badger.wav"));
+            Animals.Add(new Box("Bear", "/Assets/Pics/Animals/bear80x100.png", "/Assets/Pics/Animals/bear80x800.png", "/Assets/Sounds/Animals/bear.wav"));
+            Animals.Add(new Box("Butterfly", "/Assets/Pics/Animals/butterfly80x100.png", "/Assets/Pics/Animals/butterfly480x800.png", "/Assets/Sounds/Animals/butterfly.wav"));
+            Animals.Add(new Box("Capuchinmonkey", "/Assets/Pics/Animals/capuchinmonkey80x100.png", "/Assets/Pics/Animals/capuchinmonkey480x800.png", "/Assets/Sounds/Animals/capuchinmonkey.wav"));
+            Animals.Add(new Box("Caribou", "/Assets/Pics/Animals/caribou80x100.png", "/Assets/Pics/Animals/caribou480x800.png", "/Assets/Sounds/Animals/caribou.wav"));
+            Animals.Add(new Box("Chameleon", "/Assets/Pics/Animals/chameleon80x100.png", "/Assets/Pics/Animals/chameleon80x800.png", "/Assets/Sounds/Animals/chameleon.wav"));
+            Animals.Add(new Box("Cheetah", "/Assets/Pics/Animals/cheetah80x100.png", "/Assets/Pics/Animals/cheetah80x800.png", "/Assets/Sounds/Animals/cheetah.wav"));
+            Animals.Add(new Box("Crab", "/Assets/Pics/Animals/crab80x100.png", "/Assets/Pics/Animals/crab480x800.png", "/Assets/Sounds/Animals/crab.wav"));
+            Animals.Add(new Box("Dog", "/Assets/Pics/Animals/dog80x100.png", "/Assets/Pics/Animals/dog480x800.png", "/Assets/Sounds/Animals/dog.wav"));
+            Animals.Add(new Box("Dolphin", "/Assets/Pics/Animals/dolphin80x100.png", "/Assets/Pics/Animals/dolphin480x800.png", "/Assets/Sounds/Animals/dolphin.wav"));
+            Animals.Add(new Box("Dragonfly", "/Assets/Pics/Animals/dragonfly80x100.png", "/Assets/Pics/Animals/dragonfly480x800.png", "/Assets/Sounds/Animals/dragonfly.wav"));
+            Animals.Add(new Box("Duck", "/Assets/Pics/Animals/duck80x100.png", "/Assets/Pics/Animals/duck80x800.png", "/Assets/Sounds/Animals/duck.wav"));
+            Animals.Add(new Box("Eagle", "/Assets/Pics/Animals/eagle80x100.png", "/Assets/Pics/Animals/eagle480x800.png", "/Assets/Sounds/Animals/eagle.wav"));
+            Animals.Add(new Box("Elephant", "/Assets/Pics/Animals/elephant80x100.png", "/Assets/Pics/Animals/elephant480x800.png", "/Assets/Sounds/Animals/elephant.wav"));
+            Animals.Add(new Box("Elk", "/Assets/Pics/Animals/elk80x100.png", "/Assets/Pics/Animals/elk480x800.png", "/Assets/Sounds/Animals/elk.wav"));
+            Animals.Add(new Box("Fish", "/Assets/Pics/Animals/fish80x100.png", "/Assets/Pics/Animals/fish480x800.png", "/Assets/Sounds/Animals/fish.wav"));
+            Animals.Add(new Box("Fox", "/Assets/Pics/Animals/fox80x100.png", "/Assets/Pics/Animals/fox80x800.png", "/Assets/Sounds/Animals/fox.wav"));
+            Animals.Add(new Box("Giraffe", "/Assets/Pics/Animals/giraffe80x100.png", "/Assets/Pics/Animals/giraffe480x800.png", "/Assets/Sounds/Animals/giraffe.wav"));
+            Animals.Add(new Box("Guineapig", "/Assets/Pics/Animals/guineapig80x100.png", "/Assets/Pics/Animals/guineapig480x800.png", "/Assets/Sounds/Animals/guineapig.wav"));
+            Animals.Add(new Box("Hippopotamus", "/Assets/Pics/Animals/hippopotamus80x100.png", "/Assets/Pics/Animals/hippopotamus480x800.png", "/Assets/Sounds/Animals/hippopotamus.wav"));
+            Animals.Add(new Box("Horse", "/Assets/Pics/Animals/horse80x100.png", "/Assets/Pics/Animals/horse480x800.png", "/Assets/Sounds/Animals/horse.wav"));
+            Animals.Add(new Box("Iguana", "/Assets/Pics/Animals/iguana80x100.png", "/Assets/Pics/Animals/iguana480x800.png", "/Assets/Sounds/Animals/iguana.wav"));
+            Animals.Add(new Box("Jaguar", "/Assets/Pics/Animals/jaguar80x100.png", "/Assets/Pics/Animals/jaguar480x800.png", "/Assets/Sounds/Animals/jaguar.wav"));
+            Animals.Add(new Box("Kangaroo", "/Assets/Pics/Animals/kangaroo80x100.png", "/Assets/Pics/Animals/kangaroo480x800.png", "/Assets/Sounds/Animals/kangaroo.wav"));
+            Animals.Add(new Box("Kitten", "/Assets/Pics/Animals/kitten80x100.png", "/Assets/Pics/Animals/kitten480x800.png", "/Assets/Sounds/Animals/kitten.wav"));
+            Animals.Add(new Box("Koala", "/Assets/Pics/Animals/koala80x100.png", "/Assets/Pics/Animals/koala480x800.png", "/Assets/Sounds/Animals/koala.wav"));
+            Animals.Add(new Box("Lemur", "/Assets/Pics/Animals/lemur80x100.png", "/Assets/Pics/Animals/lemur480x800.png", "/Assets/Sounds/Animals/lemur.wav"));
+            Animals.Add(new Box("Lion", "/Assets/Pics/Animals/lion80x100.png", "/Assets/Pics/Animals/lion80x800.png", "/Assets/Sounds/Animals/lion.wav"));
+            Animals.Add(new Box("Macaw", "/Assets/Pics/Animals/macaw80x100.png", "/Assets/Pics/Animals/macaw480x800.png", "/Assets/Sounds/Animals/macaw.wav"));
+            Animals.Add(new Box("Marmot", "/Assets/Pics/Animals/marmot80x100.png", "/Assets/Pics/Animals/marmot480x800.png", "/Assets/Sounds/Animals/marmot.wav"));
+            Animals.Add(new Box("Monkey", "/Assets/Pics/Animals/monkey80x100.png", "/Assets/Pics/Animals/monkey480x800.png", "/Assets/Sounds/Animals/monkey.wav"));
+            Animals.Add(new Box("Ocelot", "/Assets/Pics/Animals/ocelot80x100.png", "/Assets/Pics/Animals/ocelot480x800.png", "/Assets/Sounds/Animals/ocelot.wav"));
+            Animals.Add(new Box("Octopus", "/Assets/Pics/Animals/octopus80x100.png", "/Assets/Pics/Animals/octopus480x800.png", "/Assets/Sounds/Animals/octopus.wav"));
+            Animals.Add(new Box("Orca", "/Assets/Pics/Animals/orca80x100.png", "/Assets/Pics/Animals/orca480x800.png", "/Assets/Sounds/Animals/orca.wav"));
+            Animals.Add(new Box("Otter", "/Assets/Pics/Animals/otter80x100.png", "/Assets/Pics/Animals/otter480x800.png", "/Assets/Sounds/Animals/otter.wav"));
+            Animals.Add(new Box("Owl", "/Assets/Pics/Animals/owl80x100.png", "/Assets/Pics/Animals/owl80x800.png", "/Assets/Sounds/Animals/owl.wav"));
+            Animals.Add(new Box("Panda", "/Assets/Pics/Animals/panda80x100.png", "/Assets/Pics/Animals/panda480x800.png", "/Assets/Sounds/Animals/panda.wav"));
+            Animals.Add(new Box("Penguin", "/Assets/Pics/Animals/penguin80x100.png", "/Assets/Pics/Animals/penguin480x800.png", "/Assets/Sounds/Animals/penguin.wav"));
+            Animals.Add(new Box("Pig", "/Assets/Pics/Animals/pig80x100.png", "/Assets/Pics/Animals/pig80x800.png", "/Assets/Sounds/Animals/pig.wav"));
+            Animals.Add(new Box("Prayingmantis", "/Assets/Pics/Animals/prayingmantis80x100.png", "/Assets/Pics/Animals/prayingmantis480x800.png", "/Assets/Sounds/Animals/prayingmantis.wav"));
+            Animals.Add(new Box("Rabbit", "/Assets/Pics/Animals/rabbit80x100.png", "/Assets/Pics/Animals/rabbit480x800.png", "/Assets/Sounds/Animals/rabbit.wav"));
+            Animals.Add(new Box("Raccoon", "/Assets/Pics/Animals/raccoon80x100.png", "/Assets/Pics/Animals/raccoon480x800.png", "/Assets/Sounds/Animals/raccoon.wav"));
+            Animals.Add(new Box("Redfox", "/Assets/Pics/Animals/redfox80x100.png", "/Assets/Pics/Animals/redfox480x800.png", "/Assets/Sounds/Animals/redfox.wav"));
+            Animals.Add(new Box("Redpanda", "/Assets/Pics/Animals/redpanda80x100.png", "/Assets/Pics/Animals/redpanda480x800.png", "/Assets/Sounds/Animals/redpanda.wav"));
+            Animals.Add(new Box("Rhino", "/Assets/Pics/Animals/rhino80x100.png", "/Assets/Pics/Animals/rhino480x800.png", "/Assets/Sounds/Animals/rhino.wav"));
+            Animals.Add(new Box("Shark", "/Assets/Pics/Animals/shark80x100.png", "/Assets/Pics/Animals/shark480x800.png", "/Assets/Sounds/Animals/shark.wav"));
+            Animals.Add(new Box("Sheep", "/Assets/Pics/Animals/sheep80x100.png", "/Assets/Pics/Animals/sheep480x800.png", "/Assets/Sounds/Animals/sheep.wav"));
+            Animals.Add(new Box("Skink", "/Assets/Pics/Animals/skink80x100.png", "/Assets/Pics/Animals/skink480x800.png", "/Assets/Sounds/Animals/skink.wav"));
+            Animals.Add(new Box("Snake", "/Assets/Pics/Animals/snake80x100.png", "/Assets/Pics/Animals/snake480x800.png", "/Assets/Sounds/Animals/snake.wav"));
+            Animals.Add(new Box("Snowleopard", "/Assets/Pics/Animals/snowleopard80x100.png", "/Assets/Pics/Animals/snowleopard480x800.png", "/Assets/Sounds/Animals/snowleopard.wav"));
+            Animals.Add(new Box("Squid", "/Assets/Pics/Animals/squid80x100.png", "/Assets/Pics/Animals/squid80x800.png", "/Assets/Sounds/Animals/squid.wav"));
+            Animals.Add(new Box("Squirrel", "/Assets/Pics/Animals/squirrel80x100.png", "/Assets/Pics/Animals/squirrel80x800.png", "/Assets/Sounds/Animals/squirrel.wav"));
+            Animals.Add(new Box("Starfish", "/Assets/Pics/Animals/starfish80x100.png", "/Assets/Pics/Animals/starfish80x800.png", "/Assets/Sounds/Animals/starfish.wav"));
+            Animals.Add(new Box("Sumatrantiger", "/Assets/Pics/Animals/sumatrantiger80x100.png", "/Assets/Pics/Animals/sumatrantiger480x800.png", "/Assets/Sounds/Animals/sumatrantiger.wav"));
+            Animals.Add(new Box("Tayra", "/Assets/Pics/Animals/tayra80x100.png", "/Assets/Pics/Animals/tayra480x800.png", "/Assets/Sounds/Animals/tayra.wav"));
+            Animals.Add(new Box("Tiger", "/Assets/Pics/Animals/tiger80x100.png", "/Assets/Pics/Animals/tiger480x800.png", "/Assets/Sounds/Animals/tiger.wav"));
+            Animals.Add(new Box("Tortoise", "/Assets/Pics/Animals/tortoise80x100.png", "/Assets/Pics/Animals/tortoise480x800.png", "/Assets/Sounds/Animals/tortoise.wav"));
+            Animals.Add(new Box("Walrus", "/Assets/Pics/Animals/walrus80x100.png", "/Assets/Pics/Animals/walrus480x800.png", "/Assets/Sounds/Animals/walrus.wav"));
+            Animals.Add(new Box("Wolf", "/Assets/Pics/Animals/wolf80x100.png", "/Assets/Pics/Animals/wolf480x800.png", "/Assets/Sounds/Animals/wolf.wav"));
 
             //TJY LOOK HERE:
             //I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
             //The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
             //The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
-            PivotSlides.Add(new PivotSlide("Slide1", BabyAnimals[0], BabyAnimals[1], BabyAnimals[2], BabyAnimals[3], BabyAnimals[4], BabyAnimals[5], BabyAnimals[6], BabyAnimals[7], BabyAnimals[8]));
-            PivotSlides.Add(new PivotSlide("Slide2", BabyAnimals[9], BabyAnimals[10], BabyAnimals[11], BabyAnimals[12], BabyAnimals[13], BabyAnimals[14], BabyAnimals[15], BabyAnimals[16], BabyAnimals[17]));
-            PivotSlides.Add(new PivotSlide("Slide3", BabyAnimals[18], BabyAnimals[19], BabyAnimals[20], BabyAnimals[21], BabyAnimals[22], BabyAnimals[23], BabyAnimals[24], BabyAnimals[25], BabyAnimals[26]));
-            PivotSlides.Add(new PivotSlide("Slide4", BabyAnimals[27], BabyAnimals[28], BabyAnimals[29], BabyAnimals[30], BabyAnimals[31], BabyAnimals[32], BabyAnimals[33], BabyAnimals[34], BabyAnimals[35]));
-            PivotSlides.Add(new PivotSlide("Slide5", BabyAnimals[36], BabyAnimals[37], BabyAnimals[38], BabyAnimals[39], BabyAnimals[40], BabyAnimals[41], BabyAnimals[42], BabyAnimals[43], BabyAnimals[44]));
-            PivotSlides.Add(new PivotSlide("Slide6", BabyAnimals[45], BabyAnimals[46], BabyAnimals[47], BabyAnimals[48], BabyAnimals[49], BabyAnimals[50], BabyAnimals[51], BabyAnimals[52], BabyAnimals[53]));
-            PivotSlides.Add(new PivotSlide("Slide7", BabyAnimals[54], BabyAnimals[55], BabyAnimals[56], BabyAnimals[57], BabyAnimals[58], BabyAnimals[59], BabyAnimals[60], blankBox, blankBox));
-           
-            
-            BabyMisc = new List<Box>();
+            //PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+            //PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
+            //PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
+            //PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
+            //PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
+            //PivotSlides.Add(new PivotSlide("Slide6", Animals[45], Animals[46], Animals[47], Animals[48], Animals[49], Animals[50], Animals[51], Animals[52], Animals[53]));
+            //PivotSlides.Add(new PivotSlide("Slide7", Animals[54], Animals[55], Animals[56], Animals[57], Animals[58], Animals[59], Animals[60], blankBox, blankBox));
 
-            BabyMisc.Add(new Box("Airpane", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Pics/BabyMisc/Airplane.png", "/Assets/Sounds/Misc/Airplane.wav"));
-            BabyMisc.Add(new Box("Ambulance", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Pics/BabyMisc/Ambulance.png", "/Assets/Sounds/Misc/Ambulance.wav"));
-            BabyMisc.Add(new Box("Bike", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Pics/BabyMisc/Bike.png", "/Assets/Sounds/Misc/Bike.wav"));
-            BabyMisc.Add(new Box("Camera", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Pics/BabyMisc/Camera.png", "/Assets/Sounds/Misc/Camera.wav"));
-            BabyMisc.Add(new Box("Car", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Pics/BabyMisc/Car.png", "/Assets/Sounds/Misc/Car.wav"));
-            BabyMisc.Add(new Box("Clock", "/Assets/Pics/BabyMisc/Clock.png", "/Assets/Pics/BabyMisc/clock.png", "/Assets/Sounds/Misc/Clock.wav"));
-            BabyMisc.Add(new Box("Firetruck", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Pics/BabyMisc/Firetruck.png", "/Assets/Sounds/Misc/Firetruck.wav"));
-            BabyMisc.Add(new Box("Iron", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Pics/BabyMisc/Iron.png", "/Assets/Sounds/Misc/Iron.wav"));
-            BabyMisc.Add(new Box("Key", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Pics/BabyMisc/Key.png", "/Assets/Sounds/Misc/Key.wav"));
-            BabyMisc.Add(new Box("Lock", "/Assets/Pics/BabyMisc/Lock.png", "/Assets/Pics/BabyMisc/Lock.png", "/Assets/Sounds/BabyMisc/Lock.wav"));
-            BabyMisc.Add(new Box("Pencil", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Pics/BabyMisc/Pencil.png", "/Assets/Sounds/Misc/Pencil.wav"));
-            BabyMisc.Add(new Box("Phone", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Pics/BabyMisc/Phone.png", "/Assets/Sounds/Misc/Phone.wav"));
-            BabyMisc.Add(new Box("Scissors", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Pics/BabyMisc/Scissors.png", "/Assets/Sounds/Misc/Scissors.wav"));
-            BabyMisc.Add(new Box("Stapler", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Pics/BabyMisc/Stapler.png", "/Assets/Sounds/Misc/Stapler.wav"));
-            BabyMisc.Add(new Box("Toothbrush", "/Assets/Pics/BabyMisc/Toothbrush.png", "/Assets/Pics/BabyMisc/Tooothbrush.png", "/Assets/Sounds/Misc/Toothbrush.wav"));
-            BabyMisc.Add(new Box("Tractor", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Pics/BabyMisc/Tractor.png", "/Assets/Sounds/Misc/Tractor.wav"));
-            BabyMisc.Add(new Box("TV", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Pics/BabyMisc/TV.png", "/Assets/Sounds/Misc/TV.wav"));
-            BabyMisc.Add(new Box("Vacuum", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Pics/BabyMisc/Vacuum.png", "/Assets/Sounds/Misc/Vacuum.wav"));
+            BabyAnimals = new List<Box>();
 
-            Animals = new List<Box>();
-
-            Animals.Add(new Box("Elephant", "/Assets/Pics/Animals/Elephant80x100.png", "/Assets/Pics/Animals/Elephant480x800.png", "/Assets/Sounds/Animals/Elephant.wav"));
-            Animals.Add(new Box("Pig", "/Assets/Pics/Animals/Pig80x100.png", "/Assets/Pics/Animals/Pig480x800.png", "/Assets/Sounds/Animals/Pig.wav"));
-
-
+            BabyAnimals.Add(new Box("Dog", "/Assets/Pics/BabyAnimals/dog80x100.png", "/Assets/Pics/Animals/dog480x800.png", "/Assets/Sounds/Animals/dog.wav"));
+            BabyAnimals.Add(new Box("Dolphin", "/Assets/Pics/BabyAnimals/dolphin80x100.png", "/Assets/Pics/Animals/dolphin480x800.png", "/Assets/Sounds/Animals/dolphin.wav"));
+            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/elephant80x100.png", "/Assets/Pics/Animals/elephant480x800.png", "/Assets/Sounds/Animals/elephant.wav"));
+            BabyAnimals.Add(new Box("Frog", "/Assets/Pics/BabyAnimals/frog80x100.png", "/Assets/Pics/Animals/frog480x800.png", "/Assets/Sounds/Animals/frog.wav"));
+            BabyAnimals.Add(new Box("Owl", "/Assets/Pics/BabyAnimals/owl80x100.png", "/Assets/Pics/Animals/owl480x800.png", "/Assets/Sounds/Animals/owl.wav"));
+            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/pig80x100.png", "/Assets/Pics/Animals/pig480x800.png", "/Assets/Sounds/Animals/pig.wav"));
         }
 
         private void LoadPicsOnScreen(string category)
         {
+            Box blankBox = new Box("", "", "", "");
+
             try
             {
                 App.gCategory = category;
@@ -223,6 +204,7 @@ namespace BabyApp
                         Box9ImageSourceLarge = BabyAnimals[8].ImageSourceLarge;
                         Box9Description = BabyAnimals[8].Description;
                         Box9SoundSource = BabyAnimals[8].SoundSource;
+
                         break;
                     case "BabyMisc":
                         Box1ImageSourceSmall = BabyMisc[0].ImageSourceSmall;
@@ -315,6 +297,19 @@ namespace BabyApp
                         Box9ImageSourceLarge = Animals[8].ImageSourceLarge;
                         Box9Description = Animals[8].Description;
                         Box9SoundSource = Animals[8].SoundSource;
+
+                        //TJY LOOK HERE:
+                        //I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
+                        //The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
+                        //The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
+                        PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                        PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
+                        PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
+                        PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
+                        PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
+                        PivotSlides.Add(new PivotSlide("Slide6", Animals[45], Animals[46], Animals[47], Animals[48], Animals[49], Animals[50], Animals[51], Animals[52], Animals[53]));
+                        PivotSlides.Add(new PivotSlide("Slide7", Animals[54], Animals[55], Animals[56], Animals[57], Animals[58], Animals[59], Animals[60], blankBox, blankBox));
+
                         break;
                 }
             }
@@ -501,6 +496,7 @@ namespace BabyApp
             return returnValue;
         }
 
+        //TJY TO DO, for EVERY pic we need an entry here....
         private string GetText(string textToTranslate)
         {
             string returnValue = string.Empty;
@@ -508,20 +504,35 @@ namespace BabyApp
             {
                 switch (textToTranslate)
                 {
-                    case "Cow":
-                        returnValue = AppResources.Cow;
+                    case "Anteater":
+                        returnValue = AppResources.Anteater;
                         break;
-                    case "Lion":
-                        returnValue = AppResources.Lion;
+                    case "Antelope":
+                        returnValue = AppResources.Antelope;
                         break;
-                    case "Duck":
-                        returnValue = AppResources.Duck;
+                    case "Badger":
+                        returnValue = AppResources.Badger;
                         break;
-                    case "Elephant":
-                        returnValue = AppResources.Elephant;
+                    case "Bear":
+                        returnValue = AppResources.Bear;
                         break;
-                    case "Pig":
-                        returnValue = AppResources.Pig;
+                    case "Butterfly":
+                        returnValue = AppResources.Butterfly;
+                        break;
+                    case "Capuchinmonkey":
+                        returnValue = AppResources.Capuchinmonkey;
+                        break;
+                    case "Caribou":
+                        returnValue = AppResources.Caribou;
+                        break;
+                    case "Chameleon":
+                        returnValue = AppResources.Chameleon;
+                        break;
+                    case "Cheetah":
+                        returnValue = AppResources.Cheetah;
+                        break;
+                    case "Crab":
+                        returnValue = AppResources.Crab;
                         break;
                 }
             }
@@ -544,7 +555,7 @@ namespace BabyApp
             //Task.Factory.StartNew(() => SetOnePicGrid(tag));
             SetOnePicGrid(tag);
 
-           // Thread.Sleep(1000);
+            // Thread.Sleep(1000);
 
             Dispatcher.BeginInvoke(() =>
             {
@@ -564,60 +575,60 @@ namespace BabyApp
                     case "Box1":
                         ImageSourceSmall = Box1ImageSourceSmall;
                         ImageSourceLarge = Box1ImageSourceLarge;
-                        Description = Box1Description;
+                        Description = GetTextDesription(Box1Description); ;
                         ImageSound = Box1SoundSource;
                         break;
                     case "Box2":
                         ImageSourceSmall = Box2ImageSourceSmall;
-                        ImageSourceLarge = Box2ImageSourceLarge;
+                        ImageSourceLarge = GetTextDesription(Box2Description); ;
                         Description = Box2Description;
                         ImageSound = Box2SoundSource;
                         break;
                     case "Box3":
                         ImageSourceSmall = Box3ImageSourceSmall;
-                        ImageSourceLarge = Box3ImageSourceLarge;
+                        ImageSourceLarge = GetTextDesription(Box3Description); ;
                         Description = Box3Description;
                         ImageSound = Box3SoundSource;
                         break;
                     case "Box4":
                         ImageSourceSmall = Box4ImageSourceSmall;
                         ImageSourceLarge = Box4ImageSourceLarge;
-                        Description = Box4Description;
+                        Description = GetTextDesription(Box4Description); ;
                         ImageSound = Box4SoundSource;
                         break;
                     case "Box5":
                         ImageSourceSmall = Box5ImageSourceSmall;
                         ImageSourceLarge = Box5ImageSourceLarge;
-                        Description = Box5Description;
+                        Description = GetTextDesription(Box5Description); ;
                         ImageSound = Box5SoundSource;
                         break;
                     case "Box6":
                         ImageSourceSmall = Box6ImageSourceSmall;
                         ImageSourceLarge = Box6ImageSourceLarge;
-                        Description = Box6Description;
+                        Description = GetTextDesription(Box6Description); ;
                         ImageSound = Box6SoundSource;
                         break;
                     case "Box7":
                         ImageSourceSmall = Box7ImageSourceSmall;
                         ImageSourceLarge = Box7ImageSourceLarge;
-                        Description = Box7Description;
+                        Description = GetTextDesription(Box7Description); ;
                         ImageSound = Box7SoundSource;
                         break;
                     case "Box8":
                         ImageSourceSmall = Box8ImageSourceSmall;
                         ImageSourceLarge = Box8ImageSourceLarge;
-                        Description = Box8Description;
+                        Description = GetTextDesription(Box8Description); ;
                         ImageSound = Box8SoundSource;
                         break;
                     case "Box9":
                         ImageSourceSmall = Box9ImageSourceSmall;
                         ImageSourceLarge = Box9ImageSourceLarge;
-                        Description = Box9Description;
+                        Description = GetTextDesription(Box9Description);
                         ImageSound = Box9SoundSource;
                         break;
                 }
 
-                
+
             });
 
             PlayVoiceTextAndSound();
@@ -683,7 +694,7 @@ namespace BabyApp
                 PlaySound();
                 Thread.Sleep(5000);
             }
-        }            
+        }
 
         #endregion "Methods"
 
@@ -703,7 +714,7 @@ namespace BabyApp
             get { return _pivotSlides; }
             set { _pivotSlides = value; NotifyPropertyChanged("PivotSlides"); }
         }
-        
+
 
         private List<Box> _babyAnimals;
         public List<Box> BabyAnimals
@@ -1055,7 +1066,7 @@ namespace BabyApp
                     break;
             }
         }
-     
+
         private void Box_Click(object sender, EventArgs e)
         {
             string tag = ((Button)sender).Tag.ToString();
