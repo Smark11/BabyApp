@@ -53,7 +53,8 @@ namespace BabyApp
 
             NavigateToScreen(Screen.MainGrid);
             LoadPicsIntoCollection();
-            LoadPicsOnScreen(App.gCategory);
+            SetPivots(App.gCategory);
+            LoadPicsOnScreen(App.gCategory, 1);
             BuildLocalizedApplicationBar();
             ButtonDisplay = "/Assets/transport.play.png";
             Mode = Screen.MainGrid;
@@ -127,6 +128,10 @@ namespace BabyApp
             Animals.Add(new Box("Walrus", "/Assets/Pics/Animals/walrus80x100.png", "/Assets/Pics/Animals/walrus480x800.png", "/Assets/Sounds/Animals/walrus.wav"));
             Animals.Add(new Box("Wolf", "/Assets/Pics/Animals/wolf80x100.png", "/Assets/Pics/Animals/wolf480x800.png", "/Assets/Sounds/Animals/wolf.wav"));
 
+
+            Animals.Add(new Box("", "", "", ""));
+            Animals.Add(new Box("", "", "", ""));
+
             //TJY LOOK HERE:
             //I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
             //The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
@@ -149,9 +154,45 @@ namespace BabyApp
             BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/pig80x100.png", "/Assets/Pics/Animals/pig480x800.png", "/Assets/Sounds/Animals/pig.wav"));
         }
 
-        private void LoadPicsOnScreen(string category)
+        //TJY LOOK HERE:
+        //I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
+        //The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
+        //The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
+
+        private void SetPivots(string category)
         {
             Box blankBox = new Box("", "", "", "");
+
+            switch (category)
+            {
+                case "BabyAnimals":
+                    break;
+                case "Animals":
+                    PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                    PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
+                    PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
+                    PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
+                    PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
+                    PivotSlides.Add(new PivotSlide("Slide6", Animals[45], Animals[46], Animals[47], Animals[48], Animals[49], Animals[50], Animals[51], Animals[52], Animals[53]));
+                   // PivotSlides.Add(new PivotSlide("Slide7", Animals[54], Animals[55], Animals[56], Animals[57], Animals[58], Animals[59], Animals[60], blankBox, blankBox));
+                    PivotSlides.Add(new PivotSlide("Slide7", Animals[54], Animals[55], Animals[56], Animals[57], Animals[58], Animals[59], Animals[60], Animals[61], Animals[62]));
+                      
+                   break;
+            }
+        }
+
+        private void LoadPicsOnScreen(string category, int slideNumber)
+        {
+            Box blankBox = new Box("", "", "", "");
+            int index1 = (slideNumber * 9) - 9;
+            int index2 = (slideNumber * 9) - 8;
+            int index3 = (slideNumber * 9) - 7;
+            int index4 = (slideNumber * 9) - 6;
+            int index5 = (slideNumber * 9) - 5;
+            int index6 = (slideNumber * 9) - 4;
+            int index7 = (slideNumber * 9) - 3;
+            int index8 = (slideNumber * 9) - 2;
+            int index9 = (slideNumber * 9) - 1;
 
             try
             {
@@ -160,155 +201,157 @@ namespace BabyApp
                 switch (category)
                 {
                     case "BabyAnimals":
-                        Box1ImageSourceSmall = BabyAnimals[0].ImageSourceSmall;
-                        Box1ImageSourceLarge = BabyAnimals[0].ImageSourceLarge;
-                        Box1Description = BabyAnimals[0].Description;
-                        Box1SoundSource = BabyAnimals[0].SoundSource;
+                        Box1ImageSourceSmall = BabyAnimals[index1].ImageSourceSmall;
+                        Box1ImageSourceLarge = BabyAnimals[index1].ImageSourceLarge;
+                        Box1Description = BabyAnimals[index1].Description;
+                        Box1SoundSource = BabyAnimals[index1].SoundSource;
 
-                        Box2ImageSourceSmall = BabyAnimals[1].ImageSourceSmall;
-                        Box2ImageSourceLarge = BabyAnimals[1].ImageSourceLarge;
-                        Box2Description = BabyAnimals[1].Description;
-                        Box2SoundSource = BabyAnimals[1].SoundSource;
+                        Box2ImageSourceSmall = BabyAnimals[index2].ImageSourceSmall;
+                        Box2ImageSourceLarge = BabyAnimals[index2].ImageSourceLarge;
+                        Box2Description = BabyAnimals[index2].Description;
+                        Box2SoundSource = BabyAnimals[index2].SoundSource;
 
-                        Box3ImageSourceSmall = BabyAnimals[2].ImageSourceSmall;
-                        Box3ImageSourceLarge = BabyAnimals[2].ImageSourceLarge;
-                        Box3Description = BabyAnimals[2].Description;
-                        Box3SoundSource = BabyAnimals[2].SoundSource;
+                        Box3ImageSourceSmall = BabyAnimals[index3].ImageSourceSmall;
+                        Box3ImageSourceLarge = BabyAnimals[index3].ImageSourceLarge;
+                        Box3Description = BabyAnimals[index3].Description;
+                        Box3SoundSource = BabyAnimals[index3].SoundSource;
 
-                        Box4ImageSourceSmall = BabyAnimals[3].ImageSourceSmall;
-                        Box4ImageSourceLarge = BabyAnimals[3].ImageSourceLarge;
-                        Box4Description = BabyAnimals[3].Description;
-                        Box4SoundSource = BabyAnimals[3].SoundSource;
+                        Box4ImageSourceSmall = BabyAnimals[index4].ImageSourceSmall;
+                        Box4ImageSourceLarge = BabyAnimals[index4].ImageSourceLarge;
+                        Box4Description = BabyAnimals[index4].Description;
+                        Box4SoundSource = BabyAnimals[index4].SoundSource;
 
-                        Box5ImageSourceSmall = BabyAnimals[4].ImageSourceSmall;
-                        Box5ImageSourceLarge = BabyAnimals[4].ImageSourceLarge;
-                        Box5Description = BabyAnimals[4].Description;
-                        Box5SoundSource = BabyAnimals[4].SoundSource;
+                        Box5ImageSourceSmall = BabyAnimals[index5].ImageSourceSmall;
+                        Box5ImageSourceLarge = BabyAnimals[index5].ImageSourceLarge;
+                        Box5Description = BabyAnimals[index5].Description;
+                        Box5SoundSource = BabyAnimals[index5].SoundSource;
 
-                        Box6ImageSourceSmall = BabyAnimals[5].ImageSourceSmall;
-                        Box6ImageSourceLarge = BabyAnimals[5].ImageSourceLarge;
-                        Box6Description = BabyAnimals[5].Description;
-                        Box6SoundSource = BabyAnimals[5].SoundSource;
+                        Box6ImageSourceSmall = BabyAnimals[index6].ImageSourceSmall;
+                        Box6ImageSourceLarge = BabyAnimals[index6].ImageSourceLarge;
+                        Box6Description = BabyAnimals[index6].Description;
+                        Box6SoundSource = BabyAnimals[index6].SoundSource;
 
-                        Box7ImageSourceSmall = BabyAnimals[6].ImageSourceSmall;
-                        Box7ImageSourceLarge = BabyAnimals[6].ImageSourceLarge;
-                        Box7Description = BabyAnimals[6].Description;
-                        Box7SoundSource = BabyAnimals[6].SoundSource;
+                        Box7ImageSourceSmall = BabyAnimals[index7].ImageSourceSmall;
+                        Box7ImageSourceLarge = BabyAnimals[index7].ImageSourceLarge;
+                        Box7Description = BabyAnimals[index7].Description;
+                        Box7SoundSource = BabyAnimals[index7].SoundSource;
 
-                        Box8ImageSourceSmall = BabyAnimals[7].ImageSourceSmall;
-                        Box8ImageSourceLarge = BabyAnimals[7].ImageSourceLarge;
-                        Box8Description = BabyAnimals[7].Description;
-                        Box8SoundSource = BabyAnimals[7].SoundSource;
+                        Box8ImageSourceSmall = BabyAnimals[index8].ImageSourceSmall;
+                        Box8ImageSourceLarge = BabyAnimals[index8].ImageSourceLarge;
+                        Box8Description = BabyAnimals[index8].Description;
+                        Box8SoundSource = BabyAnimals[index8].SoundSource;
 
-                        Box9ImageSourceSmall = BabyAnimals[8].ImageSourceSmall;
-                        Box9ImageSourceLarge = BabyAnimals[8].ImageSourceLarge;
-                        Box9Description = BabyAnimals[8].Description;
-                        Box9SoundSource = BabyAnimals[8].SoundSource;
+                        Box9ImageSourceSmall = BabyAnimals[index9].ImageSourceSmall;
+                        Box9ImageSourceLarge = BabyAnimals[index9].ImageSourceLarge;
+                        Box9Description = BabyAnimals[index9].Description;
+                        Box9SoundSource = BabyAnimals[index9].SoundSource;
 
                         break;
                     case "BabyMisc":
-                        Box1ImageSourceSmall = BabyMisc[0].ImageSourceSmall;
-                        Box1ImageSourceLarge = BabyMisc[0].ImageSourceLarge;
-                        Box1Description = BabyMisc[0].Description;
-                        Box1SoundSource = BabyMisc[0].SoundSource;
+                        Box1ImageSourceSmall = BabyMisc[index1].ImageSourceSmall;
+                        Box1ImageSourceLarge = BabyMisc[index1].ImageSourceLarge;
+                        Box1Description = BabyMisc[index1].Description;
+                        Box1SoundSource = BabyMisc[index1].SoundSource;
 
-                        Box2ImageSourceSmall = BabyMisc[1].ImageSourceSmall;
-                        Box2ImageSourceLarge = BabyMisc[1].ImageSourceLarge;
-                        Box2Description = BabyMisc[1].Description;
-                        Box2SoundSource = BabyMisc[1].SoundSource;
+                        Box2ImageSourceSmall = BabyMisc[index2].ImageSourceSmall;
+                        Box2ImageSourceLarge = BabyMisc[index2].ImageSourceLarge;
+                        Box2Description = BabyMisc[index2].Description;
+                        Box2SoundSource = BabyMisc[index2].SoundSource;
 
-                        Box3ImageSourceSmall = BabyMisc[2].ImageSourceSmall;
-                        Box3ImageSourceLarge = BabyMisc[2].ImageSourceLarge;
-                        Box3Description = BabyMisc[2].Description;
-                        Box3SoundSource = BabyMisc[2].SoundSource;
+                        Box3ImageSourceSmall = BabyMisc[index3].ImageSourceSmall;
+                        Box3ImageSourceLarge = BabyMisc[index3].ImageSourceLarge;
+                        Box3Description = BabyMisc[index3].Description;
+                        Box3SoundSource = BabyMisc[index3].SoundSource;
 
-                        Box4ImageSourceSmall = BabyMisc[3].ImageSourceSmall;
-                        Box4ImageSourceLarge = BabyMisc[3].ImageSourceLarge;
-                        Box4Description = BabyMisc[3].Description;
-                        Box4SoundSource = BabyMisc[3].SoundSource;
+                        Box4ImageSourceSmall = BabyMisc[index4].ImageSourceSmall;
+                        Box4ImageSourceLarge = BabyMisc[index4].ImageSourceLarge;
+                        Box4Description = BabyMisc[index4].Description;
+                        Box4SoundSource = BabyMisc[index4].SoundSource;
 
-                        Box5ImageSourceSmall = BabyMisc[4].ImageSourceSmall;
-                        Box5ImageSourceLarge = BabyMisc[4].ImageSourceLarge;
-                        Box5Description = BabyMisc[4].Description;
-                        Box5SoundSource = BabyMisc[4].SoundSource;
+                        Box5ImageSourceSmall = BabyMisc[index5].ImageSourceSmall;
+                        Box5ImageSourceLarge = BabyMisc[index5].ImageSourceLarge;
+                        Box5Description = BabyMisc[index5].Description;
+                        Box5SoundSource = BabyMisc[index5].SoundSource;
 
-                        Box6ImageSourceSmall = BabyMisc[5].ImageSourceSmall;
-                        Box6ImageSourceLarge = BabyMisc[5].ImageSourceLarge;
-                        Box6Description = BabyMisc[5].Description;
-                        Box6SoundSource = BabyMisc[5].SoundSource;
+                        Box6ImageSourceSmall = BabyMisc[index6].ImageSourceSmall;
+                        Box6ImageSourceLarge = BabyMisc[index6].ImageSourceLarge;
+                        Box6Description = BabyMisc[index6].Description;
+                        Box6SoundSource = BabyMisc[index6].SoundSource;
 
-                        Box7ImageSourceSmall = BabyMisc[6].ImageSourceSmall;
-                        Box7ImageSourceLarge = BabyMisc[6].ImageSourceLarge;
-                        Box7Description = BabyMisc[6].Description;
-                        Box7SoundSource = BabyMisc[6].SoundSource;
+                        Box7ImageSourceSmall = BabyMisc[index7].ImageSourceSmall;
+                        Box7ImageSourceLarge = BabyMisc[index7].ImageSourceLarge;
+                        Box7Description = BabyMisc[index7].Description;
+                        Box7SoundSource = BabyMisc[index7].SoundSource;
 
-                        Box8ImageSourceSmall = BabyMisc[7].ImageSourceSmall;
-                        Box8ImageSourceLarge = BabyMisc[7].ImageSourceLarge;
-                        Box8Description = BabyMisc[7].Description;
-                        Box8SoundSource = BabyMisc[7].SoundSource;
+                        Box8ImageSourceSmall = BabyMisc[index8].ImageSourceSmall;
+                        Box8ImageSourceLarge = BabyMisc[index8].ImageSourceLarge;
+                        Box8Description = BabyMisc[index8].Description;
+                        Box8SoundSource = BabyMisc[index8].SoundSource;
 
-                        Box9ImageSourceSmall = BabyMisc[8].ImageSourceSmall;
-                        Box9ImageSourceLarge = BabyMisc[8].ImageSourceLarge;
-                        Box9Description = BabyMisc[8].Description;
-                        Box9SoundSource = BabyMisc[8].SoundSource;
+                        Box9ImageSourceSmall = BabyMisc[index9].ImageSourceSmall;
+                        Box9ImageSourceLarge = BabyMisc[index9].ImageSourceLarge;
+                        Box9Description = BabyMisc[index9].Description;
+                        Box9SoundSource = BabyMisc[index9].SoundSource;
+
                         break;
                     case "Animals":
-                        Box1ImageSourceSmall = Animals[0].ImageSourceSmall;
-                        Box1ImageSourceLarge = Animals[0].ImageSourceLarge;
-                        Box1Description = Animals[0].Description;
-                        Box1SoundSource = Animals[0].SoundSource;
+                        Box1ImageSourceSmall = Animals[index1].ImageSourceSmall;
+                        Box1ImageSourceLarge = Animals[index1].ImageSourceLarge;
+                        Box1Description = Animals[index1].Description;
+                        Box1SoundSource = Animals[index1].SoundSource;
 
-                        Box2ImageSourceSmall = Animals[1].ImageSourceSmall;
-                        Box2ImageSourceLarge = Animals[1].ImageSourceLarge;
-                        Box2Description = Animals[1].Description;
-                        Box2SoundSource = Animals[1].SoundSource;
+                        Box2ImageSourceSmall = Animals[index2].ImageSourceSmall;
+                        Box2ImageSourceLarge = Animals[index2].ImageSourceLarge;
+                        Box2Description = Animals[index2].Description;
+                        Box2SoundSource = Animals[index2].SoundSource;
 
-                        Box3ImageSourceSmall = Animals[2].ImageSourceSmall;
-                        Box3ImageSourceLarge = Animals[2].ImageSourceLarge;
-                        Box3Description = Animals[2].Description;
-                        Box3SoundSource = Animals[2].SoundSource;
+                        Box3ImageSourceSmall = Animals[index3].ImageSourceSmall;
+                        Box3ImageSourceLarge = Animals[index3].ImageSourceLarge;
+                        Box3Description = Animals[index3].Description;
+                        Box3SoundSource = Animals[index3].SoundSource;
 
-                        Box4ImageSourceSmall = Animals[3].ImageSourceSmall;
-                        Box4ImageSourceLarge = Animals[3].ImageSourceLarge;
-                        Box4Description = Animals[3].Description;
-                        Box4SoundSource = Animals[3].SoundSource;
+                        Box4ImageSourceSmall = Animals[index4].ImageSourceSmall;
+                        Box4ImageSourceLarge = Animals[index4].ImageSourceLarge;
+                        Box4Description = Animals[index4].Description;
+                        Box4SoundSource = Animals[index4].SoundSource;
 
-                        Box5ImageSourceSmall = Animals[4].ImageSourceSmall;
-                        Box5ImageSourceLarge = Animals[4].ImageSourceLarge;
-                        Box5Description = Animals[4].Description;
-                        Box5SoundSource = Animals[4].SoundSource;
+                        Box5ImageSourceSmall = Animals[index5].ImageSourceSmall;
+                        Box5ImageSourceLarge = Animals[index5].ImageSourceLarge;
+                        Box5Description = Animals[index5].Description;
+                        Box5SoundSource = Animals[index5].SoundSource;
 
-                        Box6ImageSourceSmall = Animals[5].ImageSourceSmall;
-                        Box6ImageSourceLarge = Animals[5].ImageSourceLarge;
-                        Box6Description = Animals[5].Description;
-                        Box6SoundSource = Animals[5].SoundSource;
+                        Box6ImageSourceSmall = Animals[index6].ImageSourceSmall;
+                        Box6ImageSourceLarge = Animals[index6].ImageSourceLarge;
+                        Box6Description = Animals[index6].Description;
+                        Box6SoundSource = Animals[index6].SoundSource;
 
-                        Box7ImageSourceSmall = Animals[6].ImageSourceSmall;
-                        Box7ImageSourceLarge = Animals[6].ImageSourceLarge;
-                        Box7Description = Animals[6].Description;
-                        Box7SoundSource = Animals[6].SoundSource;
+                        Box7ImageSourceSmall = Animals[index7].ImageSourceSmall;
+                        Box7ImageSourceLarge = Animals[index7].ImageSourceLarge;
+                        Box7Description = Animals[index7].Description;
+                        Box7SoundSource = Animals[index7].SoundSource;
 
-                        Box8ImageSourceSmall = Animals[7].ImageSourceSmall;
-                        Box8ImageSourceLarge = Animals[7].ImageSourceLarge;
-                        Box8Description = Animals[7].Description;
-                        Box8SoundSource = Animals[7].SoundSource;
+                        Box8ImageSourceSmall = Animals[index8].ImageSourceSmall;
+                        Box8ImageSourceLarge = Animals[index8].ImageSourceLarge;
+                        Box8Description = Animals[index8].Description;
+                        Box8SoundSource = Animals[index8].SoundSource;
 
-                        Box9ImageSourceSmall = Animals[8].ImageSourceSmall;
-                        Box9ImageSourceLarge = Animals[8].ImageSourceLarge;
-                        Box9Description = Animals[8].Description;
-                        Box9SoundSource = Animals[8].SoundSource;
+                        Box9ImageSourceSmall = Animals[index9].ImageSourceSmall;
+                        Box9ImageSourceLarge = Animals[index9].ImageSourceLarge;
+                        Box9Description = Animals[index9].Description;
+                        Box9SoundSource = Animals[index9].SoundSource;
 
-                        //TJY LOOK HERE:
-                        //I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
-                        //The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
-                        //The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
-                        PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
-                        PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
-                        PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
-                        PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
-                        PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
-                        PivotSlides.Add(new PivotSlide("Slide6", Animals[45], Animals[46], Animals[47], Animals[48], Animals[49], Animals[50], Animals[51], Animals[52], Animals[53]));
-                        PivotSlides.Add(new PivotSlide("Slide7", Animals[54], Animals[55], Animals[56], Animals[57], Animals[58], Animals[59], Animals[60], blankBox, blankBox));
+
+                        ////TJY LOOK HERE:
+                        ////I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
+                        ////The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
+                        ////The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
+                        //PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                        //PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
+                        //PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
+                        //PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
+                        //PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
+                        //PivotSlides.Add(new PivotSlide("Slide6", Animals[45], Animals[46], Animals[47], Animals[48], Animals[49], Animals[50], Animals[51], Animals[52], Animals[53]));
+                        //PivotSlides.Add(new PivotSlide("Slide7", Animals[54], Animals[55], Animals[56], Animals[57], Animals[58], Animals[59], Animals[60], blankBox, blankBox));
 
                         break;
                 }
@@ -634,6 +677,72 @@ namespace BabyApp
             PlayVoiceTextAndSound();
         }
 
+        private void SetOnePicGridTJY(string tag)
+        {
+           
+                switch (tag)
+                {
+                    case "Box1":
+                        ImageSourceSmall = Box1ImageSourceSmall;
+                        ImageSourceLarge = Box1ImageSourceLarge;
+                        Description = GetTextDesription(Box1Description); ;
+                        ImageSound = Box1SoundSource;
+                        break;
+                    case "Box2":
+                        ImageSourceSmall = Box2ImageSourceSmall;
+                        ImageSourceLarge = GetTextDesription(Box2Description); ;
+                        Description = Box2Description;
+                        ImageSound = Box2SoundSource;
+                        break;
+                    case "Box3":
+                        ImageSourceSmall = Box3ImageSourceSmall;
+                        ImageSourceLarge = GetTextDesription(Box3Description); ;
+                        Description = Box3Description;
+                        ImageSound = Box3SoundSource;
+                        break;
+                    case "Box4":
+                        ImageSourceSmall = Box4ImageSourceSmall;
+                        ImageSourceLarge = Box4ImageSourceLarge;
+                        Description = GetTextDesription(Box4Description); ;
+                        ImageSound = Box4SoundSource;
+                        break;
+                    case "Box5":
+                        ImageSourceSmall = Box5ImageSourceSmall;
+                        ImageSourceLarge = Box5ImageSourceLarge;
+                        Description = GetTextDesription(Box5Description); ;
+                        ImageSound = Box5SoundSource;
+                        break;
+                    case "Box6":
+                        ImageSourceSmall = Box6ImageSourceSmall;
+                        ImageSourceLarge = Box6ImageSourceLarge;
+                        Description = GetTextDesription(Box6Description); ;
+                        ImageSound = Box6SoundSource;
+                        break;
+                    case "Box7":
+                        ImageSourceSmall = Box7ImageSourceSmall;
+                        ImageSourceLarge = Box7ImageSourceLarge;
+                        Description = GetTextDesription(Box7Description); ;
+                        ImageSound = Box7SoundSource;
+                        break;
+                    case "Box8":
+                        ImageSourceSmall = Box8ImageSourceSmall;
+                        ImageSourceLarge = Box8ImageSourceLarge;
+                        Description = GetTextDesription(Box8Description); ;
+                        ImageSound = Box8SoundSource;
+                        break;
+                    case "Box9":
+                        ImageSourceSmall = Box9ImageSourceSmall;
+                        ImageSourceLarge = Box9ImageSourceLarge;
+                        Description = GetTextDesription(Box9Description);
+                        ImageSound = Box9SoundSource;
+                        break;
+                }
+
+
+            PlayVoiceTextAndSound();
+        }
+
+
         private void NavigateToScreen(Screen screenToGoTo)
         {
             switch (screenToGoTo)
@@ -715,7 +824,24 @@ namespace BabyApp
             set { _pivotSlides = value; NotifyPropertyChanged("PivotSlides"); }
         }
 
+        private String _pivotName;
+        public String PivotName
+        {
+            get
+            {
+                try
+                {
+                    _pivotName = (pivotControl.SelectedItem as PivotSlide).Header as string;
+                }
+                catch (Exception ex)
+                {
 
+                    _pivotName = "??";
+                }
+
+                return _pivotName.ToUpper();
+            }
+        }
         private List<Box> _babyAnimals;
         public List<Box> BabyAnimals
         {
@@ -1042,6 +1168,13 @@ namespace BabyApp
 
         #region "Events"
 
+        private void pivotControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            int slideNumber =Convert.ToInt32(PivotName.Substring(5));
+
+            LoadPicsOnScreen(App.gCategory, slideNumber);
+        }
+
         private void ContiniousPlay_Click(object sender, EventArgs e)
         {
             switch (Mode)
@@ -1071,26 +1204,29 @@ namespace BabyApp
         {
             string tag = ((Button)sender).Tag.ToString();
             Task.Factory.StartNew(() => OnePicSlideShowAsync(tag));
+
+
+          //  SetOnePicGridTJY(tag);
         }
 
         private void BabyAnimals_Click(object sender, EventArgs e)
         {
-            LoadPicsOnScreen("BabyAnimals");
+            LoadPicsOnScreen("BabyAnimals", 1);
         }
 
         private void BabyMisc_Click(object sender, EventArgs e)
         {
-            LoadPicsOnScreen("BabyMisc");
+            LoadPicsOnScreen("BabyMisc", 1);
         }
 
         private void Animals_Click(object sender, EventArgs e)
         {
-            LoadPicsOnScreen("Animals");
+            LoadPicsOnScreen("Animals", 1);
         }
 
         private void Misc_Click(object sender, EventArgs e)
         {
-            LoadPicsOnScreen("Misc");
+            LoadPicsOnScreen("Misc", 1);
         }
 
         private void About_Click(object sender, EventArgs e)
