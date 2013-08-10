@@ -354,7 +354,7 @@ namespace BabyApp
         //    }
         //}
 
-        private void OnePicSlideShowAsync(string tag)
+        private void OnePicSlideShowAsync(Box selectedPic)
         {
             Dispatcher.BeginInvoke(() =>
             {
@@ -364,7 +364,7 @@ namespace BabyApp
             });
 
             //Task.Factory.StartNew(() => SetOnePicGrid(tag));
-            SetOnePicGrid(tag);
+            SetOnePicGrid(selectedPic);
 
             // Thread.Sleep(1000);
 
@@ -377,67 +377,14 @@ namespace BabyApp
             );
         }
 
-        private void SetOnePicGrid(string tag)
+        private void SetOnePicGrid(Box selectedPic)
         {
             Dispatcher.BeginInvoke(() =>
             {
-                switch (tag)
-                {
-                    case "Box1":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box1.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box1.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box1.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box1.SoundSource;
-                        break;
-                    case "Box2":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box2.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box2.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box2.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box2.SoundSource;
-                        break;
-                    case "Box3":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box3.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box3.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box3.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box3.SoundSource;
-                        break;
-                    case "Box4":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box4.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box4.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box4.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box4.SoundSource;
-                        break;
-                    case "Box5":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box5.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box5.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box5.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box5.SoundSource;
-                        break;
-                    case "Box6":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box6.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box6.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box6.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box6.SoundSource;
-                        break;
-                    case "Box7":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box7.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box7.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box7.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box7.SoundSource;
-                        break;
-                    case "Box8":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box8.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box8.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box8.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box8.SoundSource;
-                        break;
-                    case "Box9":
-                        ImageSourceSmall = (pivotControl.SelectedItem as PivotSlide).Box9.ImageSourceSmall;
-                        ImageSourceLarge = (pivotControl.SelectedItem as PivotSlide).Box9.ImageSourceLarge;
-                        Description = GetTextDesription((pivotControl.SelectedItem as PivotSlide).Box9.Description);
-                        ImageSound = (pivotControl.SelectedItem as PivotSlide).Box9.SoundSource;
-                        break;
-                }
+                ImageSourceSmall = selectedPic.ImageSourceSmall;
+                ImageSourceLarge = selectedPic.ImageSourceLarge;
+                Description = selectedPic.Description;
+                ImageSound = selectedPic.SoundSource;
             });
 
             PlayVoiceTextAndSound();
@@ -1109,11 +1056,20 @@ namespace BabyApp
             }
         }
 
-        private void Box_Click(object sender, EventArgs e)
-        {
-            string tag = ((Button)sender).Tag.ToString();
-            Task.Factory.StartNew(() => OnePicSlideShowAsync(tag));                  
-        }
+        //private void Box_Click(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        //string tag = ((Button)sender).Tag.ToString();
+        //        Box selectedPic = (Box)((Button)sender).DataContext;
+
+        //        Task.Factory.StartNew(() => OnePicSlideShowAsync(selectedPic));
+        //    }
+        //    catch (Exception ex)
+        //    {
+
+        //    }
+        //}
 
         private void BabyAnimals_Click(object sender, EventArgs e)
         {
@@ -1224,6 +1180,62 @@ namespace BabyApp
         }
 
         #endregion "Common Routines"
+
+        private void Box_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                //string tag = ((Button)sender).Tag.ToString();
+                //Box selectedPic = (Box)((Button)sender).DataContext;
+                Button btn = sender as Button;
+                string imageTag = btn.Tag.ToString();
+                PivotSlide selectedPivot = (PivotSlide)btn.DataContext;
+
+                Task.Factory.StartNew(() => OnePicSlideShowAsync(GetBoxFromPivotAndTag(imageTag, selectedPivot)));
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private Box GetBoxFromPivotAndTag(string tagName, PivotSlide slide)
+        {
+            Box returnValue = null;
+
+            switch(tagName.ToUpper())
+            {
+                case "BOX1":
+                    returnValue = slide.Box1;
+                    break;
+                case "BOX2":
+                    returnValue = slide.Box2;
+                    break;
+                case "BOX3":
+                    returnValue = slide.Box3;
+                    break;
+                case "BOX4":
+                    returnValue = slide.Box4;
+                    break;
+                case "BOX5":
+                    returnValue = slide.Box5;
+                    break;
+                case "BOX6":
+                    returnValue = slide.Box6;
+                    break;
+                case "BOX7":
+                    returnValue = slide.Box7;
+                    break;
+                case "BOX8":
+                    returnValue = slide.Box8;
+                    break;
+                case "BOX9":
+                    returnValue = slide.Box9;
+                    break;
+            }
+
+            return returnValue;
+        }
 
 
     }
