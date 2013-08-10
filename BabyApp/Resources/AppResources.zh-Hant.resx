@@ -185,4 +185,142 @@
   <data name="Dog" xml:space="preserve">
     <value>狗</value>
   </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>海豚</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>蜻蜓</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>老鷹</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>麋鹿</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>魚</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>狐狸</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>長頸鹿</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>豚鼠</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>河馬</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>馬</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>鬣鱗蜥</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>捷豹</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>袋鼠</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>小貓</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>考拉</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>狐猴</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>金剛鸚鵡</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>旱獺</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>猴子</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>山貓</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>八達通</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>逆戟鯨</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>水獺</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>貓頭鷹</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>熊貓</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>企鵝</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>兔</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>貉</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Redfox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>Redpanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>犀牛</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>鯊魚</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>羊</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>石龍子</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>蛇</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>雪豹</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>魷魚</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>松鼠</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>海星</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>老虎</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>烏龜</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>海象</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>狼</value>
+  </data>
 </root>

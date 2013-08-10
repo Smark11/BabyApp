@@ -69,22 +69,22 @@ namespace BabyApp
             Animals.Add(new Box("Anteater", "/Assets/Pics/Animals/anteater80x100.png", "/Assets/Pics/Animals/anteater480x800.png", "/Assets/Sounds/Animals/anteater.wav"));
             Animals.Add(new Box("Antelope", "/Assets/Pics/Animals/antelope80x100.png", "/Assets/Pics/Animals/antelope480x800.png", "/Assets/Sounds/Animals/antelope.wav"));
             Animals.Add(new Box("Badger", "/Assets/Pics/Animals/badger80x100.png", "/Assets/Pics/Animals/badger480x800.png", "/Assets/Sounds/Animals/badger.wav"));
-            Animals.Add(new Box("Bear", "/Assets/Pics/Animals/bear80x100.png", "/Assets/Pics/Animals/bear80x800.png", "/Assets/Sounds/Animals/bear.wav"));
+            Animals.Add(new Box("Bear", "/Assets/Pics/Animals/bear80x100.png", "/Assets/Pics/Animals/bear480x800.png", "/Assets/Sounds/Animals/bear.wav"));
             Animals.Add(new Box("Butterfly", "/Assets/Pics/Animals/butterfly80x100.png", "/Assets/Pics/Animals/butterfly480x800.png", "/Assets/Sounds/Animals/butterfly.wav"));
             Animals.Add(new Box("Capuchinmonkey", "/Assets/Pics/Animals/capuchinmonkey80x100.png", "/Assets/Pics/Animals/capuchinmonkey480x800.png", "/Assets/Sounds/Animals/capuchinmonkey.wav"));
             Animals.Add(new Box("Caribou", "/Assets/Pics/Animals/caribou80x100.png", "/Assets/Pics/Animals/caribou480x800.png", "/Assets/Sounds/Animals/caribou.wav"));
-            Animals.Add(new Box("Chameleon", "/Assets/Pics/Animals/chameleon80x100.png", "/Assets/Pics/Animals/chameleon80x800.png", "/Assets/Sounds/Animals/chameleon.wav"));
-            Animals.Add(new Box("Cheetah", "/Assets/Pics/Animals/cheetah80x100.png", "/Assets/Pics/Animals/cheetah80x800.png", "/Assets/Sounds/Animals/cheetah.wav"));
+            Animals.Add(new Box("Chameleon", "/Assets/Pics/Animals/chameleon80x100.png", "/Assets/Pics/Animals/chameleon480x800.png", "/Assets/Sounds/Animals/chameleon.wav"));
+            Animals.Add(new Box("Cheetah", "/Assets/Pics/Animals/cheetah80x100.png", "/Assets/Pics/Animals/cheetah480x800.png", "/Assets/Sounds/Animals/cheetah.wav"));
             Animals.Add(new Box("Crab", "/Assets/Pics/Animals/crab80x100.png", "/Assets/Pics/Animals/crab480x800.png", "/Assets/Sounds/Animals/crab.wav"));
             Animals.Add(new Box("Dog", "/Assets/Pics/Animals/dog80x100.png", "/Assets/Pics/Animals/dog480x800.png", "/Assets/Sounds/Animals/dog.wav"));
             Animals.Add(new Box("Dolphin", "/Assets/Pics/Animals/dolphin80x100.png", "/Assets/Pics/Animals/dolphin480x800.png", "/Assets/Sounds/Animals/dolphin.wav"));
             Animals.Add(new Box("Dragonfly", "/Assets/Pics/Animals/dragonfly80x100.png", "/Assets/Pics/Animals/dragonfly480x800.png", "/Assets/Sounds/Animals/dragonfly.wav"));
-            Animals.Add(new Box("Duck", "/Assets/Pics/Animals/duck80x100.png", "/Assets/Pics/Animals/duck80x800.png", "/Assets/Sounds/Animals/duck.wav"));
+            Animals.Add(new Box("Duck", "/Assets/Pics/Animals/duck80x100.png", "/Assets/Pics/Animals/duck480x800.png", "/Assets/Sounds/Animals/duck.wav"));
             Animals.Add(new Box("Eagle", "/Assets/Pics/Animals/eagle80x100.png", "/Assets/Pics/Animals/eagle480x800.png", "/Assets/Sounds/Animals/eagle.wav"));
             Animals.Add(new Box("Elephant", "/Assets/Pics/Animals/elephant80x100.png", "/Assets/Pics/Animals/elephant480x800.png", "/Assets/Sounds/Animals/elephant.wav"));
             Animals.Add(new Box("Elk", "/Assets/Pics/Animals/elk80x100.png", "/Assets/Pics/Animals/elk480x800.png", "/Assets/Sounds/Animals/elk.wav"));
             Animals.Add(new Box("Fish", "/Assets/Pics/Animals/fish80x100.png", "/Assets/Pics/Animals/fish480x800.png", "/Assets/Sounds/Animals/fish.wav"));
-            Animals.Add(new Box("Fox", "/Assets/Pics/Animals/fox80x100.png", "/Assets/Pics/Animals/fox80x800.png", "/Assets/Sounds/Animals/fox.wav"));
+            Animals.Add(new Box("Fox", "/Assets/Pics/Animals/fox80x100.png", "/Assets/Pics/Animals/fox480x800.png", "/Assets/Sounds/Animals/fox.wav"));
             Animals.Add(new Box("Giraffe", "/Assets/Pics/Animals/giraffe80x100.png", "/Assets/Pics/Animals/giraffe480x800.png", "/Assets/Sounds/Animals/giraffe.wav"));
             Animals.Add(new Box("Guineapig", "/Assets/Pics/Animals/guineapig80x100.png", "/Assets/Pics/Animals/guineapig480x800.png", "/Assets/Sounds/Animals/guineapig.wav"));
             Animals.Add(new Box("Hippopotamus", "/Assets/Pics/Animals/hippopotamus80x100.png", "/Assets/Pics/Animals/hippopotamus480x800.png", "/Assets/Sounds/Animals/hippopotamus.wav"));
@@ -95,7 +95,7 @@ namespace BabyApp
             Animals.Add(new Box("Kitten", "/Assets/Pics/Animals/kitten80x100.png", "/Assets/Pics/Animals/kitten480x800.png", "/Assets/Sounds/Animals/kitten.wav"));
             Animals.Add(new Box("Koala", "/Assets/Pics/Animals/koala80x100.png", "/Assets/Pics/Animals/koala480x800.png", "/Assets/Sounds/Animals/koala.wav"));
             Animals.Add(new Box("Lemur", "/Assets/Pics/Animals/lemur80x100.png", "/Assets/Pics/Animals/lemur480x800.png", "/Assets/Sounds/Animals/lemur.wav"));
-            Animals.Add(new Box("Lion", "/Assets/Pics/Animals/lion80x100.png", "/Assets/Pics/Animals/lion80x800.png", "/Assets/Sounds/Animals/lion.wav"));
+            Animals.Add(new Box("Lion", "/Assets/Pics/Animals/lion80x100.png", "/Assets/Pics/Animals/lion480x800.png", "/Assets/Sounds/Animals/lion.wav"));
             Animals.Add(new Box("Macaw", "/Assets/Pics/Animals/macaw80x100.png", "/Assets/Pics/Animals/macaw480x800.png", "/Assets/Sounds/Animals/macaw.wav"));
             Animals.Add(new Box("Marmot", "/Assets/Pics/Animals/marmot80x100.png", "/Assets/Pics/Animals/marmot480x800.png", "/Assets/Sounds/Animals/marmot.wav"));
             Animals.Add(new Box("Monkey", "/Assets/Pics/Animals/monkey80x100.png", "/Assets/Pics/Animals/monkey480x800.png", "/Assets/Sounds/Animals/monkey.wav"));
@@ -103,10 +103,10 @@ namespace BabyApp
             Animals.Add(new Box("Octopus", "/Assets/Pics/Animals/octopus80x100.png", "/Assets/Pics/Animals/octopus480x800.png", "/Assets/Sounds/Animals/octopus.wav"));
             Animals.Add(new Box("Orca", "/Assets/Pics/Animals/orca80x100.png", "/Assets/Pics/Animals/orca480x800.png", "/Assets/Sounds/Animals/orca.wav"));
             Animals.Add(new Box("Otter", "/Assets/Pics/Animals/otter80x100.png", "/Assets/Pics/Animals/otter480x800.png", "/Assets/Sounds/Animals/otter.wav"));
-            Animals.Add(new Box("Owl", "/Assets/Pics/Animals/owl80x100.png", "/Assets/Pics/Animals/owl80x800.png", "/Assets/Sounds/Animals/owl.wav"));
+            Animals.Add(new Box("Owl", "/Assets/Pics/Animals/owl80x100.png", "/Assets/Pics/Animals/owl480x800.png", "/Assets/Sounds/Animals/owl.wav"));
             Animals.Add(new Box("Panda", "/Assets/Pics/Animals/panda80x100.png", "/Assets/Pics/Animals/panda480x800.png", "/Assets/Sounds/Animals/panda.wav"));
             Animals.Add(new Box("Penguin", "/Assets/Pics/Animals/penguin80x100.png", "/Assets/Pics/Animals/penguin480x800.png", "/Assets/Sounds/Animals/penguin.wav"));
-            Animals.Add(new Box("Pig", "/Assets/Pics/Animals/pig80x100.png", "/Assets/Pics/Animals/pig80x800.png", "/Assets/Sounds/Animals/pig.wav"));
+            Animals.Add(new Box("Pig", "/Assets/Pics/Animals/pig80x100.png", "/Assets/Pics/Animals/pig480x800.png", "/Assets/Sounds/Animals/pig.wav"));
             Animals.Add(new Box("Prayingmantis", "/Assets/Pics/Animals/prayingmantis80x100.png", "/Assets/Pics/Animals/prayingmantis480x800.png", "/Assets/Sounds/Animals/prayingmantis.wav"));
             Animals.Add(new Box("Rabbit", "/Assets/Pics/Animals/rabbit80x100.png", "/Assets/Pics/Animals/rabbit480x800.png", "/Assets/Sounds/Animals/rabbit.wav"));
             Animals.Add(new Box("Raccoon", "/Assets/Pics/Animals/raccoon80x100.png", "/Assets/Pics/Animals/raccoon480x800.png", "/Assets/Sounds/Animals/raccoon.wav"));
@@ -118,9 +118,9 @@ namespace BabyApp
             Animals.Add(new Box("Skink", "/Assets/Pics/Animals/skink80x100.png", "/Assets/Pics/Animals/skink480x800.png", "/Assets/Sounds/Animals/skink.wav"));
             Animals.Add(new Box("Snake", "/Assets/Pics/Animals/snake80x100.png", "/Assets/Pics/Animals/snake480x800.png", "/Assets/Sounds/Animals/snake.wav"));
             Animals.Add(new Box("Snowleopard", "/Assets/Pics/Animals/snowleopard80x100.png", "/Assets/Pics/Animals/snowleopard480x800.png", "/Assets/Sounds/Animals/snowleopard.wav"));
-            Animals.Add(new Box("Squid", "/Assets/Pics/Animals/squid80x100.png", "/Assets/Pics/Animals/squid80x800.png", "/Assets/Sounds/Animals/squid.wav"));
-            Animals.Add(new Box("Squirrel", "/Assets/Pics/Animals/squirrel80x100.png", "/Assets/Pics/Animals/squirrel80x800.png", "/Assets/Sounds/Animals/squirrel.wav"));
-            Animals.Add(new Box("Starfish", "/Assets/Pics/Animals/starfish80x100.png", "/Assets/Pics/Animals/starfish80x800.png", "/Assets/Sounds/Animals/starfish.wav"));
+            Animals.Add(new Box("Squid", "/Assets/Pics/Animals/squid80x100.png", "/Assets/Pics/Animals/squid480x800.png", "/Assets/Sounds/Animals/squid.wav"));
+            Animals.Add(new Box("Squirrel", "/Assets/Pics/Animals/squirrel80x100.png", "/Assets/Pics/Animals/squirrel480x800.png", "/Assets/Sounds/Animals/squirrel.wav"));
+            Animals.Add(new Box("Starfish", "/Assets/Pics/Animals/starfish80x100.png", "/Assets/Pics/Animals/starfish480x800.png", "/Assets/Sounds/Animals/starfish.wav"));
             Animals.Add(new Box("Sumatrantiger", "/Assets/Pics/Animals/sumatrantiger80x100.png", "/Assets/Pics/Animals/sumatrantiger480x800.png", "/Assets/Sounds/Animals/sumatrantiger.wav"));
             Animals.Add(new Box("Tayra", "/Assets/Pics/Animals/tayra80x100.png", "/Assets/Pics/Animals/tayra480x800.png", "/Assets/Sounds/Animals/tayra.wav"));
             Animals.Add(new Box("Tiger", "/Assets/Pics/Animals/tiger80x100.png", "/Assets/Pics/Animals/tiger480x800.png", "/Assets/Sounds/Animals/tiger.wav"));
@@ -384,6 +384,7 @@ namespace BabyApp
                 ImageSourceSmall = selectedPic.ImageSourceSmall;
                 ImageSourceLarge = selectedPic.ImageSourceLarge;
                 Description = selectedPic.Description;
+                DisplayDescription = GetTextDesription(selectedPic.Description);
                 ImageSound = selectedPic.SoundSource;
             });
 
@@ -449,6 +450,8 @@ namespace BabyApp
         //private async void PlayText()
         private void PlayVoiceText()
         {
+            string voiceLanguage = "en-US";
+                             
             try
             {
                 foreach (string language in App.gLanguages)
@@ -457,36 +460,44 @@ namespace BabyApp
                     switch (language)
                     {
                         case "English":
-                            IEnumerable<VoiceInformation> englishVoices = from voice in InstalledVoices.All where voice.Language == "en-US" && voice.Gender == VoiceGender.Female select voice;
-                            synthesizer.SetVoice(englishVoices.ElementAt(0));
+                            voiceLanguage = "en-US";
+                         //   IEnumerable<VoiceInformation> englishVoices = from voice in InstalledVoices.All where voice.Language == "en-US" && voice.Gender == VoiceGender.Female select voice;
+                        //    synthesizer.SetVoice(englishVoices.ElementAt(0));
                             break;
                         case "Spanish":
-                            IEnumerable<VoiceInformation> spanishVoices = from voice in InstalledVoices.All where voice.Language == "es-ES" && voice.Gender == VoiceGender.Female select voice;
-                            synthesizer.SetVoice(spanishVoices.ElementAt(0));
+                            voiceLanguage = "es-ES";
+                          //  IEnumerable<VoiceInformation> spanishVoices = from voice in InstalledVoices.All where voice.Language == "es-ES" && voice.Gender == VoiceGender.Female select voice;
+                         //   synthesizer.SetVoice(spanishVoices.ElementAt(0));
                             break;
                         case "French":
-                            IEnumerable<VoiceInformation> frenchVoices = from voice in InstalledVoices.All where voice.Language == "fr-FR" && voice.Gender == VoiceGender.Female select voice;
-                            synthesizer.SetVoice(frenchVoices.ElementAt(0));
+                            voiceLanguage = "fr-FR";
+                          //  IEnumerable<VoiceInformation> frenchVoices = from voice in InstalledVoices.All where voice.Language == "fr-FR" && voice.Gender == VoiceGender.Female select voice;
+                          //  synthesizer.SetVoice(frenchVoices.ElementAt(0));
                             break;
                         case "Chinese":
-                            IEnumerable<VoiceInformation> chineseVoices = from voice in InstalledVoices.All where voice.Language == "zh-HK" && voice.Gender == VoiceGender.Female select voice;
-                            synthesizer.SetVoice(chineseVoices.ElementAt(0));
+                            voiceLanguage = "zh-HK";
+                         //   IEnumerable<VoiceInformation> chineseVoices = from voice in InstalledVoices.All where voice.Language == "zh-HK" && voice.Gender == VoiceGender.Female select voice;
+                         //   synthesizer.SetVoice(chineseVoices.ElementAt(0));
                             break;
                         case "Italian":
-                            IEnumerable<VoiceInformation> italianVoices = from voice in InstalledVoices.All where voice.Language == "it-IT" && voice.Gender == VoiceGender.Female select voice;
-                            synthesizer.SetVoice(italianVoices.ElementAt(0));
+                            voiceLanguage = "it-IT";
+                           // IEnumerable<VoiceInformation> italianVoices = from voice in InstalledVoices.All where voice.Language == "it-IT" && voice.Gender == VoiceGender.Female select voice;
+                           // synthesizer.SetVoice(italianVoices.ElementAt(0));
                             break;
                         case "German":
-                            IEnumerable<VoiceInformation> germanVoices = from voice in InstalledVoices.All where voice.Language == "de-DE" && voice.Gender == VoiceGender.Female select voice;
-                            synthesizer.SetVoice(germanVoices.ElementAt(0));
+                            voiceLanguage = "de-DE";
+                           // IEnumerable<VoiceInformation> germanVoices = from voice in InstalledVoices.All where voice.Language == "de-DE" && voice.Gender == VoiceGender.Female select voice;
+                          //  synthesizer.SetVoice(germanVoices.ElementAt(0));
                             break;
                         case "Portuguese":
-                            IEnumerable<VoiceInformation> portugueseVoices = from voice in InstalledVoices.All where voice.Language == "pt-BR" && voice.Gender == VoiceGender.Female select voice;
-                            synthesizer.SetVoice(portugueseVoices.ElementAt(0));
+                            voiceLanguage = "pt-BR";
+                          //  IEnumerable<VoiceInformation> portugueseVoices = from voice in InstalledVoices.All where voice.Language == "pt-BR" && voice.Gender == VoiceGender.Female select voice;
+                          //  synthesizer.SetVoice(portugueseVoices.ElementAt(0));
                             break;
                         case "Japanese":
-                            IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
-                            synthesizer.SetVoice(JapaneseVoices.ElementAt(0));
+                            voiceLanguage = "ja-JP";
+                         //   IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
+                         //   synthesizer.SetVoice(JapaneseVoices.ElementAt(0));
                             break;
                     }
 
@@ -494,7 +505,7 @@ namespace BabyApp
                     {
                         // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
                         //synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
-                        synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(Description, Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, "en-US"));
+                        synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(GetTextTranslation(language, Description), Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, voiceLanguage));
                     }
                     Thread.Sleep(2000);
 
@@ -659,6 +670,159 @@ namespace BabyApp
                     case "Crab":
                         returnValue = AppResources.Crab;
                         break;
+                    case "Dog":
+                        returnValue = AppResources.Dog;
+                        break;
+                    case "Dolphin":
+                        returnValue = AppResources.Dolphin;
+                        break;
+                    case "DragonFly":
+                        returnValue = AppResources.DragonFly;
+                        break;
+                    case "Duck":
+                        returnValue = AppResources.Duck;
+                        break;
+                    case "Eagle":
+                        returnValue = AppResources.Eagle;
+                        break;
+                    case "Elephant":
+                        returnValue = AppResources.Elephant;
+                        break;
+                    case "Elk":
+                        returnValue = AppResources.Elk;
+                        break;
+                    case "Fish":
+                        returnValue = AppResources.Fish;
+                        break;
+                    case "Fox":
+                        returnValue = AppResources.Fox;
+                        break;
+                    case "Giraffe":
+                        returnValue = AppResources.Giraffe;
+                        break;
+                    case "Guineapig":
+                        returnValue = AppResources.Guineapig;
+                        break;
+                    case "Hippopotamus":
+                        returnValue = AppResources.Hippopotamus;
+                        break;
+                    case "Horse":
+                        returnValue = AppResources.Horse;
+                        break;
+                    case "Iguana":
+                        returnValue = AppResources.Iguana;
+                        break;
+                    case "Jaguar":
+                        returnValue = AppResources.Jaguar;
+                        break;
+                    case "Kangaroo":
+                        returnValue = AppResources.Kangaroo;
+                        break;
+                    case "Kitten":
+                        returnValue = AppResources.Kitten;
+                        break;
+                    case "Koala":
+                        returnValue = AppResources.Koala;
+                        break;
+                    case "Lemur":
+                        returnValue = AppResources.Lemur;
+                        break;
+                    case "Lion":
+                        returnValue = AppResources.Lion;
+                        break;
+                    case "Macaw":
+                        returnValue = AppResources.Macaw;
+                        break;
+                    case "Marmot":
+                        returnValue = AppResources.Marmot;
+                        break;
+                    case "Monkey":
+                        returnValue = AppResources.Monkey;
+                        break;
+                    case "Ocelot":
+                        returnValue = AppResources.Ocelot;
+                        break;
+                    case "Octopus":
+                        returnValue = AppResources.Octopus;
+                        break;
+                    case "Orca":
+                        returnValue = AppResources.Orca;
+                        break;
+                    case "Otter":
+                        returnValue = AppResources.Otter;
+                        break;
+                    case "Owl":
+                        returnValue = AppResources.Owl;
+                        break;
+                    case "Panda":
+                        returnValue = AppResources.Panda;
+                        break;
+                    case "Penguin":
+                        returnValue = AppResources.Penguin;
+                        break;
+                    case "Pig":
+                        returnValue = AppResources.Pig;
+                        break;
+                    case "Prayingmantis":
+                        returnValue = AppResources.Prayingmantis;
+                        break;
+                    case "Rabbit":
+                        returnValue = AppResources.Rabbit;
+                        break;
+                    case "Racoon":
+                        returnValue = AppResources.Racoon;
+                        break;
+                    case "Redfox":
+                        returnValue = AppResources.Redfox;
+                        break;
+                    case "Redpanda":
+                        returnValue = AppResources.Redpanda;
+                        break;
+                    case "Rhino":
+                        returnValue = AppResources.Rhino;
+                        break;
+                    case "Shark":
+                        returnValue = AppResources.Shark;
+                        break;
+                    case "Sheep":
+                        returnValue = AppResources.Sheep;
+                        break;
+                    case "Skink":
+                        returnValue = AppResources.Skink;
+                        break;
+                    case "Snake":
+                        returnValue = AppResources.Snake;
+                        break;
+                    case "Snowleopard":
+                        returnValue = AppResources.Snowleopard;
+                        break;
+                    case "Squid":
+                        returnValue = AppResources.Squid;
+                        break;
+                    case "Squirrel":
+                        returnValue = AppResources.Squirrel;
+                        break;
+                    case "Starfish":
+                        returnValue = AppResources.Starfish;
+                        break;
+                    case "Sumatrantiger":
+                        returnValue = AppResources.Sumatrantiger;
+                        break;
+                    case "Tayra":
+                        returnValue = AppResources.Tayra;
+                        break;
+                    case "Tiger":
+                        returnValue = AppResources.Tiger;
+                        break;
+                    case "Tortoise":
+                        returnValue = AppResources.Tortoise;
+                        break;
+                    case "Walrus":
+                        returnValue = AppResources.Walrus;
+                        break;
+                    case "Wolf":
+                        returnValue = AppResources.Wolf;
+                        break;                  
                 }
             }
             catch (Exception)
@@ -997,6 +1161,13 @@ namespace BabyApp
         {
             get { return _imageSound; }
             set { _imageSound = value; NotifyPropertyChanged("ImageSound"); }
+        }
+
+        private string _displayDescription;
+        public string DisplayDescription
+        {
+            get { return _displayDescription; }
+            set { _displayDescription = value; NotifyPropertyChanged("DisplayDescription"); }
         }
 
         private string _description;

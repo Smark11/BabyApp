@@ -117,7 +117,7 @@
                     <TextBlock Grid.Row="1" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Top"
-                   Text="{Binding Description}" />
+                   Text="{Binding DisplayDescription}" />
                 </Viewbox>
                 <MediaElement x:Name="myBoundSound" Source="{Binding ImageSound}"
                       AutoPlay="False" Visibility="Collapsed"></MediaElement>

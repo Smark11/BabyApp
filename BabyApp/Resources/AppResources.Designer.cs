@@ -205,11 +205,38 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dolphin.
+        /// </summary>
+        public static string Dolphin {
+            get {
+                return ResourceManager.GetString("Dolphin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to DragonFly.
+        /// </summary>
+        public static string DragonFly {
+            get {
+                return ResourceManager.GetString("DragonFly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Duck.
         /// </summary>
         public static string Duck {
             get {
                 return ResourceManager.GetString("Duck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eagle.
+        /// </summary>
+        public static string Eagle {
+            get {
+                return ResourceManager.GetString("Eagle", resourceCulture);
             }
         }
         
@@ -223,6 +250,123 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Elk.
+        /// </summary>
+        public static string Elk {
+            get {
+                return ResourceManager.GetString("Elk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fish.
+        /// </summary>
+        public static string Fish {
+            get {
+                return ResourceManager.GetString("Fish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fox.
+        /// </summary>
+        public static string Fox {
+            get {
+                return ResourceManager.GetString("Fox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Giraffe.
+        /// </summary>
+        public static string Giraffe {
+            get {
+                return ResourceManager.GetString("Giraffe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Guineapig.
+        /// </summary>
+        public static string Guineapig {
+            get {
+                return ResourceManager.GetString("Guineapig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hippopotamus.
+        /// </summary>
+        public static string Hippopotamus {
+            get {
+                return ResourceManager.GetString("Hippopotamus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Horse.
+        /// </summary>
+        public static string Horse {
+            get {
+                return ResourceManager.GetString("Horse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Iguana.
+        /// </summary>
+        public static string Iguana {
+            get {
+                return ResourceManager.GetString("Iguana", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jaguar.
+        /// </summary>
+        public static string Jaguar {
+            get {
+                return ResourceManager.GetString("Jaguar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kangaroo.
+        /// </summary>
+        public static string Kangaroo {
+            get {
+                return ResourceManager.GetString("Kangaroo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kitten.
+        /// </summary>
+        public static string Kitten {
+            get {
+                return ResourceManager.GetString("Kitten", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Koala.
+        /// </summary>
+        public static string Koala {
+            get {
+                return ResourceManager.GetString("Koala", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lemur.
+        /// </summary>
+        public static string Lemur {
+            get {
+                return ResourceManager.GetString("Lemur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lion.
         /// </summary>
         public static string Lion {
@@ -232,11 +376,146 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Macaw.
+        /// </summary>
+        public static string Macaw {
+            get {
+                return ResourceManager.GetString("Macaw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Marmot.
+        /// </summary>
+        public static string Marmot {
+            get {
+                return ResourceManager.GetString("Marmot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Monkey.
+        /// </summary>
+        public static string Monkey {
+            get {
+                return ResourceManager.GetString("Monkey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ocelot.
+        /// </summary>
+        public static string Ocelot {
+            get {
+                return ResourceManager.GetString("Ocelot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Octopus.
+        /// </summary>
+        public static string Octopus {
+            get {
+                return ResourceManager.GetString("Octopus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Orca.
+        /// </summary>
+        public static string Orca {
+            get {
+                return ResourceManager.GetString("Orca", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Otter.
+        /// </summary>
+        public static string Otter {
+            get {
+                return ResourceManager.GetString("Otter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Owl.
+        /// </summary>
+        public static string Owl {
+            get {
+                return ResourceManager.GetString("Owl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Panda.
+        /// </summary>
+        public static string Panda {
+            get {
+                return ResourceManager.GetString("Panda", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Penguin.
+        /// </summary>
+        public static string Penguin {
+            get {
+                return ResourceManager.GetString("Penguin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pig.
         /// </summary>
         public static string Pig {
             get {
                 return ResourceManager.GetString("Pig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prayingmantis.
+        /// </summary>
+        public static string Prayingmantis {
+            get {
+                return ResourceManager.GetString("Prayingmantis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rabbit.
+        /// </summary>
+        public static string Rabbit {
+            get {
+                return ResourceManager.GetString("Rabbit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Racoon.
+        /// </summary>
+        public static string Racoon {
+            get {
+                return ResourceManager.GetString("Racoon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Redfox.
+        /// </summary>
+        public static string Redfox {
+            get {
+                return ResourceManager.GetString("Redfox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Redpanda.
+        /// </summary>
+        public static string Redpanda {
+            get {
+                return ResourceManager.GetString("Redpanda", resourceCulture);
             }
         }
         
@@ -255,6 +534,141 @@ namespace BabyApp.Resources {
         public static string ResourceLanguage {
             get {
                 return ResourceManager.GetString("ResourceLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rhino.
+        /// </summary>
+        public static string Rhino {
+            get {
+                return ResourceManager.GetString("Rhino", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shark.
+        /// </summary>
+        public static string Shark {
+            get {
+                return ResourceManager.GetString("Shark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sheep.
+        /// </summary>
+        public static string Sheep {
+            get {
+                return ResourceManager.GetString("Sheep", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skink.
+        /// </summary>
+        public static string Skink {
+            get {
+                return ResourceManager.GetString("Skink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snake.
+        /// </summary>
+        public static string Snake {
+            get {
+                return ResourceManager.GetString("Snake", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snowleopard.
+        /// </summary>
+        public static string Snowleopard {
+            get {
+                return ResourceManager.GetString("Snowleopard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Squid.
+        /// </summary>
+        public static string Squid {
+            get {
+                return ResourceManager.GetString("Squid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Squirrel.
+        /// </summary>
+        public static string Squirrel {
+            get {
+                return ResourceManager.GetString("Squirrel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Starfish.
+        /// </summary>
+        public static string Starfish {
+            get {
+                return ResourceManager.GetString("Starfish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sumatrantiger.
+        /// </summary>
+        public static string Sumatrantiger {
+            get {
+                return ResourceManager.GetString("Sumatrantiger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tayra.
+        /// </summary>
+        public static string Tayra {
+            get {
+                return ResourceManager.GetString("Tayra", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tiger.
+        /// </summary>
+        public static string Tiger {
+            get {
+                return ResourceManager.GetString("Tiger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tortoise.
+        /// </summary>
+        public static string Tortoise {
+            get {
+                return ResourceManager.GetString("Tortoise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Walrus.
+        /// </summary>
+        public static string Walrus {
+            get {
+                return ResourceManager.GetString("Walrus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wolf.
+        /// </summary>
+        public static string Wolf {
+            get {
+                return ResourceManager.GetString("Wolf", resourceCulture);
             }
         }
     }

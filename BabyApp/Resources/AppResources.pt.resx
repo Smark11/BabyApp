@@ -185,4 +185,142 @@
   <data name="Dog" xml:space="preserve">
     <value>Cão</value>
   </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Golfinho</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>Libélula</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Águia</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Alce</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Peixe</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Girafa</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Minhas</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Hipopótamo</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Cavalo</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Iguana</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Jaguar</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Canguru</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Gatinho</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Coala</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Lemur</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Arara</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Marmot</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Macaco</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Jaguatirica</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Polvo</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orca</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Lontra</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Coruja</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Panda</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Pinguim</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Coelho</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>Racoon</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>RedFox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>RedPanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Rinoceronte</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Tubarão</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Ovelha</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Família Scincidae</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Cobra</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Lula</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Esquilo</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Estrela do mar</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>SumatranTiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Irara</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Tigre</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Tartaruga</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Morsa</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Lobo</value>
+  </data>
 </root>
