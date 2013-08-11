@@ -54,7 +54,7 @@ namespace BabyApp
             NavigateToScreen(Screen.MainGrid);
             LoadPicsIntoCollection();
             SetPivots(App.gCategory);
-          //  LoadPicsOnScreen(App.gCategory, 1);
+            //  LoadPicsOnScreen(App.gCategory, 1);
             BuildLocalizedApplicationBar();
             ButtonDisplay = "/Assets/transport.play.png";
             Mode = Screen.MainGrid;
@@ -147,7 +147,7 @@ namespace BabyApp
             BabyAnimals.Add(new Box("", "", "", ""));
             BabyAnimals.Add(new Box("", "", "", ""));
         }
-   
+
         private void SetPivots(string category)
         {
             Box blankBox = new Box("", "", "", "");
@@ -358,23 +358,18 @@ namespace BabyApp
         {
             Dispatcher.BeginInvoke(() =>
             {
-                //Want to show the SlideShow grid for this ONE IMAGE
                 this.PictureGrid.Visibility = Visibility.Collapsed;
                 this.SlideShow.Visibility = Visibility.Visible;
             });
 
-            //Task.Factory.StartNew(() => SetOnePicGrid(tag));
             SetOnePicGrid(selectedPic);
-
-            // Thread.Sleep(1000);
 
             Dispatcher.BeginInvoke(() =>
             {
 
                 this.PictureGrid.Visibility = Visibility.Visible;
                 this.SlideShow.Visibility = Visibility.Collapsed;
-            }
-            );
+            });
         }
 
         private void SetOnePicGrid(Box selectedPic)
@@ -388,9 +383,13 @@ namespace BabyApp
                 ImageSound = selectedPic.SoundSource;
             });
 
+            //TJY I needed to add a small sleep value here because the above properites being in an  ASYNC block were not being set by
+            //the time PlayVoiceTextAndSound was being executed.
+            Thread.Sleep(250);
+
             PlayVoiceTextAndSound();
         }
-      
+
         private void NavigateToScreen(Screen screenToGoTo)
         {
             switch (screenToGoTo)
@@ -451,7 +450,7 @@ namespace BabyApp
         private void PlayVoiceText()
         {
             string voiceLanguage = "en-US";
-                             
+
             try
             {
                 foreach (string language in App.gLanguages)
@@ -461,43 +460,43 @@ namespace BabyApp
                     {
                         case "English":
                             voiceLanguage = "en-US";
-                         //   IEnumerable<VoiceInformation> englishVoices = from voice in InstalledVoices.All where voice.Language == "en-US" && voice.Gender == VoiceGender.Female select voice;
-                        //    synthesizer.SetVoice(englishVoices.ElementAt(0));
+                            //   IEnumerable<VoiceInformation> englishVoices = from voice in InstalledVoices.All where voice.Language == "en-US" && voice.Gender == VoiceGender.Female select voice;
+                            //    synthesizer.SetVoice(englishVoices.ElementAt(0));
                             break;
                         case "Spanish":
                             voiceLanguage = "es-ES";
-                          //  IEnumerable<VoiceInformation> spanishVoices = from voice in InstalledVoices.All where voice.Language == "es-ES" && voice.Gender == VoiceGender.Female select voice;
-                         //   synthesizer.SetVoice(spanishVoices.ElementAt(0));
+                            //  IEnumerable<VoiceInformation> spanishVoices = from voice in InstalledVoices.All where voice.Language == "es-ES" && voice.Gender == VoiceGender.Female select voice;
+                            //   synthesizer.SetVoice(spanishVoices.ElementAt(0));
                             break;
                         case "French":
                             voiceLanguage = "fr-FR";
-                          //  IEnumerable<VoiceInformation> frenchVoices = from voice in InstalledVoices.All where voice.Language == "fr-FR" && voice.Gender == VoiceGender.Female select voice;
-                          //  synthesizer.SetVoice(frenchVoices.ElementAt(0));
+                            //  IEnumerable<VoiceInformation> frenchVoices = from voice in InstalledVoices.All where voice.Language == "fr-FR" && voice.Gender == VoiceGender.Female select voice;
+                            //  synthesizer.SetVoice(frenchVoices.ElementAt(0));
                             break;
                         case "Chinese":
                             voiceLanguage = "zh-HK";
-                         //   IEnumerable<VoiceInformation> chineseVoices = from voice in InstalledVoices.All where voice.Language == "zh-HK" && voice.Gender == VoiceGender.Female select voice;
-                         //   synthesizer.SetVoice(chineseVoices.ElementAt(0));
+                            //   IEnumerable<VoiceInformation> chineseVoices = from voice in InstalledVoices.All where voice.Language == "zh-HK" && voice.Gender == VoiceGender.Female select voice;
+                            //   synthesizer.SetVoice(chineseVoices.ElementAt(0));
                             break;
                         case "Italian":
                             voiceLanguage = "it-IT";
-                           // IEnumerable<VoiceInformation> italianVoices = from voice in InstalledVoices.All where voice.Language == "it-IT" && voice.Gender == VoiceGender.Female select voice;
-                           // synthesizer.SetVoice(italianVoices.ElementAt(0));
+                            // IEnumerable<VoiceInformation> italianVoices = from voice in InstalledVoices.All where voice.Language == "it-IT" && voice.Gender == VoiceGender.Female select voice;
+                            // synthesizer.SetVoice(italianVoices.ElementAt(0));
                             break;
                         case "German":
                             voiceLanguage = "de-DE";
-                           // IEnumerable<VoiceInformation> germanVoices = from voice in InstalledVoices.All where voice.Language == "de-DE" && voice.Gender == VoiceGender.Female select voice;
-                          //  synthesizer.SetVoice(germanVoices.ElementAt(0));
+                            // IEnumerable<VoiceInformation> germanVoices = from voice in InstalledVoices.All where voice.Language == "de-DE" && voice.Gender == VoiceGender.Female select voice;
+                            //  synthesizer.SetVoice(germanVoices.ElementAt(0));
                             break;
                         case "Portuguese":
                             voiceLanguage = "pt-BR";
-                          //  IEnumerable<VoiceInformation> portugueseVoices = from voice in InstalledVoices.All where voice.Language == "pt-BR" && voice.Gender == VoiceGender.Female select voice;
-                          //  synthesizer.SetVoice(portugueseVoices.ElementAt(0));
+                            //  IEnumerable<VoiceInformation> portugueseVoices = from voice in InstalledVoices.All where voice.Language == "pt-BR" && voice.Gender == VoiceGender.Female select voice;
+                            //  synthesizer.SetVoice(portugueseVoices.ElementAt(0));
                             break;
                         case "Japanese":
                             voiceLanguage = "ja-JP";
-                         //   IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
-                         //   synthesizer.SetVoice(JapaneseVoices.ElementAt(0));
+                            //   IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
+                            //   synthesizer.SetVoice(JapaneseVoices.ElementAt(0));
                             break;
                     }
 
@@ -822,7 +821,7 @@ namespace BabyApp
                         break;
                     case "Wolf":
                         returnValue = AppResources.Wolf;
-                        break;                  
+                        break;
                 }
             }
             catch (Exception)
@@ -1197,9 +1196,9 @@ namespace BabyApp
 
         private void pivotControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-         //   int slideNumber = Convert.ToInt32(PivotName.Substring(5));
+            //   int slideNumber = Convert.ToInt32(PivotName.Substring(5));
 
-        //    LoadPicsOnScreen(App.gCategory, slideNumber);
+            //    LoadPicsOnScreen(App.gCategory, slideNumber);
         }
 
         private void ContiniousPlay_Click(object sender, EventArgs e)
@@ -1244,25 +1243,25 @@ namespace BabyApp
 
         private void BabyAnimals_Click(object sender, EventArgs e)
         {
-          //  LoadPicsOnScreen("BabyAnimals", 1);
+            //  LoadPicsOnScreen("BabyAnimals", 1);
             SetPivots("BabyAnimals");
         }
 
         private void BabyMisc_Click(object sender, EventArgs e)
         {
-          //  LoadPicsOnScreen("BabyMisc", 1);
+            //  LoadPicsOnScreen("BabyMisc", 1);
             SetPivots("BabyMisc");
         }
 
         private void Animals_Click(object sender, EventArgs e)
         {
-         //   LoadPicsOnScreen("Animals", 1);
+            //   LoadPicsOnScreen("Animals", 1);
             SetPivots("Animals");
         }
 
         private void Misc_Click(object sender, EventArgs e)
         {
-        //    LoadPicsOnScreen("Misc", 1);
+            //    LoadPicsOnScreen("Misc", 1);
             SetPivots("Misc");
         }
 
@@ -1374,7 +1373,7 @@ namespace BabyApp
         {
             Box returnValue = null;
 
-            switch(tagName.ToUpper())
+            switch (tagName.ToUpper())
             {
                 case "BOX1":
                     returnValue = slide.Box1;
