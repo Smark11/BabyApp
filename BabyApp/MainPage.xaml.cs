@@ -54,14 +54,13 @@ namespace BabyApp
             NavigateToScreen(Screen.MainGrid);
             LoadPicsIntoCollection();
             SetPivots(App.gCategory);
-            //  LoadPicsOnScreen(App.gCategory, 1);
             BuildLocalizedApplicationBar();
             ButtonDisplay = "/Assets/transport.play.png";
             Mode = Screen.MainGrid;
         }
 
         #region "Methods"
-
+       
         private void LoadPicsIntoCollection()
         {
             Animals = new List<Box>();
@@ -172,188 +171,6 @@ namespace BabyApp
             }
         }
 
-        //private void LoadPicsOnScreen(string category, int slideNumber)
-        //{
-        //    Box blankBox = new Box("", "", "", "");
-        //    int index1 = (slideNumber * 9) - 9;
-        //    int index2 = (slideNumber * 9) - 8;
-        //    int index3 = (slideNumber * 9) - 7;
-        //    int index4 = (slideNumber * 9) - 6;
-        //    int index5 = (slideNumber * 9) - 5;
-        //    int index6 = (slideNumber * 9) - 4;
-        //    int index7 = (slideNumber * 9) - 3;
-        //    int index8 = (slideNumber * 9) - 2;
-        //    int index9 = (slideNumber * 9) - 1;
-
-        //    try
-        //    {
-        //        App.gCategory = category;
-
-        //        switch (category)
-        //        {
-        //            case "BabyAnimals":
-        //                Box1ImageSourceSmall = BabyAnimals[index1].ImageSourceSmall;
-        //                Box1ImageSourceLarge = BabyAnimals[index1].ImageSourceLarge;
-        //                Box1Description = BabyAnimals[index1].Description;
-        //                Box1SoundSource = BabyAnimals[index1].SoundSource;
-
-        //                Box2ImageSourceSmall = BabyAnimals[index2].ImageSourceSmall;
-        //                Box2ImageSourceLarge = BabyAnimals[index2].ImageSourceLarge;
-        //                Box2Description = BabyAnimals[index2].Description;
-        //                Box2SoundSource = BabyAnimals[index2].SoundSource;
-
-        //                Box3ImageSourceSmall = BabyAnimals[index3].ImageSourceSmall;
-        //                Box3ImageSourceLarge = BabyAnimals[index3].ImageSourceLarge;
-        //                Box3Description = BabyAnimals[index3].Description;
-        //                Box3SoundSource = BabyAnimals[index3].SoundSource;
-
-        //                Box4ImageSourceSmall = BabyAnimals[index4].ImageSourceSmall;
-        //                Box4ImageSourceLarge = BabyAnimals[index4].ImageSourceLarge;
-        //                Box4Description = BabyAnimals[index4].Description;
-        //                Box4SoundSource = BabyAnimals[index4].SoundSource;
-
-        //                Box5ImageSourceSmall = BabyAnimals[index5].ImageSourceSmall;
-        //                Box5ImageSourceLarge = BabyAnimals[index5].ImageSourceLarge;
-        //                Box5Description = BabyAnimals[index5].Description;
-        //                Box5SoundSource = BabyAnimals[index5].SoundSource;
-
-        //                Box6ImageSourceSmall = BabyAnimals[index6].ImageSourceSmall;
-        //                Box6ImageSourceLarge = BabyAnimals[index6].ImageSourceLarge;
-        //                Box6Description = BabyAnimals[index6].Description;
-        //                Box6SoundSource = BabyAnimals[index6].SoundSource;
-
-        //                Box7ImageSourceSmall = BabyAnimals[index7].ImageSourceSmall;
-        //                Box7ImageSourceLarge = BabyAnimals[index7].ImageSourceLarge;
-        //                Box7Description = BabyAnimals[index7].Description;
-        //                Box7SoundSource = BabyAnimals[index7].SoundSource;
-
-        //                Box8ImageSourceSmall = BabyAnimals[index8].ImageSourceSmall;
-        //                Box8ImageSourceLarge = BabyAnimals[index8].ImageSourceLarge;
-        //                Box8Description = BabyAnimals[index8].Description;
-        //                Box8SoundSource = BabyAnimals[index8].SoundSource;
-
-        //                Box9ImageSourceSmall = BabyAnimals[index9].ImageSourceSmall;
-        //                Box9ImageSourceLarge = BabyAnimals[index9].ImageSourceLarge;
-        //                Box9Description = BabyAnimals[index9].Description;
-        //                Box9SoundSource = BabyAnimals[index9].SoundSource;
-
-        //                break;
-        //            case "BabyMisc":
-        //                Box1ImageSourceSmall = BabyMisc[index1].ImageSourceSmall;
-        //                Box1ImageSourceLarge = BabyMisc[index1].ImageSourceLarge;
-        //                Box1Description = BabyMisc[index1].Description;
-        //                Box1SoundSource = BabyMisc[index1].SoundSource;
-
-        //                Box2ImageSourceSmall = BabyMisc[index2].ImageSourceSmall;
-        //                Box2ImageSourceLarge = BabyMisc[index2].ImageSourceLarge;
-        //                Box2Description = BabyMisc[index2].Description;
-        //                Box2SoundSource = BabyMisc[index2].SoundSource;
-
-        //                Box3ImageSourceSmall = BabyMisc[index3].ImageSourceSmall;
-        //                Box3ImageSourceLarge = BabyMisc[index3].ImageSourceLarge;
-        //                Box3Description = BabyMisc[index3].Description;
-        //                Box3SoundSource = BabyMisc[index3].SoundSource;
-
-        //                Box4ImageSourceSmall = BabyMisc[index4].ImageSourceSmall;
-        //                Box4ImageSourceLarge = BabyMisc[index4].ImageSourceLarge;
-        //                Box4Description = BabyMisc[index4].Description;
-        //                Box4SoundSource = BabyMisc[index4].SoundSource;
-
-        //                Box5ImageSourceSmall = BabyMisc[index5].ImageSourceSmall;
-        //                Box5ImageSourceLarge = BabyMisc[index5].ImageSourceLarge;
-        //                Box5Description = BabyMisc[index5].Description;
-        //                Box5SoundSource = BabyMisc[index5].SoundSource;
-
-        //                Box6ImageSourceSmall = BabyMisc[index6].ImageSourceSmall;
-        //                Box6ImageSourceLarge = BabyMisc[index6].ImageSourceLarge;
-        //                Box6Description = BabyMisc[index6].Description;
-        //                Box6SoundSource = BabyMisc[index6].SoundSource;
-
-        //                Box7ImageSourceSmall = BabyMisc[index7].ImageSourceSmall;
-        //                Box7ImageSourceLarge = BabyMisc[index7].ImageSourceLarge;
-        //                Box7Description = BabyMisc[index7].Description;
-        //                Box7SoundSource = BabyMisc[index7].SoundSource;
-
-        //                Box8ImageSourceSmall = BabyMisc[index8].ImageSourceSmall;
-        //                Box8ImageSourceLarge = BabyMisc[index8].ImageSourceLarge;
-        //                Box8Description = BabyMisc[index8].Description;
-        //                Box8SoundSource = BabyMisc[index8].SoundSource;
-
-        //                Box9ImageSourceSmall = BabyMisc[index9].ImageSourceSmall;
-        //                Box9ImageSourceLarge = BabyMisc[index9].ImageSourceLarge;
-        //                Box9Description = BabyMisc[index9].Description;
-        //                Box9SoundSource = BabyMisc[index9].SoundSource;
-
-        //                break;
-        //            case "Animals":
-        //                Box1ImageSourceSmall = Animals[index1].ImageSourceSmall;
-        //                Box1ImageSourceLarge = Animals[index1].ImageSourceLarge;
-        //                Box1Description = Animals[index1].Description;
-        //                Box1SoundSource = Animals[index1].SoundSource;
-
-        //                Box2ImageSourceSmall = Animals[index2].ImageSourceSmall;
-        //                Box2ImageSourceLarge = Animals[index2].ImageSourceLarge;
-        //                Box2Description = Animals[index2].Description;
-        //                Box2SoundSource = Animals[index2].SoundSource;
-
-        //                Box3ImageSourceSmall = Animals[index3].ImageSourceSmall;
-        //                Box3ImageSourceLarge = Animals[index3].ImageSourceLarge;
-        //                Box3Description = Animals[index3].Description;
-        //                Box3SoundSource = Animals[index3].SoundSource;
-
-        //                Box4ImageSourceSmall = Animals[index4].ImageSourceSmall;
-        //                Box4ImageSourceLarge = Animals[index4].ImageSourceLarge;
-        //                Box4Description = Animals[index4].Description;
-        //                Box4SoundSource = Animals[index4].SoundSource;
-
-        //                Box5ImageSourceSmall = Animals[index5].ImageSourceSmall;
-        //                Box5ImageSourceLarge = Animals[index5].ImageSourceLarge;
-        //                Box5Description = Animals[index5].Description;
-        //                Box5SoundSource = Animals[index5].SoundSource;
-
-        //                Box6ImageSourceSmall = Animals[index6].ImageSourceSmall;
-        //                Box6ImageSourceLarge = Animals[index6].ImageSourceLarge;
-        //                Box6Description = Animals[index6].Description;
-        //                Box6SoundSource = Animals[index6].SoundSource;
-
-        //                Box7ImageSourceSmall = Animals[index7].ImageSourceSmall;
-        //                Box7ImageSourceLarge = Animals[index7].ImageSourceLarge;
-        //                Box7Description = Animals[index7].Description;
-        //                Box7SoundSource = Animals[index7].SoundSource;
-
-        //                Box8ImageSourceSmall = Animals[index8].ImageSourceSmall;
-        //                Box8ImageSourceLarge = Animals[index8].ImageSourceLarge;
-        //                Box8Description = Animals[index8].Description;
-        //                Box8SoundSource = Animals[index8].SoundSource;
-
-        //                Box9ImageSourceSmall = Animals[index9].ImageSourceSmall;
-        //                Box9ImageSourceLarge = Animals[index9].ImageSourceLarge;
-        //                Box9Description = Animals[index9].Description;
-        //                Box9SoundSource = Animals[index9].SoundSource;
-
-
-        //                ////TJY LOOK HERE:
-        //                ////I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
-        //                ////The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
-        //                ////The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
-        //                //PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
-        //                //PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
-        //                //PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
-        //                //PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
-        //                //PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
-        //                //PivotSlides.Add(new PivotSlide("Slide6", Animals[45], Animals[46], Animals[47], Animals[48], Animals[49], Animals[50], Animals[51], Animals[52], Animals[53]));
-        //                //PivotSlides.Add(new PivotSlide("Slide7", Animals[54], Animals[55], Animals[56], Animals[57], Animals[58], Animals[59], Animals[60], blankBox, blankBox));
-
-        //                break;
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-
-
-        //    }
-        //}
-
         private void OnePicSlideShowAsync(Box selectedPic)
         {
             Dispatcher.BeginInvoke(() =>
@@ -414,8 +231,8 @@ namespace BabyApp
                 case "BabyAnimals":
                     continuousPlayList = BabyAnimals;
                     break;
-                case "BabyMisc":
-                    continuousPlayList = BabyMisc;
+                case "Animals":
+                    continuousPlayList = Animals;
                     break;
             }
 
@@ -423,11 +240,15 @@ namespace BabyApp
             {
                 Dispatcher.BeginInvoke(() =>
                 {
-                    Description = GetTextDesription(continuousPlayList[i].Description);
-                    ImageSound = continuousPlayList[i].SoundSource;
-                    ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
+                   
                     ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
+                    ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
+                    Description = continuousPlayList[i].Description;
+                    DisplayDescription = GetTextDesription(continuousPlayList[i].Description);
+                    ImageSound = continuousPlayList[i].SoundSource;                                  
                 });
+
+                Thread.Sleep(250);
 
                 PlayVoiceTextAndSound();
 
@@ -439,6 +260,44 @@ namespace BabyApp
             }
             //set so user can re-start slide-show
             _stopSlideShow = false;
+        }
+
+        private Box GetBoxFromPivotAndTag(string tagName, PivotSlide slide)
+        {
+            Box returnValue = null;
+
+            switch (tagName.ToUpper())
+            {
+                case "BOX1":
+                    returnValue = slide.Box1;
+                    break;
+                case "BOX2":
+                    returnValue = slide.Box2;
+                    break;
+                case "BOX3":
+                    returnValue = slide.Box3;
+                    break;
+                case "BOX4":
+                    returnValue = slide.Box4;
+                    break;
+                case "BOX5":
+                    returnValue = slide.Box5;
+                    break;
+                case "BOX6":
+                    returnValue = slide.Box6;
+                    break;
+                case "BOX7":
+                    returnValue = slide.Box7;
+                    break;
+                case "BOX8":
+                    returnValue = slide.Box8;
+                    break;
+                case "BOX9":
+                    returnValue = slide.Box9;
+                    break;
+            }
+
+            return returnValue;
         }
 
         #endregion "Methods"
@@ -581,7 +440,6 @@ namespace BabyApp
 
             return returnValue;
         }
-
 
         private string GetTextTranslation(string language, string textToTranslate)
         {
@@ -1194,11 +1052,20 @@ namespace BabyApp
 
         #region "Events"
 
-        private void pivotControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void Box_Click(object sender, RoutedEventArgs e)
         {
-            //   int slideNumber = Convert.ToInt32(PivotName.Substring(5));
+            try
+            {
+                Button btn = sender as Button;
+                string imageTag = btn.Tag.ToString();
+                PivotSlide selectedPivot = (PivotSlide)btn.DataContext;
 
-            //    LoadPicsOnScreen(App.gCategory, slideNumber);
+                Task.Factory.StartNew(() => OnePicSlideShowAsync(GetBoxFromPivotAndTag(imageTag, selectedPivot)));
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void ContiniousPlay_Click(object sender, EventArgs e)
@@ -1225,43 +1092,24 @@ namespace BabyApp
                     break;
             }
         }
-
-        //private void Box_Click(object sender, EventArgs e)
-        //{
-        //    try
-        //    {
-        //        //string tag = ((Button)sender).Tag.ToString();
-        //        Box selectedPic = (Box)((Button)sender).DataContext;
-
-        //        Task.Factory.StartNew(() => OnePicSlideShowAsync(selectedPic));
-        //    }
-        //    catch (Exception ex)
-        //    {
-
-        //    }
-        //}
-
+   
         private void BabyAnimals_Click(object sender, EventArgs e)
         {
-            //  LoadPicsOnScreen("BabyAnimals", 1);
             SetPivots("BabyAnimals");
         }
 
         private void BabyMisc_Click(object sender, EventArgs e)
         {
-            //  LoadPicsOnScreen("BabyMisc", 1);
             SetPivots("BabyMisc");
         }
 
         private void Animals_Click(object sender, EventArgs e)
         {
-            //   LoadPicsOnScreen("Animals", 1);
             SetPivots("Animals");
         }
 
         private void Misc_Click(object sender, EventArgs e)
         {
-            //    LoadPicsOnScreen("Misc", 1);
             SetPivots("Misc");
         }
 
@@ -1317,12 +1165,12 @@ namespace BabyApp
                 ApplicationBar.Buttons.Add(appBarButton2);
                 appBarButton2.Click += new EventHandler(BabyAnimals_Click);
 
-                ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/feature.email.png", UriKind.Relative));
+                ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/Pics/Animals/Elephant80x100.png", UriKind.Relative));
                 appBarButton3.Text = "Misc";
                 ApplicationBar.Buttons.Add(appBarButton3);
                 appBarButton3.Click += new EventHandler(Misc_Click);
 
-                ApplicationBarIconButton appBarButton4 = new ApplicationBarIconButton(new Uri("/Assets/Pics/Animals/Elephant80x100.png", UriKind.Relative));
+                ApplicationBarIconButton appBarButton4 = new ApplicationBarIconButton(new Uri("/Assets/Pics/Animals/crab80x100.png", UriKind.Relative));
                 appBarButton4.Text = "Animals";
                 ApplicationBar.Buttons.Add(appBarButton4);
                 appBarButton4.Click += new EventHandler(Animals_Click);
@@ -1350,63 +1198,6 @@ namespace BabyApp
         }
 
         #endregion "Common Routines"
-
-        private void Box_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                //string tag = ((Button)sender).Tag.ToString();
-                //Box selectedPic = (Box)((Button)sender).DataContext;
-                Button btn = sender as Button;
-                string imageTag = btn.Tag.ToString();
-                PivotSlide selectedPivot = (PivotSlide)btn.DataContext;
-
-                Task.Factory.StartNew(() => OnePicSlideShowAsync(GetBoxFromPivotAndTag(imageTag, selectedPivot)));
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-
-        private Box GetBoxFromPivotAndTag(string tagName, PivotSlide slide)
-        {
-            Box returnValue = null;
-
-            switch (tagName.ToUpper())
-            {
-                case "BOX1":
-                    returnValue = slide.Box1;
-                    break;
-                case "BOX2":
-                    returnValue = slide.Box2;
-                    break;
-                case "BOX3":
-                    returnValue = slide.Box3;
-                    break;
-                case "BOX4":
-                    returnValue = slide.Box4;
-                    break;
-                case "BOX5":
-                    returnValue = slide.Box5;
-                    break;
-                case "BOX6":
-                    returnValue = slide.Box6;
-                    break;
-                case "BOX7":
-                    returnValue = slide.Box7;
-                    break;
-                case "BOX8":
-                    returnValue = slide.Box8;
-                    break;
-                case "BOX9":
-                    returnValue = slide.Box9;
-                    break;
-            }
-
-            return returnValue;
-        }
-
-
+         
     }
 }

@@ -86,19 +86,18 @@
                 <Button x:Name="ContinuiousPlay" Click="ContiniousPlay_Click">
                     <Image Source="{Binding ButtonDisplay}"/>
                 </Button>
-                <TextBlock Text="Baby Sounds" HorizontalAlignment="Center"
+                <TextBlock Text="Baby Animals" HorizontalAlignment="Center"
             		Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
             </StackPanel>
 
             <Grid x:Name="PictureGrid" Grid.Row="1" Visibility="Visible">
                 <phone:Pivot  x:Name="pivotControl" 
                               ItemsSource="{Binding PivotSlides}" 
-                              ItemTemplate="{StaticResource PivotTemplate}"
-                              SelectionChanged="pivotControl_SelectionChanged">
+                              ItemTemplate="{StaticResource PivotTemplate}">                           
                     <phone:Pivot.HeaderTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock FontSize="50" Foreground="White" Text="{Binding Header}"/>
+                                <TextBlock FontSize="35" Foreground="White" Text="{Binding Header}"/>
                             </StackPanel>
                         </DataTemplate>
                     </phone:Pivot.HeaderTemplate>
