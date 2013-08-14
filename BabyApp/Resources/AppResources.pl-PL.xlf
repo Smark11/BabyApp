@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="pl-PL" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="BabyApp" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">pl-PL</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MÓJ WNIOSEK</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dodaj</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Element menu</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cow" translate="yes" xml:space="preserve">
+          <source>Cow</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Krowa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Duck" translate="yes" xml:space="preserve">
+          <source>Duck</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaczka</target>
+        </trans-unit>
+        <trans-unit id="Resx/Lion" translate="yes" xml:space="preserve">
+          <source>Lion</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lew</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarBabyMiscButton" translate="yes" xml:space="preserve">
+          <source>Baby Misc</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dziecko Misc</target>
+        </trans-unit>
+        <trans-unit id="Resx/Elephant" translate="yes" xml:space="preserve">
+          <source>Elephant</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Słoń</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pig" translate="yes" xml:space="preserve">
+          <source>Pig</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Świnia</target>
+        </trans-unit>
+        <trans-unit id="Resx/Anteater" translate="yes" xml:space="preserve">
+          <source>Anteater</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mrówkojady</target>
+        </trans-unit>
+        <trans-unit id="Resx/Antelope" translate="yes" xml:space="preserve">
+          <source>Antelope</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Antylopa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Badger" translate="yes" xml:space="preserve">
+          <source>Badger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Borsuk</target>
+        </trans-unit>
+        <trans-unit id="Resx/Bear" translate="yes" xml:space="preserve">
+          <source>Bear</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Niedźwiedź</target>
+        </trans-unit>
+        <trans-unit id="Resx/Butterfly" translate="yes" xml:space="preserve">
+          <source>Butterfly</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Motyl</target>
+        </trans-unit>
+        <trans-unit id="Resx/Capuchinmonkey" translate="yes" xml:space="preserve">
+          <source>Capuchinmonkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Capuchinmonkey</target>
+        </trans-unit>
+        <trans-unit id="Resx/Caribou" translate="yes" xml:space="preserve">
+          <source>Caribou</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Karibu</target>
+        </trans-unit>
+        <trans-unit id="Resx/Chameleon" translate="yes" xml:space="preserve">
+          <source>Chameleon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kameleon</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cheetah" translate="yes" xml:space="preserve">
+          <source>Cheetah</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gepard</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crab" translate="yes" xml:space="preserve">
+          <source>Crab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Krab</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dog" translate="yes" xml:space="preserve">
+          <source>Dog</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pies</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dolphin" translate="yes" xml:space="preserve">
+          <source>Dolphin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Delfin</target>
+        </trans-unit>
+        <trans-unit id="Resx/DragonFly" translate="yes" xml:space="preserve">
+          <source>DragonFly</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ważka</target>
+        </trans-unit>
+        <trans-unit id="Resx/Eagle" translate="yes" xml:space="preserve">
+          <source>Eagle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Orzeł</target>
+        </trans-unit>
+        <trans-unit id="Resx/Elk" translate="yes" xml:space="preserve">
+          <source>Elk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ełk</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fish" translate="yes" xml:space="preserve">
+          <source>Fish</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ryby</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fox" translate="yes" xml:space="preserve">
+          <source>Fox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wykonaj:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Giraffe" translate="yes" xml:space="preserve">
+          <source>Giraffe</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Żyrafa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Guineapig" translate="yes" xml:space="preserve">
+          <source>Guineapig</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Guineapig</target>
+        </trans-unit>
+        <trans-unit id="Resx/Hippopotamus" translate="yes" xml:space="preserve">
+          <source>Hippopotamus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hipopotam</target>
+        </trans-unit>
+        <trans-unit id="Resx/Horse" translate="yes" xml:space="preserve">
+          <source>Horse</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Koń</target>
+        </trans-unit>
+        <trans-unit id="Resx/Iguana" translate="yes" xml:space="preserve">
+          <source>Iguana</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Legwan</target>
+        </trans-unit>
+        <trans-unit id="Resx/Jaguar" translate="yes" xml:space="preserve">
+          <source>Jaguar</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jaguar</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kangaroo" translate="yes" xml:space="preserve">
+          <source>Kangaroo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kangur</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kitten" translate="yes" xml:space="preserve">
+          <source>Kitten</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kotek</target>
+        </trans-unit>
+        <trans-unit id="Resx/Koala" translate="yes" xml:space="preserve">
+          <source>Koala</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Koala</target>
+        </trans-unit>
+        <trans-unit id="Resx/Lemur" translate="yes" xml:space="preserve">
+          <source>Lemur</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lemur</target>
+        </trans-unit>
+        <trans-unit id="Resx/Macaw" translate="yes" xml:space="preserve">
+          <source>Macaw</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ara</target>
+        </trans-unit>
+        <trans-unit id="Resx/Marmot" translate="yes" xml:space="preserve">
+          <source>Marmot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Świstak</target>
+        </trans-unit>
+        <trans-unit id="Resx/Monkey" translate="yes" xml:space="preserve">
+          <source>Monkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Małpa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Ocelot" translate="yes" xml:space="preserve">
+          <source>Ocelot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ocelot</target>
+        </trans-unit>
+        <trans-unit id="Resx/Octopus" translate="yes" xml:space="preserve">
+          <source>Octopus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ośmiornica</target>
+        </trans-unit>
+        <trans-unit id="Resx/Orca" translate="yes" xml:space="preserve">
+          <source>Orca</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Orca</target>
+        </trans-unit>
+        <trans-unit id="Resx/Otter" translate="yes" xml:space="preserve">
+          <source>Otter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wydra</target>
+        </trans-unit>
+        <trans-unit id="Resx/Owl" translate="yes" xml:space="preserve">
+          <source>Owl</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sowa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Panda" translate="yes" xml:space="preserve">
+          <source>Panda</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Panda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Penguin" translate="yes" xml:space="preserve">
+          <source>Penguin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pingwin</target>
+        </trans-unit>
+        <trans-unit id="Resx/Prayingmantis" translate="yes" xml:space="preserve">
+          <source>Prayingmantis</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prayingmantis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rabbit" translate="yes" xml:space="preserve">
+          <source>Rabbit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Królik</target>
+        </trans-unit>
+        <trans-unit id="Resx/Racoon" translate="yes" xml:space="preserve">
+          <source>Racoon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Racoon</target>
+        </trans-unit>
+        <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
+          <source>Redfox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">RedFox</target>
+        </trans-unit>
+        <trans-unit id="Resx/Redpanda" translate="yes" xml:space="preserve">
+          <source>Redpanda</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">RedPanda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rhino" translate="yes" xml:space="preserve">
+          <source>Rhino</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nosorożec</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shark" translate="yes" xml:space="preserve">
+          <source>Shark</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rekin</target>
+        </trans-unit>
+        <trans-unit id="Resx/Sheep" translate="yes" xml:space="preserve">
+          <source>Sheep</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Owiec</target>
+        </trans-unit>
+        <trans-unit id="Resx/Skink" translate="yes" xml:space="preserve">
+          <source>Skink</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nadrzewny</target>
+        </trans-unit>
+        <trans-unit id="Resx/Snake" translate="yes" xml:space="preserve">
+          <source>Snake</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wąż</target>
+        </trans-unit>
+        <trans-unit id="Resx/Snowleopard" translate="yes" xml:space="preserve">
+          <source>Snowleopard</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SnowLeopard</target>
+        </trans-unit>
+        <trans-unit id="Resx/Squid" translate="yes" xml:space="preserve">
+          <source>Squid</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kalmary</target>
+        </trans-unit>
+        <trans-unit id="Resx/Squirrel" translate="yes" xml:space="preserve">
+          <source>Squirrel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wiewiórka</target>
+        </trans-unit>
+        <trans-unit id="Resx/Starfish" translate="yes" xml:space="preserve">
+          <source>Starfish</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rozgwiazda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Sumatrantiger" translate="yes" xml:space="preserve">
+          <source>Sumatrantiger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sumatrantiger</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tayra" translate="yes" xml:space="preserve">
+          <source>Tayra</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tayra</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tiger" translate="yes" xml:space="preserve">
+          <source>Tiger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tygrys</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tortoise" translate="yes" xml:space="preserve">
+          <source>Tortoise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Żółw</target>
+        </trans-unit>
+        <trans-unit id="Resx/Walrus" translate="yes" xml:space="preserve">
+          <source>Walrus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mors</target>
+        </trans-unit>
+        <trans-unit id="Resx/Wolf" translate="yes" xml:space="preserve">
+          <source>Wolf</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wilk</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

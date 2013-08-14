@@ -219,24 +219,24 @@ namespace BabyApp
             IS.SaveSetting("BabyApp-Portuguese", "No");
         }
 
-        private void chkIrish_Checked_1(object sender, RoutedEventArgs e)
+        private void chkPolish_Checked_1(object sender, RoutedEventArgs e)
         {
             if (App.gLanguages.Count < 3)
             {
-                App.gLanguages.Add("Irish");
-                IS.SaveSetting("BabyApp-Irish", "Yes");
+                App.gLanguages.Add("Polish");
+                IS.SaveSetting("BabyApp-Polish", "Yes");
             }
             else
             {
                 MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
-                chkIrish.IsChecked = false;
+                chkPolish.IsChecked = false;
             }
         }
         
-        private void chkIrish_Unchecked_1(object sender, RoutedEventArgs e)
+        private void chkPolish_Unchecked_1(object sender, RoutedEventArgs e)
         {
-            App.gLanguages.Remove("Irish");
-            IS.SaveSetting("BabyApp-Irish", "No");
+            App.gLanguages.Remove("Polish");
+            IS.SaveSetting("BabyApp-Polish", "No");
        }
 
         private void chkJapanese_Checked_1(object sender, RoutedEventArgs e)
@@ -412,20 +412,20 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSettingStringValue("BabyApp-Irish") == string.Empty)
+                if (IS.GetSettingStringValue("BabyApp-Polish") == string.Empty)
                 {
-                    chkIrish.IsChecked = false;
+                    chkPolish.IsChecked = false;
                 }
                 else
                 {
-                    settingValue = IS.GetSettingStringValue("BabyApp-Irish").ToString();
+                    settingValue = IS.GetSettingStringValue("BabyApp-Polish").ToString();
                     if (settingValue == "Yes")
                     {
-                        chkIrish.IsChecked = true;
+                        chkPolish.IsChecked = true;
                     }
                     else
                     {
-                        chkIrish.IsChecked = false;
+                        chkPolish.IsChecked = false;
                     }
                 }
 

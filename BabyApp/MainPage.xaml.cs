@@ -134,17 +134,17 @@ namespace BabyApp
             //The Pivot control bindes to "PivotSlides" and uses a data template to bind to "Box1.ImageSourceSmall" etc.
             //The Pivot Data Template needs to be modified, and we need to make sure we don't run out of memory when loading the PivotSlides (I did run out of memory before).
 
-            BabyAnimals = new List<Box>();
+            CartoonAnimals = new List<Box>();
 
-            BabyAnimals.Add(new Box("Dog", "/Assets/Pics/BabyAnimals/dog80x100.png", "/Assets/Pics/Animals/dog480x800.png", "/Assets/Sounds/Animals/dog.wav"));
-            BabyAnimals.Add(new Box("Dolphin", "/Assets/Pics/BabyAnimals/dolphin80x100.png", "/Assets/Pics/Animals/dolphin480x800.png", "/Assets/Sounds/Animals/dolphin.wav"));
-            BabyAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/elephant80x100.png", "/Assets/Pics/Animals/elephant480x800.png", "/Assets/Sounds/Animals/elephant.wav"));
-            BabyAnimals.Add(new Box("Frog", "/Assets/Pics/BabyAnimals/frog80x100.png", "/Assets/Pics/Animals/frog480x800.png", "/Assets/Sounds/Animals/frog.wav"));
-            BabyAnimals.Add(new Box("Owl", "/Assets/Pics/BabyAnimals/owl80x100.png", "/Assets/Pics/Animals/owl480x800.png", "/Assets/Sounds/Animals/owl.wav"));
-            BabyAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/pig80x100.png", "/Assets/Pics/Animals/pig480x800.png", "/Assets/Sounds/Animals/pig.wav"));
-            BabyAnimals.Add(new Box("", "", "", ""));
-            BabyAnimals.Add(new Box("", "", "", ""));
-            BabyAnimals.Add(new Box("", "", "", ""));
+            CartoonAnimals.Add(new Box("Dog", "/Assets/Pics/BabyAnimals/dog80x100.png", "/Assets/Pics/Animals/dog480x800.png", "/Assets/Sounds/Animals/dog.wav"));
+            CartoonAnimals.Add(new Box("Dolphin", "/Assets/Pics/BabyAnimals/dolphin80x100.png", "/Assets/Pics/Animals/dolphin480x800.png", "/Assets/Sounds/Animals/dolphin.wav"));
+            CartoonAnimals.Add(new Box("Elephant", "/Assets/Pics/BabyAnimals/elephant80x100.png", "/Assets/Pics/Animals/elephant480x800.png", "/Assets/Sounds/Animals/elephant.wav"));
+            CartoonAnimals.Add(new Box("Frog", "/Assets/Pics/BabyAnimals/frog80x100.png", "/Assets/Pics/Animals/frog480x800.png", "/Assets/Sounds/Animals/frog.wav"));
+            CartoonAnimals.Add(new Box("Owl", "/Assets/Pics/BabyAnimals/owl80x100.png", "/Assets/Pics/Animals/owl480x800.png", "/Assets/Sounds/Animals/owl.wav"));
+            CartoonAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/pig80x100.png", "/Assets/Pics/Animals/pig480x800.png", "/Assets/Sounds/Animals/pig.wav"));
+            CartoonAnimals.Add(new Box("", "", "", ""));
+            CartoonAnimals.Add(new Box("", "", "", ""));
+            CartoonAnimals.Add(new Box("", "", "", ""));
         }
 
         private void SetPivots(string category)
@@ -153,9 +153,9 @@ namespace BabyApp
 
             switch (category)
             {
-                case "BabyAnimals":
+                case "CartoonAnimals":
                     PivotSlides.Clear();
-                    PivotSlides.Add(new PivotSlide("Slide1", BabyAnimals[0], BabyAnimals[1], BabyAnimals[2], BabyAnimals[3], BabyAnimals[4], BabyAnimals[5], BabyAnimals[6], BabyAnimals[7], BabyAnimals[8]));
+                    PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
                     break;
                 case "Animals":
                     PivotSlides.Clear();
@@ -228,8 +228,8 @@ namespace BabyApp
 
             switch (App.gCategory)
             {
-                case "BabyAnimals":
-                    continuousPlayList = BabyAnimals;
+                case "CartoonAnimals":
+                    continuousPlayList = CartoonAnimals;
                     break;
                 case "Animals":
                     continuousPlayList = Animals;
@@ -354,8 +354,11 @@ namespace BabyApp
                             break;
                         case "Japanese":
                             voiceLanguage = "ja-JP";
-                            //   IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
+                             // IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
                             //   synthesizer.SetVoice(JapaneseVoices.ElementAt(0));
+                            break;
+                        case "Polish":
+                            voiceLanguage = "pl-PL";
                             break;
                     }
 
@@ -458,8 +461,8 @@ namespace BabyApp
                     case "French":
                         AppResources.Culture = new System.Globalization.CultureInfo("fr");
                         break;
-                    case "Irish":
-                        AppResources.Culture = new System.Globalization.CultureInfo("ga");
+                    case "Polish":
+                        AppResources.Culture = new System.Globalization.CultureInfo("pl");
                         break;
                     case "Chinese":
                         AppResources.Culture = new System.Globalization.CultureInfo("zh-Hant");
@@ -719,11 +722,11 @@ namespace BabyApp
             set { _pivotSlides = value; NotifyPropertyChanged("PivotSlides"); }
         }
 
-        private List<Box> _babyAnimals;
-        public List<Box> BabyAnimals
+        private List<Box> _cartoonAnimals;
+        public List<Box> CartoonAnimals
         {
-            get { return _babyAnimals; }
-            set { _babyAnimals = value; NotifyPropertyChanged("BabyAnimals"); }
+            get { return _cartoonAnimals; }
+            set { _cartoonAnimals = value; NotifyPropertyChanged("CartoonAnimals"); }
         }
 
         private List<Box> _babyMisc;
@@ -1052,6 +1055,14 @@ namespace BabyApp
 
         #region "Events"
 
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+           // base.OnBackKeyPress(e);
+
+           // NavigationService.Navigate(new Uri("/Options.xaml", UriKind.Relative));
+        }  
+
+
         private void Box_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -1093,9 +1104,9 @@ namespace BabyApp
             }
         }
    
-        private void BabyAnimals_Click(object sender, EventArgs e)
+        private void CartoonAnimals_Click(object sender, EventArgs e)
         {
-            SetPivots("BabyAnimals");
+            SetPivots("CartoonAnimals");
         }
 
         private void BabyMisc_Click(object sender, EventArgs e)
@@ -1154,26 +1165,16 @@ namespace BabyApp
                 ApplicationBar.IsVisible = true;
                 ApplicationBar.IsMenuEnabled = true;
 
-                // Create a new button and set the text value to the localized string from AppResources.
-                ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/feature.email.png", UriKind.Relative));
-                appBarButton1.Text = AppResources.AppBarBabyMiscButton;
+                // Create a new button and set the text value to the localized string from AppResources.      
+                ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
+                appBarButton1.Text = "Cartoon";
                 ApplicationBar.Buttons.Add(appBarButton1);
-                appBarButton1.Click += new EventHandler(BabyMisc_Click);
+                appBarButton1.Click += new EventHandler(CartoonAnimals_Click);
 
-                ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
-                appBarButton2.Text = "Baby Animals";
+                ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Dog80x100.png", UriKind.Relative));
+                appBarButton2.Text = "Real";
                 ApplicationBar.Buttons.Add(appBarButton2);
-                appBarButton2.Click += new EventHandler(BabyAnimals_Click);
-
-                ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/Pics/Animals/Elephant80x100.png", UriKind.Relative));
-                appBarButton3.Text = "Misc";
-                ApplicationBar.Buttons.Add(appBarButton3);
-                appBarButton3.Click += new EventHandler(Misc_Click);
-
-                ApplicationBarIconButton appBarButton4 = new ApplicationBarIconButton(new Uri("/Assets/Pics/Animals/crab80x100.png", UriKind.Relative));
-                appBarButton4.Text = "Animals";
-                ApplicationBar.Buttons.Add(appBarButton4);
-                appBarButton4.Click += new EventHandler(Animals_Click);
+                appBarButton2.Click += new EventHandler(Animals_Click);
 
                 // Create a new menu item with the localized string from AppResources.
                 ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem("Options");

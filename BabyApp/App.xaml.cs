@@ -379,20 +379,20 @@ namespace BabyApp
                     }
                 }
 
-                if (IS.GetSetting("BabyApp-Irish") == null)
+                if (IS.GetSetting("BabyApp-Polish") == null)
                 {
-                    gLanguages.Remove("Irish");
+                    gLanguages.Remove("Polish");
                 }
                 else
                 {
-                    settingValue = IS.GetSetting("BabyApp-Irish").ToString();
+                    settingValue = IS.GetSetting("BabyApp-Polish").ToString();
                     if (settingValue == "Yes")
                     {
-                        gLanguages.Add("Irish");
+                        gLanguages.Add("Polish");
                     }
                     else
                     {
-                        gLanguages.Remove("Irish");
+                        gLanguages.Remove("Polish");
                     }
                 }
 
