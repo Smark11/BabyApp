@@ -177,6 +177,7 @@ namespace BabyApp
             {
                 this.PictureGrid.Visibility = Visibility.Collapsed;
                 this.SlideShow.Visibility = Visibility.Visible;
+                this.TitlePanel.Visibility = Visibility.Collapsed;
             });
 
             SetOnePicGrid(selectedPic);
@@ -186,6 +187,7 @@ namespace BabyApp
 
                 this.PictureGrid.Visibility = Visibility.Visible;
                 this.SlideShow.Visibility = Visibility.Collapsed;
+                this.TitlePanel.Visibility = Visibility.Visible;
             });
         }
 
@@ -214,10 +216,12 @@ namespace BabyApp
                 case Screen.MainGrid:
                     this.PictureGrid.Visibility = Visibility.Visible;
                     this.SlideShow.Visibility = Visibility.Collapsed;
+                    this.TitlePanel.Visibility = Visibility.Visible;
                     break;
                 case Screen.SlideShow:
                     this.PictureGrid.Visibility = Visibility.Collapsed;
                     this.SlideShow.Visibility = Visibility.Visible;
+                    this.TitlePanel.Visibility = Visibility.Collapsed;
                     break;
             }
         }
