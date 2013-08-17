@@ -171,42 +171,60 @@ namespace BabyApp
             }
         }
 
-        private void OnePicSlideShowAsync(Box selectedPic)
+        private void OnePicSlideShowAsync(Box selectedPic, int tokenNumber)
         {
-            Dispatcher.BeginInvoke(() =>
+            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
             {
-                this.PictureGrid.Visibility = Visibility.Collapsed;
-                this.SlideShow.Visibility = Visibility.Visible;
-                this.TitlePanel.Visibility = Visibility.Collapsed;
-            });
+                Dispatcher.BeginInvoke(() =>
+                {
+                    this.PictureGrid.Visibility = Visibility.Collapsed;
+                    this.SlideShow.Visibility = Visibility.Visible;
+                    this.TitlePanel.Visibility = Visibility.Collapsed;
+                });
+            }
 
-            SetOnePicGrid(selectedPic);
-
-            Dispatcher.BeginInvoke(() =>
+            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
             {
+                SetOnePicGrid(selectedPic, tokenNumber);
+            }
 
-                this.PictureGrid.Visibility = Visibility.Visible;
-                this.SlideShow.Visibility = Visibility.Collapsed;
-                this.TitlePanel.Visibility = Visibility.Visible;
-            });
+            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+            {
+                Dispatcher.BeginInvoke(() =>
+                {
+
+                    this.PictureGrid.Visibility = Visibility.Visible;
+                    this.SlideShow.Visibility = Visibility.Collapsed;
+                    this.TitlePanel.Visibility = Visibility.Visible;
+                });
+            }
         }
 
-        private void SetOnePicGrid(Box selectedPic)
+        private void SetOnePicGrid(Box selectedPic, int tokenNumber)
         {
-            Dispatcher.BeginInvoke(() =>
+            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
             {
-                ImageSourceSmall = selectedPic.ImageSourceSmall;
-                ImageSourceLarge = selectedPic.ImageSourceLarge;
-                Description = selectedPic.Description;
-                DisplayDescription = GetTextDesription(selectedPic.Description);
-                ImageSound = selectedPic.SoundSource;
-            });
+                Dispatcher.BeginInvoke(() =>
+                {
+                    ImageSourceSmall = selectedPic.ImageSourceSmall;
+                    ImageSourceLarge = selectedPic.ImageSourceLarge;
+                    Description = selectedPic.Description;
+                    DisplayDescription = GetTextDesription(selectedPic.Description);
+                    ImageSound = selectedPic.SoundSource;
+                });
+            }
 
-            //TJY I needed to add a small sleep value here because the above properites being in an  ASYNC block were not being set by
-            //the time PlayVoiceTextAndSound was being executed.
-            Thread.Sleep(250);
+            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+            {
+                //TJY I needed to add a small sleep value here because the above properites being in an  ASYNC block were not being set by
+                //the time PlayVoiceTextAndSound was being executed.
+                Thread.Sleep(250);
+            }
 
-            PlayVoiceTextAndSound();
+            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+            {
+                PlayVoiceTextAndSound(tokenNumber);
+            }
         }
 
         private void NavigateToScreen(Screen screenToGoTo)
@@ -226,7 +244,23 @@ namespace BabyApp
             }
         }
 
-        private void PlaySlideShowAsync()
+        private Screen GetDisplayedScreen()
+        {
+            Screen returnValue = Screen.MainGrid;
+
+            if (this.PictureGrid.Visibility == System.Windows.Visibility.Visible)
+            {
+                returnValue = Screen.MainGrid;
+            }
+            if (this.SlideShow.Visibility == System.Windows.Visibility.Visible)
+            {
+                returnValue = Screen.SlideShow;
+            }
+
+            return returnValue;
+        }
+
+        private void PlaySlideShowAsync(int tokenNumber)
         {
             List<Box> continuousPlayList = new List<Box>();
 
@@ -242,23 +276,28 @@ namespace BabyApp
 
             for (int i = 0; i < continuousPlayList.Count - 1; i++)
             {
-                Dispatcher.BeginInvoke(() =>
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                 {
-                   
-                    ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
-                    ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
-                    Description = continuousPlayList[i].Description;
-                    DisplayDescription = GetTextDesription(continuousPlayList[i].Description);
-                    ImageSound = continuousPlayList[i].SoundSource;                                  
-                });
+                    Dispatcher.BeginInvoke(() =>
+                    {
 
-                Thread.Sleep(250);
+                        ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
+                        ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
+                        Description = continuousPlayList[i].Description;
+                        DisplayDescription = GetTextDesription(continuousPlayList[i].Description);
+                        ImageSound = continuousPlayList[i].SoundSource;
+                    });
+                }
 
-                PlayVoiceTextAndSound();
-
-                if (_stopSlideShow)
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                 {
-                    //stop the slide show, user said so
+                    Thread.Sleep(250);
+                }
+
+                PlayVoiceTextAndSound(tokenNumber);
+
+                if (_cancellationTokens[tokenNumber].IsCancellationRequested)
+                {
                     break;
                 }
             }
@@ -310,7 +349,7 @@ namespace BabyApp
 
         //await casues execution to be suspended until the SpeakTextAsynch
         //private async void PlayText()
-        private void PlayVoiceText()
+        private void PlayVoiceText(int tokenNumber)
         {
             string voiceLanguage = "en-US";
 
@@ -318,6 +357,10 @@ namespace BabyApp
             {
                 foreach (string language in App.gLanguages)
                 {
+                    if (_cancellationTokens[tokenNumber].IsCancellationRequested)
+                    {
+                        break;
+                    }
 
                     switch (language)
                     {
@@ -372,7 +415,10 @@ namespace BabyApp
                         //synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
                         synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(GetTextTranslation(language, Description), Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, voiceLanguage));
                     }
-                    Thread.Sleep(2000);
+                    if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                    {
+                        Thread.Sleep(2000);
+                    }
 
                 }
             }
@@ -399,15 +445,18 @@ namespace BabyApp
         }
 
         //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
-        private void PlaySound()
+        private void PlaySound(int tokenNumber)
         {
             try
             {
-                var soundfile = ImageSound.Substring(1); //Note no slash before the Assets folder, and it's a WAV file!
-                Stream stream = TitleContainer.OpenStream(soundfile);
-                SoundEffect effect = SoundEffect.FromStream(stream);
-                FrameworkDispatcher.Update();
-                effect.Play();
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                {
+                    var soundfile = ImageSound.Substring(1); //Note no slash before the Assets folder, and it's a WAV file!
+                    Stream stream = TitleContainer.OpenStream(soundfile);
+                    SoundEffect effect = SoundEffect.FromStream(stream);
+                    FrameworkDispatcher.Update();
+                    effect.Play();
+                }
             }
             catch (Exception ex)
             {
@@ -696,14 +745,20 @@ namespace BabyApp
             return returnValue;
         }
 
-        private void PlayVoiceTextAndSound()
+        private void PlayVoiceTextAndSound(int tokenNumber)
         {
-            PlayVoiceText();
-
-            if (App.gPlaySoundSetting == "On")
+            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
             {
-                PlaySound();
-                Thread.Sleep(5000);
+                PlayVoiceText(tokenNumber);
+            }
+
+            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+            {
+                if (App.gPlaySoundSetting == "On")
+                {
+                    PlaySound(tokenNumber);
+                    Thread.Sleep(5000);
+                }
             }
         }
 
@@ -1064,18 +1119,32 @@ namespace BabyApp
            // base.OnBackKeyPress(e);
 
            // NavigationService.Navigate(new Uri("/Options.xaml", UriKind.Relative));
-        }  
+        }
 
+        Dictionary<int, CancellationToken> _cancellationTokens = new Dictionary<int, CancellationToken>();
+        Dictionary<int, CancellationTokenSource> _cancellationTokenSources = new Dictionary<int, CancellationTokenSource>();
+        
+        CancellationToken _cancellationToken = new CancellationToken();
+        CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
 
         private void Box_Click(object sender, RoutedEventArgs e)
         {
             try
             {
+                CancellationToken token;
+                CancellationTokenSource tokenSource = new CancellationTokenSource();
+
+                token = tokenSource.Token;
+
+                _cancellationTokens.Add(_cancellationTokens.Keys.Count(), token);
+                _cancellationTokenSources.Add(_cancellationTokens.Keys.Count(), tokenSource);
+
+                _backButtonPressedStopSounds = false;
                 Button btn = sender as Button;
                 string imageTag = btn.Tag.ToString();
                 PivotSlide selectedPivot = (PivotSlide)btn.DataContext;
 
-                Task.Factory.StartNew(() => OnePicSlideShowAsync(GetBoxFromPivotAndTag(imageTag, selectedPivot)));
+                Task.Factory.StartNew(() => OnePicSlideShowAsync(GetBoxFromPivotAndTag(imageTag, selectedPivot), _cancellationTokens.Keys.Count() - 1), token);
             }
             catch (Exception ex)
             {
@@ -1094,7 +1163,15 @@ namespace BabyApp
 
                     _slideShowInProgress = true;
                     //Start the slide-show
-                    Task.Factory.StartNew(PlaySlideShowAsync);
+                    CancellationToken token;
+                    CancellationTokenSource tokenSource = new CancellationTokenSource();
+
+                    token = tokenSource.Token;
+
+                    _cancellationTokens.Add(_cancellationTokens.Keys.Count(), token);
+                    _cancellationTokenSources.Add(_cancellationTokens.Keys.Count(), tokenSource);
+
+                    Task.Factory.StartNew(() => PlaySlideShowAsync(_cancellationTokens.Keys.Count() - 1), token);
 
                     break;
                 case Screen.SlideShow:
@@ -1203,6 +1280,21 @@ namespace BabyApp
         }
 
         #endregion "Common Routines"
+
+        private bool _backButtonPressedStopSounds = false;
+        private void BackButtonClicked(object sender, CancelEventArgs e)
+        {
+            if (GetDisplayedScreen() == Screen.SlideShow)
+            {
+                NavigateToScreen(Screen.MainGrid);
+                foreach (var row in _cancellationTokenSources.Keys)
+                {
+                    _cancellationTokenSources[row].Cancel();
+                }
+                ButtonDisplay = "/Assets/transport.play.png";
+                e.Cancel = true;
+            }
+        }
          
     }
 }
