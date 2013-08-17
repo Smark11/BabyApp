@@ -96,9 +96,7 @@
                               ItemTemplate="{StaticResource PivotTemplate}">
                     <phone:Pivot.HeaderTemplate>
                         <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Visibility="Visible" FontSize="35" Foreground="White" Text="{Binding Header}"/>
-                            </StackPanel>
+                            <TextBlock Height="0"/>
                         </DataTemplate>
                     </phone:Pivot.HeaderTemplate>
                 </phone:Pivot>
