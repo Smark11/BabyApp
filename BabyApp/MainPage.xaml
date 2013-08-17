@@ -107,14 +107,16 @@
                     <RowDefinition Height="80*"/>
                     <RowDefinition Height="20*"/>
                 </Grid.RowDefinitions>
-                <Viewbox Grid.Row="0">
+                <Viewbox Stretch="Fill" Grid.Row="0">
                     <Image  Source="{Binding ImageSourceLarge}"/>
                 </Viewbox>
-                <TextBlock Grid.Row="1" 
+                <Viewbox Grid.Row="1">
+                <TextBlock 
                    HorizontalAlignment="Center" 
-                   VerticalAlignment="Top"
+                   VerticalAlignment="Center"
                    FontSize="40"
                    Text="{Binding DisplayDescription}" />
+                </Viewbox>
                 <MediaElement x:Name="myBoundSound" Source="{Binding ImageSound}"
                       AutoPlay="False" Visibility="Collapsed"></MediaElement>
 
