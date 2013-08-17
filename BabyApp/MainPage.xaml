@@ -12,7 +12,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     shell:SystemTray.IsVisible="True">
-    
+
     <phone:PhoneApplicationPage.Resources>
         <ResourceDictionary>
             <DataTemplate x:Key="PivotTemplate">
@@ -76,8 +76,8 @@
         <!--LayoutRoot is the root grid where all page content is placed-->
         <Grid x:Name="LayoutRoot" Background="Transparent">
             <Grid.RowDefinitions>
-                <RowDefinition Height="150"/>
-                <RowDefinition Height="675"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="Auto"/>
 
             </Grid.RowDefinitions>
 
@@ -93,7 +93,7 @@
             <Grid x:Name="PictureGrid" Grid.Row="1" Visibility="Visible">
                 <phone:Pivot  x:Name="pivotControl" 
                               ItemsSource="{Binding PivotSlides}" 
-                              ItemTemplate="{StaticResource PivotTemplate}">                           
+                              ItemTemplate="{StaticResource PivotTemplate}">
                     <phone:Pivot.HeaderTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
@@ -101,23 +101,22 @@
                             </StackPanel>
                         </DataTemplate>
                     </phone:Pivot.HeaderTemplate>
-                </phone:Pivot>             
+                </phone:Pivot>
             </Grid>
 
             <Grid x:Name="SlideShow" Grid.Row="1"  Background="Transparent" Visibility="Collapsed">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="90*"/>
-                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="80*"/>
+                    <RowDefinition Height="20*"/>
                 </Grid.RowDefinitions>
                 <Viewbox Grid.Row="0">
-                    <Image Grid.Row="0" Source="{Binding ImageSourceLarge}"/>
+                    <Image  Source="{Binding ImageSourceLarge}"/>
                 </Viewbox>
-                <Viewbox Grid.Row="1">
-                    <TextBlock Grid.Row="1" 
+                <TextBlock Grid.Row="1" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Top"
+                   FontSize="40"
                    Text="{Binding DisplayDescription}" />
-                </Viewbox>
                 <MediaElement x:Name="myBoundSound" Source="{Binding ImageSound}"
                       AutoPlay="False" Visibility="Collapsed"></MediaElement>
 
