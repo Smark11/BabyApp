@@ -462,7 +462,7 @@ namespace BabyApp
                         AppResources.Culture = new System.Globalization.CultureInfo("fr");
                         break;
                     case "Polish":
-                        AppResources.Culture = new System.Globalization.CultureInfo("pl");
+                        AppResources.Culture = new System.Globalization.CultureInfo("pl-PL");
                         break;
                     case "Chinese":
                         AppResources.Culture = new System.Globalization.CultureInfo("zh-Hant");
@@ -477,7 +477,7 @@ namespace BabyApp
                         AppResources.Culture = new System.Globalization.CultureInfo("pt");
                         break;
                     case "Japanese":
-                        AppResources.Culture = new System.Globalization.CultureInfo("ja");
+                        AppResources.Culture = new System.Globalization.CultureInfo("ja-JP");
                         break;
                 }
                 returnValue = GetText(textToTranslate);
