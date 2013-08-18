@@ -323,4 +323,49 @@
   <data name="Wolf" xml:space="preserve">
     <value>Wolf</value>
   </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>More Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Baby Animals</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Baby Sound Options</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Cartoon</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Languages (Choose up to 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Play Music</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Play Sounds</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Your feedback is very important to us! Please share your feedback with us by rating Baby Animals on the marketplace.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Your feedback is very important to us! Woud you like to share your feedback with us by rating Baby Animals on the marketplace?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Show Text</value>
+  </data>
 </root>

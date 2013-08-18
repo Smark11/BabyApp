@@ -46,6 +46,10 @@ namespace BabyApp
         {
             InitializeComponent();
 
+            //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+            Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
+
+
             PivotSlides = new ObservableCollection<PivotSlide>();
 
             synthesizer = new SpeechSynthesizer();
@@ -1248,29 +1252,29 @@ namespace BabyApp
 
                 // Create a new button and set the text value to the localized string from AppResources.      
                 ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
-                appBarButton1.Text = "Cartoon";
+                appBarButton1.Text =AppResources.Cartoon;
                 ApplicationBar.Buttons.Add(appBarButton1);
                 appBarButton1.Click += new EventHandler(CartoonAnimals_Click);
 
                 ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Dog80x100.png", UriKind.Relative));
-                appBarButton2.Text = "Real";
+                appBarButton2.Text = AppResources.Real;
                 ApplicationBar.Buttons.Add(appBarButton2);
                 appBarButton2.Click += new EventHandler(Animals_Click);
 
                 // Create a new menu item with the localized string from AppResources.
-                ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem("Options");
+                ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppMenuItemOptions);
                 ApplicationBar.MenuItems.Add(appBarMenuItem);
                 appBarMenuItem.Click += new EventHandler(Options_Click);
 
-                ApplicationBarMenuItem appBarMenuItem2 = new ApplicationBarMenuItem("About");
+                ApplicationBarMenuItem appBarMenuItem2 = new ApplicationBarMenuItem(AppResources.AppMenuItemAbout);
                 ApplicationBar.MenuItems.Add(appBarMenuItem2);
                 appBarMenuItem2.Click += new EventHandler(About_Click);
 
-                ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem("Review");
+                ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem(AppResources.Review);
                 ApplicationBar.MenuItems.Add(appBarMenuItem3);
                 appBarMenuItem3.Click += new EventHandler(Review_Click);
 
-                ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem("More Apps");
+                ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
                 ApplicationBar.MenuItems.Add(appBarMenuItem4);
                 appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
             }

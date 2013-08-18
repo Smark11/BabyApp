@@ -280,6 +280,66 @@
           <source>Wolf</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Wolf</target>
         </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Über</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemMoreApps" translate="yes" xml:space="preserve">
+          <source>More Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mehr Apps</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemOptions" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Optionen</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>Baby Animals</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tierbabys</target>
+        </trans-unit>
+        <trans-unit id="Resx/BabySoundOptions" translate="yes" xml:space="preserve">
+          <source>Baby Sound Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baby Soundoptionen</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
+          <source>Cartoon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cartoon</target>
+        </trans-unit>
+        <trans-unit id="Resx/LanguageChoices" translate="yes" xml:space="preserve">
+          <source>Languages (Choose up to 3)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sprachen (Wählen Sie bis zu 3)</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayMusic" translate="yes" xml:space="preserve">
+          <source>Play Music</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Musik abspielen</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlaySounds" translate="yes" xml:space="preserve">
+          <source>Play Sounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wiedergeben von Sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komplettpreise</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating Baby Animals on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ihr Feedback ist uns sehr wichtig! Bitte teilen Sie Ihre Meinung mit uns sorieren Tierbabys auf dem Marktplatz.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating Baby Animals on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ihr Feedback ist uns sehr wichtig! Gerne Woud Sie Ihr Feedback mit uns zu teilen, nach Bewertung Baby Tiere auf dem Marktplatz?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
+          <source>Real</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Real</target>
+        </trans-unit>
+        <trans-unit id="Resx/Review" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komplettpreise</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShowText" translate="yes" xml:space="preserve">
+          <source>Show Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Text anzeigen</target>
+        </trans-unit>
       </group>
     </body>
   </file>

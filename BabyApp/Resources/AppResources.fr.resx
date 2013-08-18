@@ -323,4 +323,49 @@
   <data name="Wolf" xml:space="preserve">
     <value>Wolf</value>
   </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Sur</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Plus d'Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Bébé animaux</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Options de son bébé</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Dessin animé</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Langues (choisissez jusqu'à 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Jouer de la musique</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Sons</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Taux</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Vos impressions sont très importantes pour nous ! S'il vous plaît de partager vos commentaires avec nous par les bébés animaux sur le marché de la notation.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Vos impressions sont très importantes pour nous ! Woud vous voulez partager vos commentaires avec nous par les bébés animaux sur le marché de la notation ?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Taux</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Afficher le texte</value>
+  </data>
 </root>

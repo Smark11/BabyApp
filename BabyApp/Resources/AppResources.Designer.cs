@@ -115,6 +115,51 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About.
+        /// </summary>
+        public static string AppMenuItemAbout {
+            get {
+                return ResourceManager.GetString("AppMenuItemAbout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to More Apps.
+        /// </summary>
+        public static string AppMenuItemMoreApps {
+            get {
+                return ResourceManager.GetString("AppMenuItemMoreApps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Options.
+        /// </summary>
+        public static string AppMenuItemOptions {
+            get {
+                return ResourceManager.GetString("AppMenuItemOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baby Animals.
+        /// </summary>
+        public static string AppTitle {
+            get {
+                return ResourceManager.GetString("AppTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baby Sound Options.
+        /// </summary>
+        public static string BabySoundOptions {
+            get {
+                return ResourceManager.GetString("BabySoundOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Badger.
         /// </summary>
         public static string Badger {
@@ -156,6 +201,15 @@ namespace BabyApp.Resources {
         public static string Caribou {
             get {
                 return ResourceManager.GetString("Caribou", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cartoon.
+        /// </summary>
+        public static string Cartoon {
+            get {
+                return ResourceManager.GetString("Cartoon", resourceCulture);
             }
         }
         
@@ -358,6 +412,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Languages (Choose up to 3).
+        /// </summary>
+        public static string LanguageChoices {
+            get {
+                return ResourceManager.GetString("LanguageChoices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lemur.
         /// </summary>
         public static string Lemur {
@@ -475,6 +538,24 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Play Music.
+        /// </summary>
+        public static string PlayMusic {
+            get {
+                return ResourceManager.GetString("PlayMusic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Play Sounds.
+        /// </summary>
+        public static string PlaySounds {
+            get {
+                return ResourceManager.GetString("PlaySounds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Prayingmantis.
         /// </summary>
         public static string Prayingmantis {
@@ -498,6 +579,42 @@ namespace BabyApp.Resources {
         public static string Racoon {
             get {
                 return ResourceManager.GetString("Racoon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rate.
+        /// </summary>
+        public static string RateAppHeader {
+            get {
+                return ResourceManager.GetString("RateAppHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your feedback is very important to us! Please share your feedback with us by rating Baby Animals on the marketplace..
+        /// </summary>
+        public static string RateTheAppPrompt {
+            get {
+                return ResourceManager.GetString("RateTheAppPrompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your feedback is very important to us! Woud you like to share your feedback with us by rating Baby Animals on the marketplace?.
+        /// </summary>
+        public static string RateTheAppQuestion {
+            get {
+                return ResourceManager.GetString("RateTheAppQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Real.
+        /// </summary>
+        public static string Real {
+            get {
+                return ResourceManager.GetString("Real", resourceCulture);
             }
         }
         
@@ -538,6 +655,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rate.
+        /// </summary>
+        public static string Review {
+            get {
+                return ResourceManager.GetString("Review", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rhino.
         /// </summary>
         public static string Rhino {
@@ -561,6 +687,15 @@ namespace BabyApp.Resources {
         public static string Sheep {
             get {
                 return ResourceManager.GetString("Sheep", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Text.
+        /// </summary>
+        public static string ShowText {
+            get {
+                return ResourceManager.GetString("ShowText", resourceCulture);
             }
         }
         

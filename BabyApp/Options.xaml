@@ -33,11 +33,11 @@
 
             <!--TitlePanel contains the name of the application and page title-->
             <TextBlock Grid.Row="0" 
-                   Text="Baby Sounds Options"
+                   Text="{Binding Path=LocalizedResources.BabySoundOptions, Source={StaticResource LocalizedStrings}}"                                    
                    FontSize="40" 
                    Margin="10,0,0,20" />
             <TextBlock Grid.Row="1" 
-                   Text="Play Music" 
+                   Text="{Binding Path=LocalizedResources.PlayMusic, Source={StaticResource LocalizedStrings}}"                                                     
                    FontSize="20"
                    Margin="10,0,0,0" />
             <toolkit:ToggleSwitch 
@@ -49,7 +49,7 @@
                   Unchecked="togglePlayMusic_Unchecked">
             </toolkit:ToggleSwitch>
             <TextBlock Grid.Row="3" 
-                   Text="Play Sounds" 
+                  Text="{Binding Path=LocalizedResources.PlaySounds, Source={StaticResource LocalizedStrings}}"                                                      
                    FontSize="20"
                    Margin="10,0,0,0" />
             <toolkit:ToggleSwitch 
@@ -61,7 +61,7 @@
                    Unchecked="togglePlaySounds_Unchecked">
             </toolkit:ToggleSwitch>
             <TextBlock Grid.Row="5" 
-                   Text="Show Text"
+                   Text="{Binding Path=LocalizedResources.ShowText, Source={StaticResource LocalizedStrings}}"                                                    
                    FontSize="20"
                    Margin="10,0,0,0" />
             <toolkit:ToggleSwitch 
@@ -74,8 +74,8 @@
             </toolkit:ToggleSwitch>
 
             <TextBlock Grid.Row="7" 
-                   Text="Languages (choose up to 3)"
-                   FontSize="30" 
+                  Text="{Binding Path=LocalizedResources.LanguageChoices, Source={StaticResource LocalizedStrings}}"                                    
+                  FontSize="30" 
                    Margin="10,0,0,0" />
             <StackPanel Grid.Row="8" Orientation="Horizontal">
                 <CheckBox x:Name="chkEnglish" Content="English" Margin="0,-5,0,0" Checked="chkEnglish_Checked_1" Unchecked="chkEnglish_Unchecked_1" />
@@ -89,7 +89,7 @@
             </StackPanel>
             <StackPanel Grid.Row="10" Orientation="Horizontal">
                 <CheckBox x:Name="chkPortuguese" Content="Portuguese" Margin="0,-10,0,0" Checked="chkPortuguese_Checked_1" Unchecked="chkPortuguese_Unchecked_1"/>
-                <CheckBox x:Name="chkPolish" Content="Polish" Margin="-12,-10,0,0" Checked="chkPolish_Checked_1" Unchecked="chkPolish_Unchecked_1"/>
+                <CheckBox x:Name="chkPolish" Content="Polish" Margin="-11,-10,0,0" Checked="chkPolish_Checked_1" Unchecked="chkPolish_Unchecked_1"/>
                 <CheckBox x:Name="chkJapanese" Content="Japanese" Margin="20,-10,0,0" Checked="chkJapanese_Checked_1" Unchecked="chkJapanese_Unchecked_1"/>
             </StackPanel>
 

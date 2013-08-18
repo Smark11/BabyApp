@@ -89,7 +89,8 @@
                 <Button x:Name="ContinuiousPlay" Click="ContiniousPlay_Click">
                     <Image Source="{Binding ButtonDisplay}"/>
                 </Button>
-                <TextBlock Text="Baby Animals" HorizontalAlignment="Center"
+                <TextBlock  Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"
+                      HorizontalAlignment="Center"
             		Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
             </StackPanel>
 
