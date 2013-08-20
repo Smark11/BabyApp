@@ -125,4 +125,247 @@
     <value>ru-RU</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>МОЕ ЗАЯВЛЕНИЕ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Пункт меню</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Корова</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Утка</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Лев</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Baby Разное</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Слон</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Свинья</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Муравьед</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Антилопа</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Барсук</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Медведь</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Бабочка</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Карибу</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Хамелеон</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Гепард</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Краб</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Собака</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Дельфин</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>Стрекоза</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Орёл</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Элк</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Рыба</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Фокс</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Жираф</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Бегемот</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Лошадь</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Игуана</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Ягуар</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Кенгуру</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Котенок</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Коала</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Лемур</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Ара</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Сурок</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Обезьяна</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Оцелот</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Осьминог</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orca</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Оттер</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Сова</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Панда</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Пингвин</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Кролик</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>Енот</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Звёздных</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>Redpanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Носорог</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Акула</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Овцы</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Сцинковые</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Змея</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>SnowLeopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Кальмар</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Белка</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Морская звезда</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Тайра</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Тигр</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Черепаха</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Морж</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Волк</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>О</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Больше приложений</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Baby животных</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Параметры звука Baby</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Мультфильм</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Языки (выберите до 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Воспроизведение музыки</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Воспроизведение звуков</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ваше мнение очень важно для нас! Пожалуйста поделитесь с нами по рейтингу Baby животных на рынке.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ваше мнение очень важно для нас! Woud вы хотели бы поделиться своими впечатлениями с нами по рейтингу Baby животных на рынке?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Реальный</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Показать текст</value>
+  </data>
 </root>

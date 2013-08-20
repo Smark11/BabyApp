@@ -125,4 +125,247 @@
     <value>vi-VN</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ỨNG DỤNG CỦA TÔI</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Mục trình đơn</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Bò</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Vịt</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Sư tử</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Con linh tinh</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Con voi</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Lợn</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Thú ăn kiến</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Linh dương</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Badger</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Gấu</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Bướm</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Tuần lộc</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Tắc kè hoa</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Cheetah</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Cua</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Chó</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Cá heo</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>Con chuồn chuồn</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Đại bàng</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Nai sừng tấm</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Cá</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Hươu cao cổ</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Hà mã</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Ngựa</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Kỳ nhông</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Báo đốm Mỹ</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Kangaroo</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Mèo con</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Koala</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Vượn cáo</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Macaw</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Marmot</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Khỉ</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Gấm</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Bạch tuộc</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orca</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Rái cá</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Cú</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Gấu trúc</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Chim cánh cụt</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Thỏ</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>Racoon</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Redfox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>RedPanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Tê giác</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Cá mập</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Cừu</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Skink</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Con rắn</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Mực</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Sóc</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Con sao biển</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Con hổ</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Rùa</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Hải mã</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Sói</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Về</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Thêm ứng dụng</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Tùy chọn</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Động vật em bé</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Tùy chọn âm thanh em bé</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Phim hoạt hình</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Ngôn ngữ (chọn lên đến 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Chơi nhạc</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Chơi âm thanh</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Phản hồi của bạn là rất quan trọng với chúng tôi! Xin vui lòng chia sẻ thông tin phản hồi của bạn với chúng tôi bằng cách đánh giá các động vật em bé trên thị trường.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Phản hồi của bạn là rất quan trọng với chúng tôi! Woud bạn muốn chia sẻ phản hồi của bạn với chúng tôi bằng cách đánh giá các động vật em bé trên thị trường?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Thực tế</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Tỷ lệ</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Hiển thị văn bản</value>
+  </data>
 </root>

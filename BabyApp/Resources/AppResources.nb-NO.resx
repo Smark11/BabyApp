@@ -125,4 +125,247 @@
     <value>nb-NO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MIN SØKNAD</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>legge til</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menyelement</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Ku</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Duck</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Løve</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Baby Misc</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Elefant</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Gris</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Anteater</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Antilope</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Grevling</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Bjørn</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Sommerfugl</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Caribou</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Chameleon</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Cheetah</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Krabbe</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Hunden</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Dolphin</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>DragonFly</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Eagle</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Elg</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Fisk</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Sjiraff</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Flodhest</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Hest</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Iguana</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Jaguar</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Kenguru</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Kattunge</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Koala</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Lemur</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Murmeldyr</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Monkey</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Ocelot</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Blekksprut</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orca</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Otter</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Ugle</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Panda</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Penguin</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Kanin</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>Racoon</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Redfox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>Redpanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Neshorn</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Hai</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Sau</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Skinker</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Slange</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Blekksprut</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Ekorn</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Sjøstjerner</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Tiger</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Skilpadde</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Hvalross</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Ulv</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Flere apper</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Alternativer</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Baby dyr</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Alternativer for baby lyd</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Tegneserie</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Språk (Velg opp til 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Spille musikk</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Spille lyder</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Din tilbakemelding er veldig viktig for oss! Kan du dele dine tilbakemeldinger med oss etter vurdering Baby dyr på markedet.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Din tilbakemelding er veldig viktig for oss! Woud du gjerne dele dine tilbakemeldinger med oss etter vurdering Baby dyr på markedsplassen?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Ekte</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Vis tekst</value>
+  </data>
 </root>

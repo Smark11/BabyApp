@@ -125,4 +125,247 @@
     <value>th-TH</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>โปรแกรมประยุกต์ของฉัน</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>เมนู</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>วัว</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>เป็ด</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>สิงโต</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>เด็กเบ็ดเตล็ด</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>ช้าง</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>หมู</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Anteater</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>แอนทีโลป</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Badger</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>หมี</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>ผีเสื้อ</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Caribou</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>กิ้งก่าเปลียนสี</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>เสือชีตาห์</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>ปู</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>สุนัข</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>ปลาโลมา</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>แมลงปอ</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>อีเกิล</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>เอิล์คฮิลล์</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>ปลา</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>สุนัขจิ้งจอก</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>ยีราฟ</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>ฮิปโป</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>ม้า</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>อีกัวนา</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>จากัวร์</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>แกงการู</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>ลูกแมว</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>โคอาลา</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>ลีเมอร์</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>มาร์คอว์</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Marmot</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>ลิง</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Ocelot</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>ปลาหมึกยักษ์</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orca</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>นาก</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>นกฮูก</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>หมีแพนด้า</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>นกเพนกวิน</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>กระต่าย</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>สัตว์คล้ายหมีเล็ก</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Redfox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>Redpanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>แรด</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>ปลาฉลาม</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>แกะ</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>จิ้งเหลน</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>งู</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>ปลาหมึก</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>กระรอก</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>ปลาดาว</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>เสือ</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>เต่า</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>วอลรัส</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>หมาป่า</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>ปพลิเคชันเพิ่มเติม</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>ตัวเลือก</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>สัตว์เด็ก</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>ตัวเลือกเสียงเด็ก</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>การ์ตูน</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>ภาษา (เลือกได้ 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>เล่นเพลง</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>เล่นเสียง</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>อัตรา</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา กรุณาใช้คำติชมของคุณร่วมกับเรา โดยการจัดอันดับสัตว์เด็กตลาด</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา Woud คุณต้องใช้คำติชมของคุณกับเราจัดอันดับสัตว์เด็กในตลาด</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>จริง</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>อัตรา</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>แสดงข้อความ</value>
+  </data>
 </root>

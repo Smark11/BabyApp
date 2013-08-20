@@ -323,4 +323,49 @@
   <data name="Wolf" xml:space="preserve">
     <value>Lupo</value>
   </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Info su</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Più Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Cuccioli di animali</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Opzioni di suono Baby</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Cartone animato</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Lingue (Scegli fino a 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Riprodurre musica</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Riprodurre suoni</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Tasso</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Il vostro feedback è molto importante per noi! Si prega di condividere il tuo feedback con noi dal punteggio Baby animali sul mercato.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Il vostro feedback è molto importante per noi! Woud volete condividere il vostro feedback con noi dal punteggio Baby animali sul mercato?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Tasso</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Visualizza testo</value>
+  </data>
 </root>

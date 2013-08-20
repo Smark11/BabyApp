@@ -323,4 +323,49 @@
   <data name="Wolf" xml:space="preserve">
     <value>オオカミ</value>
   </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>について</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>多くのアプリケーション</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>動物の赤ちゃん</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>赤ちゃんのサウンド オプション</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>漫画</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>言語 （3 つまで選択)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>音楽を再生</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>サウンドを再生</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>レート</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>あなたのフィードバックは私達にとって非常に重要です ！ご意見を共有私たちと市場での動物の赤ちゃんの定格によって評価しました。</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>あなたのフィードバックは私達にとって非常に重要です ！Woud 市場で動物の赤ちゃんを評価とご意見を共有したいですか？</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>実際</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>レート</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>テキストを表示します。</value>
+  </data>
 </root>

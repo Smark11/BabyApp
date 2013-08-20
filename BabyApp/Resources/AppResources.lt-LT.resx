@@ -125,4 +125,247 @@
     <value>lt-LT</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MANO TAIKYMAS</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>pridėti</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Meniu elementas</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Karvė</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Antis</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Liūtas</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Kūdikių įvairūs</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Dramblys</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Kiaulių</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Skruzdėdiniai</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Antilopė</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Barsukas</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Lokys</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Drugelis</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Caribou</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Chameleonas</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Cheetah</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Krabas</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Šuo</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Delfinų</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>Laumžirgis</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Erelis</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Briedis</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Žuvų</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Žirafa</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Begemotas</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Arklys</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Iguana</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Jaguar</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Kengūra</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Kačiukas</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Koala</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Lemūras</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Švilpikas</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Beždžionė</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Ocelot</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Aštuonkojis</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orca</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Ūdra</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Pelėda</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Panda</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Pingvinas</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Triušis</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>Meškėnas</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Redfox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>Redpanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Raganosis</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Ryklys</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Avių</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Skink</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Gyvatė</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Kalmarai</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Voverė</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Jūrų žvaigždė</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Mangustos</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Tigras</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Vėžlys</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Jūrų vėplio</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Vilkas</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Daugiau Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Parinktys</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Kūdikių gyvūnai</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Baby garso parinktys</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Animacinių filmų</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Kalbų (pasirinkti iki 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Žaisti muzikos</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Žaisti garsus</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Norma</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Mums labai svarbu savo atsiliepimą! Prašome pasidalinti savo atsiliepimus su mumis, įvertindami Baby Animals rinkoje.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Mums labai svarbu savo atsiliepimą! Woud norite pasidalinti su mumis savo atsiliepimus, įvertindami Baby Animals rinkoje?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Realus</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Norma</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Rodyti tekstą</value>
+  </data>
 </root>

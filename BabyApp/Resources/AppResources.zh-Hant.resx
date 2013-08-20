@@ -323,4 +323,49 @@
   <data name="Wolf" xml:space="preserve">
     <value>狼</value>
   </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>更多應用程式</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>選項</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>嬰兒動物</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>寶寶聲音選項</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>卡通</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>語言 （選擇 3）</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>播放音樂</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>播放聲音</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>速率</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>您的回饋意見是對我們很重要 ！請由評分寶寶動物在市場上與我們分享您的回饋意見。</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>您的回饋意見是對我們很重要 ！闖你喜歡的評分寶寶動物在市場上與我們分享您的回饋意見嗎？</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>真實</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>速率</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>顯示文本</value>
+  </data>
 </root>

@@ -125,4 +125,247 @@
     <value>el-GR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ΑΊΤΗΣΉ ΜΟΥ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Προσθέστε</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Στοιχείο μενού</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Αγελάδα</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Πάπια</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Λιοντάρι</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Μωρό Misc</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Ελέφαντας</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Χοίρων</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Anteater</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Αντιλόπη</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Ασβός</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Αρκούδα</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Πεταλούδα</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Καριμπού</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Χαμαιλέοντας</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Τσίτα</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Καβούρι</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Σκυλί</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Δελφίνι</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>DragonFly</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Αετός</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Άλκης</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Ψάρια</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Καμηλοπάρδαλη</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Ιπποπόταμος</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Άλογο</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Ιγκουάνα</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Ιαγουάρος</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Καγκουρό</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Γατάκι</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Κοάλα</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Λεμούριος</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Μακώ</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Μαρμότα</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Μαϊμού</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Ocelot</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Χταπόδι</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Όρκα</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Βίδρα</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Κουκουβάγια</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Panda</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Πιγκουίνος</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Κουνέλι</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>Ρακούν</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>RedFox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>RedPanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Ρινόκερος</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Καρχαρίας</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Πρόβατα</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Λιακόνι</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Φίδι</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Καλαμάρια</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Σκίουρος</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Αστερίας</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Τίγρης</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Χελώνα</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Θαλάσσιο ίππο</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Λύκος</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Σχετικά με</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Περισσότερα Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Επιλογές</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Ζώα μωρό</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Μωρό ήχου επιλογές</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Κινούμενα σχέδια</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Γλώσσες (επιλέξτε μέχρι 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Παίξτε μουσική</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Αναπαραγωγή ήχων</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Ποσοστό</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Παρακαλώ μοιραστείτε τα σχόλιά σας με μας από την βαθμολογία ζώα μωρό στην αγορά.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Τα σχόλιά σας είναι πολύ σημαντική για εμάς! Woud ήθελα να μοιραστείτε τα σχόλιά σας μαζί μας, με την εκτίμηση ζώα μωρό στην αγορά;</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Πραγματική</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Ποσοστό</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Εμφάνιση κειμένου</value>
+  </data>
 </root>

@@ -323,4 +323,49 @@
   <data name="Wolf" xml:space="preserve">
     <value>Lobo</value>
   </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Mais Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Baby Animals</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Opções de som de bebê</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Desenhos animados</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Línguas (escolha até 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Reproduzir música</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Tocar sons</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Taxa de</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Seu feedback é muito importante para nós! Por favor, compartilhe seus comentários pela avaliação do bebê animais na Praça da mercado.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Seu feedback é muito importante para nós! Woud você gostaria de compartilhar seus comentários pela avaliação do bebê animais no mercado?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Taxa de</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Mostrar o texto</value>
+  </data>
 </root>

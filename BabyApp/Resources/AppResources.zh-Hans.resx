@@ -125,4 +125,247 @@
     <value>zh-Hans</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>我的应用程序</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>菜单项</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>母牛</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>鸭</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>狮子</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>宝宝 Misc</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>大象</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>猪</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>食蚁兽</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>羚羊</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>獾</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>熊</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>蝴蝶</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>驯鹿</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>变色龙</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>猎豹</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>蟹</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>狗</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>海豚</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>蜻蜓</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>老鹰</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>麋鹿</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>鱼</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>狐狸</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>长颈鹿</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>豚鼠</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>河马</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>马</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>鬣鳞蜥</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>捷豹</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>袋鼠</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>小猫</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>考拉</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>狐猴</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>金刚鹦鹉</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>旱獭</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>猴子</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>山猫</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>八达通</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>逆戟鲸</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>水獭</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>猫头鹰</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>熊猫</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>企鹅</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>兔</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>貉</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Redfox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>Redpanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>犀牛</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>鲨鱼</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>羊</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>石龙子</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>蛇</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>雪豹</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>鱿鱼</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>松鼠</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>海星</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>老虎</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>乌龟</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>海象</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>狼</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>更多应用程序</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>婴儿动物</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>宝宝声音选项</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>卡通</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>语言 （选择 3）</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>播放音乐</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>播放声音</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>速率</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>您的反馈意见是对我们很重要 ！请由评分宝宝动物在市场上与我们分享您的反馈意见。</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>您的反馈意见是对我们很重要 ！闯你喜欢的评分宝宝动物在市场上与我们分享您的反馈意见吗？</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>真实</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>速率</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>显示文本</value>
+  </data>
 </root>

@@ -125,4 +125,247 @@
     <value>id-ID</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>APLIKASI SAYA</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menu Item</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Sapi</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Bebek</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Lion</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Bayi Misc</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Gajah</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Babi</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Bot trenggiling</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Antelope</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Lumba-lumba</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Beruang</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Kupu-kupu</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Karibu</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Bunglon</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Cheetah</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Kepiting</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Anjing</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Dolphin</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>Capung</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Eagle</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Elk</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Ikan</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Jerapah</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Kuda nil</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Kuda</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Iguana</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Jaguar</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Kanguru</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Anak kucing</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Koala</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Pukang</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Macaw</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Marmot</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Monyet</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Ocelot</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Gurita</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orca</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Berang-berang</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Burung hantu</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Panda</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Penguin</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Kelinci</value>
+  </data>
+  <data name="Racoon" xml:space="preserve">
+    <value>Racoon</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Redfox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>Redpanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Badak</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Hiu</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Domba</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Skink</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Ular</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Cumi-cumi</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Tupai</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Bintang laut</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Tiger</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Kura-kura</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>WALRUS</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Serigala</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Lebih banyak aplikasi</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Pilihan</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Bayi hewan</value>
+  </data>
+  <data name="BabySoundOptions" xml:space="preserve">
+    <value>Pilihan suara bayi</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Kartun</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Bahasa (pilih hingga 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Memutar musik</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Bermain suara</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Tingkat</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Umpan balik Anda sangat penting bagi kami! Silakan berbagi Tanggapan Anda dengan kami dengan rating bayi hewan di pasar.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Umpan balik Anda sangat penting bagi kami! Woud Anda ingin berbagi umpan balik Anda dengan kami dengan rating bayi hewan di pasar?</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Nyata</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Tingkat</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Tampilkan teks</value>
+  </data>
 </root>
