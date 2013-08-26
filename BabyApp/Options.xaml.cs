@@ -23,28 +23,28 @@ namespace BabyApp
             App.gLanguages = new List<string>();
 
             LoadPlaySoundSetting();
-            LoadPlayMusicSetting();
+            //LoadPlayMusicSetting();
             LoadShowTextSetting();
             LoadLanguageSettings();
         }
 
         #region "Events"
 
-        private void togglePlayMusic_Checked(object sender, RoutedEventArgs e)
-        {
-            PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
-            IS.SaveSetting("BabyApp-PlayMusic", "On");
-            togglePlayMusic.Content = "On";
-            App.gPlayMusicSetting = "On";
-        }
+        //private void togglePlayMusic_Checked(object sender, RoutedEventArgs e)
+        //{
+        //    PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
+        //    IS.SaveSetting("BabyApp-PlayMusic", "On");
+        //    togglePlayMusic.Content = "On";
+        //    App.gPlayMusicSetting = "On";
+        //}
 
-        private void togglePlayMusic_Unchecked(object sender, RoutedEventArgs e)
-        {
-            PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
-            IS.SaveSetting("BabyApp-PlayMusic", "Off");
-            togglePlayMusic.Content = "Off";
-            App.gPlayMusicSetting = "Off";
-        }
+        //private void togglePlayMusic_Unchecked(object sender, RoutedEventArgs e)
+        //{
+        //    PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
+        //    IS.SaveSetting("BabyApp-PlayMusic", "Off");
+        //    togglePlayMusic.Content = "Off";
+        //    App.gPlayMusicSetting = "Off";
+        //}
 
         private void togglePlaySounds_Checked(object sender, RoutedEventArgs e)
         {
@@ -288,30 +288,30 @@ namespace BabyApp
             }
         }
 
-        private void LoadPlayMusicSetting()
-        {
-            string settingValue = string.Empty;
+        //private void LoadPlayMusicSetting()
+        //{
+        //    string settingValue = string.Empty;
 
-            if (IS.GetSettingStringValue("BabyApp-PlayMusic").ToString() == string.Empty)
-            {
-                togglePlayMusic.IsChecked = false;
-                togglePlayMusic.Content = "Off";
-            }
-            else
-            {
-                settingValue = IS.GetSettingStringValue("BabyApp-PlayMusic").ToString();
-                if (settingValue == "On")
-                {
-                    togglePlayMusic.IsChecked = true;
-                    togglePlayMusic.Content = "On";
-                }
-                else
-                {
-                    togglePlayMusic.IsChecked = false;
-                    togglePlayMusic.Content = "Off";
-                }
-            }
-        }
+        //    if (IS.GetSettingStringValue("BabyApp-PlayMusic").ToString() == string.Empty)
+        //    {
+        //        togglePlayMusic.IsChecked = false;
+        //        togglePlayMusic.Content = "Off";
+        //    }
+        //    else
+        //    {
+        //        settingValue = IS.GetSettingStringValue("BabyApp-PlayMusic").ToString();
+        //        if (settingValue == "On")
+        //        {
+        //            togglePlayMusic.IsChecked = true;
+        //            togglePlayMusic.Content = "On";
+        //        }
+        //        else
+        //        {
+        //            togglePlayMusic.IsChecked = false;
+        //            togglePlayMusic.Content = "Off";
+        //        }
+        //    }
+        //}
 
         private void LoadShowTextSetting()
         {

@@ -218,6 +218,14 @@ namespace BabyApp
                 case "CartoonAnimals":
                     PivotSlides.Clear();
                     PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+                    PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+                    PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
+                    PivotSlides.Add(new PivotSlide("Slide3", CartoonAnimals[18], CartoonAnimals[19], CartoonAnimals[20], CartoonAnimals[21], CartoonAnimals[22], CartoonAnimals[23], CartoonAnimals[24], CartoonAnimals[25], CartoonAnimals[26]));
+                    PivotSlides.Add(new PivotSlide("Slide4", CartoonAnimals[27], CartoonAnimals[28], CartoonAnimals[29], CartoonAnimals[30], CartoonAnimals[31], CartoonAnimals[32], CartoonAnimals[33], CartoonAnimals[34], CartoonAnimals[35]));
+                    PivotSlides.Add(new PivotSlide("Slide5", CartoonAnimals[36], CartoonAnimals[37], CartoonAnimals[38], CartoonAnimals[39], CartoonAnimals[40], CartoonAnimals[41], CartoonAnimals[42], CartoonAnimals[43], CartoonAnimals[44]));
+                    PivotSlides.Add(new PivotSlide("Slide6", CartoonAnimals[45], CartoonAnimals[46], CartoonAnimals[47], CartoonAnimals[48], CartoonAnimals[49], CartoonAnimals[50], CartoonAnimals[51], CartoonAnimals[52], CartoonAnimals[53]));
+                    PivotSlides.Add(new PivotSlide("Slide7", CartoonAnimals[54], CartoonAnimals[55], CartoonAnimals[56], CartoonAnimals[57], CartoonAnimals[58], CartoonAnimals[59], CartoonAnimals[60], CartoonAnimals[61], CartoonAnimals[62]));
+ 
                     break;
                 case "Animals":
                     PivotSlides.Clear();
