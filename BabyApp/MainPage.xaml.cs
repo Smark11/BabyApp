@@ -495,22 +495,27 @@ namespace BabyApp
         }
 
         //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
-        private void PlayMusic()
+        private void PlaySoundViaMediaElement(int tokenNumber)
         {
             try
             {
-                if (myBoundSound.CurrentState == System.Windows.Media.MediaElementState.Playing)
-                    myBoundSound.Pause();
-                else
-                    myBoundSound.Play();
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                {
+                    if (myBoundSound.CurrentState == System.Windows.Media.MediaElementState.Playing)
+                        myBoundSound.Pause();
+                    else
+                        myBoundSound.Play();                   
+                }
             }
             catch (Exception ex)
             {
+                Debug.WriteLine("PlaySoundViaMediaElement - Error playing sound = " + ImageSound.Substring(1) + ". Error = " + ex.Message);
+
             }
         }
 
         //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
-        private void PlaySound(int tokenNumber)
+        private void PlaySoundViaSoundEffect(int tokenNumber)
         {
             try
             {
@@ -525,7 +530,7 @@ namespace BabyApp
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("Error playing sound = " + ImageSound.Substring(1) + ". Error = " + ex.Message);
+                Debug.WriteLine("PlaySoundViaSoundEffect - Error playing sound = " + ImageSound.Substring(1) + ". Error = " + ex.Message);
             }
         }
 
@@ -822,8 +827,13 @@ namespace BabyApp
             {
                 if (App.gPlaySoundSetting == "On")
                 {
-                    PlaySound(tokenNumber);
-                    Thread.Sleep(5000);
+                    Dispatcher.BeginInvoke(() =>
+                    {
+                       // PlaySoundViaSoundEffect(tokenNumber);
+                        PlaySoundViaMediaElement(tokenNumber);
+                        Thread.Sleep(5000);
+                       myBoundSound.Pause();
+                    });                   
                 }
             }
         }
@@ -1180,12 +1190,6 @@ namespace BabyApp
 
         #region "Events"
 
-        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
-        {
-           // base.OnBackKeyPress(e);
-
-           // NavigationService.Navigate(new Uri("/Options.xaml", UriKind.Relative));
-        }
 
         Dictionary<int, CancellationToken> _cancellationTokens = new Dictionary<int, CancellationToken>();
         Dictionary<int, CancellationTokenSource> _cancellationTokenSources = new Dictionary<int, CancellationTokenSource>();
@@ -1197,6 +1201,13 @@ namespace BabyApp
         {
             try
             {
+                //ImageSound = "/Assets/Sounds/Animals/badger.wav";
+                //if (myBoundSound.CurrentState == System.Windows.Media.MediaElementState.Playing)
+                //    myBoundSound.Pause();
+                //else
+                //    myBoundSound.Play();
+
+                //myBoundSound.Pause();
                 CancellationToken token;
                 CancellationTokenSource tokenSource = new CancellationTokenSource();
 
