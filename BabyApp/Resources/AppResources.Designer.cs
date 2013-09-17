@@ -61,6 +61,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Alligator.
+        /// </summary>
+        public static string Alligator {
+            get {
+                return ResourceManager.GetString("Alligator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Anteater.
         /// </summary>
         public static string Anteater {
@@ -187,6 +196,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Camel.
+        /// </summary>
+        public static string Camel {
+            get {
+                return ResourceManager.GetString("Camel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Capuchinmonkey.
         /// </summary>
         public static string Capuchinmonkey {
@@ -232,6 +250,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Chimpanzee.
+        /// </summary>
+        public static string Chimpanzee {
+            get {
+                return ResourceManager.GetString("Chimpanzee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cow.
         /// </summary>
         public static string Cow {
@@ -250,6 +277,24 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Crocodile.
+        /// </summary>
+        public static string Crocodile {
+            get {
+                return ResourceManager.GetString("Crocodile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deer.
+        /// </summary>
+        public static string Deer {
+            get {
+                return ResourceManager.GetString("Deer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dog.
         /// </summary>
         public static string Dog {
@@ -264,6 +309,15 @@ namespace BabyApp.Resources {
         public static string Dolphin {
             get {
                 return ResourceManager.GetString("Dolphin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Donkey.
+        /// </summary>
+        public static string Donkey {
+            get {
+                return ResourceManager.GetString("Donkey", resourceCulture);
             }
         }
         
@@ -327,6 +381,15 @@ namespace BabyApp.Resources {
         public static string Fox {
             get {
                 return ResourceManager.GetString("Fox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Frog.
+        /// </summary>
+        public static string Frog {
+            get {
+                return ResourceManager.GetString("Frog", resourceCulture);
             }
         }
         
@@ -435,6 +498,15 @@ namespace BabyApp.Resources {
         public static string Lion {
             get {
                 return ResourceManager.GetString("Lion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Llama.
+        /// </summary>
+        public static string Llama {
+            get {
+                return ResourceManager.GetString("Llama", resourceCulture);
             }
         }
         
@@ -574,11 +646,11 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Racoon.
+        ///   Looks up a localized string similar to Raccoon.
         /// </summary>
-        public static string Racoon {
+        public static string Raccoon {
             get {
-                return ResourceManager.GetString("Racoon", resourceCulture);
+                return ResourceManager.GetString("Raccoon", resourceCulture);
             }
         }
         

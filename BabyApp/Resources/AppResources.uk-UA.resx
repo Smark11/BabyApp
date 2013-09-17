@@ -269,9 +269,6 @@
   <data name="Rabbit" xml:space="preserve">
     <value>Кролик</value>
   </data>
-  <data name="Racoon" xml:space="preserve">
-    <value>Єнот</value>
-  </data>
   <data name="Redfox" xml:space="preserve">
     <value>Redfox</value>
   </data>

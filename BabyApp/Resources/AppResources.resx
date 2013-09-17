@@ -269,8 +269,8 @@
   <data name="Rabbit" xml:space="preserve">
     <value>Rabbit</value>
   </data>
-  <data name="Racoon" xml:space="preserve">
-    <value>Racoon</value>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Raccoon</value>
   </data>
   <data name="Redfox" xml:space="preserve">
     <value>Redfox</value>
@@ -367,5 +367,29 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>Show Text</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Alligator</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Crocodile</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Deer</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Donkey</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Frog</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Llama</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Camel</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Chimpanzee</value>
   </data>
 </root>

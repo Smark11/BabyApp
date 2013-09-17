@@ -208,9 +208,9 @@
           <source>Rabbit</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Kani</target>
         </trans-unit>
-        <trans-unit id="Resx/Racoon" translate="yes" xml:space="preserve">
-          <source>Racoon</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Supi</target>
+        <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
+          <source>Raccoon</source>
+          <target state="new">Raccoon</target>
         </trans-unit>
         <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
           <source>Redfox</source>
@@ -339,6 +339,38 @@
         <trans-unit id="Resx/ShowText" translate="yes" xml:space="preserve">
           <source>Show Text</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Näytä teksti</target>
+        </trans-unit>
+        <trans-unit id="Resx/Alligator" translate="yes" xml:space="preserve">
+          <source>Alligator</source>
+          <target state="new">Alligator</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crocodile" translate="yes" xml:space="preserve">
+          <source>Crocodile</source>
+          <target state="new">Crocodile</target>
+        </trans-unit>
+        <trans-unit id="Resx/Deer" translate="yes" xml:space="preserve">
+          <source>Deer</source>
+          <target state="new">Deer</target>
+        </trans-unit>
+        <trans-unit id="Resx/Donkey" translate="yes" xml:space="preserve">
+          <source>Donkey</source>
+          <target state="new">Donkey</target>
+        </trans-unit>
+        <trans-unit id="Resx/Frog" translate="yes" xml:space="preserve">
+          <source>Frog</source>
+          <target state="new">Frog</target>
+        </trans-unit>
+        <trans-unit id="Resx/Llama" translate="yes" xml:space="preserve">
+          <source>Llama</source>
+          <target state="new">Llama</target>
+        </trans-unit>
+        <trans-unit id="Resx/Camel" translate="yes" xml:space="preserve">
+          <source>Camel</source>
+          <target state="new">Camel</target>
+        </trans-unit>
+        <trans-unit id="Resx/Chimpanzee" translate="yes" xml:space="preserve">
+          <source>Chimpanzee</source>
+          <target state="new">Chimpanzee</target>
         </trans-unit>
       </group>
     </body>

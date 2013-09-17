@@ -269,9 +269,6 @@
   <data name="Rabbit" xml:space="preserve">
     <value>ウサギ</value>
   </data>
-  <data name="Racoon" xml:space="preserve">
-    <value>アライグマ</value>
-  </data>
   <data name="Redfox" xml:space="preserve">
     <value>レッドフォックス</value>
   </data>
