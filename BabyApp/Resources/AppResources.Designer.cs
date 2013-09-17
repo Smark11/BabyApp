@@ -493,6 +493,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Leopard.
+        /// </summary>
+        public static string Leopard {
+            get {
+                return ResourceManager.GetString("Leopard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lion.
         /// </summary>
         public static string Lion {
@@ -628,6 +637,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Polarbear.
+        /// </summary>
+        public static string Polarbear {
+            get {
+                return ResourceManager.GetString("Polarbear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Prayingmantis.
         /// </summary>
         public static string Prayingmantis {
@@ -741,6 +759,24 @@ namespace BabyApp.Resources {
         public static string Rhino {
             get {
                 return ResourceManager.GetString("Rhino", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rooster.
+        /// </summary>
+        public static string Rooster {
+            get {
+                return ResourceManager.GetString("Rooster", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Seagull.
+        /// </summary>
+        public static string Seagull {
+            get {
+                return ResourceManager.GetString("Seagull", resourceCulture);
             }
         }
         
@@ -862,6 +898,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Turkey.
+        /// </summary>
+        public static string Turkey {
+            get {
+                return ResourceManager.GetString("Turkey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Walrus.
         /// </summary>
         public static string Walrus {
@@ -876,6 +921,15 @@ namespace BabyApp.Resources {
         public static string Wolf {
             get {
                 return ResourceManager.GetString("Wolf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zebra.
+        /// </summary>
+        public static string Zebra {
+            get {
+                return ResourceManager.GetString("Zebra", resourceCulture);
             }
         }
     }

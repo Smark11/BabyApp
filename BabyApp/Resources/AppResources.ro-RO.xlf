@@ -372,6 +372,30 @@
           <source>Chimpanzee</source>
           <target state="new">Chimpanzee</target>
         </trans-unit>
+        <trans-unit id="Resx/Leopard" translate="yes" xml:space="preserve">
+          <source>Leopard</source>
+          <target state="new">Leopard</target>
+        </trans-unit>
+        <trans-unit id="Resx/Polarbear" translate="yes" xml:space="preserve">
+          <source>Polarbear</source>
+          <target state="new">Polarbear</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rooster" translate="yes" xml:space="preserve">
+          <source>Rooster</source>
+          <target state="new">Rooster</target>
+        </trans-unit>
+        <trans-unit id="Resx/Seagull" translate="yes" xml:space="preserve">
+          <source>Seagull</source>
+          <target state="new">Seagull</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turkey" translate="yes" xml:space="preserve">
+          <source>Turkey</source>
+          <target state="new">Turkey</target>
+        </trans-unit>
+        <trans-unit id="Resx/Zebra" translate="yes" xml:space="preserve">
+          <source>Zebra</source>
+          <target state="new">Zebra</target>
+        </trans-unit>
       </group>
     </body>
   </file>
