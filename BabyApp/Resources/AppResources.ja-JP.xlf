@@ -424,6 +424,10 @@
           <source>Puma</source>
           <target state="new">Puma</target>
         </trans-unit>
+        <trans-unit id="Resx/AppBarMenuPlayButton" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="new">Play</target>
+        </trans-unit>
       </group>
     </body>
   </file>
