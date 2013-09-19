@@ -431,4 +431,7 @@
   <data name="Puma" xml:space="preserve">
     <value>Puma</value>
   </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Play</value>
+  </data>
 </root>

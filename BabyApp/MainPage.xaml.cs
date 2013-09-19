@@ -1372,16 +1372,22 @@ namespace BabyApp
                 ApplicationBar.IsVisible = true;
                 ApplicationBar.IsMenuEnabled = true;
 
-                // Create a new button and set the text value to the localized string from AppResources.      
-                ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
-                appBarButton1.Text = AppResources.Cartoon;
+                // Create a new button and set the text value to the localized string from AppResources. 
+                ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
+                appBarButton1.Text = AppResources.AppBarMenuPlayButton;
                 ApplicationBar.Buttons.Add(appBarButton1);
-                appBarButton1.Click += new EventHandler(CartoonAnimals_Click);
+                appBarButton1.Click += new EventHandler(ContiniousPlay_Click);
 
-                ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Dog80x100.png", UriKind.Relative));
-                appBarButton2.Text = AppResources.Real;
+
+                ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
+                appBarButton2.Text = AppResources.Cartoon;
                 ApplicationBar.Buttons.Add(appBarButton2);
-                appBarButton2.Click += new EventHandler(Animals_Click);
+                appBarButton2.Click += new EventHandler(CartoonAnimals_Click);
+
+                ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Dog80x100.png", UriKind.Relative));
+                appBarButton3.Text = AppResources.Real;
+                ApplicationBar.Buttons.Add(appBarButton3);
+                appBarButton3.Click += new EventHandler(Animals_Click);
 
                 // Create a new menu item with the localized string from AppResources.
                 ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppMenuItemOptions);

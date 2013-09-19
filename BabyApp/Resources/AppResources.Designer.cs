@@ -115,6 +115,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Play.
+        /// </summary>
+        public static string AppBarMenuPlayButton {
+            get {
+                return ResourceManager.GetString("AppBarMenuPlayButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to MY APPLICATION.
         /// </summary>
         public static string ApplicationTitle {
