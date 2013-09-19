@@ -610,6 +610,9 @@ namespace BabyApp
                     case "Bear":
                         returnValue = AppResources.Bear;
                         break;
+                    case "Bee":
+                        returnValue = AppResources.Bee;
+                        break;
                     case "Butterfly":
                         returnValue = AppResources.Butterfly;
                         break;
@@ -630,6 +633,12 @@ namespace BabyApp
                         break;
                     case "Chimpanzee":
                         returnValue = AppResources.Chimpanzee;
+                        break;
+                    case "Cougar":
+                        returnValue = AppResources.Cougar;
+                        break;
+                    case "Cow":
+                        returnValue = AppResources.Cow;
                         break;
                     case "Crab":
                         returnValue = AppResources.Crab;
@@ -676,14 +685,23 @@ namespace BabyApp
                     case "Giraffe":
                         returnValue = AppResources.Giraffe;
                         break;
+                    case "Goat":
+                        returnValue = AppResources.Goat;
+                        break;
+                    case "Gorilla":
+                        returnValue = AppResources.Gorilla;
+                        break;
                     case "Guineapig":
                         returnValue = AppResources.Guineapig;
+                        break;
+                    case "Horse":
+                        returnValue = AppResources.Horse;
                         break;
                     case "Hippopotamus":
                         returnValue = AppResources.Hippopotamus;
                         break;
-                    case "Horse":
-                        returnValue = AppResources.Horse;
+                    case "Hawk":
+                        returnValue = AppResources.Hawk;
                         break;
                     case "Iguana":
                         returnValue = AppResources.Iguana;
@@ -721,6 +739,9 @@ namespace BabyApp
                     case "Monkey":
                         returnValue = AppResources.Monkey;
                         break;
+                    case "Mosquito":
+                        returnValue = AppResources.Mosquito;
+                        break;
                     case "Ocelot":
                         returnValue = AppResources.Ocelot;
                         break;
@@ -750,6 +771,9 @@ namespace BabyApp
                         break;
                     case "Prayingmantis":
                         returnValue = AppResources.Prayingmantis;
+                        break;
+                    case "Puma":
+                        returnValue = AppResources.Puma;
                         break;
                     case "Rabbit":
                         returnValue = AppResources.Rabbit;

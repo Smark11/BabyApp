@@ -396,6 +396,34 @@
           <source>Zebra</source>
           <target state="new">Zebra</target>
         </trans-unit>
+        <trans-unit id="Resx/Bee" translate="yes" xml:space="preserve">
+          <source>Bee</source>
+          <target state="new">Bee</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cougar" translate="yes" xml:space="preserve">
+          <source>Cougar</source>
+          <target state="new">Cougar</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goat" translate="yes" xml:space="preserve">
+          <source>Goat</source>
+          <target state="new">Goat</target>
+        </trans-unit>
+        <trans-unit id="Resx/Gorilla" translate="yes" xml:space="preserve">
+          <source>Gorilaa</source>
+          <target state="new">Gorilaa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Hawk" translate="yes" xml:space="preserve">
+          <source>Hawk</source>
+          <target state="new">Hawk</target>
+        </trans-unit>
+        <trans-unit id="Resx/Mosquito" translate="yes" xml:space="preserve">
+          <source>Mosquito</source>
+          <target state="new">Mosquito</target>
+        </trans-unit>
+        <trans-unit id="Resx/Puma" translate="yes" xml:space="preserve">
+          <source>Puma</source>
+          <target state="new">Puma</target>
+        </trans-unit>
       </group>
     </body>
   </file>
