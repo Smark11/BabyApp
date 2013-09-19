@@ -222,7 +222,7 @@ namespace BabyApp
 
             if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
             {
-                SetOnePicGrid(selectedPic, tokenNumber);
+                Task.Factory.StartNew(() => SetOnePicGrid(selectedPic, tokenNumber)).Wait();
             }
 
             if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
@@ -233,6 +233,7 @@ namespace BabyApp
                     this.PictureGrid.Visibility = Visibility.Visible;
                     this.SlideShow.Visibility = Visibility.Collapsed;
                     this.TitlePanel.Visibility = Visibility.Visible;
+                    pivotControl.Focus();
                 });
             }
         }
@@ -255,7 +256,7 @@ namespace BabyApp
             {
                 //TJY I needed to add a small sleep value here because the above properites being in an  ASYNC block were not being set by
                 //the time PlayVoiceTextAndSound was being executed.
-                Thread.Sleep(250);
+                //Thread.Sleep(250);
             }
 
             if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
@@ -868,7 +869,12 @@ namespace BabyApp
                     {
                         // PlaySoundViaSoundEffect(tokenNumber);
                         PlaySoundViaMediaElement(tokenNumber);
-                        Thread.Sleep(5000);
+                    });
+
+                    Thread.Sleep(5000);
+
+                    Dispatcher.BeginInvoke(() =>
+                    {
                         myBoundSound.Pause();
                     });
                 }
@@ -1245,6 +1251,12 @@ namespace BabyApp
                 //    myBoundSound.Play();
 
                 //myBoundSound.Pause();
+
+                foreach (var row in _cancellationTokenSources.Keys)
+                {
+                    _cancellationTokenSources[row].Cancel();
+                }
+
                 CancellationToken token;
                 CancellationTokenSource tokenSource = new CancellationTokenSource();
 
