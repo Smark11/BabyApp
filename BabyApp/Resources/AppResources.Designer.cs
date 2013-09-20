@@ -511,6 +511,51 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Baby.
+        /// </summary>
+        public static string Keyword1 {
+            get {
+                return ResourceManager.GetString("Keyword1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toddler.
+        /// </summary>
+        public static string Keyword2 {
+            get {
+                return ResourceManager.GetString("Keyword2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Animals.
+        /// </summary>
+        public static string Keyword3 {
+            get {
+                return ResourceManager.GetString("Keyword3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language.
+        /// </summary>
+        public static string Keyword4 {
+            get {
+                return ResourceManager.GetString("Keyword4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Learning.
+        /// </summary>
+        public static string Keyword5 {
+            get {
+                return ResourceManager.GetString("Keyword5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Kitten.
         /// </summary>
         public static string Kitten {
@@ -993,6 +1038,51 @@ namespace BabyApp.Resources {
         public static string Wolf {
             get {
                 return ResourceManager.GetString("Wolf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baby.
+        /// </summary>
+        public static string Z_Keyword1 {
+            get {
+                return ResourceManager.GetString("Z_Keyword1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toddler.
+        /// </summary>
+        public static string Z_Keyword2 {
+            get {
+                return ResourceManager.GetString("Z_Keyword2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Animals.
+        /// </summary>
+        public static string Z_Keyword3 {
+            get {
+                return ResourceManager.GetString("Z_Keyword3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language.
+        /// </summary>
+        public static string Z_Keyword4 {
+            get {
+                return ResourceManager.GetString("Z_Keyword4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Learning.
+        /// </summary>
+        public static string Z_Keyword5 {
+            get {
+                return ResourceManager.GetString("Z_Keyword5", resourceCulture);
             }
         }
         
