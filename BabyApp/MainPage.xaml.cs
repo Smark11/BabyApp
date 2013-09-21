@@ -1280,7 +1280,8 @@ namespace BabyApp
             {
                 case Screen.MainGrid:
                     Mode = Screen.SlideShow;
-                    appBarButton1.IconUri = new Uri("/Assets/transport.pause.png", UriKind.Relative);
+                //    appBarButton1.IconUri = new Uri("/Assets/transport.pause.png", UriKind.Relative);
+                    appBarButton1.IsEnabled = false;
                     NavigateToScreen(Screen.SlideShow);
 
                     _slideShowInProgress = true;
@@ -1298,7 +1299,8 @@ namespace BabyApp
                     break;
                 case Screen.SlideShow:
                     Mode = Screen.MainGrid;
-                    appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
+                   // appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
+                    appBarButton1.IsEnabled = true;
                     //stop the slideshow
                     _stopSlideShow = true;
                     _slideShowInProgress = false;
@@ -1369,12 +1371,14 @@ namespace BabyApp
                 ApplicationBar.IsMenuEnabled = true;
 
                 // Create a new button and set the text value to the localized string from AppResources. 
-                //     ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
-                //     ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri(ButtonDisplay, UriKind.Relative));
 
+                //TJY Had to make appBarButton1 global because we are enabling and disabling it when user clicks it...
+                //     ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
+          
                 appBarButton1.Text = AppResources.AppBarMenuPlayButton;
                 ApplicationBar.Buttons.Add(appBarButton1);
                 appBarButton1.Click += new EventHandler(ContiniousPlay_Click);
+                appBarButton1.IsEnabled = true;
 
                 ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
                 appBarButton2.Text = AppResources.Cartoon;
@@ -1420,7 +1424,8 @@ namespace BabyApp
                 {
                     _cancellationTokenSources[row].Cancel();
                 }
-                appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
+              //  appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
+                appBarButton1.IsEnabled = true;
                 e.Cancel = true;
             }
         }
