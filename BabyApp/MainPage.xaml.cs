@@ -1420,6 +1420,8 @@ namespace BabyApp
             if (GetDisplayedScreen() == Screen.SlideShow)
             {
                 NavigateToScreen(Screen.MainGrid);
+                Mode = Screen.MainGrid;
+
                 foreach (var row in _cancellationTokenSources.Keys)
                 {
                     _cancellationTokenSources[row].Cancel();
