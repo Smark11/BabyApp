@@ -34,6 +34,7 @@ namespace BabyApp
         private bool _slideShowInProgress = false;
         private bool _stopSlideShow = false;
 
+        ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
 
         public enum Screen
         {
@@ -59,7 +60,6 @@ namespace BabyApp
             LoadPicsIntoCollection();
             SetPivots(App.gCategory);
             BuildLocalizedApplicationBar();
-            ButtonDisplay = "/Assets/transport.play.png";
             Mode = Screen.MainGrid;
         }
 
@@ -90,7 +90,7 @@ namespace BabyApp
             Animals.Add(new Box("Kitten", "/Assets/Pics/Animals/kitten80x100.png", "/Assets/Pics/Animals/kitten480x800.png", "/Assets/Sounds/Animals/kitten.wav"));
             Animals.Add(new Box("Koala", "/Assets/Pics/Animals/koala80x100.png", "/Assets/Pics/Animals/koala480x800.png", "/Assets/Sounds/Animals/koala.wav"));
             Animals.Add(new Box("Lemur", "/Assets/Pics/Animals/lemur80x100.png", "/Assets/Pics/Animals/lemur480x800.png", "/Assets/Sounds/Animals/lemur.wav"));
-            Animals.Add(new Box("Leopard", "/Assets/Pics/Animals/leopard80x100.png", "/Assets/Pics/Animals/leopard480x800.png", "/Assets/Sounds/Animals/leopard.wav"));      
+            Animals.Add(new Box("Leopard", "/Assets/Pics/Animals/leopard80x100.png", "/Assets/Pics/Animals/leopard480x800.png", "/Assets/Sounds/Animals/leopard.wav"));
             Animals.Add(new Box("Llama", "/Assets/Pics/Animals/llama80x100.png", "/Assets/Pics/Animals/llama480x800.png", "/Assets/Sounds/Animals/llama.wav"));
             Animals.Add(new Box("Lion", "/Assets/Pics/Animals/lion80x100.png", "/Assets/Pics/Animals/lion480x800.png", "/Assets/Sounds/Animals/lion.wav"));
             Animals.Add(new Box("Macaw", "/Assets/Pics/Animals/macaw80x100.png", "/Assets/Pics/Animals/macaw480x800.png", "/Assets/Sounds/Animals/macaw.wav"));
@@ -193,8 +193,8 @@ namespace BabyApp
                     PivotSlides.Add(new PivotSlide("Slide3", CartoonAnimals[18], CartoonAnimals[19], CartoonAnimals[20], CartoonAnimals[21], CartoonAnimals[22], CartoonAnimals[23], CartoonAnimals[24], CartoonAnimals[25], CartoonAnimals[26]));
                     PivotSlides.Add(new PivotSlide("Slide4", CartoonAnimals[27], CartoonAnimals[28], CartoonAnimals[29], CartoonAnimals[30], CartoonAnimals[31], CartoonAnimals[32], CartoonAnimals[33], CartoonAnimals[34], CartoonAnimals[35]));
                     PivotSlides.Add(new PivotSlide("Slide5", CartoonAnimals[36], CartoonAnimals[37], CartoonAnimals[38], CartoonAnimals[39], CartoonAnimals[40], CartoonAnimals[41], CartoonAnimals[42], CartoonAnimals[43], CartoonAnimals[44]));
-          //          PivotSlides.Add(new PivotSlide("Slide6", CartoonAnimals[45], CartoonAnimals[46], CartoonAnimals[47], CartoonAnimals[48], CartoonAnimals[49], CartoonAnimals[50], CartoonAnimals[51], CartoonAnimals[52], CartoonAnimals[53]));
-          //          PivotSlides.Add(new PivotSlide("Slide7", CartoonAnimals[54], CartoonAnimals[55], CartoonAnimals[56], CartoonAnimals[57], CartoonAnimals[58], CartoonAnimals[59], CartoonAnimals[60], CartoonAnimals[61], CartoonAnimals[62]));
+                    //          PivotSlides.Add(new PivotSlide("Slide6", CartoonAnimals[45], CartoonAnimals[46], CartoonAnimals[47], CartoonAnimals[48], CartoonAnimals[49], CartoonAnimals[50], CartoonAnimals[51], CartoonAnimals[52], CartoonAnimals[53]));
+                    //          PivotSlides.Add(new PivotSlide("Slide7", CartoonAnimals[54], CartoonAnimals[55], CartoonAnimals[56], CartoonAnimals[57], CartoonAnimals[58], CartoonAnimals[59], CartoonAnimals[60], CartoonAnimals[61], CartoonAnimals[62]));
 
                     break;
                 case "Animals":
@@ -1215,13 +1215,6 @@ namespace BabyApp
             set { _description = value; NotifyPropertyChanged("Description"); }
         }
 
-        private string _buttonDisplay;
-        public string ButtonDisplay
-        {
-            get { return _buttonDisplay; }
-            set { _buttonDisplay = value; NotifyPropertyChanged("ButtonDisplay"); }
-        }
-
         private Screen _mode;
         public Screen Mode
         {
@@ -1278,13 +1271,16 @@ namespace BabyApp
             }
         }
 
+
+        //Button btn = sender as Button;
+        //string imageTag = btn.Tag.ToString();
         private void ContiniousPlay_Click(object sender, EventArgs e)
         {
             switch (Mode)
             {
                 case Screen.MainGrid:
                     Mode = Screen.SlideShow;
-                    ButtonDisplay = "/Assets/transport.pause.png";
+                    appBarButton1.IconUri = new Uri("/Assets/transport.pause.png", UriKind.Relative);
                     NavigateToScreen(Screen.SlideShow);
 
                     _slideShowInProgress = true;
@@ -1302,7 +1298,7 @@ namespace BabyApp
                     break;
                 case Screen.SlideShow:
                     Mode = Screen.MainGrid;
-                    ButtonDisplay = "/Assets/transport.play.png";
+                    appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
                     //stop the slideshow
                     _stopSlideShow = true;
                     _slideShowInProgress = false;
@@ -1373,11 +1369,12 @@ namespace BabyApp
                 ApplicationBar.IsMenuEnabled = true;
 
                 // Create a new button and set the text value to the localized string from AppResources. 
-                ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
+                //     ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
+                //     ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri(ButtonDisplay, UriKind.Relative));
+
                 appBarButton1.Text = AppResources.AppBarMenuPlayButton;
                 ApplicationBar.Buttons.Add(appBarButton1);
                 appBarButton1.Click += new EventHandler(ContiniousPlay_Click);
-
 
                 ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
                 appBarButton2.Text = AppResources.Cartoon;
@@ -1423,7 +1420,7 @@ namespace BabyApp
                 {
                     _cancellationTokenSources[row].Cancel();
                 }
-                ButtonDisplay = "/Assets/transport.play.png";
+                appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
                 e.Cancel = true;
             }
         }
