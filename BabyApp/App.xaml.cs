@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using BabyApp.Resources;
 using Common.IsolatedStoreage;
+using Microsoft.Phone.Marketplace;
 
 namespace BabyApp
 {
@@ -25,6 +26,17 @@ namespace BabyApp
         public static string gPlayMusicSetting;
         public static string gShowTextSetting;
         public static string gCategory = "Animals";
+
+        private static LicenseInformation _licenseInfo = new LicenseInformation();
+
+        private static bool _isTrial;
+        public bool IsTrial
+        {
+            get
+            {
+                return _isTrial;
+            }
+        }
 
         /// <summary>
         /// Constructor for the Application object.
@@ -72,16 +84,23 @@ namespace BabyApp
 
         }
 
+        private void CheckLicence()
+        {
+            _isTrial = _licenseInfo.IsTrial();
+        }
+
         // Code to execute when the application is launching (eg, from Start)
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            CheckLicence();
         }
 
         // Code to execute when the application is activated (brought to foreground)
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
+            CheckLicence();
         }
 
         // Code to execute when the application is deactivated (sent to background)

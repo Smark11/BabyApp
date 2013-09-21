@@ -21,6 +21,8 @@ using Microsoft.Xna.Framework;
 using System.Threading.Tasks;
 using Common.Utilities;
 using System.Collections.ObjectModel;
+using Common.Licencing;
+using Common.IsolatedStoreage;
 
 
 namespace BabyApp
@@ -35,6 +37,13 @@ namespace BabyApp
         private bool _stopSlideShow = false;
 
         ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
+        MarketplaceDetailTask _marketPlaceDetailTask = new MarketplaceDetailTask();
+        private const string NUMBEROFTIMESOPENED = "NUMBEROFTIMESOPENED";
+        private const string RATED = "RATED";
+
+        private int _numberOfTimesOpened = 0;
+
+        private bool _rated;
 
         public enum Screen
         {
@@ -47,10 +56,23 @@ namespace BabyApp
         {
             InitializeComponent();
 
-            //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-            Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
+            if (IS.GetSetting(NUMBEROFTIMESOPENED) == null)
+            {
+                IS.SaveSetting(NUMBEROFTIMESOPENED, 0);
+            }
+            else
+            {
+                IS.SaveSetting(NUMBEROFTIMESOPENED, (int)IS.GetSetting(NUMBEROFTIMESOPENED) + 1);
+                _numberOfTimesOpened = (int)IS.GetSetting(NUMBEROFTIMESOPENED);
+            }
 
-
+            //if the user has rated using the 5 day, or
+            //if the user has rated to extend the trial, mark the app as rated.
+            if (Rate.HasAppBeenRated() == "Yes" || (bool)IS.GetSetting(RATED))
+            {
+                _rated = true;
+            }
+            
             PivotSlides = new ObservableCollection<PivotSlide>();
 
             synthesizer = new SpeechSynthesizer();
@@ -61,6 +83,49 @@ namespace BabyApp
             SetPivots(App.gCategory);
             BuildLocalizedApplicationBar();
             Mode = Screen.MainGrid;
+        }
+
+        private void PaidAppInitialization()
+        {
+            if ((Application.Current as App).IsTrial)
+            {
+                if (Trial.IsTrialExpired())
+                {
+                    MessageBox.Show("Your trial has expired, please purchase the application!");
+                    _marketPlaceDetailTask.Show();
+                }
+                else
+                {
+                    //App has already been rated
+                    if (_rated || _numberOfTimesOpened < 2)
+                    {
+                        MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days left in your trial.");
+                    }
+                    //app not rated, rate to add 10 days to trial
+                    else if (!_rated && _numberOfTimesOpened >= 2)
+                    {
+                        MessageBoxResult result = MessageBox.Show("Extend Trial to 10 days by rating the application?", "Extend Trial?", MessageBoxButton.OKCancel);
+
+                        if (result == MessageBoxResult.OK)
+                        {
+                            Trial.Add10DaysToTrial();
+                            IS.SaveSetting(RATED, true);
+                            Rate.MarkAppAsRated();
+                            _rated = true;
+                            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                            marketplaceReviewTask.Show();
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if (!_rated)
+                {
+                    //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+                    Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
+                }
+            }
         }
 
         #region "Methods"
@@ -1399,9 +1464,13 @@ namespace BabyApp
                 ApplicationBar.MenuItems.Add(appBarMenuItem2);
                 appBarMenuItem2.Click += new EventHandler(About_Click);
 
-                ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem(AppResources.Review);
-                ApplicationBar.MenuItems.Add(appBarMenuItem3);
-                appBarMenuItem3.Click += new EventHandler(Review_Click);
+                //Only add the "rate" button if the app has not been rated yet.
+                if (!_rated)
+                {
+                    ApplicationBarMenuItem appBarMenuItem3 = new ApplicationBarMenuItem(AppResources.Review);
+                    ApplicationBar.MenuItems.Add(appBarMenuItem3);
+                    appBarMenuItem3.Click += new EventHandler(Review_Click);
+                }
 
                 ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
                 ApplicationBar.MenuItems.Add(appBarMenuItem4);
