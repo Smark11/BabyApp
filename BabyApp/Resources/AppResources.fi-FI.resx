@@ -365,4 +365,73 @@
   <data name="ShowText" xml:space="preserve">
     <value>Näytä teksti</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Pesukarhu</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Alligaattori</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Krokotiili</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Deer</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Aasi</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Sammakko</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Laama</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Camel</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Simpanssi</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Leopard</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Jääkarhu</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Kukko</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Lokki</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Turkki</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Seepra</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Mehiläinen</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Cougar</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Vuohi</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Hawk</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Mosquito</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Pelata</value>
+  </data>
 </root>

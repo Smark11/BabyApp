@@ -365,4 +365,73 @@
   <data name="ShowText" xml:space="preserve">
     <value>Mostra el Text</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Ós rentador</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Cocodril</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Cocodril</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Cérvol</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Ruc</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Granota</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Flama</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Camell</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Ximpanzé</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Lleopard</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>PolarBear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Gall</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Gavina</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Turquia</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Zebres</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Abella</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Cabra</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Falcó</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Mosquit</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Jugar</value>
+  </data>
 </root>

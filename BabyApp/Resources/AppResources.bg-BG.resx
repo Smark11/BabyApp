@@ -365,4 +365,73 @@
   <data name="ShowText" xml:space="preserve">
     <value>Показване на текста</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Миеща мечка</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Алигатор</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Крокодил</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Елен</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Магаре</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Жаба</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Лама</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Камила</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Шимпанзе</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Леопард</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>PolarBear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Петел</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Чайка</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Турция</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Зебра</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Пчела</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Пума</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Коза</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Хоук</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Комар</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Игра</value>
+  </data>
 </root>

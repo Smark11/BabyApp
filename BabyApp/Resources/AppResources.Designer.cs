@@ -322,6 +322,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TJYTODO.
+        /// </summary>
+        public static string Description {
+            get {
+                return ResourceManager.GetString("Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dog.
         /// </summary>
         public static string Dog {
@@ -1038,6 +1047,15 @@ namespace BabyApp.Resources {
         public static string Wolf {
             get {
                 return ResourceManager.GetString("Wolf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TJYTODO.
+        /// </summary>
+        public static string Z_Description {
+            get {
+                return ResourceManager.GetString("Z_Description", resourceCulture);
             }
         }
         

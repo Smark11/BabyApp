@@ -428,6 +428,54 @@
           <source>Play</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Jouer</target>
         </trans-unit>
+        <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
+          <source>Baby</source>
+          <target state="new">Baby</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
+          <source>Toddler</source>
+          <target state="new">Toddler</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
+          <source>Animals</source>
+          <target state="new">Animals</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="new">Language</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
+          <source>Learning</source>
+          <target state="new">Learning</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>Baby</source>
+          <target state="new">Baby</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
+          <source>Toddler</source>
+          <target state="new">Toddler</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
+          <source>Animals</source>
+          <target state="new">Animals</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="new">Language</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Learning</source>
+          <target state="new">Learning</target>
+        </trans-unit>
+        <trans-unit id="Resx/Description" translate="yes" xml:space="preserve">
+          <source>TJYTODO</source>
+          <target state="new">TJYTODO</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>TJYTODO</source>
+          <target state="new">TJYTODO</target>
+        </trans-unit>
       </group>
     </body>
   </file>

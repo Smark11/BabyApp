@@ -365,4 +365,73 @@
   <data name="ShowText" xml:space="preserve">
     <value>पाठ दिखाएँ</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>एक प्रकार का जानवर</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>मगरमच्छ</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>मगरमच्छ</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>हिरण</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>गधा</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>मेंढक</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>लामा</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>ऊंट</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>चिंपांज़ी</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>तेंदुए</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>मुर्गा</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Seagull</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>तुर्कस्तान</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>ज़ेबरा</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>मधुमक्खी</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>कौगर</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>बकरी</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>हॉक</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>मच्छर</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>चलायें</value>
+  </data>
 </root>

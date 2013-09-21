@@ -365,4 +365,73 @@
   <data name="ShowText" xml:space="preserve">
     <value>Kuva tekst</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Pesukaru</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Alligaator</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Krokodill</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Hirv</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Eesel</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Konn</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Laama</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Kaamel</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Šimpans</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Leopard</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Kukk</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Kajakas</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Türgi</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Sebra</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Mesilane</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Puuma</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Kitse</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Kull</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Sääsk</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Mängida</value>
+  </data>
 </root>

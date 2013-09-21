@@ -256,7 +256,7 @@ namespace BabyApp
             {
                 //TJY I needed to add a small sleep value here because the above properites being in an  ASYNC block were not being set by
                 //the time PlayVoiceTextAndSound was being executed.
-                //Thread.Sleep(250);
+                Thread.Sleep(250);
             }
 
             if (!_cancellationTokens[tokenNumber].IsCancellationRequested)

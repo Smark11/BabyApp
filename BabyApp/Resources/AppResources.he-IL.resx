@@ -365,4 +365,73 @@
   <data name="ShowText" xml:space="preserve">
     <value>הצג טקסט</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>דביבון</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>אליגטור</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>תנין</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>צבי</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>חמור</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>צפרדע</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>הלאמה</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>גמל</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>שימפנזה</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>נמר</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>רוסטר</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>שחף</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>טורקיה</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>זברה</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>דבורה</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>קוגר</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>עז</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>הוק</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>יתוש</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>פומה</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>לשחק</value>
+  </data>
 </root>

@@ -365,4 +365,73 @@
   <data name="ShowText" xml:space="preserve">
     <value>إظهار النص</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>الراكون</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>التمساح</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>تمساح</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>الغزلان</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>حمار</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>الضفدع</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>اللاما</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>الجمل</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>شمبانزي</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>ليوبارد</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>بولاربير</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>الديك</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>النورس</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>تركيا</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>حمار وحشي</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>نحلة</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>طراز كوغار</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>ماعز</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>جوريلا</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>هوك</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>البعوض</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>بوما</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>اللعب</value>
+  </data>
 </root>
