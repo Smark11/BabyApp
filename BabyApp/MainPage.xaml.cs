@@ -38,8 +38,7 @@ namespace BabyApp
 
         ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
         MarketplaceDetailTask _marketPlaceDetailTask = new MarketplaceDetailTask();
-        private const string NUMBEROFTIMESOPENED = "NUMBEROFTIMESOPENED";
-        private const string RATED = "RATED";
+        private const string NUMBEROFTIMESOPENED = "NUMBEROFTIMESOPENED";      
 
         private int _numberOfTimesOpened = 0;
 
@@ -68,7 +67,7 @@ namespace BabyApp
 
             //if the user has rated using the 5 day, or
             //if the user has rated to extend the trial, mark the app as rated.
-            if (Rate.HasAppBeenRated() == "Yes" || (bool)IS.GetSetting(RATED))
+            if (Rate.HasAppBeenRated() == "Yes" )
             {
                 _rated = true;
             }
@@ -109,8 +108,8 @@ namespace BabyApp
                         if (result == MessageBoxResult.OK)
                         {
                             Trial.Add10DaysToTrial();
-                            IS.SaveSetting(RATED, true);
-                            Rate.MarkAppAsRated();
+                           
+                            IS.SaveSetting("AppRated", "Yes");
                             _rated = true;
                             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
                             marketplaceReviewTask.Show();
@@ -166,7 +165,7 @@ namespace BabyApp
             Animals.Add(new Box("Penguin", "/Assets/Pics/Animals/penguin80x100.png", "/Assets/Pics/Animals/penguin480x800.png", "/Assets/Sounds/Animals/penguin.wav"));
             Animals.Add(new Box("Pig", "/Assets/Pics/Animals/pig80x100.png", "/Assets/Pics/Animals/pig480x800.png", "/Assets/Sounds/Animals/pig.wav"));
             Animals.Add(new Box("Polarbear", "/Assets/Pics/Animals/polarbear80x100.png", "/Assets/Pics/Animals/polarbear480x800.png", "/Assets/Sounds/Animals/polarbear.wav"));
-            Animals.Add(new Box("Raccoon", "/Assets/Pics/Animals/raccoon80x100.png", "/Assets/Pics/Animals/raccoon480x800.png", "/Assets/Sounds/Animals/raccoon.wav"));
+            Animals.Add(new Box("Racoon", "/Assets/Pics/Animals/racoon80x100.png", "/Assets/Pics/Animals/racoon480x800.png", "/Assets/Sounds/Animals/racoon.wav"));
             Animals.Add(new Box("Redfox", "/Assets/Pics/Animals/redfox80x100.png", "/Assets/Pics/Animals/redfox480x800.png", "/Assets/Sounds/Animals/redfox.wav"));
             Animals.Add(new Box("Rhino", "/Assets/Pics/Animals/rhino80x100.png", "/Assets/Pics/Animals/rhino480x800.png", "/Assets/Sounds/Animals/Rhinoceros.wav"));
             Animals.Add(new Box("Rooster", "/Assets/Pics/Animals/rooster80x100.png", "/Assets/Pics/Animals/rooster480x800.png", "/Assets/Sounds/Animals/rooster.wav"));
@@ -230,7 +229,7 @@ namespace BabyApp
             CartoonAnimals.Add(new Box("Penguin", "/Assets/Pics/BabyAnimals/penguin80x100.png", "/Assets/Pics/BabyAnimals/penguin480x800.png", "/Assets/Sounds/Animals/penguin.wav"));
             CartoonAnimals.Add(new Box("Pig", "/Assets/Pics/BabyAnimals/pig80x100.png", "/Assets/Pics/BabyAnimals/pig480x800.png", "/Assets/Sounds/Animals/pig.wav"));
             CartoonAnimals.Add(new Box("Polarbear", "/Assets/Pics/BabyAnimals/polarbear80x100.png", "/Assets/Pics/BabyAnimals/polarbear480x800.png", "/Assets/Sounds/Animals/polarbear.wav"));
-            CartoonAnimals.Add(new Box("Raccoon", "/Assets/Pics/BabyAnimals/raccoon80x100.png", "/Assets/Pics/BabyAnimals/raccoon480x800.png", "/Assets/Sounds/Animals/raccoon.wav"));
+            CartoonAnimals.Add(new Box("Racoon", "/Assets/Pics/BabyAnimals/racoon80x100.png", "/Assets/Pics/BabyAnimals/racoon480x800.png", "/Assets/Sounds/Animals/racoon.wav"));
             CartoonAnimals.Add(new Box("Redfox", "/Assets/Pics/BabyAnimals/redfox80x100.png", "/Assets/Pics/BabyAnimals/redfox480x800.png", "/Assets/Sounds/Animals/redfox.wav"));
             CartoonAnimals.Add(new Box("Rhino", "/Assets/Pics/BabyAnimals/rhino80x100.png", "/Assets/Pics/BabyAnimals/rhino480x800.png", "/Assets/Sounds/Animals/Rhinoceros.wav"));
             CartoonAnimals.Add(new Box("Rooster", "/Assets/Pics/BabyAnimals/rooster80x100.png", "/Assets/Pics/BabyAnimals/rooster480x800.png", "/Assets/Sounds/Animals/rooster.wav"));

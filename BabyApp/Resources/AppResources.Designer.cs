@@ -322,7 +322,18 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TJYTODO.
+        ///   Looks up a localized string similar to Teach babies and toddlers animals and their sounds in up to 9 different languages.
+        ///
+        ///Features include:
+        ///
+        ///* Over 150 images and sounds
+        ///* 2 different categories
+        ///* Slideshow for continous play
+        ///* Image voice description
+        ///* 9 different languages
+        ///* Name of animal for each image
+        ///
+        ///Download this app today!.
         /// </summary>
         public static string Description {
             get {
@@ -1051,7 +1062,18 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TJYTODO.
+        ///   Looks up a localized string similar to Teach babies and toddlers animals and their sounds in up to 9 different languages.
+        ///
+        ///Features include:
+        ///
+        ///* Over 150 images and sounds
+        ///* 2 different categories
+        ///* Slideshow for continous play
+        ///* Image voice description
+        ///* 9 different languages
+        ///* Name of animal for each image
+        ///
+        ///Download this app today!.
         /// </summary>
         public static string Z_Description {
             get {

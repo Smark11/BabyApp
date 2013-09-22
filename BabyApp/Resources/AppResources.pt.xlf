@@ -469,12 +469,56 @@
           <target state="new">Learning</target>
         </trans-unit>
         <trans-unit id="Resx/Description" translate="yes" xml:space="preserve">
-          <source>TJYTODO</source>
-          <target state="new">TJYTODO</target>
+          <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</source>
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
-          <source>TJYTODO</source>
-          <target state="new">TJYTODO</target>
+          <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</source>
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</target>
         </trans-unit>
       </group>
     </body>
