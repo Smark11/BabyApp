@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>चलायें</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>बेबी</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>बच्चा</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>पशु</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>लर्निंग</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>बेबी</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>बच्चा</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>पशु</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>लर्निंग</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>शिशुओं और toddlers जानवरों और अप करने के लिए 9 अलग अलग भाषाओं में उनकी आवाज़ को पढ़ाने।
+
+सुविधाओं में शामिल हैं:
+
+* १५० छवियाँ और ध्वनियाँ
+* 2 अलग श्रेणियों
+* निरंतर खेलने के लिए स्लाइड शो
+* छवि आवाज विवरण
+* 9 अलग अलग भाषाओं
+* प्रत्येक छवि के लिए पशु का नाम
+
+इस app डाउनलोड आज!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>शिशुओं और toddlers जानवरों और अप करने के लिए 9 अलग अलग भाषाओं में उनकी आवाज़ को पढ़ाने।
+
+सुविधाओं में शामिल हैं:
+
+* १५० छवियाँ और ध्वनियाँ
+* 2 अलग श्रेणियों
+* निरंतर खेलने के लिए स्लाइड शो
+* छवि आवाज विवरण
+* 9 अलग अलग भाषाओं
+* प्रत्येक छवि के लिए पशु का नाम
+
+इस app डाउनलोड आज!</value>
+  </data>
 </root>

@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>לשחק</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>התינוק</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>הפעוט</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>בעלי חיים</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>למידה</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>התינוק</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>הפעוט</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>בעלי חיים</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>למידה</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>מלמד תינוקות, פעוטות חיות וצלילים שלהם עד 9 שפות שונות.
+
+התכונות כוללות:
+
+* מעל 150 תמונות וצלילים
+* 2 קטגוריות שונות
+* מצגת למחזה רציפה
+* התמונה תיאור קול
+* 9 שפות שונות
+* שם של חיה עבור כל תמונה
+
+להוריד את יישום זה היום!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>מלמד תינוקות, פעוטות חיות וצלילים שלהם עד 9 שפות שונות.
+
+התכונות כוללות:
+
+* מעל 150 תמונות וצלילים
+* 2 קטגוריות שונות
+* מצגת למחזה רציפה
+* התמונה תיאור קול
+* 9 שפות שונות
+* שם של חיה עבור כל תמונה
+
+להוריד את יישום זה היום!</value>
+  </data>
 </root>

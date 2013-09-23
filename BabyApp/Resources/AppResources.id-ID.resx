@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Bermain</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Bayi</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Balita</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Hewan</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Belajar</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Bayi</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Balita</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Hewan</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Belajar</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 150 gambar dan suara
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 150 gambar dan suara
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
 </root>

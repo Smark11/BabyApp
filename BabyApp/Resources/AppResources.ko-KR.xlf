@@ -430,43 +430,43 @@
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>Baby</source>
-          <target state="new">Baby</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">아기</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
           <source>Toddler</source>
-          <target state="new">Toddler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">유아</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
           <source>Animals</source>
-          <target state="new">Animals</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">동물</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="new">Language</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">언어</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Learning</source>
-          <target state="new">Learning</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">학습</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
           <source>Baby</source>
-          <target state="new">Baby</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">아기</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
           <source>Toddler</source>
-          <target state="new">Toddler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">유아</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
           <source>Animals</source>
-          <target state="new">Animals</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">동물</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="new">Language</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">언어</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
           <source>Learning</source>
-          <target state="new">Learning</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">학습</target>
         </trans-unit>
         <trans-unit id="Resx/Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -481,18 +481,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">아기와 유아 동물 최대 9 다른 언어에서 그들의 소리를 가르쳐.
 
-Features include:
+기능은 다음과 같습니다.
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* 150 이미지와 소리
+* 2 개의 다른 종류
+* 연속 재생 슬라이드쇼
+* 이미지 음성 설명
+* 9 다른 언어
+* 각 이미지에 대 한 동물의 이름
 
-Download this app today!</target>
+오늘은이 애플 리 케이이 션을 다운로드!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -507,18 +507,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">아기와 유아 동물 최대 9 다른 언어에서 그들의 소리를 가르쳐.
 
-Features include:
+기능은 다음과 같습니다.
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* 150 이미지와 소리
+* 2 개의 다른 종류
+* 연속 재생 슬라이드쇼
+* 이미지 음성 설명
+* 9 다른 언어
+* 각 이미지에 대 한 동물의 이름
 
-Download this app today!</target>
+오늘은이 애플 리 케이이 션을 다운로드!</target>
         </trans-unit>
       </group>
     </body>

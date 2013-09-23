@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>اللعب</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>بيبي</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>طفل صغير</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>الحيوانات</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>التعلم</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>بيبي</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>طفل صغير</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>الحيوانات</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>التعلم</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>تعليم الأطفال الرضع والأطفال الصغار الحيوانات وتلك الأصوات في لغات مختلفة تصل إلى 9.
+
+وتشمل الميزات:
+
+* ما يزيد على 150 من الصور والأصوات
+* 2 فئات مختلفة
+* عرض الشرائح للعب المستمر
+* الصورة الوصف الصوتي
+* 9 لغات مختلفة
+* اسم حيوان لكل صورة
+
+تحميل هذا التطبيق اليوم!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>تعليم الأطفال الرضع والأطفال الصغار الحيوانات وتلك الأصوات في لغات مختلفة تصل إلى 9.
+
+وتشمل الميزات:
+
+* ما يزيد على 150 من الصور والأصوات
+* 2 فئات مختلفة
+* عرض الشرائح للعب المستمر
+* الصورة الوصف الصوتي
+* 9 لغات مختلفة
+* اسم حيوان لكل صورة
+
+تحميل هذا التطبيق اليوم!</value>
+  </data>
 </root>

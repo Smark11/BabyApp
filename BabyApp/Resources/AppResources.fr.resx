@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Jouer</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Bébé</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Enfant en bas âge</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Animaux</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Apprentissage</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Bébé</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Enfant en bas âge</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Animaux</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Apprentissage</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
+
+Caractéristiques comprennent :
+
+* Plus de 150 images et sons
+* 2 catégories différentes
+* Diaporama pour le jeu continu
+* Description vocale image
+* 9 langues
+* Nom de l'animal pour chaque image
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
+
+Caractéristiques comprennent :
+
+* Plus de 150 images et sons
+* 2 catégories différentes
+* Diaporama pour le jeu continu
+* Description vocale image
+* 9 langues
+* Nom de l'animal pour chaque image
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
 </root>

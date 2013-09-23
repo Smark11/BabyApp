@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Žaisti</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Kūdikių</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Bamblys</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Gyvūnai</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Mokymosi</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Kūdikių</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Bamblys</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Gyvūnai</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Kalba</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Mokymosi</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
 </root>

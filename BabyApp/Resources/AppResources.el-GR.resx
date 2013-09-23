@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Παιχνίδι</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Μωρό</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Μικρό παιδί</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Ζώα</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Μάθηση</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Μωρό</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Μικρό παιδί</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Ζώα</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Μάθηση</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Διδάξει τα μωρά και τα νήπια ζώα και τους ήχους σε έως και 9 διαφορετικές γλώσσες.
+
+Τα χαρακτηριστικά γνωρίσματα περιλαμβάνουν:
+
+* Πάνω από 150 εικόνες και ήχοι
+* 2 διαφορετικές κατηγορίες
+* Slideshow για συνεχή παιχνίδι
+* Περιγραφή φωνή εικόνας
+* 9 διαφορετικές γλώσσες
+* Το όνομα του ζώου για κάθε εικόνα
+
+Κατεβάστε αυτό το app σήμερα!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Διδάξει τα μωρά και τα νήπια ζώα και τους ήχους σε έως και 9 διαφορετικές γλώσσες.
+
+Τα χαρακτηριστικά γνωρίσματα περιλαμβάνουν:
+
+* Πάνω από 150 εικόνες και ήχοι
+* 2 διαφορετικές κατηγορίες
+* Slideshow για συνεχή παιχνίδι
+* Περιγραφή φωνή εικόνας
+* 9 διαφορετικές γλώσσες
+* Το όνομα του ζώου για κάθε εικόνα
+
+Κατεβάστε αυτό το app σήμερα!</value>
+  </data>
 </root>

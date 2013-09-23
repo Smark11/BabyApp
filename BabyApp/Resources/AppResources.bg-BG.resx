@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Игра</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Бебе</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Малко дете</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Животни</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Език</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Обучение</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Бебе</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Малко дете</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Животни</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Език</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Обучение</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Научи бебета и toddlers животните и техните звуци до 9 различни езици.
+
+Характеристики включват:
+
+* Над 150 образи и звуци
+* 2 категории
+* Слайдшоу за непрекъснато игра
+* Изображението глас описание
+* 9 различни езици
+* Име на животното за всяко изображение
+
+Изтеглете този ап днес!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Научи бебета и toddlers животните и техните звуци до 9 различни езици.
+
+Характеристики включват:
+
+* Над 150 образи и звуци
+* 2 категории
+* Слайдшоу за непрекъснато игра
+* Изображението глас описание
+* 9 различни езици
+* Име на животното за всяко изображение
+
+Изтеглете този ап днес!</value>
+  </data>
 </root>

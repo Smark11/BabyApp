@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Játék</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Baba</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Kisgyermek</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Állatok</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Tanulás</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Baba</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Kisgyermek</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Állatok</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Tanulás</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
+
+Funkciók közé tartozik:
+
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
+
+Funkciók közé tartozik:
+
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
+
+Letölt ez app ma!</value>
+  </data>
 </root>

@@ -365,4 +365,131 @@
   <data name="ShowText" xml:space="preserve">
     <value>显示文本</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>浣熊</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>短吻鳄</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>鳄鱼</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>鹿</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>驴</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>青蛙</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>美洲驼</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>骆驼</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>黑猩猩</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>豹</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>雄鸡</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>海鸥</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>土耳其</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>斑马</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>蜜蜂</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>美洲狮</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>山羊</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>鹰</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>蚊子</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>美洲狮</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>婴儿</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>蹒跚学步</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>动物</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>学习</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>婴儿</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>蹒跚学步</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>动物</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>学习</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>教婴儿和初学走路的儿童动物和其达 9 种不同语言的声音。
+
+功能包括：
+
+* 超过 150 的图像和声音
+* 2 不同类别
+* 为连续播放的的幻灯片放映
+* 图像语音说明
+* 9 种不同语言
+* 动物的每个图像的名称
+
+今天下载这个应用程序 ！</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>教婴儿和初学走路的儿童动物和其达 9 种不同语言的声音。
+
+功能包括：
+
+* 超过 150 的图像和声音
+* 2 不同类别
+* 为连续播放的的幻灯片放映
+* 图像语音说明
+* 9 种不同语言
+* 动物的每个图像的名称
+
+今天下载这个应用程序 ！</value>
+  </data>
 </root>

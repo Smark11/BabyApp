@@ -365,4 +365,131 @@
   <data name="ShowText" xml:space="preserve">
     <value>Pokaż tekst</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Szop pracz</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Aligator</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Krokodyl</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Jeleń</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Osioł</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Żaba</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Lamy</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Wielbłąd</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Szympans</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Lampart</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Kogut</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Mewa</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Turcja</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Zebra</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Pszczoła</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Koza</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Jastrząb</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Mosquito</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Zagraj</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Dziecko</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Maluch</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Zwierzęta</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Uczenia się</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Dziecko</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Maluch</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Zwierzęta</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Uczenia się</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Uczyć dzieci i niemowląt zwierząt i ich dźwięki do 9 różnych językach.
+
+Funkcje obejmują:
+
+* Ponad 150 zdjęć i dźwięków
+* 2 różne kategorie
+* Pokaz slajdów do ciągłego odtwarzania
+* Opis głos
+* 9 różnych językach
+* Nazwa zwierzęcia dla każdego obrazu
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Uczyć dzieci i niemowląt zwierząt i ich dźwięki do 9 różnych językach.
+
+Funkcje obejmują:
+
+* Ponad 150 zdjęć i dźwięków
+* 2 różne kategorie
+* Pokaz slajdów do ciągłego odtwarzania
+* Opis głos
+* 9 różnych językach
+* Nazwa zwierzęcia dla każdego obrazu
+
+Pobrać tę aplikację dziś!</value>
+  </data>
 </root>

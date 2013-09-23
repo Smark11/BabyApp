@@ -430,43 +430,43 @@
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>Baby</source>
-          <target state="new">Baby</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">बेबी</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
           <source>Toddler</source>
-          <target state="new">Toddler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">बच्चा</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
           <source>Animals</source>
-          <target state="new">Animals</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">पशु</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="new">Language</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">भाषा</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Learning</source>
-          <target state="new">Learning</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">लर्निंग</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
           <source>Baby</source>
-          <target state="new">Baby</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">बेबी</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
           <source>Toddler</source>
-          <target state="new">Toddler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">बच्चा</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
           <source>Animals</source>
-          <target state="new">Animals</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">पशु</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="new">Language</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">भाषा</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
           <source>Learning</source>
-          <target state="new">Learning</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">लर्निंग</target>
         </trans-unit>
         <trans-unit id="Resx/Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -481,18 +481,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">शिशुओं और toddlers जानवरों और अप करने के लिए 9 अलग अलग भाषाओं में उनकी आवाज़ को पढ़ाने।
 
-Features include:
+सुविधाओं में शामिल हैं:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* १५० छवियाँ और ध्वनियाँ
+* 2 अलग श्रेणियों
+* निरंतर खेलने के लिए स्लाइड शो
+* छवि आवाज विवरण
+* 9 अलग अलग भाषाओं
+* प्रत्येक छवि के लिए पशु का नाम
 
-Download this app today!</target>
+इस app डाउनलोड आज!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -507,18 +507,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">शिशुओं और toddlers जानवरों और अप करने के लिए 9 अलग अलग भाषाओं में उनकी आवाज़ को पढ़ाने।
 
-Features include:
+सुविधाओं में शामिल हैं:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* १५० छवियाँ और ध्वनियाँ
+* 2 अलग श्रेणियों
+* निरंतर खेलने के लिए स्लाइड शो
+* छवि आवाज विवरण
+* 9 अलग अलग भाषाओं
+* प्रत्येक छवि के लिए पशु का नाम
 
-Download this app today!</target>
+इस app डाउनलोड आज!</target>
         </trans-unit>
       </group>
     </body>

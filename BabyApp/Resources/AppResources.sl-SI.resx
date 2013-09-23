@@ -365,4 +365,131 @@
   <data name="ShowText" xml:space="preserve">
     <value>Prikaži besedilo</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Rakun</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Aligator</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Krokodil</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Jelen</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Osel</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Žaba</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Lame</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Camel</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Šimpanz</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Leopard</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Petelin</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Galeb</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Turčija</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Zebra</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Čebela</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Cougar</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Kozje</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Hawk</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Komar</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Igra</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Toddler</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Živali</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Učenje</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Toddler</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Živali</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Učenje</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
 </root>

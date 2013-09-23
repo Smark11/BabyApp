@@ -365,4 +365,131 @@
   <data name="ShowText" xml:space="preserve">
     <value>แสดงข้อความ</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>สัตว์คล้ายหมีเล็ก</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>อัลลิเกเตอร์</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>จระเข้</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>เดียร์</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>ลา</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>กบ</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Llama</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>คาเมล</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>ลิงชิมแปนซี</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>เสือดาว</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>ระกา</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>ซีกัล</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>ตุรกี</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>ม้าลาย</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>ผึ้ง</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>เสือพูม่า</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>แพะ</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>เหยี่ยว</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>ยุง</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>เสือพูมา</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>เล่น</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>เด็ก</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>เด็กที่หัดเดิน</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>สัตว์</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>การเรียนรู้</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>เด็ก</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>เด็กที่หัดเดิน</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>สัตว์</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>การเรียนรู้</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>สอนเด็กทารก และเด็กวัยหัดเดินสัตว์ และเสียงของพวกเขาในภาษาต่าง ๆ ถึง 9
+
+คุณสมบัติรวมถึง:
+
+* กว่า 150 ภาพและเสียง
+* 2 ประเภทแตกต่างกัน
+* สไลด์โชว์การเล่นต่อเนื่อง
+* ภาพเสียงอธิบาย
+* ภาษา 9
+* ชื่อของสัตว์แต่ละรูป
+
+ดาวน์โหลด app นี้วันนี้</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>สอนเด็กทารก และเด็กวัยหัดเดินสัตว์ และเสียงของพวกเขาในภาษาต่าง ๆ ถึง 9
+
+คุณสมบัติรวมถึง:
+
+* กว่า 150 ภาพและเสียง
+* 2 ประเภทแตกต่างกัน
+* สไลด์โชว์การเล่นต่อเนื่อง
+* ภาพเสียงอธิบาย
+* ภาษา 9
+* ชื่อของสัตว์แต่ละรูป
+
+ดาวน์โหลด app นี้วันนี้</value>
+  </data>
 </root>

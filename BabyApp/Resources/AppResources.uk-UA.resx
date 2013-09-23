@@ -365,4 +365,131 @@
   <data name="ShowText" xml:space="preserve">
     <value>Показати текст</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Єнот</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Алігатор</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Крокодил</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Олень</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Віслюк</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Жаба</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Лам</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Верблюд</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Шимпанзе</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Леопард</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Півень</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Чайка</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Туреччина</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Зебра</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Бджола</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Кугар</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Коза</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Яструб</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Комар</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Пума</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Грати</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Дитина</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Малюк</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Тварин</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Навчання</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Дитина</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Малюк</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Тварин</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Навчання</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Навчити немовлят і малюків тварин та їх звуки до 9 різними мовами.
+
+Особливості включають:
+
+* 150 Зображення та звуки
+* 2 різних категорій
+* Слайд-шоу для безперервної грати
+* Зображення голос Опис
+* 9 різними мовами
+* Назва тварини для кожного зображення
+
+Завантажити цей застосунок сьогодні!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Навчити немовлят і малюків тварин та їх звуки до 9 різними мовами.
+
+Особливості включають:
+
+* 150 Зображення та звуки
+* 2 різних категорій
+* Слайд-шоу для безперервної грати
+* Зображення голос Опис
+* 9 різними мовами
+* Назва тварини для кожного зображення
+
+Завантажити цей застосунок сьогодні!</value>
+  </data>
 </root>

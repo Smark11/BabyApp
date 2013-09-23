@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Pelata</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Vauva</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Taapero</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Eläimet</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Oppiminen</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Vauva</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Taapero</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Eläimet</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Kieli</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Oppiminen</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
+
+Ominaisuuksia:
+
+* Yli 150 kuvia ja ääniä
+* 2 eri
+* Slideshow jatkuva play
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
+
+Ominaisuuksia:
+
+* Yli 150 kuvia ja ääniä
+* 2 eri
+* Slideshow jatkuva play
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
+
+Lataa tämän app tänään!</value>
+  </data>
 </root>

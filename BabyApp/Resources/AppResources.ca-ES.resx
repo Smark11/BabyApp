@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Jugar</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Nadó</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Nen</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Animals</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Llengua</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>L'aprenentatge</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Nadó</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Nen</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Animals</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Llengua</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>L'aprenentatge</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
 </root>

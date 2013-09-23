@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Spille</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Buksetrold</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Dyr</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Sprog</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Læring</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Buksetrold</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Dyr</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Sprog</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Læring</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Lære babyer og småbørn dyr og deres lyde i op til 9 forskellige sprog.
+
+Funktioner omfatter:
+
+* Mere end 150 billeder og lyde
+* 2 forskellige kategorier
+* Slideshow for kontinuerlig spille
+* Billede stemme beskrivelse
+* 9 forskellige sprog
+* Navnet på dyret for hvert billede
+
+Download denne app i dag!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Lære babyer og småbørn dyr og deres lyde i op til 9 forskellige sprog.
+
+Funktioner omfatter:
+
+* Mere end 150 billeder og lyde
+* 2 forskellige kategorier
+* Slideshow for kontinuerlig spille
+* Billede stemme beskrivelse
+* 9 forskellige sprog
+* Navnet på dyret for hvert billede
+
+Download denne app i dag!</value>
+  </data>
 </root>

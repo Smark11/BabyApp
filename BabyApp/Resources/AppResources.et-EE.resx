@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>Mängida</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Mudilane</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Loomad</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Keel</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Õppimine</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Mudilane</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Loomad</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Keel</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Õppimine</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
+
+Funktsioonide hulka kuuluvad:
+
+* Rohkem kui 150 pildid ja helid
+* 2 erinevat kategooriat
+* Pidev play Slideshow
+* Pilt hääl kirjeldus
+* 9 erinevat keelt
+* Animal nimi igale pildile
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
+
+Funktsioonide hulka kuuluvad:
+
+* Rohkem kui 150 pildid ja helid
+* 2 erinevat kategooriat
+* Pidev play Slideshow
+* Pilt hääl kirjeldus
+* 9 erinevat keelt
+* Animal nimi igale pildile
+
+Lae alla käesoleva app täna!</value>
+  </data>
 </root>

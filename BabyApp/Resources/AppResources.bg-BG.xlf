@@ -430,43 +430,43 @@
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>Baby</source>
-          <target state="new">Baby</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Бебе</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
           <source>Toddler</source>
-          <target state="new">Toddler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Малко дете</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
           <source>Animals</source>
-          <target state="new">Animals</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Животни</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="new">Language</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Език</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Learning</source>
-          <target state="new">Learning</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Обучение</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
           <source>Baby</source>
-          <target state="new">Baby</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Бебе</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
           <source>Toddler</source>
-          <target state="new">Toddler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Малко дете</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
           <source>Animals</source>
-          <target state="new">Animals</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Животни</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="new">Language</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Език</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
           <source>Learning</source>
-          <target state="new">Learning</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Обучение</target>
         </trans-unit>
         <trans-unit id="Resx/Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -481,18 +481,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Научи бебета и toddlers животните и техните звуци до 9 различни езици.
 
-Features include:
+Характеристики включват:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Над 150 образи и звуци
+* 2 категории
+* Слайдшоу за непрекъснато игра
+* Изображението глас описание
+* 9 различни езици
+* Име на животното за всяко изображение
 
-Download this app today!</target>
+Изтеглете този ап днес!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -507,18 +507,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Научи бебета и toddlers животните и техните звуци до 9 различни езици.
 
-Features include:
+Характеристики включват:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Над 150 образи и звуци
+* 2 категории
+* Слайдшоу за непрекъснато игра
+* Изображението глас описание
+* 9 различни езици
+* Име на животното за всяко изображение
 
-Download this app today!</target>
+Изтеглете този ап днес!</target>
         </trans-unit>
       </group>
     </body>

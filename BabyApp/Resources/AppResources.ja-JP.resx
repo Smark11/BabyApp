@@ -434,4 +434,62 @@
   <data name="AppBarMenuPlayButton" xml:space="preserve">
     <value>再生</value>
   </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>赤ちゃん</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>幼児</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>動物</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>学習</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>赤ちゃん</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>幼児</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>動物</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>学習</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>赤ちゃんや幼児動物最大 9 種類の言語で彼らの音を教えます。
+
+機能は含みます。
+
+* 以上 150 の画像とサウンド
+* 2 つの異なるカテゴリー
+* 連続再生のためのスライド ショー
+* 画像音声の説明
+* 9 種類の言語
+* 各イメージのための動物の名前
+
+今日このアプリをダウンロード ！</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>赤ちゃんや幼児動物最大 9 種類の言語で彼らの音を教えます。
+
+機能は含みます。
+
+* 以上 150 の画像とサウンド
+* 2 つの異なるカテゴリー
+* 連続再生のためのスライド ショー
+* 画像音声の説明
+* 9 種類の言語
+* 各イメージのための動物の名前
+
+今日このアプリをダウンロード ！</value>
+  </data>
 </root>

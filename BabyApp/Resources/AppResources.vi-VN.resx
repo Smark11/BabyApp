@@ -365,4 +365,131 @@
   <data name="ShowText" xml:space="preserve">
     <value>Hiển thị văn bản</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Gấu trúc</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Cá sấu</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Cá sấu</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Deer</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Donkey</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Ếch</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Llama</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Lạc đà</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Tinh tinh</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Leopard</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Con gà trống</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Chim mòng biển</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Thổ Nhĩ Kỳ</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Ngựa vằn</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Ong</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Báo sư tử</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Dê</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Hawk</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Muỗi</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Chơi</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Em bé</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Trẻ</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Động vật</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Học tập</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Em bé</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Trẻ</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Động vật</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Học tập</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
+
+Tính năng bao gồm:
+
+* Hơn 150 hình ảnh và âm thanh
+* 2 các loại khác nhau
+* Slideshow cho liên tục chơi
+* Hình ảnh thoại mô tả
+* 9 ngôn ngữ khác nhau
+* Tên của động vật cho mỗi hình ảnh
+
+Tải về ứng dụng này vào ngày hôm nay!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
+
+Tính năng bao gồm:
+
+* Hơn 150 hình ảnh và âm thanh
+* 2 các loại khác nhau
+* Slideshow cho liên tục chơi
+* Hình ảnh thoại mô tả
+* 9 ngôn ngữ khác nhau
+* Tên của động vật cho mỗi hình ảnh
+
+Tải về ứng dụng này vào ngày hôm nay!</value>
+  </data>
 </root>

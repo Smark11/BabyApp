@@ -365,4 +365,131 @@
   <data name="ShowText" xml:space="preserve">
     <value>Parādīt tekstu</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Jenots</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Aligators</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Krokodils</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Brieži</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Ēzelis</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Frog</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Lama</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Kamielis</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Šimpanze</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Leopard</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Gailis</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Kaija</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Turcija</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Zebra</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Bite</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Kaza</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Vanags</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Mosquito</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Atskaņot</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Bērnu</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Toddler</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Dzīvnieki</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Valodas</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Mācīšanās</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Bērnu</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Toddler</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Dzīvnieki</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Valodas</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Mācīšanās</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Nepārtraukts Play Slideshow
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Nepārtraukts Play Slideshow
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
 </root>

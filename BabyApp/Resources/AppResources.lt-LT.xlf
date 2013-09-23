@@ -430,43 +430,43 @@
         </trans-unit>
         <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
           <source>Baby</source>
-          <target state="new">Baby</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kūdikių</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
           <source>Toddler</source>
-          <target state="new">Toddler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bamblys</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
           <source>Animals</source>
-          <target state="new">Animals</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gyvūnai</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="new">Language</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kalba</target>
         </trans-unit>
         <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
           <source>Learning</source>
-          <target state="new">Learning</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokymosi</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
           <source>Baby</source>
-          <target state="new">Baby</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kūdikių</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
           <source>Toddler</source>
-          <target state="new">Toddler</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bamblys</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
           <source>Animals</source>
-          <target state="new">Animals</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gyvūnai</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
           <source>Language</source>
-          <target state="new">Language</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kalba</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
           <source>Learning</source>
-          <target state="new">Learning</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokymosi</target>
         </trans-unit>
         <trans-unit id="Resx/Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -481,18 +481,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
 
-Features include:
+Funkcijos apima:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
 
-Download this app today!</target>
+Parsisiųsti šią programą šiandien!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -507,18 +507,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
 
-Features include:
+Funkcijos apima:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
 
-Download this app today!</target>
+Parsisiųsti šią programą šiandien!</target>
         </trans-unit>
       </group>
     </body>
