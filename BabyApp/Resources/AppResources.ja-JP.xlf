@@ -210,7 +210,7 @@
         </trans-unit>
         <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
           <source>Raccoon</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">アライグマ</target>
+          <target state="new">Raccoon</target>
         </trans-unit>
         <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
           <source>Redfox</source>
@@ -292,10 +292,6 @@
           <source>Options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">オプション</target>
         </trans-unit>
-        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
-          <source>Baby Animals</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">動物の赤ちゃん</target>
-        </trans-unit>
         <trans-unit id="Resx/BabySoundOptions" translate="yes" xml:space="preserve">
           <source>Baby Sound Options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">赤ちゃんのサウンド オプション</target>
@@ -321,12 +317,12 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">レート</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
-          <source>Your feedback is very important to us! Please share your feedback with us by rating Baby Animals on the marketplace.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">あなたのフィードバックは私達にとって非常に重要です ！ご意見を共有私たちと市場での動物の赤ちゃんの定格によって評価しました。</target>
+          <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
-          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating Baby Animals on the marketplace?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">あなたのフィードバックは私達にとって非常に重要です ！Woud 市場で動物の赤ちゃんを評価とご意見を共有したいですか？</target>
+          <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -519,6 +515,10 @@ Download this app today!</source>
 * 各イメージのための動物の名前
 
 今日このアプリをダウンロード ！</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>Polyglot tot</source>
+          <target state="new">Polyglot tot</target>
         </trans-unit>
       </group>
     </body>

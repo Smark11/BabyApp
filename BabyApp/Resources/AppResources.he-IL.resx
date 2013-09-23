@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>אפשרויות</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>חיות התינוק</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>אפשרויות קול התינוק</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>קצב</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>המשוב שלך מאוד חשובה לנו! בבקשה לשתף את המשוב שלך איתנו על ידי דירוג חיות התינוק על השוק.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>המשוב שלך מאוד חשובה לנו! אתה רוצה לחלוק איתנו את המשוב שלך על-ידי דירוג חיות התינוק על השוק?</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>אמיתי</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>הצג טקסט</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>דביבון</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>אליגטור</value>

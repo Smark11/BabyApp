@@ -332,9 +332,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Options</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Baby Animals</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>Baby Sound Options</value>
   </data>
@@ -354,10 +351,10 @@
     <value>Rate</value>
   </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Your feedback is very important to us! Please share your feedback with us by rating Baby Animals on the marketplace.</value>
+    <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Your feedback is very important to us! Woud you like to share your feedback with us by rating Baby Animals on the marketplace?</value>
+    <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</value>
   </data>
   <data name="Real" xml:space="preserve">
     <value>Real</value>
@@ -491,5 +488,8 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Polyglot tot</value>
   </data>
 </root>

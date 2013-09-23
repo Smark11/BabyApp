@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Opcions</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Animals del nadó</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>Opcions de nadó de so</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Taxa</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>La seva opinió és molt important per a nosaltres! Si us plau, compartiu els vostres comentaris amb nosaltres pels Animals del nadó a la plaça del mercat de l'avaluació.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>La seva opinió és molt important per a nosaltres! Woud agradaria compartir els seus comentaris amb nosaltres pels Animals del nadó a la plaça del mercat de l'avaluació?</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>Real</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>Mostra el Text</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>Ós rentador</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>Cocodril</value>

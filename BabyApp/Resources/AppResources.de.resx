@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Optionen</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Tierbabys</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>Baby Soundoptionen</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Komplettpreise</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Ihr Feedback ist uns sehr wichtig! Bitte teilen Sie Ihre Meinung mit uns sorieren Tierbabys auf dem Marktplatz.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Ihr Feedback ist uns sehr wichtig! Gerne Woud Sie Ihr Feedback mit uns zu teilen, nach Bewertung Baby Tiere auf dem Marktplatz?</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>Real</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>Text anzeigen</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>Waschbär</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>Alligator</value>

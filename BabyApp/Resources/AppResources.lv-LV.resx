@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Opcijas</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Baby dzīvnieki</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>Baby skaņas opcijas</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Likme</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga Baby dzīvnieki tirgū.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Woud vēlaties dalīties ar mums jūsu atsauksmes pēc reitinga Baby dzīvnieki tirgū?</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>Reālā</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>Parādīt tekstu</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>Jenots</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>Aligators</value>

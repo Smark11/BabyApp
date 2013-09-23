@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Opções</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Baby Animals</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>Opções de som de bebê</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Taxa de</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Seu feedback é muito importante para nós! Por favor, compartilhe seus comentários pela avaliação do bebê animais na Praça da mercado.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Seu feedback é muito importante para nós! Woud você gostaria de compartilhar seus comentários pela avaliação do bebê animais no mercado?</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>Real</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>Mostrar o texto</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>Guaxinim</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>Jacaré</value>

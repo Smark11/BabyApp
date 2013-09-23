@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Opzioni</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Cuccioli di animali</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>Opzioni di suono Baby</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Tasso</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Il vostro feedback è molto importante per noi! Si prega di condividere il tuo feedback con noi dal punteggio Baby animali sul mercato.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Il vostro feedback è molto importante per noi! Woud volete condividere il vostro feedback con noi dal punteggio Baby animali sul mercato?</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>Real</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>Visualizza testo</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>Procione</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>Alligatore</value>

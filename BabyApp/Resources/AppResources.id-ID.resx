@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Pilihan</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Bayi hewan</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>Pilihan suara bayi</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Tingkat</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Umpan balik Anda sangat penting bagi kami! Silakan berbagi Tanggapan Anda dengan kami dengan rating bayi hewan di pasar.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Umpan balik Anda sangat penting bagi kami! Woud Anda ingin berbagi umpan balik Anda dengan kami dengan rating bayi hewan di pasar?</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>Nyata</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>Tampilkan teks</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>Rakun</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>Buaya</value>

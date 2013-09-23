@@ -210,7 +210,7 @@
         </trans-unit>
         <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
           <source>Raccoon</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raton</target>
+          <target state="new">Raccoon</target>
         </trans-unit>
         <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
           <source>Redfox</source>
@@ -292,10 +292,6 @@
           <source>Options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Opţiuni</target>
         </trans-unit>
-        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
-          <source>Baby Animals</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Animale pentru copii</target>
-        </trans-unit>
         <trans-unit id="Resx/BabySoundOptions" translate="yes" xml:space="preserve">
           <source>Baby Sound Options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Opţiunile de sunet Baby</target>
@@ -321,12 +317,12 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Rata</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
-          <source>Your feedback is very important to us! Please share your feedback with us by rating Baby Animals on the marketplace.</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Feedback-ul este foarte important pentru noi! Vă rugăm să împărtăşesc feedback-ul cu noi de animale pentru copii pe piata de evaluare.</target>
+          <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
-          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating Baby Animals on the marketplace?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Feedback-ul este foarte important pentru noi! Woud ai dori să vă împărtăşesc feedback-ul cu noi reiting Baby animale pe piaţă?</target>
+          <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -519,6 +515,10 @@ Caracteristicile includ:
 * Nume de animale pentru fiecare imagine
 
 Descărcaţi acest app astăzi!</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>Polyglot tot</source>
+          <target state="new">Polyglot tot</target>
         </trans-unit>
       </group>
     </body>

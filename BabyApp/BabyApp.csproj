@@ -89,6 +89,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -113,6 +116,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -202,8 +208,8 @@
     <Content Include="Assets\Pics\Animals\pig80x100.png" />
     <Content Include="Assets\Pics\Animals\polarbear480x800.png" />
     <Content Include="Assets\Pics\Animals\polarbear80x100.png" />
-    <Content Include="Assets\Pics\Animals\racoon480x800.png" />
-    <Content Include="Assets\Pics\Animals\racoon80x100.png" />
+    <Content Include="Assets\Pics\Animals\raccoon480x800.png" />
+    <Content Include="Assets\Pics\Animals\raccoon80x100.png" />
     <Content Include="Assets\Pics\Animals\redfox480x800.png" />
     <Content Include="Assets\Pics\Animals\redfox80x100.png" />
     <Content Include="Assets\Pics\Animals\rhino480x800.png" />
@@ -296,8 +302,8 @@
     <Content Include="Assets\Pics\BabyAnimals\pig80x100.png" />
     <Content Include="Assets\Pics\BabyAnimals\polarbear480x800.png" />
     <Content Include="Assets\Pics\BabyAnimals\polarbear80x100.png" />
-    <Content Include="Assets\Pics\BabyAnimals\racoon480x800.png" />
-    <Content Include="Assets\Pics\BabyAnimals\racoon80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\raccoon480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\raccoon80x100.png" />
     <Content Include="Assets\Pics\BabyAnimals\redfox480x800.png" />
     <Content Include="Assets\Pics\BabyAnimals\redfox80x100.png" />
     <Content Include="Assets\Pics\BabyAnimals\rhino480x800.png" />
@@ -376,7 +382,7 @@
     <Content Include="Assets\Sounds\Animals\penguin.wav" />
     <Content Include="Assets\Sounds\Animals\Pig.wav" />
     <Content Include="Assets\Sounds\Animals\polarbear.wav" />
-    <Content Include="Assets\Sounds\Animals\racoon.wav" />
+    <Content Include="Assets\Sounds\Animals\raccoon.wav" />
     <Content Include="Assets\Sounds\Animals\Rattlesnake.wav" />
     <Content Include="Assets\Sounds\Animals\redfox.wav" />
     <Content Include="Assets\Sounds\Animals\Rhinoceros.wav" />

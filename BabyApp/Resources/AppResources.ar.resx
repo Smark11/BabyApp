@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>خيارات</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>أطفال الحيوانات</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>خيارات الصوت بيبي</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>معدل</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>ملاحظاتك مهم جداً بالنسبة لنا! يرجى حصة تعليقاتك معنا بتصنيف "الحيوانات الطفل" في السوق.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>ملاحظاتك مهم جداً بالنسبة لنا! Woud كنت ترغب في تقاسم تعليقاتك معنا بتصنيف "الحيوانات الطفل" في السوق؟</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>ريال مدريد</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>إظهار النص</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>الراكون</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>التمساح</value>

@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Valikud</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Baby loomade</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>Baby heli Valikud</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>Määr</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Teie tagasiside on meile väga oluline! Palun jaga oma tagasiside meiega Baby loomade turul hinnangu järgi.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Teie tagasiside on meile väga oluline! Garanteeritud soovite jagada oma tagasisidet meie poolt Reiting Baby loomade turul?</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>Reaalne</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>Kuva tekst</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>Pesukaru</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>Alligaator</value>

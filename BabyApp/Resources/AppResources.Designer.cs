@@ -160,7 +160,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Baby Animals.
+        ///   Looks up a localized string similar to Polyglot tot.
         /// </summary>
         public static string AppTitle {
             get {
@@ -819,7 +819,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your feedback is very important to us! Please share your feedback with us by rating Baby Animals on the marketplace..
+        ///   Looks up a localized string similar to Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!.
         /// </summary>
         public static string RateTheAppPrompt {
             get {
@@ -828,7 +828,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your feedback is very important to us! Woud you like to share your feedback with us by rating Baby Animals on the marketplace?.
+        ///   Looks up a localized string similar to Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?.
         /// </summary>
         public static string RateTheAppQuestion {
             get {

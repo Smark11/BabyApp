@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>ตัวเลือก</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>สัตว์เด็ก</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>ตัวเลือกเสียงเด็ก</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>อัตรา</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา กรุณาใช้คำติชมของคุณร่วมกับเรา โดยการจัดอันดับสัตว์เด็กตลาด</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา Woud คุณต้องใช้คำติชมของคุณกับเราจัดอันดับสัตว์เด็กในตลาด</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>จริง</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>แสดงข้อความ</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>สัตว์คล้ายหมีเล็ก</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>อัลลิเกเตอร์</value>

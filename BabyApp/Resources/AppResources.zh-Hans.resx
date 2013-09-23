@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>选项</value>
   </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>婴儿动物</value>
-  </data>
   <data name="BabySoundOptions" xml:space="preserve">
     <value>宝宝声音选项</value>
   </data>
@@ -350,12 +347,6 @@
   <data name="RateAppHeader" xml:space="preserve">
     <value>速率</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>您的反馈意见是对我们很重要 ！请由评分宝宝动物在市场上与我们分享您的反馈意见。</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>您的反馈意见是对我们很重要 ！闯你喜欢的评分宝宝动物在市场上与我们分享您的反馈意见吗？</value>
-  </data>
   <data name="Real" xml:space="preserve">
     <value>真实</value>
   </data>
@@ -364,9 +355,6 @@
   </data>
   <data name="ShowText" xml:space="preserve">
     <value>显示文本</value>
-  </data>
-  <data name="Raccoon" xml:space="preserve">
-    <value>浣熊</value>
   </data>
   <data name="Alligator" xml:space="preserve">
     <value>短吻鳄</value>
