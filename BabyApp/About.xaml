@@ -30,6 +30,8 @@
             <TextBlock Text="{Binding Author}" />
             <TextBlock Text="{Binding VersionString}" />
             <TextBlock Text="{Binding Support}" />
+            <TextBlock Text="{Binding PicCredits}" />
+            <TextBlock Text="{Binding SoundCredits}" />
 
 
         </StackPanel>

@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>विकल्प</value>
   </data>
-  <data name="BabySoundOptions" xml:space="preserve">
-    <value>बेबी ध्वनि विकल्प</value>
-  </data>
   <data name="Cartoon" xml:space="preserve">
     <value>कार्टून</value>
   </data>

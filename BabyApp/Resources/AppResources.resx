@@ -332,8 +332,8 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Options</value>
   </data>
-  <data name="BabySoundOptions" xml:space="preserve">
-    <value>Baby Sound Options</value>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Polyglot Tot Options</value>
   </data>
   <data name="Cartoon" xml:space="preserve">
     <value>Cartoon</value>
@@ -490,6 +490,6 @@ Features include:
 Download this app today!</value>
   </data>
   <data name="AppTitle" xml:space="preserve">
-    <value>Polyglot tot</value>
+    <value>Polyglot Tot</value>
   </data>
 </root>

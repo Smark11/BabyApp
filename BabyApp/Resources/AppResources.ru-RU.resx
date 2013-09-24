@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Параметры</value>
   </data>
-  <data name="BabySoundOptions" xml:space="preserve">
-    <value>Параметры звука Baby</value>
-  </data>
   <data name="Cartoon" xml:space="preserve">
     <value>Мультфильм</value>
   </data>

@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>选项</value>
   </data>
-  <data name="BabySoundOptions" xml:space="preserve">
-    <value>宝宝声音选项</value>
-  </data>
   <data name="Cartoon" xml:space="preserve">
     <value>卡通</value>
   </data>

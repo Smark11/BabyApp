@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Seçenekler</value>
   </data>
-  <data name="BabySoundOptions" xml:space="preserve">
-    <value>Bebek ses seçenekleri</value>
-  </data>
   <data name="Cartoon" xml:space="preserve">
     <value>Çizgi film</value>
   </data>

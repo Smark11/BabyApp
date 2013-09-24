@@ -19,7 +19,7 @@
         <Grid x:Name="LayoutRoot" Background="Transparent">
             <Grid.RowDefinitions>
                 <RowDefinition Height="100"/>
-               <RowDefinition Height="25"/>
+                <RowDefinition Height="25"/>
                 <RowDefinition Height="75"/>
                 <RowDefinition Height="25"/>
                 <RowDefinition Height="100"/>
@@ -27,25 +27,14 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="150"/>
             </Grid.RowDefinitions>
 
-            <!--TitlePanel contains the name of the application and page title-->
             <TextBlock Grid.Row="0" 
-                   Text="{Binding Path=LocalizedResources.BabySoundOptions, Source={StaticResource LocalizedStrings}}"                                    
-                   FontSize="40" 
-                   Margin="10,0,0,20" />
-            <!--<TextBlock Grid.Row="1" 
-                   Text="{Binding Path=LocalizedResources.PlayMusic, Source={StaticResource LocalizedStrings}}"                                                     
-                   FontSize="20"
-                   Margin="10,0,0,0" />
-            <toolkit:ToggleSwitch 
-                  x:Name="togglePlayMusic" 
-                  Grid.Row="2" 
-                  Margin="0,-5,0,0"
-                  Height="150"                                 
-                  Checked="togglePlayMusic_Checked"  
-                  Unchecked="togglePlayMusic_Unchecked">
-            </toolkit:ToggleSwitch>-->
+                   Text="{Binding Path=LocalizedResources.AppOptions, Source={StaticResource LocalizedStrings}}"                                    
+                   FontSize="45" 
+                   HorizontalAlignment="Center"
+                   Margin="10,0,0,20" />        
             <TextBlock Grid.Row="1" 
                   Text="{Binding Path=LocalizedResources.PlaySounds, Source={StaticResource LocalizedStrings}}"                                                      
                    FontSize="20"

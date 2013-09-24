@@ -30,15 +30,14 @@ namespace BabyApp
     public partial class MainPage : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
-        //    DispatcherTimer _timer;
         SpeechSynthesizer synthesizer;
 
-        private bool _slideShowInProgress = false;
-        private bool _stopSlideShow = false;
-
         ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
+        ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
+        ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Dog80x100.png", UriKind.Relative));
+
         MarketplaceDetailTask _marketPlaceDetailTask = new MarketplaceDetailTask();
-        private const string NUMBEROFTIMESOPENED = "NUMBEROFTIMESOPENED";      
+        private const string NUMBEROFTIMESOPENED = "NUMBEROFTIMESOPENED";
 
         private int _numberOfTimesOpened = 0;
 
@@ -76,7 +75,7 @@ namespace BabyApp
                 //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
                 Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
             }
-            
+
             PivotSlides = new ObservableCollection<PivotSlide>();
 
             synthesizer = new SpeechSynthesizer();
@@ -113,7 +112,7 @@ namespace BabyApp
                         if (result == MessageBoxResult.OK)
                         {
                             Trial.Add10DaysToTrial();
-                           
+
                             IS.SaveSetting("AppRated", "Yes");
                             _rated = true;
                             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
@@ -184,15 +183,7 @@ namespace BabyApp
             Animals.Add(new Box("Wolf", "/Assets/Pics/Animals/wolf80x100.png", "/Assets/Pics/Animals/wolf480x800.png", "/Assets/Sounds/Animals/wolf.wav"));
             Animals.Add(new Box("Zebra", "/Assets/Pics/Animals/zebra80x100.png", "/Assets/Pics/Animals/zebra480x800.png", "/Assets/Sounds/Animals/zebra.wav"));
 
-
-            Animals.Add(new Box("", "", "", ""));
-            Animals.Add(new Box("", "", "", ""));
-            Animals.Add(new Box("", "", "", ""));
-            Animals.Add(new Box("", "", "", ""));
-            Animals.Add(new Box("", "", "", ""));
-            Animals.Add(new Box("", "", "", ""));
-            Animals.Add(new Box("", "", "", ""));
-            Animals.Add(new Box("", "", "", ""));
+            //Animals.Add(new Box("", "", "", ""));          
 
             //TJY LOOK HERE:
             //I created a new "PivotSlide" data object, which has 9 "Box" Objects in it.
@@ -256,23 +247,43 @@ namespace BabyApp
             switch (category)
             {
                 case "CartoonAnimals":
+                    App.gCategory = "CartoonAnimals";
                     PivotSlides.Clear();
                     PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
                     PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
                     PivotSlides.Add(new PivotSlide("Slide3", CartoonAnimals[18], CartoonAnimals[19], CartoonAnimals[20], CartoonAnimals[21], CartoonAnimals[22], CartoonAnimals[23], CartoonAnimals[24], CartoonAnimals[25], CartoonAnimals[26]));
                     PivotSlides.Add(new PivotSlide("Slide4", CartoonAnimals[27], CartoonAnimals[28], CartoonAnimals[29], CartoonAnimals[30], CartoonAnimals[31], CartoonAnimals[32], CartoonAnimals[33], CartoonAnimals[34], CartoonAnimals[35]));
                     PivotSlides.Add(new PivotSlide("Slide5", CartoonAnimals[36], CartoonAnimals[37], CartoonAnimals[38], CartoonAnimals[39], CartoonAnimals[40], CartoonAnimals[41], CartoonAnimals[42], CartoonAnimals[43], CartoonAnimals[44]));
+
+                    //TJY Hack due to pivot not loading correctly when user switches to new pivot then changes category
+                    PivotSlides.Clear();
+                    PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+                    PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
+                    PivotSlides.Add(new PivotSlide("Slide3", CartoonAnimals[18], CartoonAnimals[19], CartoonAnimals[20], CartoonAnimals[21], CartoonAnimals[22], CartoonAnimals[23], CartoonAnimals[24], CartoonAnimals[25], CartoonAnimals[26]));
+                    PivotSlides.Add(new PivotSlide("Slide4", CartoonAnimals[27], CartoonAnimals[28], CartoonAnimals[29], CartoonAnimals[30], CartoonAnimals[31], CartoonAnimals[32], CartoonAnimals[33], CartoonAnimals[34], CartoonAnimals[35]));
+                    PivotSlides.Add(new PivotSlide("Slide5", CartoonAnimals[36], CartoonAnimals[37], CartoonAnimals[38], CartoonAnimals[39], CartoonAnimals[40], CartoonAnimals[41], CartoonAnimals[42], CartoonAnimals[43], CartoonAnimals[44]));
+
                     //          PivotSlides.Add(new PivotSlide("Slide6", CartoonAnimals[45], CartoonAnimals[46], CartoonAnimals[47], CartoonAnimals[48], CartoonAnimals[49], CartoonAnimals[50], CartoonAnimals[51], CartoonAnimals[52], CartoonAnimals[53]));
                     //          PivotSlides.Add(new PivotSlide("Slide7", CartoonAnimals[54], CartoonAnimals[55], CartoonAnimals[56], CartoonAnimals[57], CartoonAnimals[58], CartoonAnimals[59], CartoonAnimals[60], CartoonAnimals[61], CartoonAnimals[62]));
 
                     break;
                 case "Animals":
+                    App.gCategory = "Animals";
                     PivotSlides.Clear();
                     PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
                     PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
                     PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
                     PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
                     PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
+
+                    //TJY Hack due to pivot not loading correctly when user switches to new pivot then changes category
+                    PivotSlides.Clear();
+                    PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                    PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
+                    PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
+                    PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
+                    PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
+
                     break;
             }
         }
@@ -283,9 +294,7 @@ namespace BabyApp
             {
                 Dispatcher.BeginInvoke(() =>
                 {
-                    this.PictureGrid.Visibility = Visibility.Collapsed;
-                    this.SlideShow.Visibility = Visibility.Visible;
-                    this.TitlePanel.Visibility = Visibility.Collapsed;
+                    NavigateToScreen(Screen.SlideShow);
                 });
             }
 
@@ -298,11 +307,7 @@ namespace BabyApp
             {
                 Dispatcher.BeginInvoke(() =>
                 {
-
-                    this.PictureGrid.Visibility = Visibility.Visible;
-                    this.SlideShow.Visibility = Visibility.Collapsed;
-                    this.TitlePanel.Visibility = Visibility.Visible;
-                    pivotControl.Focus();
+                    NavigateToScreen(Screen.MainGrid);
                 });
             }
         }
@@ -342,11 +347,18 @@ namespace BabyApp
                     this.PictureGrid.Visibility = Visibility.Visible;
                     this.SlideShow.Visibility = Visibility.Collapsed;
                     this.TitlePanel.Visibility = Visibility.Visible;
+                    appBarButton1.IsEnabled = true;
+                    appBarButton2.IsEnabled = true;
+                    appBarButton3.IsEnabled = true;
+                    pivotControl.Focus();
                     break;
                 case Screen.SlideShow:
                     this.PictureGrid.Visibility = Visibility.Collapsed;
                     this.SlideShow.Visibility = Visibility.Visible;
                     this.TitlePanel.Visibility = Visibility.Collapsed;
+                    appBarButton1.IsEnabled = false;
+                    appBarButton2.IsEnabled = false;
+                    appBarButton3.IsEnabled = false;
                     break;
             }
         }
@@ -381,7 +393,7 @@ namespace BabyApp
                     break;
             }
 
-            for (int i = 0; i < continuousPlayList.Count - 1; i++)
+            for (int i = 43; i < continuousPlayList.Count; i++)
             {
                 if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                 {
@@ -408,8 +420,12 @@ namespace BabyApp
                     break;
                 }
             }
-            //set so user can re-start slide-show
-            _stopSlideShow = false;
+
+            //Slideshow done, bring main grid display back
+            Dispatcher.BeginInvoke(() =>
+            {
+                NavigateToScreen(Screen.MainGrid);
+            });
         }
 
         private Box GetBoxFromPivotAndTag(string tagName, PivotSlide slide)
@@ -1348,13 +1364,8 @@ namespace BabyApp
             switch (Mode)
             {
                 case Screen.MainGrid:
-                    Mode = Screen.SlideShow;
-                //    appBarButton1.IconUri = new Uri("/Assets/transport.pause.png", UriKind.Relative);
-                    appBarButton1.IsEnabled = false;
+                    Mode = Screen.SlideShow;                
                     NavigateToScreen(Screen.SlideShow);
-
-                    _slideShowInProgress = true;
-                    //Start the slide-show
                     CancellationToken token;
                     CancellationTokenSource tokenSource = new CancellationTokenSource();
 
@@ -1367,12 +1378,7 @@ namespace BabyApp
 
                     break;
                 case Screen.SlideShow:
-                    Mode = Screen.MainGrid;
-                   // appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
-                    appBarButton1.IsEnabled = true;
-                    //stop the slideshow
-                    _stopSlideShow = true;
-                    _slideShowInProgress = false;
+                    Mode = Screen.MainGrid;                 
                     NavigateToScreen(Screen.MainGrid);
                     break;
             }
@@ -1443,21 +1449,21 @@ namespace BabyApp
 
                 //TJY Had to make appBarButton1 global because we are enabling and disabling it when user clicks it...
                 //     ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
-          
+
                 appBarButton1.Text = AppResources.AppBarMenuPlayButton;
                 ApplicationBar.Buttons.Add(appBarButton1);
                 appBarButton1.Click += new EventHandler(ContiniousPlay_Click);
                 appBarButton1.IsEnabled = true;
 
-                ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
                 appBarButton2.Text = AppResources.Cartoon;
                 ApplicationBar.Buttons.Add(appBarButton2);
                 appBarButton2.Click += new EventHandler(CartoonAnimals_Click);
+                appBarButton2.IsEnabled = true;
 
-                ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Dog80x100.png", UriKind.Relative));
                 appBarButton3.Text = AppResources.Real;
                 ApplicationBar.Buttons.Add(appBarButton3);
                 appBarButton3.Click += new EventHandler(Animals_Click);
+                appBarButton3.IsEnabled = true;
 
                 // Create a new menu item with the localized string from AppResources.
                 ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppMenuItemOptions);
@@ -1499,7 +1505,7 @@ namespace BabyApp
                 {
                     _cancellationTokenSources[row].Cancel();
                 }
-              //  appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
+                //  appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
                 appBarButton1.IsEnabled = true;
                 e.Cancel = true;
             }

@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Opcje</value>
   </data>
-  <data name="BabySoundOptions" xml:space="preserve">
-    <value>Opcje dźwięku Baby</value>
-  </data>
   <data name="Cartoon" xml:space="preserve">
     <value>Kreskówka</value>
   </data>

@@ -329,9 +329,6 @@
   <data name="AppMenuItemOptions" xml:space="preserve">
     <value>Beállítások</value>
   </data>
-  <data name="BabySoundOptions" xml:space="preserve">
-    <value>Baba hangbeállítások</value>
-  </data>
   <data name="Cartoon" xml:space="preserve">
     <value>Rajzfilm</value>
   </data>

@@ -160,20 +160,20 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Polyglot tot.
+        ///   Looks up a localized string similar to Polyglot Tot Options.
         /// </summary>
-        public static string AppTitle {
+        public static string AppOptions {
             get {
-                return ResourceManager.GetString("AppTitle", resourceCulture);
+                return ResourceManager.GetString("AppOptions", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Baby Sound Options.
+        ///   Looks up a localized string similar to Polyglot Tot.
         /// </summary>
-        public static string BabySoundOptions {
+        public static string AppTitle {
             get {
-                return ResourceManager.GetString("BabySoundOptions", resourceCulture);
+                return ResourceManager.GetString("AppTitle", resourceCulture);
             }
         }
         

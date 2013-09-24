@@ -292,9 +292,9 @@
           <source>Options</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Параметры</target>
         </trans-unit>
-        <trans-unit id="Resx/BabySoundOptions" translate="yes" xml:space="preserve">
-          <source>Baby Sound Options</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Параметры звука Baby</target>
+        <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
+          <source>Polyglot Tot Options</source>
+          <target state="new">Polyglot Tot Options</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -517,8 +517,8 @@ Download this app today!</source>
 Скачайте этот app сегодня!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
-          <source>Polyglot tot</source>
-          <target state="new">Polyglot tot</target>
+          <source>Polyglot Tot</source>
+          <target state="new">Polyglot Tot</target>
         </trans-unit>
       </group>
     </body>
