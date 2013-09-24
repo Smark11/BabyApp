@@ -16,7 +16,7 @@
     
     BackKeyPress="BackButtonClicked"
     
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="False">
 
     <phone:PhoneApplicationPage.Resources>
         <ResourceDictionary>
@@ -81,17 +81,17 @@
         <!--LayoutRoot is the root grid where all page content is placed-->
         <Grid x:Name="LayoutRoot" Background="Transparent">
             <Grid.RowDefinitions>
-                <RowDefinition Height="20*"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height=".9*"/>
 
             </Grid.RowDefinitions>
 
             <!--TitlePanel contains the name of the application and page title-->
-            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" x:Name="TitlePanel" Grid.Row="0" Margin="0,0,0,0">             
-                <TextBlock  Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"
-                      HorizontalAlignment="Center" VerticalAlignment="Center"
+            <!--<StackPanel HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Top" x:Name="TitlePanel" Grid.Row="0" Margin="0,0,0,0">-->             
+                <TextBlock x:Name="TitlePanel" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top"  Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"
+                       FontSize="60"
             		Margin="0,0,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-            </StackPanel>
+            <!--</StackPanel>-->
 
             <Grid x:Name="PictureGrid" Grid.Row="1" Visibility="Visible">
                 <phone:Pivot  x:Name="pivotControl" 
