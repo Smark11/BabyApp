@@ -351,6 +351,7 @@ namespace BabyApp
                     appBarButton2.IsEnabled = true;
                     appBarButton3.IsEnabled = true;
                     pivotControl.Focus();
+                    Mode = Screen.MainGrid;
                     break;
                 case Screen.SlideShow:
                     this.PictureGrid.Visibility = Visibility.Collapsed;
@@ -359,6 +360,7 @@ namespace BabyApp
                     appBarButton1.IsEnabled = false;
                     appBarButton2.IsEnabled = false;
                     appBarButton3.IsEnabled = false;
+                    Mode = Screen.SlideShow;
                     break;
             }
         }
@@ -1499,6 +1501,7 @@ namespace BabyApp
             if (GetDisplayedScreen() == Screen.SlideShow)
             {
                 NavigateToScreen(Screen.MainGrid);
+
                 Mode = Screen.MainGrid;
 
                 foreach (var row in _cancellationTokenSources.Keys)
