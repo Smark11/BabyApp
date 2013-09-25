@@ -210,7 +210,7 @@
         </trans-unit>
         <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
           <source>Raccoon</source>
-          <target state="new">Raccoon</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Meškėnas</target>
         </trans-unit>
         <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
           <source>Redfox</source>
@@ -294,7 +294,7 @@
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
           <source>Polyglot Tot Options</source>
-          <target state="new">Polyglot Tot Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Daugiakalbės Tot parinktys</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -318,11 +318,11 @@
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaip šią programą? Tegul visi kiti nežino!  Kaip mūsų Ačiū jums mes bus išplėsti savo teismą iki 10 dienų!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaip šią programą? Tegul visi kiti nežino!  Kaip mūsų Ačiū jums mes bus išplėsti savo teismą iki 10 dienų!  Įvertinkite šią programą?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -477,18 +477,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
 
-Features include:
+Funkcijos apima:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
 
-Download this app today!</target>
+Parsisiųsti šią programą šiandien!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -503,22 +503,38 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
 
-Features include:
+Funkcijos apima:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
 
-Download this app today!</target>
+Parsisiųsti šią programą šiandien!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Polyglot Tot</source>
-          <target state="new">Polyglot Tot</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Daugiakalbės Tot</target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>Brought to you by:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atnešė į jūsų:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Credits" translate="yes" xml:space="preserve">
+          <source>Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kreditai:</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCredits" translate="yes" xml:space="preserve">
+          <source>Picture Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nuotraukų kreditus:</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundCredits" translate="yes" xml:space="preserve">
+          <source>Sound Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Garso Kreditai:</target>
         </trans-unit>
       </group>
     </body>

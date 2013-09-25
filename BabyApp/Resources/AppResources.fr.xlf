@@ -210,7 +210,7 @@
         </trans-unit>
         <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
           <source>Raccoon</source>
-          <target state="new">Raccoon</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raton laveur</target>
         </trans-unit>
         <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
           <source>Redfox</source>
@@ -294,7 +294,7 @@
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
           <source>Polyglot Tot Options</source>
-          <target state="new">Polyglot Tot Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Options de Tot polyglotte</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -318,11 +318,11 @@
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Comme ce soft ? Tout le monde faites le savoir !  Comme nos remerciements à vous, nous prolongerons votre période d'essai de 10 jours !</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Comme ce soft ? Tout le monde faites le savoir !  Comme nos remerciements à vous, nous prolongerons votre période d'essai de 10 jours !  Noter ce soft ?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -477,18 +477,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
 
-Features include:
+Caractéristiques comprennent :
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Plus de 150 images et sons
+* 2 catégories différentes
+* Diaporama pour le jeu continu
+* Description vocale image
+* 9 langues
+* Nom de l'animal pour chaque image
 
-Download this app today!</target>
+Téléchargez cette application dès aujourd'hui !</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -503,22 +503,38 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
 
-Features include:
+Caractéristiques comprennent :
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Plus de 150 images et sons
+* 2 catégories différentes
+* Diaporama pour le jeu continu
+* Description vocale image
+* 9 langues
+* Nom de l'animal pour chaque image
 
-Download this app today!</target>
+Téléchargez cette application dès aujourd'hui !</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Polyglot Tot</source>
-          <target state="new">Polyglot Tot</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tot polyglotte</target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>Brought to you by:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Présentée par :</target>
+        </trans-unit>
+        <trans-unit id="Resx/Credits" translate="yes" xml:space="preserve">
+          <source>Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Crédits :</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCredits" translate="yes" xml:space="preserve">
+          <source>Picture Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Crédits photo :</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundCredits" translate="yes" xml:space="preserve">
+          <source>Sound Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Crédits audio :</target>
         </trans-unit>
       </group>
     </body>

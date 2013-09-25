@@ -210,7 +210,7 @@
         </trans-unit>
         <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
           <source>Raccoon</source>
-          <target state="new">Raccoon</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pesukarhu</target>
         </trans-unit>
         <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
           <source>Redfox</source>
@@ -294,7 +294,7 @@
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
           <source>Polyglot Tot Options</source>
-          <target state="new">Polyglot Tot Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Monikielinen Tot asetukset</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -318,11 +318,11 @@
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pidän tästä app? Antaa kaikille muille tietää!  Kiitos sinulle laajennamme 10 päivän kokeiluversio!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pidän tästä app? Antaa kaikille muille tietää!  Kiitos sinulle laajennamme 10 päivän kokeiluversio!  Arvioi tämä app?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -477,18 +477,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
 
-Features include:
+Ominaisuuksia:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Yli 150 kuvia ja ääniä
+* 2 eri
+* Slideshow jatkuva play
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
 
-Download this app today!</target>
+Lataa tämän app tänään!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -503,22 +503,38 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
 
-Features include:
+Ominaisuuksia:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Yli 150 kuvia ja ääniä
+* 2 eri
+* Slideshow jatkuva play
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
 
-Download this app today!</target>
+Lataa tämän app tänään!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Polyglot Tot</source>
-          <target state="new">Polyglot Tot</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Monikielinen Tot</target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>Brought to you by:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tuonut sinulle:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Credits" translate="yes" xml:space="preserve">
+          <source>Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laajuus:</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCredits" translate="yes" xml:space="preserve">
+          <source>Picture Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kuva Laajuus:</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundCredits" translate="yes" xml:space="preserve">
+          <source>Sound Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ääni Laajuus:</target>
         </trans-unit>
       </group>
     </body>

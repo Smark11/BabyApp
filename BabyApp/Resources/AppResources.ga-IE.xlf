@@ -520,6 +520,22 @@ Download this app today!</target>
           <source>Polyglot Tot</source>
           <target state="new">Polyglot Tot</target>
         </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>Brought to you by:</source>
+          <target state="new">Brought to you by:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Credits" translate="yes" xml:space="preserve">
+          <source>Credits:</source>
+          <target state="new">Credits:</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCredits" translate="yes" xml:space="preserve">
+          <source>Picture Credits:</source>
+          <target state="new">Picture Credits:</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundCredits" translate="yes" xml:space="preserve">
+          <source>Sound Credits:</source>
+          <target state="new">Sound Credits:</target>
+        </trans-unit>
       </group>
     </body>
   </file>

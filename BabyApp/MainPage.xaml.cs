@@ -290,78 +290,97 @@ namespace BabyApp
 
         private void OnePicSlideShowAsync(Box selectedPic, int tokenNumber)
         {
-            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+            try
             {
-                Dispatcher.BeginInvoke(() =>
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                 {
-                    NavigateToScreen(Screen.SlideShow);
-                });
-            }
+                    Dispatcher.BeginInvoke(() =>
+                    {
+                        NavigateToScreen(Screen.SlideShow);
+                    });
+                }
 
-            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
-            {
-                Task.Factory.StartNew(() => SetOnePicGrid(selectedPic, tokenNumber)).Wait();
-            }
-
-            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
-            {
-                Dispatcher.BeginInvoke(() =>
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                 {
-                    NavigateToScreen(Screen.MainGrid);
-                });
+                    Task.Factory.StartNew(() => SetOnePicGrid(selectedPic, tokenNumber)).Wait();
+                }
+
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                {
+                    Dispatcher.BeginInvoke(() =>
+                    {
+                        NavigateToScreen(Screen.MainGrid);
+                    });
+                }
+            }
+            catch (Exception)
+            {
             }
         }
 
         private void SetOnePicGrid(Box selectedPic, int tokenNumber)
         {
-            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+            try
             {
-                Dispatcher.BeginInvoke(() =>
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                 {
-                    ImageSourceSmall = selectedPic.ImageSourceSmall;
-                    ImageSourceLarge = selectedPic.ImageSourceLarge;
-                    Description = selectedPic.Description;
-                    DisplayDescription = GetTextDesription(selectedPic.Description);
-                    ImageSound = selectedPic.SoundSource;
-                });
-            }
+                    Dispatcher.BeginInvoke(() =>
+                    {
+                        ImageSourceSmall = selectedPic.ImageSourceSmall;
+                        ImageSourceLarge = selectedPic.ImageSourceLarge;
+                        Description = selectedPic.Description;
+                        DisplayDescription = GetTextDesription(selectedPic.Description);
+                        ImageSound = selectedPic.SoundSource;
+                    });
+                }
 
-            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
-            {
-                //TJY I needed to add a small sleep value here because the above properites being in an  ASYNC block were not being set by
-                //the time PlayVoiceTextAndSound was being executed.
-                Thread.Sleep(250);
-            }
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                {
+                    //TJY I needed to add a small sleep value here because the above properites being in an  ASYNC block were not being set by
+                    //the time PlayVoiceTextAndSound was being executed.
+                    Thread.Sleep(250);
+                }
 
-            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                {
+                    PlayVoiceTextAndSound(tokenNumber);
+                }
+            }
+            catch (Exception)
             {
-                PlayVoiceTextAndSound(tokenNumber);
             }
         }
 
         private void NavigateToScreen(Screen screenToGoTo)
         {
-            switch (screenToGoTo)
+            try
             {
-                case Screen.MainGrid:
-                    this.PictureGrid.Visibility = Visibility.Visible;
-                    this.SlideShow.Visibility = Visibility.Collapsed;
-                    this.TitlePanel.Visibility = Visibility.Visible;
-                    appBarButton1.IsEnabled = true;
-                    appBarButton2.IsEnabled = true;
-                    appBarButton3.IsEnabled = true;
-                    pivotControl.Focus();
-                    Mode = Screen.MainGrid;
-                    break;
-                case Screen.SlideShow:
-                    this.PictureGrid.Visibility = Visibility.Collapsed;
-                    this.SlideShow.Visibility = Visibility.Visible;
-                    this.TitlePanel.Visibility = Visibility.Collapsed;
-                    appBarButton1.IsEnabled = false;
-                    appBarButton2.IsEnabled = false;
-                    appBarButton3.IsEnabled = false;
-                    Mode = Screen.SlideShow;
-                    break;
+                switch (screenToGoTo)
+                {
+                    case Screen.MainGrid:
+                        this.PictureGrid.Visibility = Visibility.Visible;
+                        this.SlideShow.Visibility = Visibility.Collapsed;
+                        this.TitlePanel.Visibility = Visibility.Visible;
+                        appBarButton1.IsEnabled = true;
+                        appBarButton2.IsEnabled = true;
+                        appBarButton3.IsEnabled = true;
+                        pivotControl.Focus();
+                        Mode = Screen.MainGrid;
+                        break;
+                    case Screen.SlideShow:
+                        this.PictureGrid.Visibility = Visibility.Collapsed;
+                        this.SlideShow.Visibility = Visibility.Visible;
+                        this.TitlePanel.Visibility = Visibility.Collapsed;
+                        appBarButton1.IsEnabled = false;
+                        appBarButton2.IsEnabled = false;
+                        appBarButton3.IsEnabled = false;
+                        Mode = Screen.SlideShow;
+                        break;
+                }
+
+            }
+            catch (Exception)
+            {
             }
         }
 
@@ -383,51 +402,58 @@ namespace BabyApp
 
         private void PlaySlideShowAsync(int tokenNumber)
         {
-            List<Box> continuousPlayList = new List<Box>();
-
-            switch (App.gCategory)
+            try
             {
-                case "CartoonAnimals":
-                    continuousPlayList = CartoonAnimals;
-                    break;
-                case "Animals":
-                    continuousPlayList = Animals;
-                    break;
-            }
+                List<Box> continuousPlayList = new List<Box>();
 
-            for (int i = 43; i < continuousPlayList.Count; i++)
-            {
-                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                switch (App.gCategory)
                 {
-                    Dispatcher.BeginInvoke(() =>
+                    case "CartoonAnimals":
+                        continuousPlayList = CartoonAnimals;
+                        break;
+                    case "Animals":
+                        continuousPlayList = Animals;
+                        break;
+                }
+
+                for (int i = 0; i < continuousPlayList.Count; i++)
+                {
+                    if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                     {
+                        Dispatcher.BeginInvoke(() =>
+                        {
 
-                        ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
-                        ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
-                        Description = continuousPlayList[i].Description;
-                        DisplayDescription = GetTextDesription(continuousPlayList[i].Description);
-                        ImageSound = continuousPlayList[i].SoundSource;
-                    });
+                            ImageSourceSmall = continuousPlayList[i].ImageSourceSmall;
+                            ImageSourceLarge = continuousPlayList[i].ImageSourceLarge;
+                            Description = continuousPlayList[i].Description;
+                            DisplayDescription = GetTextDesription(continuousPlayList[i].Description);
+                            ImageSound = continuousPlayList[i].SoundSource;
+                        });
+                    }
+
+                    if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                    {
+                        Thread.Sleep(250);
+                    }
+
+                    PlayVoiceTextAndSound(tokenNumber);
+
+                    if (_cancellationTokens[tokenNumber].IsCancellationRequested)
+                    {
+                        break;
+                    }
                 }
 
-                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                //Slideshow done, bring main grid display back
+                Dispatcher.BeginInvoke(() =>
                 {
-                    Thread.Sleep(250);
-                }
+                    NavigateToScreen(Screen.MainGrid);
+                });
 
-                PlayVoiceTextAndSound(tokenNumber);
-
-                if (_cancellationTokens[tokenNumber].IsCancellationRequested)
-                {
-                    break;
-                }
             }
-
-            //Slideshow done, bring main grid display back
-            Dispatcher.BeginInvoke(() =>
+            catch (Exception)
             {
-                NavigateToScreen(Screen.MainGrid);
-            });
+            }
         }
 
         private Box GetBoxFromPivotAndTag(string tagName, PivotSlide slide)
@@ -568,8 +594,7 @@ namespace BabyApp
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("PlaySoundViaMediaElement - Error playing sound = " + ImageSound.Substring(1) + ". Error = " + ex.Message);
-
+                // Debug.WriteLine("PlaySoundViaMediaElement - Error playing sound = " + ImageSound.Substring(1) + ". Error = " + ex.Message);
             }
         }
 
@@ -589,7 +614,7 @@ namespace BabyApp
             }
             catch (Exception ex)
             {
-                Debug.WriteLine("PlaySoundViaSoundEffect - Error playing sound = " + ImageSound.Substring(1) + ". Error = " + ex.Message);
+                //   Debug.WriteLine("PlaySoundViaSoundEffect - Error playing sound = " + ImageSound.Substring(1) + ". Error = " + ex.Message);
             }
         }
 
@@ -621,7 +646,6 @@ namespace BabyApp
             catch (Exception)
             {
                 returnValue = textDescription;
-
             }
 
             return returnValue;
@@ -632,7 +656,6 @@ namespace BabyApp
             string returnValue = string.Empty;
             try
             {
-
                 switch (language)
                 {
                     case "English":
@@ -943,28 +966,34 @@ namespace BabyApp
 
         private void PlayVoiceTextAndSound(int tokenNumber)
         {
-            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+            try
             {
-                PlayVoiceText(tokenNumber);
-            }
-
-            if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
-            {
-                if (App.gPlaySoundSetting == "On")
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                 {
-                    Dispatcher.BeginInvoke(() =>
-                    {
-                        // PlaySoundViaSoundEffect(tokenNumber);
-                        PlaySoundViaMediaElement(tokenNumber);
-                    });
-
-                    Thread.Sleep(5000);
-
-                    Dispatcher.BeginInvoke(() =>
-                    {
-                        myBoundSound.Pause();
-                    });
+                    PlayVoiceText(tokenNumber);
                 }
+
+                if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                {
+                    if (App.gPlaySoundSetting == "On")
+                    {
+                        Dispatcher.BeginInvoke(() =>
+                        {
+                            // PlaySoundViaSoundEffect(tokenNumber);
+                            PlaySoundViaMediaElement(tokenNumber);
+                        });
+
+                        Thread.Sleep(5000);
+
+                        Dispatcher.BeginInvoke(() =>
+                        {
+                            myBoundSound.Pause();
+                        });
+                    }
+                }
+            }
+            catch (Exception)
+            {
             }
         }
 
@@ -1358,31 +1387,37 @@ namespace BabyApp
             }
         }
 
-
         //Button btn = sender as Button;
         //string imageTag = btn.Tag.ToString();
         private void ContiniousPlay_Click(object sender, EventArgs e)
         {
-            switch (Mode)
+            try
             {
-                case Screen.MainGrid:
-                    Mode = Screen.SlideShow;                
-                    NavigateToScreen(Screen.SlideShow);
-                    CancellationToken token;
-                    CancellationTokenSource tokenSource = new CancellationTokenSource();
+                switch (Mode)
+                {
+                    case Screen.MainGrid:
+                        Mode = Screen.SlideShow;
+                        NavigateToScreen(Screen.SlideShow);
+                        CancellationToken token;
+                        CancellationTokenSource tokenSource = new CancellationTokenSource();
 
-                    token = tokenSource.Token;
+                        token = tokenSource.Token;
 
-                    _cancellationTokens.Add(_cancellationTokens.Keys.Count(), token);
-                    _cancellationTokenSources.Add(_cancellationTokens.Keys.Count(), tokenSource);
+                        _cancellationTokens.Add(_cancellationTokens.Keys.Count(), token);
+                        _cancellationTokenSources.Add(_cancellationTokens.Keys.Count(), tokenSource);
 
-                    Task.Factory.StartNew(() => PlaySlideShowAsync(_cancellationTokens.Keys.Count() - 1), token);
+                        Task.Factory.StartNew(() => PlaySlideShowAsync(_cancellationTokens.Keys.Count() - 1), token);
 
-                    break;
-                case Screen.SlideShow:
-                    Mode = Screen.MainGrid;                 
-                    NavigateToScreen(Screen.MainGrid);
-                    break;
+                        break;
+                    case Screen.SlideShow:
+                        Mode = Screen.MainGrid;
+                        NavigateToScreen(Screen.MainGrid);
+                        break;
+                }
+
+            }
+            catch (Exception)
+            {
             }
         }
 
@@ -1429,6 +1464,23 @@ namespace BabyApp
 
             marketplaceSearchTask.SearchTerms = "KLBCreations";
             marketplaceSearchTask.Show();
+        }
+
+        private bool _backButtonPressedStopSounds = false;
+        private void BackButtonClicked(object sender, CancelEventArgs e)
+        {
+            if (GetDisplayedScreen() == Screen.SlideShow)
+            {
+                NavigateToScreen(Screen.MainGrid);
+
+                Mode = Screen.MainGrid;
+
+                foreach (var row in _cancellationTokenSources.Keys)
+                {
+                    _cancellationTokenSources[row].Cancel();
+                }
+                e.Cancel = true;
+            }
         }
 
         #endregion "Events"
@@ -1495,24 +1547,6 @@ namespace BabyApp
 
         #endregion "Common Routines"
 
-        private bool _backButtonPressedStopSounds = false;
-        private void BackButtonClicked(object sender, CancelEventArgs e)
-        {
-            if (GetDisplayedScreen() == Screen.SlideShow)
-            {
-                NavigateToScreen(Screen.MainGrid);
-
-                Mode = Screen.MainGrid;
-
-                foreach (var row in _cancellationTokenSources.Keys)
-                {
-                    _cancellationTokenSources[row].Cancel();
-                }
-                //  appBarButton1.IconUri = new Uri("/Assets/transport.play.png", UriKind.Relative);
-                appBarButton1.IsEnabled = true;
-                e.Cancel = true;
-            }
-        }
 
     }
 }

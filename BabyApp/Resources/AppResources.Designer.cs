@@ -205,6 +205,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Brought to you by:.
+        /// </summary>
+        public static string BroughtToYouBy {
+            get {
+                return ResourceManager.GetString("BroughtToYouBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Butterfly.
         /// </summary>
         public static string Butterfly {
@@ -300,6 +309,15 @@ namespace BabyApp.Resources {
         public static string Crab {
             get {
                 return ResourceManager.GetString("Crab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Credits:.
+        /// </summary>
+        public static string Credits {
+            get {
+                return ResourceManager.GetString("Credits", resourceCulture);
             }
         }
         
@@ -738,6 +756,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Picture Credits:.
+        /// </summary>
+        public static string PictureCredits {
+            get {
+                return ResourceManager.GetString("PictureCredits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pig.
         /// </summary>
         public static string Pig {
@@ -968,6 +995,15 @@ namespace BabyApp.Resources {
         public static string Snowleopard {
             get {
                 return ResourceManager.GetString("Snowleopard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sound Credits:.
+        /// </summary>
+        public static string SoundCredits {
+            get {
+                return ResourceManager.GetString("SoundCredits", resourceCulture);
             }
         }
         

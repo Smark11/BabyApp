@@ -210,7 +210,7 @@
         </trans-unit>
         <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
           <source>Raccoon</source>
-          <target state="new">Raccoon</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Єнот</target>
         </trans-unit>
         <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
           <source>Redfox</source>
@@ -294,7 +294,7 @@
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
           <source>Polyglot Tot Options</source>
-          <target state="new">Polyglot Tot Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Polyglot Тот параметри</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -318,11 +318,11 @@
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Як цей застосунок? Хай всі інші знають!  Як ми Дякуємо вам розширюємо вашого суду до 10 днів!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Як цей застосунок? Хай всі інші знають!  Як ми Дякуємо вам розширюємо вашого суду до 10 днів!  Оцінити цей застосунок?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -518,7 +518,23 @@ Download this app today!</source>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Polyglot Tot</source>
-          <target state="new">Polyglot Tot</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Polyglot Тот</target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>Brought to you by:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Приходить до вас по:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Credits" translate="yes" xml:space="preserve">
+          <source>Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Титри:</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCredits" translate="yes" xml:space="preserve">
+          <source>Picture Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Малюнок кредитів:</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundCredits" translate="yes" xml:space="preserve">
+          <source>Sound Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Звук кредитів:</target>
         </trans-unit>
       </group>
     </body>

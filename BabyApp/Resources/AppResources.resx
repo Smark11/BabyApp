@@ -492,4 +492,16 @@ Download this app today!</value>
   <data name="AppTitle" xml:space="preserve">
     <value>Polyglot Tot</value>
   </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Brought to you by:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Credits:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Picture Credits:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Sound Credits:</value>
+  </data>
 </root>
