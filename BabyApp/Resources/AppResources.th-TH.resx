@@ -477,4 +477,31 @@
 
 ดาวน์โหลด app นี้วันนี้</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>สัตว์คล้ายหมีเล็ก</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>ตัวเลือก polyglot Tot</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>เช่น app นี้ ให้คนอื่นรู้  เป็นเราขอขอบคุณคุณ เราจะขยายการทดลอง 10 วัน</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>เช่น app นี้ ให้คนอื่นรู้  เป็นเราขอขอบคุณคุณ เราจะขยายการทดลอง 10 วัน  ราคา app นี้</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Polyglot Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>นำมาให้คุณโดย:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>เครดิต:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>เครดิตภาพ:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>เครดิตเสียง:</value>
+  </data>
 </root>

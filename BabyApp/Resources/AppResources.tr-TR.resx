@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Öğrenme</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Rakun</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Dilde Tot seçenekleri</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Bu app gibi mi? Başka herkes bildirin!  Sizin için teşekkür olarak 10 gün deneme uzatacaktır.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Bu app gibi mi? Başka herkes bildirin!  Sizin için teşekkür olarak 10 gün deneme uzatacaktır.  Bu app oranı?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 150 Resimleri ve sesleri
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 150 Resimleri ve sesleri
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Dilde Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Tarafından size getirdim:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Kredi:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Resim kredi:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Ses kredisi:</value>
+  </data>
 </root>

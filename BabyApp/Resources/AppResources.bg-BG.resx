@@ -477,4 +477,31 @@
 
 Изтеглете този ап днес!</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Миеща мечка</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Polyglot Tot опции</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Като този app? Позволявам всеки иначе зная!  Тъй като нашите благодаря ви ние ще разшири своя опит до 10 дни!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Като този app? Позволявам всеки иначе зная!  Тъй като нашите благодаря ви ние ще разшири своя опит до 10 дни!  Оцени този app?</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Polyglot Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Донесох ви от:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Надписи:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Снимка кредити:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Звук надписи:</value>
+  </data>
 </root>

@@ -477,4 +477,31 @@
 
 להוריד את יישום זה היום!</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>דביבון</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>אפשרויות Tot הרב־תרבותית</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>כמו יישום זה? ליידע את כולם אחר!  כמו אנו מודות לך אנו להרחיב את הניסיון שלך ל-10 ימים!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>כמו יישום זה? ליידע את כולם אחר!  כמו אנו מודות לך אנו להרחיב את הניסיון שלך ל-10 ימים!  קצב יישום זה?</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>טוט הרב־תרבותית</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>נשלח על ידי:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>קרדיטים:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>קרדיט תמונה:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>קרדיטים קול:</value>
+  </data>
 </root>

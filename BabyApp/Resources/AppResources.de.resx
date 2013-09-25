@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Lernen</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Waschbär</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Polyglot Tot-Optionen</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Wie diese app? Lassen Sie alle anderen wissen!  Als unser Dank Ihnen können wir Ihre Testversion bis 10 Tage verlängern!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Wie diese app? Lassen Sie alle anderen wissen!  Als unser Dank Ihnen können wir Ihre Testversion bis 10 Tage verlängern!  Bewerten Sie diese app?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
+
+Eigenschaften umfassen:
+
+* Über 150 Bilder und Töne
+* 2 verschiedenen Kategorien
+* Diashow für Continous play
+* Stimme Bildbeschreibung
+* 9 verschiedene Sprachen
+* Name des Tieres für jedes Bild
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
+
+Eigenschaften umfassen:
+
+* Über 150 Bilder und Töne
+* 2 verschiedenen Kategorien
+* Diashow für Continous play
+* Stimme Bildbeschreibung
+* 9 verschiedene Sprachen
+* Name des Tieres für jedes Bild
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Polyglot Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Geholt Ihnen durch:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Credits:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Bildnachweis:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Sound Credits:</value>
+  </data>
 </root>

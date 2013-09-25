@@ -477,4 +477,31 @@
 
 इस app डाउनलोड आज!</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>एक प्रकार का जानवर</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>बहुभाषी मुन्ना विकल्प</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>इस app की तरह? हर कोई पता है चलो!  तुम हमारे धन्यवाद के रूप में हम 10 दिनों के लिए अपने परीक्षण का विस्तार होगा!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>इस app की तरह? हर कोई पता है चलो!  तुम हमारे धन्यवाद के रूप में हम 10 दिनों के लिए अपने परीक्षण का विस्तार होगा!  दर इस app?</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>बहुभाषी मुन्ना</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>आप द्वारा लाया:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>क्रेडिट्स:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>चित्र क्रेडिट्स:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>ध्वनि क्रेडिट:</value>
+  </data>
 </root>

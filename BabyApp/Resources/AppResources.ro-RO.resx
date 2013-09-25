@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>De învăţare</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Raton</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Poliglot Tot opţiuni</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie!  Ca noastre mulţumiri la spre tu îţi vom prelungi proces dumneavoastră la 10 zile!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie!  Ca noastre mulţumiri la spre tu îţi vom prelungi proces dumneavoastră la 10 zile!  Rata de acest app?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Invata-copii şi copii mici animale şi sunetele lor în până la 9 limbi diferite.
+
+Caracteristicile includ:
+
+* Peste 150 de imagini şi sunete
+* 2 categorii diferite
+* Prezentare de diapozitive pentru redare continuă
+* Descrierea de voce imaginii
+* 9 limbi diferite
+* Nume de animale pentru fiecare imagine
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Invata-copii şi copii mici animale şi sunetele lor în până la 9 limbi diferite.
+
+Caracteristicile includ:
+
+* Peste 150 de imagini şi sunete
+* 2 categorii diferite
+* Prezentare de diapozitive pentru redare continuă
+* Descrierea de voce imaginii
+* 9 limbi diferite
+* Nume de animale pentru fiecare imagine
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Poliglot Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Adus la tine de:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Credite:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Poze pentru credite:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Credite de sunet:</value>
+  </data>
 </root>

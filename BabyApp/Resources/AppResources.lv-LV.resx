@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Mācīšanās</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Jenots</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Polyglot Tot iespējas</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Piemēram, šī app? Ļaut visiem zināt!  Kā jums mūsu pateicību mēs paplašinām savu izmēģinājuma versiju uz 10 dienām!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Piemēram, šī app? Ļaut visiem zināt!  Kā jums mūsu pateicību mēs paplašinām savu izmēģinājuma versiju uz 10 dienām!  Novērtēt šo app?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Nepārtraukts Play Slideshow
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Nepārtraukts Play Slideshow
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Polyglot Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Kas tev ar:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Kredīti:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Attēlu kredīti:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Skaņu filmas veidotāju saraksts:</value>
+  </data>
 </root>

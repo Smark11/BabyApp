@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Belajar</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Rakun</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Tujuan Tot pilihan</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Seperti aplikasi ini? Biarkan orang lain tahu!  Sebagai terima kasih kami kepada Anda, kami akan memperpanjang percobaan Anda sampai dengan 10 hari!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Seperti aplikasi ini? Biarkan orang lain tahu!  Sebagai terima kasih kami kepada Anda, kami akan memperpanjang percobaan Anda sampai dengan 10 hari!  Tingkat app ini?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 150 gambar dan suara
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 150 gambar dan suara
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tujuan Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Dibawa ke Anda oleh:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Kredit:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Kredit foto:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Suara kredit:</value>
+  </data>
 </root>

@@ -8,6 +8,7 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Common.IsolatedStoreage;
+using BabyApp.Resources;
 
 namespace BabyApp
 {
@@ -87,7 +88,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkEnglish.IsChecked = false;
             }
 
@@ -108,7 +109,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkSpanish.IsChecked = false;
             }
         }
@@ -128,7 +129,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkItalian.IsChecked = false;
             }
         }
@@ -148,7 +149,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkGerman.IsChecked = false;
             }
         }
@@ -168,7 +169,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkChinese.IsChecked = false;
             }
         }
@@ -188,7 +189,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkFrench.IsChecked = false;
             }
         }
@@ -208,7 +209,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkPortuguese.IsChecked = false;
             }
         }
@@ -228,7 +229,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkPolish.IsChecked = false;
             }
         }
@@ -248,7 +249,7 @@ namespace BabyApp
             }
             else
             {
-                MessageBox.Show("Can only select up to 3 languages.", "", MessageBoxButton.OK);
+                MessageBox.Show(AppResources.CanOnlySelectUpTo3Languages, "", MessageBoxButton.OK);
                 chkJapanese.IsChecked = false;
             }
         }

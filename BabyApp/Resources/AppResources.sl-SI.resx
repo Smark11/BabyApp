@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Učenje</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Rakun</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Več jezikih leta Tot možnosti</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Kot to app? Naj vsi ostali vedo!  Kot je naša hvala vam bomo podaljšanje vaš poskus za 10 dni!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Kot to app? Naj vsi ostali vedo!  Kot je naša hvala vam bomo podaljšanje vaš poskus za 10 dni!  Ocenite to app?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tot v več jezikih leta</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Vam prinaša:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Krediti:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Slikovno gradivo::</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Zvok kreditov:</value>
+  </data>
 </root>

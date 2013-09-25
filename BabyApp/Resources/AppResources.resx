@@ -504,4 +504,10 @@ Download this app today!</value>
   <data name="SoundCredits" xml:space="preserve">
     <value>Sound Credits:</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Can only select up to 3 languages.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Must select at least 1 language.</value>
+  </data>
 </root>

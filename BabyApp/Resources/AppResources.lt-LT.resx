@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Mokymosi</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Meškėnas</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Daugiakalbės Tot parinktys</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Kaip šią programą? Tegul visi kiti nežino!  Kaip mūsų Ačiū jums mes bus išplėsti savo teismą iki 10 dienų!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Kaip šią programą? Tegul visi kiti nežino!  Kaip mūsų Ačiū jums mes bus išplėsti savo teismą iki 10 dienų!  Įvertinkite šią programą?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Daugiakalbės Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Atnešė į jūsų:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Kreditai:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Nuotraukų kreditus:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Garso Kreditai:</value>
+  </data>
 </root>

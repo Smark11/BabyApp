@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>L'aprenentatge</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Ós rentador</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Tot políglota opcions</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Com aquest app? Deixar tothom saber!  Com gràcies als anem a estendre el seu judici per 10 dies!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Com aquest app? Deixar tothom saber!  Com gràcies als anem a estendre el seu judici per 10 dies!  Valorar aquest app?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Políglota Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Portat a vostè per:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Crèdits:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Crèdits foto:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Sonores crèdits:</value>
+  </data>
 </root>

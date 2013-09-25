@@ -477,4 +477,31 @@
 
 Скачайте этот app сегодня!</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Енот</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Полиглот Tot варианты</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Как этот app? Пусть все еще знают!  Как наш благодаря вам мы расширим пробной до 10 дней!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Как этот app? Пусть все еще знают!  Как наш благодаря вам мы расширим пробной до 10 дней!  Оценить этот app?</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Полиглот малыш</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Привлечены к вам:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Кредиты:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Фотография кредитов:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Звук кредиты:</value>
+  </data>
 </root>

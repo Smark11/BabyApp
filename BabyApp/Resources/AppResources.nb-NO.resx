@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Læring</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Vaskebjørn</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Polyglot Tot alternativer</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Som denne app? La alle andre vet!  Som vår takk til deg vil vi utvide prøveversjonen til 10 dager!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Som denne app? La alle andre vet!  Som vår takk til deg vil vi utvide prøveversjonen til 10 dager!  Vurdere dette programmet?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Lære babyer og småbarn dyr og deres lyder på opptil 9 forskjellige språk.
+
+Funksjoner inkluderer:
+
+* Over 150 bilder og lyder
+* 2 ulike kategorier
+* Slideshow for kontinuerlig avspilling
+* Image stemme beskrivelse
+9 forskjellige språk
+* Navn på dyr for hvert bilde
+
+Last ned denne app i dag!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Lære babyer og småbarn dyr og deres lyder på opptil 9 forskjellige språk.
+
+Funksjoner inkluderer:
+
+* Over 150 bilder og lyder
+* 2 ulike kategorier
+* Slideshow for kontinuerlig avspilling
+* Image stemme beskrivelse
+9 forskjellige språk
+* Navn på dyr for hvert bilde
+
+Last ned denne app i dag!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Polyglot Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Brakt til deg av:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Studiepoeng:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Bilde studiepoeng:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Lyd studiepoeng:</value>
+  </data>
 </root>

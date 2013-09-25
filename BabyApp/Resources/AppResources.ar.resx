@@ -477,4 +477,31 @@
 
 تحميل هذا التطبيق اليوم!</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>الراكون</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>خيارات Tot الكثي</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  كما شكرنا لكم وسوف نتقدم بالنسخة التجريبية لمدة 10 أيام!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  كما شكرنا لكم وسوف نتقدم بالنسخة التجريبية لمدة 10 أيام!  معدل هذا التطبيق؟</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>توت الكثي</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>جلبت لك من قبل:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>أسماء المشرفين:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>الصورة الائتمان:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>ائتمانات الصوت:</value>
+  </data>
 </root>

@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Aprendizaje</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Mapache</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Opciones de Tot políglota</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>¿Como esta aplicación? Saber a los demás!  Como nuestro agradecimiento a usted extenderemos su juicio a 10 días.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>¿Como esta aplicación? Saber a los demás!  Como nuestro agradecimiento a usted extenderemos su juicio a 10 días.  ¿Valora esta aplicación?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Enseñar a los bebés y niños pequeños animales y sus sonidos de hasta 9 idiomas diferentes.
+
+Las características incluyen:
+
+* Más de 150 imágenes y sonidos
+* 2 diferentes categorías
+* Presentación de diapositivas para el juego continua
+* Imagen Descripción de voz
+* 9 idiomas
+* Nombre del animal para cada imagen
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Enseñar a los bebés y niños pequeños animales y sus sonidos de hasta 9 idiomas diferentes.
+
+Las características incluyen:
+
+* Más de 150 imágenes y sonidos
+* 2 diferentes categorías
+* Presentación de diapositivas para el juego continua
+* Imagen Descripción de voz
+* 9 idiomas
+* Nombre del animal para cada imagen
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tot políglota</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Traído a usted por:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Créditos:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Créditos de fotografía:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Sonido créditos:</value>
+  </data>
 </root>

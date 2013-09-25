@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Učenie</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Psík</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Možnosti viacjazyčnej Tot</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ako túto aplikáciu? Nech všetci ostatní vedieť!  Ako naše vďaka vám budeme rozširovať svoj súd do 10 dní!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ako túto aplikáciu? Nech všetci ostatní vedieť!  Ako naše vďaka vám budeme rozširovať svoj súd do 10 dní!  Hodnotiť túto aplikáciu?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
+
+Funkcie patrí:
+
+* Viac ako 150 obrazov a zvukov
+* 2 rôzne kategórie
+* Prezentácie pre kontinuálne play
+* Image hlas Popis
+* 9 rôznych jazykoch
+* Meno zvieraťa pre každý obrázok
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
+
+Funkcie patrí:
+
+* Viac ako 150 obrazov a zvukov
+* 2 rôzne kategórie
+* Prezentácie pre kontinuálne play
+* Image hlas Popis
+* 9 rôznych jazykoch
+* Meno zvieraťa pre každý obrázok
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Viacjazyčnej Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Ti prináša:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Kredity:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Obrázok kredity:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Zvuk kredity:</value>
+  </data>
 </root>

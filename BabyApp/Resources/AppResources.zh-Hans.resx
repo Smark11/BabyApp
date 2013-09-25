@@ -477,4 +477,31 @@
 
 今天下载这个应用程序 ！</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>浣熊</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>万语 Tot 选项</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>像这个应用程序吗？让大家都知道 ！我们感谢你我们将会延长至 10 天试用版 ！</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>像这个应用程序吗？让大家都知道 ！我们感谢你我们将会延长至 10 天试用版 ！率这个应用程序吗？</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>万语 Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>带给你的：</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>学分：</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>图片来源：</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>健全学分：</value>
+  </data>
 </root>

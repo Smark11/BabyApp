@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Leren</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Raccoon</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Polyglot Tot opties</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Als dit app? Laat iedereen weten!  Als onze dank aan u zullen we uw proces tot 10 dagen verlengen!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Als dit app? Laat iedereen weten!  Als onze dank aan u zullen we uw proces tot 10 dagen verlengen!  Stem op dit app?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Leren baby's en peuters dieren en hun geluiden in 9 verschillende talen.
+
+De eigenschappen omvatten:
+
+* Meer dan 150 beelden en geluiden
+* 2 verschillende categorieën
+* Slideshow voor continu afspelen
+* Stem Afbeeldingsbeschrijving
+* 9 verschillende talen
+* Naam van dier voor elk beeld
+
+Download dit app vandaag nog!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Leren baby's en peuters dieren en hun geluiden in 9 verschillende talen.
+
+De eigenschappen omvatten:
+
+* Meer dan 150 beelden en geluiden
+* 2 verschillende categorieën
+* Slideshow voor continu afspelen
+* Stem Afbeeldingsbeschrijving
+* 9 verschillende talen
+* Naam van dier voor elk beeld
+
+Download dit app vandaag nog!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Polyglot Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Gebracht aan u door:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Kredieten:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Foto Credits:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Geluid Credits:</value>
+  </data>
 </root>

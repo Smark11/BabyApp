@@ -506,71 +506,88 @@ namespace BabyApp
 
             try
             {
-                foreach (string language in App.gLanguages)
+                //If no languarges selected then default to english
+                if (App.gLanguages.Count == 0)
                 {
-                    if (_cancellationTokens[tokenNumber].IsCancellationRequested)
-                    {
-                        break;
-                    }
-
-                    switch (language)
-                    {
-                        case "English":
-                            voiceLanguage = "en-US";
-                            //   IEnumerable<VoiceInformation> englishVoices = from voice in InstalledVoices.All where voice.Language == "en-US" && voice.Gender == VoiceGender.Female select voice;
-                            //    synthesizer.SetVoice(englishVoices.ElementAt(0));
-                            break;
-                        case "Spanish":
-                            voiceLanguage = "es-ES";
-                            //  IEnumerable<VoiceInformation> spanishVoices = from voice in InstalledVoices.All where voice.Language == "es-ES" && voice.Gender == VoiceGender.Female select voice;
-                            //   synthesizer.SetVoice(spanishVoices.ElementAt(0));
-                            break;
-                        case "French":
-                            voiceLanguage = "fr-FR";
-                            //  IEnumerable<VoiceInformation> frenchVoices = from voice in InstalledVoices.All where voice.Language == "fr-FR" && voice.Gender == VoiceGender.Female select voice;
-                            //  synthesizer.SetVoice(frenchVoices.ElementAt(0));
-                            break;
-                        case "Chinese":
-                            voiceLanguage = "zh-HK";
-                            //   IEnumerable<VoiceInformation> chineseVoices = from voice in InstalledVoices.All where voice.Language == "zh-HK" && voice.Gender == VoiceGender.Female select voice;
-                            //   synthesizer.SetVoice(chineseVoices.ElementAt(0));
-                            break;
-                        case "Italian":
-                            voiceLanguage = "it-IT";
-                            // IEnumerable<VoiceInformation> italianVoices = from voice in InstalledVoices.All where voice.Language == "it-IT" && voice.Gender == VoiceGender.Female select voice;
-                            // synthesizer.SetVoice(italianVoices.ElementAt(0));
-                            break;
-                        case "German":
-                            voiceLanguage = "de-DE";
-                            // IEnumerable<VoiceInformation> germanVoices = from voice in InstalledVoices.All where voice.Language == "de-DE" && voice.Gender == VoiceGender.Female select voice;
-                            //  synthesizer.SetVoice(germanVoices.ElementAt(0));
-                            break;
-                        case "Portuguese":
-                            voiceLanguage = "pt-BR";
-                            //  IEnumerable<VoiceInformation> portugueseVoices = from voice in InstalledVoices.All where voice.Language == "pt-BR" && voice.Gender == VoiceGender.Female select voice;
-                            //  synthesizer.SetVoice(portugueseVoices.ElementAt(0));
-                            break;
-                        case "Japanese":
-                            voiceLanguage = "ja-JP";
-                            // IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
-                            //   synthesizer.SetVoice(JapaneseVoices.ElementAt(0));
-                            break;
-                        case "Polish":
-                            voiceLanguage = "pl-PL";
-                            break;
-                    }
-
                     if (Description != null)
                     {
                         // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
                         //synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
-                        synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(GetTextTranslation(language, Description), Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, voiceLanguage));
+                        synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(GetTextTranslation(voiceLanguage, Description), Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, voiceLanguage));
                     }
                     if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                     {
                         Thread.Sleep(2000);
                     }
+                }
+                else //If there is at least 1 language selected we loop through them and play the voices for that language
+                {
+                    foreach (string language in App.gLanguages)
+                    {
+                        if (_cancellationTokens[tokenNumber].IsCancellationRequested)
+                        {
+                            break;
+                        }
 
+                        switch (language)
+                        {
+                            case "English":
+                                voiceLanguage = "en-US";
+                                //   IEnumerable<VoiceInformation> englishVoices = from voice in InstalledVoices.All where voice.Language == "en-US" && voice.Gender == VoiceGender.Female select voice;
+                                //    synthesizer.SetVoice(englishVoices.ElementAt(0));
+                                break;
+                            case "Spanish":
+                                voiceLanguage = "es-ES";
+                                //  IEnumerable<VoiceInformation> spanishVoices = from voice in InstalledVoices.All where voice.Language == "es-ES" && voice.Gender == VoiceGender.Female select voice;
+                                //   synthesizer.SetVoice(spanishVoices.ElementAt(0));
+                                break;
+                            case "French":
+                                voiceLanguage = "fr-FR";
+                                //  IEnumerable<VoiceInformation> frenchVoices = from voice in InstalledVoices.All where voice.Language == "fr-FR" && voice.Gender == VoiceGender.Female select voice;
+                                //  synthesizer.SetVoice(frenchVoices.ElementAt(0));
+                                break;
+                            case "Chinese":
+                                voiceLanguage = "zh-HK";
+                                //   IEnumerable<VoiceInformation> chineseVoices = from voice in InstalledVoices.All where voice.Language == "zh-HK" && voice.Gender == VoiceGender.Female select voice;
+                                //   synthesizer.SetVoice(chineseVoices.ElementAt(0));
+                                break;
+                            case "Italian":
+                                voiceLanguage = "it-IT";
+                                // IEnumerable<VoiceInformation> italianVoices = from voice in InstalledVoices.All where voice.Language == "it-IT" && voice.Gender == VoiceGender.Female select voice;
+                                // synthesizer.SetVoice(italianVoices.ElementAt(0));
+                                break;
+                            case "German":
+                                voiceLanguage = "de-DE";
+                                // IEnumerable<VoiceInformation> germanVoices = from voice in InstalledVoices.All where voice.Language == "de-DE" && voice.Gender == VoiceGender.Female select voice;
+                                //  synthesizer.SetVoice(germanVoices.ElementAt(0));
+                                break;
+                            case "Portuguese":
+                                voiceLanguage = "pt-BR";
+                                //  IEnumerable<VoiceInformation> portugueseVoices = from voice in InstalledVoices.All where voice.Language == "pt-BR" && voice.Gender == VoiceGender.Female select voice;
+                                //  synthesizer.SetVoice(portugueseVoices.ElementAt(0));
+                                break;
+                            case "Japanese":
+                                voiceLanguage = "ja-JP";
+                                // IEnumerable<VoiceInformation> JapaneseVoices = from voice in InstalledVoices.All where voice.Language == "ja-JP" && voice.Gender == VoiceGender.Female select voice;
+                                //   synthesizer.SetVoice(JapaneseVoices.ElementAt(0));
+                                break;
+                            case "Polish":
+                                voiceLanguage = "pl-PL";
+                                break;
+                        }
+
+                        if (Description != null)
+                        {
+                            // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
+                            //synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
+                            synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(GetTextTranslation(language, Description), Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, voiceLanguage));
+                        }
+                        if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
+                        {
+                            Thread.Sleep(2000);
+                        }
+
+                    }
                 }
             }
             catch (Exception ex)
@@ -578,7 +595,6 @@ namespace BabyApp
 
             }
         }
-
         //media element allows for pausing sound, Soundeffect does not allow for pause/stop so NOT good for background music
         private void PlaySoundViaMediaElement(int tokenNumber)
         {
@@ -641,7 +657,10 @@ namespace BabyApp
                 {
                     returnValue = "Text Display Off";
                 }
-
+                if (returnValue == "No languages selected")
+                {
+                    returnValue = GetTextTranslation("en-US", textDescription);
+                }
             }
             catch (Exception)
             {
@@ -1536,9 +1555,10 @@ namespace BabyApp
                     appBarMenuItem3.Click += new EventHandler(Review_Click);
                 }
 
-                ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
-                ApplicationBar.MenuItems.Add(appBarMenuItem4);
-                appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
+                //Decided to not show this for baby app since more apps would show spycam
+                //  ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
+                //  ApplicationBar.MenuItems.Add(appBarMenuItem4);
+                //  appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
             }
             catch (Exception ex)
             {

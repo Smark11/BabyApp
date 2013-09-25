@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Apprentissage</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Raton laveur</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Options de Tot polyglotte</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Comme ce soft ? Tout le monde faites le savoir !  Comme nos remerciements à vous, nous prolongerons votre période d'essai de 10 jours !</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Comme ce soft ? Tout le monde faites le savoir !  Comme nos remerciements à vous, nous prolongerons votre période d'essai de 10 jours !  Noter ce soft ?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
+
+Caractéristiques comprennent :
+
+* Plus de 150 images et sons
+* 2 catégories différentes
+* Diaporama pour le jeu continu
+* Description vocale image
+* 9 langues
+* Nom de l'animal pour chaque image
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
+
+Caractéristiques comprennent :
+
+* Plus de 150 images et sons
+* 2 catégories différentes
+* Diaporama pour le jeu continu
+* Description vocale image
+* 9 langues
+* Nom de l'animal pour chaque image
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tot polyglotte</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Présentée par :</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Crédits :</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Crédits photo :</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Crédits audio :</value>
+  </data>
 </root>

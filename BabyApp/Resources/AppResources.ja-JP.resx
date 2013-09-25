@@ -477,4 +477,31 @@
 
 今日このアプリをダウンロード ！</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>アライグマ</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>ポリグロット Tot オプション</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！あなたに感謝として 10 日にあなたのトライアルを延長 ！</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！あなたに感謝として 10 日にあなたのトライアルを延長 ！このアプリを評価ですか？</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ポリグロット Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>によってあなたに持って来られます。</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>クレジット：</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>画像クレジット:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>サウンドのクレジット：</value>
+  </data>
 </root>

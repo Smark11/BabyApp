@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Apprendimento</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Procione</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Opzioni di Tot poliglotta</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Come questa app? Tutti gli altri far sapere!  Come i nostri ringraziamenti a voi estenderemo la tua prova per 10 giorni!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Come questa app? Tutti gli altri far sapere!  Come i nostri ringraziamenti a voi estenderemo la tua prova per 10 giorni!  Votare questa app?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Insegnare a neonati e bambini piccoli animali e loro suoni in fino a 9 lingue diverse.
+
+Le caratteristiche includono:
+
+* Oltre 150 immagini e suoni
+* 2 categorie differenti
+* Slideshow per il continuo gioco
+* Descrizione voce immagine
+* 9 diverse lingue
+* Nome di animale per ogni immagine
+
+Scarica questa applicazione!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Insegnare a neonati e bambini piccoli animali e loro suoni in fino a 9 lingue diverse.
+
+Le caratteristiche includono:
+
+* Oltre 150 immagini e suoni
+* 2 categorie differenti
+* Slideshow per il continuo gioco
+* Descrizione voce immagine
+* 9 diverse lingue
+* Nome di animale per ogni immagine
+
+Scarica questa applicazione!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tot poliglotta</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Portato a voi da:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Crediti:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Credits foto:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Suoni crediti:</value>
+  </data>
 </root>

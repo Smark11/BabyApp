@@ -449,4 +449,59 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Õppimine</value>
   </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Pesukaru</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Polyglot Tot Valikud</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Nagu see app? Lase kõik teised teavad!  Nagu meie tänu teile me laiendada oma uuringus 10 päeva!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Nagu see app? Lase kõik teised teavad!  Nagu meie tänu teile me laiendada oma uuringus 10 päeva!  Hinda seda app?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
+
+Funktsioonide hulka kuuluvad:
+
+* Rohkem kui 150 pildid ja helid
+* 2 erinevat kategooriat
+* Pidev play Slideshow
+* Pilt hääl kirjeldus
+* 9 erinevat keelt
+* Animal nimi igale pildile
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
+
+Funktsioonide hulka kuuluvad:
+
+* Rohkem kui 150 pildid ja helid
+* 2 erinevat kategooriat
+* Pidev play Slideshow
+* Pilt hääl kirjeldus
+* 9 erinevat keelt
+* Animal nimi igale pildile
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Polyglot Tot</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Kodulehekülge toob teieni:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Autorid:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Pilt autorid:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Veatu krediit:</value>
+  </data>
 </root>

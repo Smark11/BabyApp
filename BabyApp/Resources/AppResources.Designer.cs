@@ -232,6 +232,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Can only select up to 3 languages..
+        /// </summary>
+        public static string CanOnlySelectUpTo3Languages {
+            get {
+                return ResourceManager.GetString("CanOnlySelectUpTo3Languages", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Capuchinmonkey.
         /// </summary>
         public static string Capuchinmonkey {
@@ -689,6 +698,15 @@ namespace BabyApp.Resources {
         public static string Mosquito {
             get {
                 return ResourceManager.GetString("Mosquito", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Must select at least 1 language..
+        /// </summary>
+        public static string MustSelectAtLeast1Language {
+            get {
+                return ResourceManager.GetString("MustSelectAtLeast1Language", resourceCulture);
             }
         }
         
