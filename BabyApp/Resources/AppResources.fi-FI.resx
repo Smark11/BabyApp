@@ -461,34 +461,6 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Pidän tästä app? Antaa kaikille muille tietää!  Kiitos sinulle laajennamme 10 päivän kokeiluversio!  Arvioi tämä app?</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
-
-Ominaisuuksia:
-
-* Yli 150 kuvia ja ääniä
-* 2 eri
-* Slideshow jatkuva play
-* Kuva ääni kuvaus
-* 9 eri kielellä
-* Eläimen nimi kunkin kuvan
-
-Lataa tämän app tänään!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
-
-Ominaisuuksia:
-
-* Yli 150 kuvia ja ääniä
-* 2 eri
-* Slideshow jatkuva play
-* Kuva ääni kuvaus
-* 9 eri kielellä
-* Eläimen nimi kunkin kuvan
-
-Lataa tämän app tänään!</value>
-  </data>
   <data name="AppTitle" xml:space="preserve">
     <value>Monikielinen Tot</value>
   </data>

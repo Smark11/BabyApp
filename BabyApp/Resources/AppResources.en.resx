@@ -461,34 +461,6 @@
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Teach babies and toddlers animals and their sounds in up to 9 different languages.
-
-Features include:
-
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
-
-Download this app today!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Teach babies and toddlers animals and their sounds in up to 9 different languages.
-
-Features include:
-
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
-
-Download this app today!</value>
-  </data>
   <data name="AppTitle" xml:space="preserve">
     <value>Polyglot Tot</value>
   </data>
