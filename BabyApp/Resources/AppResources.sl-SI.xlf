@@ -477,18 +477,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
 
-Features include:
+Funkcije vključujejo:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
 
-Download this app today!</target>
+Travnato gričevje to app danes!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -503,18 +503,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
 
-Features include:
+Funkcije vključujejo:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
 
-Download this app today!</target>
+Travnato gričevje to app danes!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Polyglot Tot</source>
@@ -538,11 +538,11 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/CanOnlySelectUpTo3Languages" translate="yes" xml:space="preserve">
           <source>Can only select up to 3 languages.</source>
-          <target state="new">Can only select up to 3 languages.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lahko izberete le do 3 jezikih.</target>
         </trans-unit>
         <trans-unit id="Resx/MustSelectAtLeast1Language" translate="yes" xml:space="preserve">
           <source>Must select at least 1 language.</source>
-          <target state="new">Must select at least 1 language.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izbrati morate vsaj 1 jezika.</target>
         </trans-unit>
       </group>
     </body>

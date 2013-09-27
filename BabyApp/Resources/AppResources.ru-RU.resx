@@ -504,4 +504,10 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Звук кредиты:</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Можно выбрать только до 3 языков.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Необходимо выбрать по крайней мере 1 язык.</value>
+  </data>
 </root>

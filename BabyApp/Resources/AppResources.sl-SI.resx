@@ -476,4 +476,38 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Zvok kreditov:</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Lahko izberete le do 3 jezikih.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Izbrati morate vsaj 1 jezika.</value>
+  </data>
 </root>

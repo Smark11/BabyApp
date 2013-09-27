@@ -504,4 +504,10 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>קרדיטים קול:</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>ניתן לבחור רק עד 3 שפות.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>עליך לבחור לפחות 1 השפה.</value>
+  </data>
 </root>

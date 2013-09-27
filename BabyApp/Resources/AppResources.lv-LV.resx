@@ -476,4 +476,38 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Skaņu filmas veidotāju saraksts:</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Nepārtraukts Play Slideshow
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Nepārtraukts Play Slideshow
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Var izvēlēties tikai līdz 3 valodām.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Ir jāatlasa vismaz 1 valoda.</value>
+  </data>
 </root>

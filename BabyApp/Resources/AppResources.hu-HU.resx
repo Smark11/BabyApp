@@ -476,4 +476,38 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Egészséges hitelek:</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
+
+Funkciók közé tartozik:
+
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
+
+Funkciók közé tartozik:
+
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Akár 3 nyelven csak lehet kiválasztani.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Ki kell választania legalább 1 nyelv.</value>
+  </data>
 </root>

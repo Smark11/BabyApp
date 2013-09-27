@@ -504,4 +504,10 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>ائتمانات الصوت:</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>يمكن فقط تحديد لغات تصل إلى 3.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>يجب تحديد لغة على الأقل 1.</value>
+  </data>
 </root>

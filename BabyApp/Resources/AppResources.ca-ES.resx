@@ -476,4 +476,38 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Sonores crèdits:</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Només podeu seleccionar fins a 3 idiomes.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Heu de seleccionar almenys 1 llengua.</value>
+  </data>
 </root>

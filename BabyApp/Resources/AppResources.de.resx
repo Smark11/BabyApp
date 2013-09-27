@@ -476,4 +476,38 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Sound Credits:</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
+
+Eigenschaften umfassen:
+
+* Über 150 Bilder und Töne
+* 2 verschiedenen Kategorien
+* Diashow für Continous play
+* Stimme Bildbeschreibung
+* 9 verschiedene Sprachen
+* Name des Tieres für jedes Bild
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
+
+Eigenschaften umfassen:
+
+* Über 150 Bilder und Töne
+* 2 verschiedenen Kategorien
+* Diashow für Continous play
+* Stimme Bildbeschreibung
+* 9 verschiedene Sprachen
+* Name des Tieres für jedes Bild
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Können nur bis zu 3 Sprachen auswählen.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Müssen mindestens 1 Sprache auswählen.</value>
+  </data>
 </root>

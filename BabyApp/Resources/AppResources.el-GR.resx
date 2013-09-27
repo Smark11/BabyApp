@@ -504,4 +504,10 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Ήχου πιστώσεις:</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Να επιλέξετε μόνο μέχρι 3 γλώσσες.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Πρέπει να επιλέξετε τουλάχιστον 1 γλώσσα.</value>
+  </data>
 </root>

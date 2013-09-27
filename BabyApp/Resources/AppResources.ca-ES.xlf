@@ -477,18 +477,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
 
-Features include:
+Les característiques inclouen:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
 
-Download this app today!</target>
+Descarregar aquest app avui!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -503,18 +503,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
 
-Features include:
+Les característiques inclouen:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
 
-Download this app today!</target>
+Descarregar aquest app avui!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Polyglot Tot</source>
@@ -538,11 +538,11 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/CanOnlySelectUpTo3Languages" translate="yes" xml:space="preserve">
           <source>Can only select up to 3 languages.</source>
-          <target state="new">Can only select up to 3 languages.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Només podeu seleccionar fins a 3 idiomes.</target>
         </trans-unit>
         <trans-unit id="Resx/MustSelectAtLeast1Language" translate="yes" xml:space="preserve">
           <source>Must select at least 1 language.</source>
-          <target state="new">Must select at least 1 language.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Heu de seleccionar almenys 1 llengua.</target>
         </trans-unit>
       </group>
     </body>

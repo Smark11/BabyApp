@@ -477,18 +477,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lære babyer og småbørn dyr og deres lyde i op til 9 forskellige sprog.
 
-Features include:
+Funktioner omfatter:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Mere end 150 billeder og lyde
+* 2 forskellige kategorier
+* Slideshow for kontinuerlig spille
+* Billede stemme beskrivelse
+* 9 forskellige sprog
+* Navnet på dyret for hvert billede
 
-Download this app today!</target>
+Download denne app i dag!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -503,18 +503,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lære babyer og småbørn dyr og deres lyde i op til 9 forskellige sprog.
 
-Features include:
+Funktioner omfatter:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Mere end 150 billeder og lyde
+* 2 forskellige kategorier
+* Slideshow for kontinuerlig spille
+* Billede stemme beskrivelse
+* 9 forskellige sprog
+* Navnet på dyret for hvert billede
 
-Download this app today!</target>
+Download denne app i dag!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Polyglot Tot</source>
@@ -538,11 +538,11 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/CanOnlySelectUpTo3Languages" translate="yes" xml:space="preserve">
           <source>Can only select up to 3 languages.</source>
-          <target state="new">Can only select up to 3 languages.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kan kun vælge op til 3 sprog.</target>
         </trans-unit>
         <trans-unit id="Resx/MustSelectAtLeast1Language" translate="yes" xml:space="preserve">
           <source>Must select at least 1 language.</source>
-          <target state="new">Must select at least 1 language.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skal vælge mindst 1 sprog.</target>
         </trans-unit>
       </group>
     </body>

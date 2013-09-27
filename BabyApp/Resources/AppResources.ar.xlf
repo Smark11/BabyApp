@@ -538,11 +538,11 @@ Download this app today!</source>
         </trans-unit>
         <trans-unit id="Resx/CanOnlySelectUpTo3Languages" translate="yes" xml:space="preserve">
           <source>Can only select up to 3 languages.</source>
-          <target state="new">Can only select up to 3 languages.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">يمكن فقط تحديد لغات تصل إلى 3.</target>
         </trans-unit>
         <trans-unit id="Resx/MustSelectAtLeast1Language" translate="yes" xml:space="preserve">
           <source>Must select at least 1 language.</source>
-          <target state="new">Must select at least 1 language.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">يجب تحديد لغة على الأقل 1.</target>
         </trans-unit>
       </group>
     </body>

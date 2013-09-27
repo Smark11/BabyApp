@@ -477,18 +477,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
 
-Features include:
+Funkcijos apima:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
 
-Download this app today!</target>
+Parsisiųsti šią programą šiandien!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -503,18 +503,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
 
-Features include:
+Funkcijos apima:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
 
-Download this app today!</target>
+Parsisiųsti šią programą šiandien!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Polyglot Tot</source>
@@ -538,11 +538,11 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/CanOnlySelectUpTo3Languages" translate="yes" xml:space="preserve">
           <source>Can only select up to 3 languages.</source>
-          <target state="new">Can only select up to 3 languages.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Galite pasirinkti tik iki 3 kalbas.</target>
         </trans-unit>
         <trans-unit id="Resx/MustSelectAtLeast1Language" translate="yes" xml:space="preserve">
           <source>Must select at least 1 language.</source>
-          <target state="new">Must select at least 1 language.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Turite pasirinkti bent 1 kalba.</target>
         </trans-unit>
       </group>
     </body>

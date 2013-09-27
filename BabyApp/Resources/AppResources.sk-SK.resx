@@ -476,4 +476,38 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Zvuk kredity:</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
+
+Funkcie patrí:
+
+* Viac ako 150 obrazov a zvukov
+* 2 rôzne kategórie
+* Prezentácie pre kontinuálne play
+* Image hlas Popis
+* 9 rôznych jazykoch
+* Meno zvieraťa pre každý obrázok
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
+
+Funkcie patrí:
+
+* Viac ako 150 obrazov a zvukov
+* 2 rôzne kategórie
+* Prezentácie pre kontinuálne play
+* Image hlas Popis
+* 9 rôznych jazykoch
+* Meno zvieraťa pre každý obrázok
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Vybrať môžete iba do 3 jazyky.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Musíte vybrať aspoň 1 jazyk.</value>
+  </data>
 </root>

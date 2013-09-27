@@ -39,7 +39,7 @@
     <Language code="zh-Hans" />
     <Language code="zh-Hant" />
   </Languages>
-  <App xmlns="" ProductID="{2484440c-4420-4ba0-8a0e-c127f24906eb}" Title="BabyApp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BabyApp author" Description="Sample description" Publisher="BabyApp" PublisherID="{c5d2b96a-5e02-4a02-9d5f-1a3a5904d5d7}">
+  <App xmlns="" ProductID="{2484440c-4420-4ba0-8a0e-c127f24906eb}" Title="Polyglot Tot" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BabyApp author" Description="Sample description" Publisher="BabyApp" PublisherID="{c5d2b96a-5e02-4a02-9d5f-1a3a5904d5d7}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
@@ -59,11 +59,16 @@
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
           <Title>BabyApp</Title>
-          <BackContent></BackContent>
-          <BackBackgroundImageURI></BackBackgroundImageURI>
-          <BackTitle></BackTitle>
-          <DeviceLockImageURI></DeviceLockImageURI>
-          <HasLarge></HasLarge>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI>
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI>
+          </DeviceLockImageURI>
+          <HasLarge>
+          </HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>

@@ -476,4 +476,38 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Ses kredisi:</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 150 Resimleri ve sesleri
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 150 Resimleri ve sesleri
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Yalnızca 3 diller seçebilirsiniz.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>En az 1 dil seçmelisiniz.</value>
+  </data>
 </root>

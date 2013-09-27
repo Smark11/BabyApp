@@ -504,4 +504,10 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Звук надписи:</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Може да изберете само до 3 езика.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Трябва да изберете поне един език.</value>
+  </data>
 </root>

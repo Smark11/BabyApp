@@ -504,4 +504,10 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>사운드 크레딧:</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>만 3 언어를 선택할 수 있습니다.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>1 언어를 선택 해야 합니다.</value>
+  </data>
 </root>

@@ -504,4 +504,10 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>健全学分：</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>只能选择达 3 种语言。</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>必须选择至少 1 语言。</value>
+  </data>
 </root>

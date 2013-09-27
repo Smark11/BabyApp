@@ -504,4 +504,10 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>サウンドのクレジット：</value>
   </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>最大 3 つの言語を選択できます。</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>少なくとも 1 言語を選択する必要があります。</value>
+  </data>
 </root>
