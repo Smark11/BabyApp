@@ -15,19 +15,18 @@
 
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="300"/>        
         </Grid.RowDefinitions>
 
 
         <Viewbox Stretch="UniformToFill">
             <StackPanel>
-                <TextBlock HorizontalAlignment="Center" Style="{StaticResource PhoneTextTitle1Style}" Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"/>
-                <TextBlock FontSize="20" Margin="0,25,0,0" HorizontalAlignment="Center" Text="To install a speech language on your phone.  Follow the insructions below:"/>
-                <TextBlock FontSize="20" Margin="0,25,0,0" HorizontalAlignment="Center" Text="1) Click on 'SETTINGS'"/>
-                <TextBlock FontSize="50" Margin="0,10,0,0" HorizontalAlignment="Center" Text="2) Click on 'SPEECH' (under the 'SYSTEM' tab)"/>
-                <TextBlock FontSize="20" Margin="0,10,0,0" HorizontalAlignment="Center" Text="3) Click on 'SPEECH LANGUAGE'"/>
-                <TextBlock  HorizontalAlignment="Center" FontSize="35" Margin="0,20,0,0" Text="4) Click on the language you would like to install and follow the download prompts."/>              
+                <TextBlock FontSize="150" HorizontalAlignment="Center" Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="To install a speech language on your phone.  Follow the insructions below:"/>
+                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="1) Click on 'SETTINGS'"/>
+                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="2) Click on 'SPEECH' (under the 'SYSTEM' tab)"/>
+                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="3) Click on 'SPEECH LANGUAGE'"/>
+                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="4) Click on the language you would like to install and follow the download prompts."/>              
             </StackPanel>
         </Viewbox>
 
