@@ -55,7 +55,7 @@ namespace BabyApp
         {
             InitializeComponent();
 
-            EnableSpeechRecognition();
+            //  EnableSpeechRecognition();
 
             if (IS.GetSetting(NUMBEROFTIMESOPENED) == null)
             {
@@ -608,7 +608,13 @@ namespace BabyApp
                         {
                             // await synthesizer.SpeakTextAsync(App.gDisplayDescription);
                             //synthesizer.SpeakTextAsync(GetTextTranslation(language, Description));
-                            synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(GetTextTranslation(language, Description), Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, voiceLanguage));
+                            try
+                            {
+                                synthesizer.SpeakSsmlAsync(VoiceOptions.GetText(GetTextTranslation(language, Description), Pitch.Default, Speed.Slow, SpeakerVolume.ExtraLoud, voiceLanguage));
+                            }
+                            catch (Exception)
+                            {
+                            }
                         }
                         if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                         {
