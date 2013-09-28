@@ -544,6 +544,10 @@ Letölt ez app ma!</target>
           <source>Must select at least 1 language.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ki kell választania legalább 1 nyelv.</target>
         </trans-unit>
+        <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
+          <source>Switch</source>
+          <target state="new">Switch</target>
+        </trans-unit>
       </group>
     </body>
   </file>

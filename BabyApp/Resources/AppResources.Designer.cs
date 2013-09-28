@@ -1062,6 +1062,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Switch.
+        /// </summary>
+        public static string SwitchCategories {
+            get {
+                return ResourceManager.GetString("SwitchCategories", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tayra.
         /// </summary>
         public static string Tayra {

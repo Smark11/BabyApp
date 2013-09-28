@@ -544,6 +544,10 @@ Descarregar aquest app avui!</target>
           <source>Must select at least 1 language.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Heu de seleccionar almenys 1 llengua.</target>
         </trans-unit>
+        <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
+          <source>Switch</source>
+          <target state="new">Switch</target>
+        </trans-unit>
       </group>
     </body>
   </file>

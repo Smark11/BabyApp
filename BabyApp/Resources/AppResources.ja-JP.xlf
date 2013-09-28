@@ -544,6 +544,10 @@ Download this app today!</source>
           <source>Must select at least 1 language.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">少なくとも 1 言語を選択する必要があります。</target>
         </trans-unit>
+        <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
+          <source>Switch</source>
+          <target state="new">Switch</target>
+        </trans-unit>
       </group>
     </body>
   </file>

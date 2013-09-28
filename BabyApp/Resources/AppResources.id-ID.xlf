@@ -544,6 +544,10 @@ Download aplikasi ini hari ini!</target>
           <source>Must select at least 1 language.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Harus memilih minimal 1 bahasa.</target>
         </trans-unit>
+        <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
+          <source>Switch</source>
+          <target state="new">Switch</target>
+        </trans-unit>
       </group>
     </body>
   </file>

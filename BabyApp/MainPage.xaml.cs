@@ -11,6 +11,7 @@ using System.ComponentModel;
 using System.Windows.Media.Imaging;
 using Microsoft.Phone.Tasks;
 using Windows.Phone.Speech.Synthesis;
+using Windows.Phone.Speech.Recognition;
 using System.Threading;
 using System.Windows.Threading;
 using System.Diagnostics;
@@ -53,6 +54,8 @@ namespace BabyApp
         public MainPage()
         {
             InitializeComponent();
+
+            EnableSpeechRecognition();
 
             if (IS.GetSetting(NUMBEROFTIMESOPENED) == null)
             {
@@ -132,6 +135,19 @@ namespace BabyApp
         }
 
         #region "Methods"
+
+        private void EnableSpeechRecognition()
+        {
+            try
+            {
+                SpeechRecognizerUI recoWithUI = new SpeechRecognizerUI();
+                recoWithUI.Recognizer.SetRecognizer(InstalledSpeechRecognizers.All.First());
+            }
+            catch
+            {
+                throw;
+            }
+        }
 
         private void LoadPicsIntoCollection()
         {
@@ -243,6 +259,18 @@ namespace BabyApp
         private void SetPivots(string category)
         {
             Box blankBox = new Box("", "", "", "");
+
+            if (category == "")
+            {
+                if (App.gCategory == "CartoonAnimals")
+                {
+                    category = "Animals";
+                }
+                else
+                {
+                    category = "CartoonAnimals";
+                }
+            }
 
             switch (category)
             {
@@ -1440,24 +1468,9 @@ namespace BabyApp
             }
         }
 
-        private void CartoonAnimals_Click(object sender, EventArgs e)
+        private void SwitchCategories_Click(object sender, EventArgs e)
         {
-            SetPivots("CartoonAnimals");
-        }
-
-        private void BabyMisc_Click(object sender, EventArgs e)
-        {
-            SetPivots("BabyMisc");
-        }
-
-        private void Animals_Click(object sender, EventArgs e)
-        {
-            SetPivots("Animals");
-        }
-
-        private void Misc_Click(object sender, EventArgs e)
-        {
-            SetPivots("Misc");
+            SetPivots("");
         }
 
         private void About_Click(object sender, EventArgs e)
@@ -1528,15 +1541,10 @@ namespace BabyApp
                 appBarButton1.Click += new EventHandler(ContiniousPlay_Click);
                 appBarButton1.IsEnabled = true;
 
-                appBarButton2.Text = AppResources.Cartoon;
+                appBarButton2.Text = AppResources.SwitchCategories;
                 ApplicationBar.Buttons.Add(appBarButton2);
-                appBarButton2.Click += new EventHandler(CartoonAnimals_Click);
+                appBarButton2.Click += new EventHandler(SwitchCategories_Click);
                 appBarButton2.IsEnabled = true;
-
-                appBarButton3.Text = AppResources.Real;
-                ApplicationBar.Buttons.Add(appBarButton3);
-                appBarButton3.Click += new EventHandler(Animals_Click);
-                appBarButton3.IsEnabled = true;
 
                 // Create a new menu item with the localized string from AppResources.
                 ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppMenuItemOptions);

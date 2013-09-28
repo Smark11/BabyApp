@@ -510,4 +510,7 @@ Download this app today!</value>
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Must select at least 1 language.</value>
   </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Switch</value>
+  </data>
 </root>
