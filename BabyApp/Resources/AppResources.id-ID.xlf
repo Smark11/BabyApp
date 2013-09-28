@@ -548,6 +548,10 @@ Download aplikasi ini hari ini!</target>
           <source>Switch</source>
           <target state="new">Switch</target>
         </trans-unit>
+        <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
       </group>
     </body>
   </file>

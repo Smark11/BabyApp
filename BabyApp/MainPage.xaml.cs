@@ -1504,6 +1504,11 @@ namespace BabyApp
             marketplaceSearchTask.Show();
         }
 
+        private void Help_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Help.xaml", UriKind.Relative));
+        }
+
         private bool _backButtonPressedStopSounds = false;
         private void BackButtonClicked(object sender, CancelEventArgs e)
         {
@@ -1573,6 +1578,10 @@ namespace BabyApp
                 //  ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
                 //  ApplicationBar.MenuItems.Add(appBarMenuItem4);
                 //  appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
+
+                  ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.Help);
+                  ApplicationBar.MenuItems.Add(appBarMenuItem5);
+                  appBarMenuItem5.Click += new EventHandler(Help_Click);
             }
             catch (Exception ex)
             {

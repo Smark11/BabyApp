@@ -80,7 +80,13 @@
                 <CheckBox x:Name="chkJapanese" Content="Japanese" Margin="20,-10,0,0" Checked="chkJapanese_Checked_1" Unchecked="chkJapanese_Unchecked_1"/>
             </StackPanel>
 
+            <TextBlock Grid.Row="9" 
+                  Text="NOTE: Language must be installed on your phone.  Please see 'HELP' for more information."
+                  FontSize="30" 
+                   Margin="10,0,0,0" />
         </Grid>
     </Viewbox>
+    
+    
 
 </phone:PhoneApplicationPage>
