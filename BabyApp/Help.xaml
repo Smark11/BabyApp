@@ -26,7 +26,7 @@
                 <TextBlock FontSize="100" HorizontalAlignment="Left" Text="1) Click on 'SETTINGS'"/>
                 <TextBlock FontSize="100" HorizontalAlignment="Left" Text="2) Click on 'SPEECH' (under the 'SYSTEM' tab)"/>
                 <TextBlock FontSize="100" HorizontalAlignment="Left" Text="3) Click on 'SPEECH LANGUAGE'"/>
-                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="4) Click on the language you would like to install and follow the download prompts."/>              
+                <TextBlock FontSize="120" HorizontalAlignment="Left" Text="4) Click on the language you would like to install and follow the download prompts."/>              
             </StackPanel>
         </Viewbox>
 
