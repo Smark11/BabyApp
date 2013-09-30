@@ -94,15 +94,19 @@ namespace BabyApp
             SetPivots(App.gCategory);
             BuildLocalizedApplicationBar();
             Mode = Screen.MainGrid;
+            PaidAppInitialization(false);
         }
 
-        private void PaidAppInitialization()
+        private void PaidAppInitialization(bool skipMessageBox)
         {
             if ((Application.Current as App).IsTrial)
             {
                 if (Trial.IsTrialExpired())
                 {
-                    MessageBox.Show("Your trial has expired, please purchase the application!");
+                    if (!skipMessageBox)
+                    {
+                        MessageBox.Show("Your trial has expired, please purchase the application!");
+                    }
                     EnableApplication(false);
                     //Disable the app, TODO: TED Put up disabled, please purchase indicator.
                     _marketPlaceDetailTask.Show();
@@ -113,27 +117,33 @@ namespace BabyApp
                     //App has already been rated
                     if (_rated)
                     {
-                        MessageBoxResult result = MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days left in your trial.  Do you wish to purchase?", "Purchase?", MessageBoxButton.OKCancel);
-
-                        if (result == MessageBoxResult.OK)
+                        if (!skipMessageBox)
                         {
-                            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                            marketplaceReviewTask.Show();
+                            MessageBoxResult result = MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days left in your trial.  Do you wish to purchase?", "Purchase?", MessageBoxButton.OKCancel);
+
+                            if (result == MessageBoxResult.OK)
+                            {
+                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                                marketplaceReviewTask.Show();
+                            }
                         }
                     }
                     //app not rated, rate to add 10 days to trial
                     else if (!_rated && _numberOfTimesOpened >= 2)
                     {
-                        MessageBoxResult result = MessageBox.Show("Extend Trial to 10 days by rating the application?", "Extend Trial?", MessageBoxButton.OKCancel);
-
-                        if (result == MessageBoxResult.OK)
+                        if (!skipMessageBox)
                         {
-                            Trial.Add10DaysToTrial();
+                            MessageBoxResult result = MessageBox.Show("Extend Trial to 10 days by rating the application?", "Extend Trial?", MessageBoxButton.OKCancel);
 
-                            IS.SaveSetting("AppRated", "Yes");
-                            _rated = true;
-                            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                            marketplaceReviewTask.Show();
+                            if (result == MessageBoxResult.OK)
+                            {
+                                Trial.Add10DaysToTrial();
+
+                                IS.SaveSetting("AppRated", "Yes");
+                                _rated = true;
+                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                                marketplaceReviewTask.Show();
+                            }
                         }
                     }
                 }
@@ -143,8 +153,11 @@ namespace BabyApp
                 EnableApplication(true);
                 if (!_rated)
                 {
-                    //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-                    Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
+                    if (!skipMessageBox)
+                    {
+                        //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+                        Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
+                    }
                 }
             }
         }
@@ -1624,7 +1637,7 @@ namespace BabyApp
 
         public void AppHasComeBackIntoFocus()
         {
-            PaidAppInitialization();
+            PaidAppInitialization(true);
         }
     }
 }

@@ -86,6 +86,7 @@ namespace BabyApp
 
         private void CheckLicence()
         {
+            //_isTrial = true;
             _isTrial = _licenseInfo.IsTrial();
         }
 
