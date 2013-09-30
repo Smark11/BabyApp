@@ -108,7 +108,6 @@ namespace BabyApp
                         MessageBox.Show("Your trial has expired, please purchase the application!");
                     }
                     EnableApplication(false);
-                    //Disable the app, TODO: TED Put up disabled, please purchase indicator.
                     _marketPlaceDetailTask.Show();
                 }
                 else
