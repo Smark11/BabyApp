@@ -506,5 +506,10 @@ namespace BabyApp
         }
 
         #endregion "Methods"
+
+        private void LanguagePackClick(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Help.xaml", UriKind.Relative));
+        }
     }
 }

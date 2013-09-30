@@ -1579,9 +1579,10 @@ namespace BabyApp
                 //  ApplicationBar.MenuItems.Add(appBarMenuItem4);
                 //  appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
 
-                  ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.Help);
-                  ApplicationBar.MenuItems.Add(appBarMenuItem5);
-                  appBarMenuItem5.Click += new EventHandler(Help_Click);
+                //Removing from menu.  Adding button to option screen.
+                  //ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.Help);
+                  //ApplicationBar.MenuItems.Add(appBarMenuItem5);
+                  //appBarMenuItem5.Click += new EventHandler(Help_Click);
             }
             catch (Exception ex)
             {
