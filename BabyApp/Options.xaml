@@ -88,12 +88,13 @@
                         <TextBlock 
                             Width="400"
                             TextWrapping="Wrap"
-                            HorizontalAlignment="Center" 
-                            Text="NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions."/>
+                            HorizontalAlignment="Center"                         
+                            Text="{Binding Path=LocalizedResources.LanguageNote, Source={StaticResource LocalizedStrings}}" >
+                        </TextBlock>
                     </StackPanel>
                 </Button.Content>
             </Button>
-            
+
         </Grid>
     </Viewbox>
 

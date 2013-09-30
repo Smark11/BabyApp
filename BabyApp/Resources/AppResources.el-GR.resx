@@ -125,9 +125,6 @@
     <value>el-GR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>ΑΊΤΗΣΉ ΜΟΥ</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>Προσθέστε</value>
   </data>
@@ -480,17 +477,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Ρακούν</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Πολύγλωσσης Tot επιλογές</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Ως τις ευχαριστίες μας προς εσάς θα επεκτείνουμε την ΔΙΚΗ σας σε 10 ημέρες!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Ως τις ευχαριστίες μας προς εσάς θα επεκτείνουμε την ΔΙΚΗ σας σε 10 ημέρες!  Βαθμολογήστε αυτό το app;</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Πολύγλωσσης Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Έφερε σε σας από:</value>

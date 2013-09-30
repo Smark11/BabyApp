@@ -125,9 +125,6 @@
     <value>nb-NO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>MIN SØKNAD</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>legge til</value>
   </data>
@@ -452,17 +449,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Vaskebjørn</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Polyglot Tot alternativer</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Som denne app? La alle andre vet!  Som vår takk til deg vil vi utvide prøveversjonen til 10 dager!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Som denne app? La alle andre vet!  Som vår takk til deg vil vi utvide prøveversjonen til 10 dager!  Vurdere dette programmet?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Polyglot Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Brakt til deg av:</value>

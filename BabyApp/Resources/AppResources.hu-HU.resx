@@ -125,9 +125,6 @@
     <value>hu-HU</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>AZ ÉN-M ALKALMAZÁS</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>Add hozzá</value>
   </data>
@@ -452,17 +449,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Mosómedve</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Fordí Tót, opciók</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Mint ez app? Hagyja, hogy mindenki tudja!  Köszönjük, hogy Ön mint mi fogja terjeszteni a 10 napos próba!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Mint ez app? Hagyja, hogy mindenki tudja!  Köszönjük, hogy Ön mint mi fogja terjeszteni a 10 napos próba!  Arány ez app?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Fordí-Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Ajánlója:</value>

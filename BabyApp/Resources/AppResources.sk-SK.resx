@@ -125,9 +125,6 @@
     <value>sk-SK</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>MOJEJ ŽIADOSTI</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>pridať</value>
   </data>
@@ -452,17 +449,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Psík</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Možnosti viacjazyčnej Tot</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Ako túto aplikáciu? Nech všetci ostatní vedieť!  Ako naše vďaka vám budeme rozširovať svoj súd do 10 dní!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Ako túto aplikáciu? Nech všetci ostatní vedieť!  Ako naše vďaka vám budeme rozširovať svoj súd do 10 dní!  Hodnotiť túto aplikáciu?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Viacjazyčnej Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Ti prináša:</value>

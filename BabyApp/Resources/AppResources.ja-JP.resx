@@ -125,9 +125,6 @@
     <value>ja-JP</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>私のアプリケーション</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>追加</value>
   </data>
@@ -480,17 +477,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>アライグマ</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>ポリグロット Tot オプション</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>このアプリは？ のような誰もが知っている聞かせて ！あなたに感謝として 10 日にあなたのトライアルを延長 ！</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>このアプリは？ のような誰もが知っている聞かせて ！あなたに感謝として 10 日にあなたのトライアルを延長 ！このアプリを評価ですか？</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>ポリグロット Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>によってあなたに持って来られます。</value>

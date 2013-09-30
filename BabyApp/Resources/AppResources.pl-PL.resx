@@ -125,9 +125,6 @@
     <value>pl-PL</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>MÓJ WNIOSEK</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>Dodaj</value>
   </data>
@@ -452,17 +449,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Szop pracz</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Opcje tłumaczy Tot</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Jak ta aplikacja? Niech wszyscy wiedzą!  Jako nasz dzięki wam będziemy rozszerzać swój okres próbny do 10 dni!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Jak ta aplikacja? Niech wszyscy wiedzą!  Jako nasz dzięki wam będziemy rozszerzać swój okres próbny do 10 dni!  Oceń ten aplikacja?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Tłumaczy Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Przyniósł ci przez:</value>

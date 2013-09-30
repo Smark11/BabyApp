@@ -118,7 +118,7 @@ namespace BabyApp
                     {
                         if (!skipMessageBox)
                         {
-                            MessageBoxResult result = MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days left in your trial.  Do you wish to purchase?", "Purchase?", MessageBoxButton.OKCancel);
+                            MessageBoxResult result = MessageBox.Show(AppResources.Youhave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial, "Purchase?", MessageBoxButton.OKCancel);
 
                             if (result == MessageBoxResult.OK)
                             {
@@ -132,7 +132,7 @@ namespace BabyApp
                     {
                         if (!skipMessageBox)
                         {
-                            MessageBoxResult result = MessageBox.Show("Extend Trial to 10 days by rating the application?", "Extend Trial?", MessageBoxButton.OKCancel);
+                            MessageBoxResult result = MessageBox.Show(AppResources.ExtendTrial, "Extend Trial?", MessageBoxButton.OKCancel);
 
                             if (result == MessageBoxResult.OK)
                             {

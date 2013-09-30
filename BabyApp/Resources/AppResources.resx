@@ -125,9 +125,6 @@
     <value>en-US</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>MY APPLICATION</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>add</value>
   </data>
@@ -333,7 +330,7 @@
     <value>Options</value>
   </data>
   <data name="AppOptions" xml:space="preserve">
-    <value>Polyglot Tot Options</value>
+    <value>Teacing Tom Options</value>
   </data>
   <data name="Cartoon" xml:space="preserve">
     <value>Cartoon</value>
@@ -490,7 +487,7 @@ Features include:
 Download this app today!</value>
   </data>
   <data name="AppTitle" xml:space="preserve">
-    <value>Polyglot Tot</value>
+    <value>Teaching Tom</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Brought to you by:</value>
@@ -515,5 +512,32 @@ Download this app today!</value>
   </data>
   <data name="Help" xml:space="preserve">
     <value>Help</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>days left in your trial.  Do you wish to purchase?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Extend Trial to 10 days by rating the application?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>To install a speech language on your phone, please follow the insructions below:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Click on 'SETTINGS'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Click on 'SPEECH' (under the 'SYSTEM' tab).</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Click on 'SPEECH LANGUAGE'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Click on the language you would like to install and follow the download prompts.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>You have </value>
   </data>
 </root>

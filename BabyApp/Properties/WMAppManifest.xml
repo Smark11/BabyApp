@@ -39,8 +39,8 @@
     <Language code="zh-Hans" />
     <Language code="zh-Hant" />
   </Languages>
-  <App xmlns="" ProductID="{2484440c-4420-4ba0-8a0e-c127f24906eb}" Title="Polyglot Tot" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BabyApp author" Description="Sample description" Publisher="BabyApp" PublisherID="{c5d2b96a-5e02-4a02-9d5f-1a3a5904d5d7}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+  <App xmlns="" ProductID="{2484440c-4420-4ba0-8a0e-c127f24906eb}" Title="Teaching Tom" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="BabyApp author" Description="Sample description" Publisher="BabyApp" PublisherID="{c5d2b96a-5e02-4a02-9d5f-1a3a5904d5d7}">
+    <IconPath IsRelative="true" IsResource="false">Assets\teachingtom300x300.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -56,9 +56,9 @@
     <Tokens>
       <PrimaryToken TokenID="BabyAppToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\teachingtom99x99.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\teachingtom300x300.png</BackgroundImageURI>
           <Title>Polyglot Tot</Title>
           <BackContent>
           </BackContent>

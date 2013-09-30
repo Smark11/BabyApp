@@ -125,9 +125,6 @@
     <value>ca-ES</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>LA MEVA APLICACIÓ</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>afegir</value>
   </data>
@@ -452,17 +449,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Ós rentador</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Tot políglota opcions</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Com aquest app? Deixar tothom saber!  Com gràcies als anem a estendre el seu judici per 10 dies!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Com aquest app? Deixar tothom saber!  Com gràcies als anem a estendre el seu judici per 10 dies!  Valorar aquest app?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Políglota Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Portat a vostè per:</value>

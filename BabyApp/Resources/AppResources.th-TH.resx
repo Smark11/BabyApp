@@ -125,9 +125,6 @@
     <value>th-TH</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>โปรแกรมประยุกต์ของฉัน</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>เพิ่ม</value>
   </data>
@@ -480,17 +477,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>สัตว์คล้ายหมีเล็ก</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>ตัวเลือก polyglot Tot</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>เช่น app นี้ ให้คนอื่นรู้  เป็นเราขอขอบคุณคุณ เราจะขยายการทดลอง 10 วัน</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>เช่น app นี้ ให้คนอื่นรู้  เป็นเราขอขอบคุณคุณ เราจะขยายการทดลอง 10 วัน  ราคา app นี้</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Polyglot Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>นำมาให้คุณโดย:</value>

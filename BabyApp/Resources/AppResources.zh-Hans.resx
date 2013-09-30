@@ -125,9 +125,6 @@
     <value>zh-Hans</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>我的应用程序</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>添加</value>
   </data>
@@ -480,17 +477,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>浣熊</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>万语 Tot 选项</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>像这个应用程序吗？让大家都知道 ！我们感谢你我们将会延长至 10 天试用版 ！</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>像这个应用程序吗？让大家都知道 ！我们感谢你我们将会延长至 10 天试用版 ！率这个应用程序吗？</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>万语 Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>带给你的：</value>

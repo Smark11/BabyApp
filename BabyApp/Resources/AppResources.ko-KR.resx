@@ -125,9 +125,6 @@
     <value>ko-KR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>내 응용 프로그램</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>추가</value>
   </data>
@@ -480,17 +477,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>너구리</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>능통 덧셈 옵션</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  당신에 게 우리의 감사로 우리 10 일 평가판을 확장할 것입니다!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  당신에 게 우리의 감사로 우리 10 일 평가판을 확장할 것입니다!  이 애플 리 케이이 션 평가?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>능통 덧셈</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>에 의해 당신에 게 가져:</value>

@@ -125,9 +125,6 @@
     <value>ro-RO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>CEREREA MEA</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>Adauga</value>
   </data>
@@ -452,17 +449,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Raton</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Poliglot Tot opţiuni</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Ca acest app? Lasa toata lumea ştie!  Ca noastre mulţumiri la spre tu îţi vom prelungi proces dumneavoastră la 10 zile!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Ca acest app? Lasa toata lumea ştie!  Ca noastre mulţumiri la spre tu îţi vom prelungi proces dumneavoastră la 10 zile!  Rata de acest app?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Poliglot Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Adus la tine de:</value>

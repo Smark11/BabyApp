@@ -16,10 +16,6 @@
           <target state="translated">ar</target>
           <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
         </trans-unit>
-        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
-          <source>MY APPLICATION</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">التطبيق الخاص بي</target>
-        </trans-unit>
         <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
           <source>add</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">إضافة</target>
@@ -293,8 +289,8 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">خيارات</target>
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
-          <source>Polyglot Tot Options</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">خيارات Tot الكثي</target>
+          <source>Teacing Tom Options</source>
+          <target state="new">Teacing Tom Options</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -517,8 +513,8 @@ Download this app today!</source>
 تحميل هذا التطبيق اليوم!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
-          <source>Polyglot Tot</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">توت الكثي</target>
+          <source>Teaching Tom</source>
+          <target state="new">Teaching Tom</target>
         </trans-unit>
         <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
           <source>Brought to you by:</source>
@@ -551,6 +547,42 @@ Download this app today!</source>
         <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
           <source>Help</source>
           <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source>days left in your trial.  Do you wish to purchase?</source>
+          <target state="new">days left in your trial.  Do you wish to purchase?</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="new">Extend Trial to 10 days by rating the application?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
+          <source>To install a speech language on your phone, please follow the insructions below:</source>
+          <target state="new">To install a speech language on your phone, please follow the insructions below:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions2" translate="yes" xml:space="preserve">
+          <source>1) Click on 'SETTINGS'.</source>
+          <target state="new">1) Click on 'SETTINGS'.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions3" translate="yes" xml:space="preserve">
+          <source>2) Click on 'SPEECH' (under the 'SYSTEM' tab).</source>
+          <target state="new">2) Click on 'SPEECH' (under the 'SYSTEM' tab).</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions4" translate="yes" xml:space="preserve">
+          <source>3) Click on 'SPEECH LANGUAGE'.</source>
+          <target state="new">3) Click on 'SPEECH LANGUAGE'.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions5" translate="yes" xml:space="preserve">
+          <source>4) Click on the language you would like to install and follow the download prompts.</source>
+          <target state="new">4) Click on the language you would like to install and follow the download prompts.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LanguageNote" translate="yes" xml:space="preserve">
+          <source>NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</source>
+          <target state="new">NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Youhave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="new">You have </target>
         </trans-unit>
       </group>
     </body>

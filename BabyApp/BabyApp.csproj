@@ -403,6 +403,8 @@
     <Content Include="Assets\Sounds\Animals\walrus.wav" />
     <Content Include="Assets\Sounds\Animals\wolf.wav" />
     <Content Include="Assets\Sounds\Animals\zebra.wav" />
+    <Content Include="Assets\teachingtom300x300.png" />
+    <Content Include="Assets\teachingtom99x99.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

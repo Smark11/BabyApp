@@ -125,9 +125,6 @@
     <value>et-EE</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>MINU TAOTLUS</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>lisada</value>
   </data>
@@ -452,17 +449,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Pesukaru</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Polyglot Tot Valikud</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Nagu see app? Lase kõik teised teavad!  Nagu meie tänu teile me laiendada oma uuringus 10 päeva!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Nagu see app? Lase kõik teised teavad!  Nagu meie tänu teile me laiendada oma uuringus 10 päeva!  Hinda seda app?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Polyglot Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Kodulehekülge toob teieni:</value>

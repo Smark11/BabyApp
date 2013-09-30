@@ -124,15 +124,6 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MY APPLICATION.
-        /// </summary>
-        public static string ApplicationTitle {
-            get {
-                return ResourceManager.GetString("ApplicationTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to About.
         /// </summary>
         public static string AppMenuItemAbout {
@@ -160,7 +151,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Polyglot Tot Options.
+        ///   Looks up a localized string similar to Teacing Tom Options.
         /// </summary>
         public static string AppOptions {
             get {
@@ -169,7 +160,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Polyglot Tot.
+        ///   Looks up a localized string similar to Teaching Tom.
         /// </summary>
         public static string AppTitle {
             get {
@@ -340,6 +331,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to days left in your trial.  Do you wish to purchase?.
+        /// </summary>
+        public static string DaysLeftInTrial {
+            get {
+                return ResourceManager.GetString("DaysLeftInTrial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Deer.
         /// </summary>
         public static string Deer {
@@ -437,6 +437,15 @@ namespace BabyApp.Resources {
         public static string Elk {
             get {
                 return ResourceManager.GetString("Elk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extend Trial to 10 days by rating the application?.
+        /// </summary>
+        public static string ExtendTrial {
+            get {
+                return ResourceManager.GetString("ExtendTrial", resourceCulture);
             }
         }
         
@@ -549,6 +558,51 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to To install a speech language on your phone, please follow the insructions below:.
+        /// </summary>
+        public static string Instructions1 {
+            get {
+                return ResourceManager.GetString("Instructions1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1) Click on &apos;SETTINGS&apos;..
+        /// </summary>
+        public static string Instructions2 {
+            get {
+                return ResourceManager.GetString("Instructions2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2) Click on &apos;SPEECH&apos; (under the &apos;SYSTEM&apos; tab)..
+        /// </summary>
+        public static string Instructions3 {
+            get {
+                return ResourceManager.GetString("Instructions3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3) Click on &apos;SPEECH LANGUAGE&apos;..
+        /// </summary>
+        public static string Instructions4 {
+            get {
+                return ResourceManager.GetString("Instructions4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 4) Click on the language you would like to install and follow the download prompts..
+        /// </summary>
+        public static string Instructions5 {
+            get {
+                return ResourceManager.GetString("Instructions5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Jaguar.
         /// </summary>
         public static string Jaguar {
@@ -635,6 +689,15 @@ namespace BabyApp.Resources {
         public static string LanguageChoices {
             get {
                 return ResourceManager.GetString("LanguageChoices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions..
+        /// </summary>
+        public static string LanguageNote {
+            get {
+                return ResourceManager.GetString("LanguageNote", resourceCulture);
             }
         }
         
@@ -1130,6 +1193,15 @@ namespace BabyApp.Resources {
         public static string Wolf {
             get {
                 return ResourceManager.GetString("Wolf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You have .
+        /// </summary>
+        public static string Youhave {
+            get {
+                return ResourceManager.GetString("Youhave", resourceCulture);
             }
         }
         

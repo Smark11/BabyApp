@@ -125,9 +125,6 @@
     <value>en</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
-  <data name="ApplicationTitle" xml:space="preserve">
-    <value>MY APPLICATION</value>
-  </data>
   <data name="AppBarButtonText" xml:space="preserve">
     <value>add</value>
   </data>
@@ -452,17 +449,11 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Raccoon</value>
   </data>
-  <data name="AppOptions" xml:space="preserve">
-    <value>Polyglot Tot Options</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>Polyglot Tot</value>
   </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Brought to you by:</value>
