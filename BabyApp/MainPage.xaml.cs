@@ -98,14 +98,21 @@ namespace BabyApp
                 if (Trial.IsTrialExpired())
                 {
                     MessageBox.Show("Your trial has expired, please purchase the application!");
+                    //Disable the app, TODO: TED Put up disabled, please purchase indicator.
                     _marketPlaceDetailTask.Show();
                 }
                 else
                 {
                     //App has already been rated
-                    if (_rated || _numberOfTimesOpened < 2)
+                    if (_rated)
                     {
-                        MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days left in your trial.");
+                        MessageBoxResult result = MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days left in your trial.  Do you wish to purchase?", "Purchase?", MessageBoxButton.OKCancel);
+
+                        if (result == MessageBoxResult.OK)
+                        {
+                            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                            marketplaceReviewTask.Show();
+                        }
                     }
                     //app not rated, rate to add 10 days to trial
                     else if (!_rated && _numberOfTimesOpened >= 2)
