@@ -476,34 +476,6 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Lyd studiepoeng:</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Lære babyer og småbarn dyr og deres lyder på opptil 9 forskjellige språk.
-
-Funksjoner inkluderer:
-
-* Over 150 bilder og lyder
-* 2 ulike kategorier
-* Slideshow for kontinuerlig avspilling
-* Image stemme beskrivelse
-9 forskjellige språk
-* Navn på dyr for hvert bilde
-
-Last ned denne app i dag!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Lære babyer og småbarn dyr og deres lyder på opptil 9 forskjellige språk.
-
-Funksjoner inkluderer:
-
-* Over 150 bilder og lyder
-* 2 ulike kategorier
-* Slideshow for kontinuerlig avspilling
-* Image stemme beskrivelse
-9 forskjellige språk
-* Navn på dyr for hvert bilde
-
-Last ned denne app i dag!</value>
-  </data>
   <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
     <value>Kan bare velge opptil 3 språk.</value>
   </data>

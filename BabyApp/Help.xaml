@@ -13,24 +13,16 @@
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
 
-    <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="300"/>        
-        </Grid.RowDefinitions>
-
-
-        <Viewbox Stretch="UniformToFill">
-            <StackPanel>
-                <TextBlock FontSize="150" HorizontalAlignment="Center" Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"/>
-                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="To install a speech language on your phone.  Follow the insructions below:"/>
-                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="1) Click on 'SETTINGS'"/>
-                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="2) Click on 'SPEECH' (under the 'SYSTEM' tab)"/>
-                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="3) Click on 'SPEECH LANGUAGE'"/>
-                <TextBlock FontSize="100" HorizontalAlignment="Left" Text="4) Click on the language you would like to install and follow the download prompts."/>              
-            </StackPanel>
-        </Viewbox>
-
-       
-    </Grid>
+        <Viewbox Stretch="Uniform">
+        <ListBox Height="{Binding PhoneHeight}">
+            <TextBlock Width="{Binding PhoneWidth}" TextWrapping="Wrap"
+                    FontSize="50" HorizontalAlignment="Center" Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"/>
+            <TextBlock Margin="0,20,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="To install a speech language on your phone, please follow the insructions below:"/>
+            <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="1) Click on 'SETTINGS'"/>
+            <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="2) Click on 'SPEECH' (under the 'SYSTEM' tab)"/>
+            <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="3) Click on 'SPEECH LANGUAGE'"/>
+            <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="4) Click on the language you would like to install and follow the download prompts."/>
+        </ListBox>
+    </Viewbox>
 
 </phone:PhoneApplicationPage>

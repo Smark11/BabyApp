@@ -476,34 +476,6 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Ääni Laajuus:</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
-
-Ominaisuuksia:
-
-* Yli 150 kuvia ja ääniä
-* 2 eri
-* Slideshow jatkuva play
-* Kuva ääni kuvaus
-* 9 eri kielellä
-* Eläimen nimi kunkin kuvan
-
-Lataa tämän app tänään!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
-
-Ominaisuuksia:
-
-* Yli 150 kuvia ja ääniä
-* 2 eri
-* Slideshow jatkuva play
-* Kuva ääni kuvaus
-* 9 eri kielellä
-* Eläimen nimi kunkin kuvan
-
-Lataa tämän app tänään!</value>
-  </data>
   <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
     <value>Vain valita 3 kielet.</value>
   </data>

@@ -476,34 +476,6 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Garso Kreditai:</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
-
-Funkcijos apima:
-
-* Daugiau nei 150 vaizdai ir garsai
-* 2 skirtingų kategorijų
-* Demonstraciją nuolat žaisti
-* Nuotrauka balso Aprašymas
-* 9 skirtingų kalbų
-* Gyvulio vardas kiekvieno vaizdas
-
-Parsisiųsti šią programą šiandien!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
-
-Funkcijos apima:
-
-* Daugiau nei 150 vaizdai ir garsai
-* 2 skirtingų kategorijų
-* Demonstraciją nuolat žaisti
-* Nuotrauka balso Aprašymas
-* 9 skirtingų kalbų
-* Gyvulio vardas kiekvieno vaizdas
-
-Parsisiųsti šią programą šiandien!</value>
-  </data>
   <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
     <value>Galite pasirinkti tik iki 3 kalbas.</value>
   </data>

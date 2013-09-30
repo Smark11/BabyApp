@@ -476,34 +476,6 @@
   <data name="SoundCredits" xml:space="preserve">
     <value>Crédits audio :</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
-
-Caractéristiques comprennent :
-
-* Plus de 150 images et sons
-* 2 catégories différentes
-* Diaporama pour le jeu continu
-* Description vocale image
-* 9 langues
-* Nom de l'animal pour chaque image
-
-Téléchargez cette application dès aujourd'hui !</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
-
-Caractéristiques comprennent :
-
-* Plus de 150 images et sons
-* 2 catégories différentes
-* Diaporama pour le jeu continu
-* Description vocale image
-* 9 langues
-* Nom de l'animal pour chaque image
-
-Téléchargez cette application dès aujourd'hui !</value>
-  </data>
   <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
     <value>Ne pouvez sélectionner jusqu'à 3 langues.</value>
   </data>
