@@ -83,7 +83,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height=".9*"/>
-
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <!--TitlePanel contains the name of the application and page title-->
@@ -124,6 +124,8 @@
                       AutoPlay="False" Visibility="Collapsed"></MediaElement>
 
             </Grid>
+            
+            <TextBlock x:Name="TrialOverTextBlock" HorizontalAlignment="Center"  FontSize="25" Grid.Row="2" Text="Trial has expired.  Please purchase."/>
         </Grid>
     </Viewbox>
 

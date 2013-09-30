@@ -101,6 +101,8 @@ namespace BabyApp
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
             CheckLicence();
+            MainPage mainClient = MainPage._mainPageInstance;
+            mainClient.AppHasComeBackIntoFocus();
         }
 
         // Code to execute when the application is deactivated (sent to background)

@@ -30,6 +30,8 @@ namespace BabyApp
 {
     public partial class MainPage : INotifyPropertyChanged
     {
+        public static MainPage _mainPageInstance;
+
         public event PropertyChangedEventHandler PropertyChanged;
         SpeechSynthesizer synthesizer;
 
@@ -54,6 +56,9 @@ namespace BabyApp
         public MainPage()
         {
             InitializeComponent();
+            _mainPageInstance = this;
+
+            EnableApplication(true);
 
             //  EnableSpeechRecognition();
 
@@ -98,11 +103,13 @@ namespace BabyApp
                 if (Trial.IsTrialExpired())
                 {
                     MessageBox.Show("Your trial has expired, please purchase the application!");
+                    EnableApplication(false);
                     //Disable the app, TODO: TED Put up disabled, please purchase indicator.
                     _marketPlaceDetailTask.Show();
                 }
                 else
                 {
+                    EnableApplication(true);
                     //App has already been rated
                     if (_rated)
                     {
@@ -133,11 +140,28 @@ namespace BabyApp
             }
             else
             {
+                EnableApplication(true);
                 if (!_rated)
                 {
                     //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
                     Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
                 }
+            }
+        }
+
+        private void EnableApplication(bool enabled)
+        {
+            if (enabled)
+            {
+                TrialOverTextBlock.Visibility = Visibility.Collapsed;
+                pivotControl.IsEnabled = true;
+                appBarButton1.IsEnabled = true;
+            }
+            else
+            {
+                TrialOverTextBlock.Visibility = Visibility.Visible;
+                pivotControl.IsEnabled = false;
+                appBarButton1.IsEnabled = false;
             }
         }
 
@@ -1598,6 +1622,9 @@ namespace BabyApp
 
         #endregion "Common Routines"
 
-
+        public void AppHasComeBackIntoFocus()
+        {
+            PaidAppInitialization();
+        }
     }
 }
