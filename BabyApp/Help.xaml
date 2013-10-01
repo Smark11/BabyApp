@@ -14,16 +14,26 @@
     shell:SystemTray.IsVisible="True">
 
     <Viewbox Stretch="Uniform">
-        <ListBox Height="{Binding PhoneHeight}">
-            <TextBlock Width="{Binding PhoneWidth}" TextWrapping="Wrap"
-                     FontSize="50" HorizontalAlignment="Center" Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"/>
 
-            <TextBlock Margin="0,20,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions1, Source={StaticResource LocalizedStrings}}"/>
-            <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions2, Source={StaticResource LocalizedStrings}}"/>
-            <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions3, Source={StaticResource LocalizedStrings}}"/>
-            <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions4, Source={StaticResource LocalizedStrings}}"/>
-            <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions5, Source={StaticResource LocalizedStrings}}"/>
-        </ListBox>
+        <Grid x:Name="LayoutRoot" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
 
+            <TextBlock Grid.Row="0" 
+                     FontSize="50" 
+                     HorizontalAlignment="Center" 
+                     Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"/>
+
+            <ListBox Grid.Row="1" Height="{Binding PhoneHeight}">
+
+                <TextBlock Margin="0,20,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions1, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions2, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions3, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions4, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions5, Source={StaticResource LocalizedStrings}}"/>
+            </ListBox>
+        </Grid>
     </Viewbox>
 </phone:PhoneApplicationPage>

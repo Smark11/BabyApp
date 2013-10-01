@@ -289,8 +289,8 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Επιλογές</target>
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
-          <source>Teacing Tom Options</source>
-          <target state="new">Teacing Tom Options</target>
+          <source>Teaching Tom Options</source>
+          <target state="new">Teaching Tom Options</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>

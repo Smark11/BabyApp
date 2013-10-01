@@ -151,7 +151,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Teacing Tom Options.
+        ///   Looks up a localized string similar to Teaching Tom Options.
         /// </summary>
         public static string AppOptions {
             get {
