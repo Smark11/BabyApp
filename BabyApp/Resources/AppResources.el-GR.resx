@@ -501,4 +501,49 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Πρέπει να επιλέξετε τουλάχιστον 1 γλώσσα.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Διδασκαλία Tom επιλογές</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tom διδασκαλία</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Διακόπτης</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>ημέρες που αφήνονται στη ΔΙΚΗ σας.  Θέλετε να αγοράσετε;</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Επεκτείνει δίκη για 10 ημέρες, με την εκτίμηση της εφαρμογής;</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Για να εγκαταστήσετε μια ομιλία γλώσσα στο τηλέφωνό σας, ακολουθήστε τα παρακάτω insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Κάντε κλικ στο "ΡΥΘΜΊΣΕΙΣ".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Κάντε κλικ στο «Ομιλία» (κάτω από την καρτέλα «Σύστημα»).</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Κάντε κλικ στο "Ομιλία γλώσσα".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Κάντε κλικ στη γλώσσα που θα θέλατε να εγκαταστήσετε και ακολουθήστε τη λήψη ζητά.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Σημείωση: Για να ακούσετε τις λέξεις στην navtive γλώσσα, γλώσσα πακέτο πρέπει να εγκατασταθεί.  Κάντε κλικ εδώ για οδηγίες.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Έχετε </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Επεκτείνει τη δίκη;</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Δίκη σας έχει λήξει, παρακαλώ να αγοράσει την εφαρμογή!</value>
+  </data>
 </root>

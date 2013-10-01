@@ -540,4 +540,10 @@ Download this app today!</value>
   <data name="Youhave" xml:space="preserve">
     <value>You have </value>
   </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Extend Trial?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Your trial has expired, please purchase the application!</value>
+  </data>
 </root>

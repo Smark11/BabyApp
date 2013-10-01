@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Must select at least 1 language.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Teaching Tom Options</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Teaching Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>days left in your trial.  Do you wish to purchase?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Extend Trial to 10 days by rating the application?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>To install a speech language on your phone, please follow the insructions below:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Click on 'SETTINGS'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Click on 'SPEECH' (under the 'SYSTEM' tab).</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Click on 'SPEECH LANGUAGE'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Click on the language you would like to install and follow the download prompts.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>You have </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Extend Trial?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Your trial has expired, please purchase the application!</value>
+  </data>
 </root>

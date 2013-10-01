@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Musíte vybrať aspoň 1 jazyk.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Výučba Tom možnosti</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
+
+Funkcie patrí:
+
+* Viac ako 150 obrazov a zvukov
+* 2 rôzne kategórie
+* Prezentácie pre kontinuálne play
+* Image hlas Popis
+* 9 rôznych jazykoch
+* Meno zvieraťa pre každý obrázok
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
+
+Funkcie patrí:
+
+* Viac ako 150 obrazov a zvukov
+* 2 rôzne kategórie
+* Prezentácie pre kontinuálne play
+* Image hlas Popis
+* 9 rôznych jazykoch
+* Meno zvieraťa pre každý obrázok
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tom výučby</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Prepínač</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>pomoc</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dni v skúšobnej verzie.  Prajete si kúpiť?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Hodnotenie žiadosti predĺžiť skúšobnú verziu do 10 dní?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Na inštaláciu reči jazyk telefónu, postupujte podľa insructions nižšie:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Kliknutím na "Nastavenia".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Kliknite na "Reč" (v záložke "Systém").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Kliknite na "Reči jazyk".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Kliknite na jazyka by ste chceli inštalovať a sledovať stiahnutie vyzve.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Poznámka: Počuť slová v navtive reč, jazykový balík musí byť nainštalovaný.  Kliknite tu pre inštrukcie.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Máte </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Predĺžiť skúšobnú verziu?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Vaše skúšobné vypršala, prosím nákup aplikácie!</value>
+  </data>
 </root>

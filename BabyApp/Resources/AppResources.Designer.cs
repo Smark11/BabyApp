@@ -441,6 +441,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Extend Trial?.
+        /// </summary>
+        public static string ExtendTrailPromptHeader {
+            get {
+                return ResourceManager.GetString("ExtendTrailPromptHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Extend Trial to 10 days by rating the application?.
         /// </summary>
         public static string ExtendTrial {
@@ -1166,6 +1175,15 @@ namespace BabyApp.Resources {
         public static string Tortoise {
             get {
                 return ResourceManager.GetString("Tortoise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your trial has expired, please purchase the application!.
+        /// </summary>
+        public static string TrailHasExpired {
+            get {
+                return ResourceManager.GetString("TrailHasExpired", resourceCulture);
             }
         }
         

@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Ir jāatlasa vismaz 1 valoda.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Toms mācību iespējas</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Nepārtraukts Play Slideshow
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Nepārtraukts Play Slideshow
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Mācību Toms</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Slēdzis</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>palīgā</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dienas kreisajā jūsu pētījumā.  Vai jūs vēlaties iegādāties?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Paplašināt izmēģinājuma 10 dienu laikā pēc novērtējuma piemērošanu?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Uzstādīt runas valodu uz jūsu tālruni, lūdzu, sekojiet zemāk insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Noklikšķiniet uz "Iestatījumi".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Noklikšķiniet uz "Runas" (zem cilnes "Sistēma").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Noklikšķiniet uz "Runas valodas".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Noklikšķiniet uz valodu, kuru vēlaties instalēt un izpildiet lejupielādes uzvedņu.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Piezīme: Lai dzird vārdus navtive valoda, valodas pakotne ir jāinstalē.  Uzklikšķināt šeit, lai iegūtu instrukcijas.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Jums ir </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Paplašināt izmēģinājuma versija?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Izmēģinājuma versijas termiņš ir beidzies, lūdzu pirkšanas pieteikumu!</value>
+  </data>
 </root>

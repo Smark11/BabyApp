@@ -290,7 +290,7 @@
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
           <source>Teaching Tom Options</source>
-          <target state="new">Teaching Tom Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tanítás Tom beállítások</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -473,18 +473,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
 
-Features include:
+Funkciók közé tartozik:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
 
-Download this app today!</target>
+Letölt ez app ma!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -499,22 +499,22 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
 
-Features include:
+Funkciók közé tartozik:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
 
-Download this app today!</target>
+Letölt ez app ma!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tom tanítás</target>
         </trans-unit>
         <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
           <source>Brought to you by:</source>
@@ -542,47 +542,55 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
           <source>Switch</source>
-          <target state="new">Switch</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kapcsoló</target>
         </trans-unit>
         <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
           <source>Help</source>
-          <target state="new">Help</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">segítség</target>
         </trans-unit>
         <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
           <source>days left in your trial.  Do you wish to purchase?</source>
-          <target state="new">days left in your trial.  Do you wish to purchase?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">nap van hátra a próba.  Meg kívánja vásárolni?</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
           <source>Extend Trial to 10 days by rating the application?</source>
-          <target state="new">Extend Trial to 10 days by rating the application?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">10 Napos próba meghosszabbíthatja értékelés alkalmazása?</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
-          <target state="new">To install a speech language on your phone, please follow the insructions below:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">A telefon a beszéd-nyelv telepítéséhez kövesse az alábbi insructions:</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions2" translate="yes" xml:space="preserve">
           <source>1) Click on 'SETTINGS'.</source>
-          <target state="new">1) Click on 'SETTINGS'.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1) Kattintson a "Beállítások".</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions3" translate="yes" xml:space="preserve">
           <source>2) Click on 'SPEECH' (under the 'SYSTEM' tab).</source>
-          <target state="new">2) Click on 'SPEECH' (under the 'SYSTEM' tab).</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">2) Kattintson a "Beszéd" (a "Rendszer" fülön).</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions4" translate="yes" xml:space="preserve">
           <source>3) Click on 'SPEECH LANGUAGE'.</source>
-          <target state="new">3) Click on 'SPEECH LANGUAGE'.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3) Kattintson "Beszéd nyelv".</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions5" translate="yes" xml:space="preserve">
           <source>4) Click on the language you would like to install and follow the download prompts.</source>
-          <target state="new">4) Click on the language you would like to install and follow the download prompts.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">4) Kattintson a nyelvet szeretne telepíteni, és kövesse a letöltési kéri.</target>
         </trans-unit>
         <trans-unit id="Resx/LanguageNote" translate="yes" xml:space="preserve">
           <source>NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</source>
-          <target state="new">NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Megjegyzés: Annak érdekében, hogy hallhassák a szavakat a navtive nyelv, nyelvi csomagját telepíteni kell.  Kattintson ide az utasítást.</target>
         </trans-unit>
         <trans-unit id="Resx/Youhave" translate="yes" xml:space="preserve">
           <source>You have </source>
-          <target state="new">You have </target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Van </target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrailPromptHeader" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kiterjesztése a próba?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">A próba-birtokol lejárt, kérjük, vásárolja meg a kérelem!</target>
         </trans-unit>
       </group>
     </body>

@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Należy wybrać co najmniej 1 język.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Pedagogika Tom opcje</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Uczyć dzieci i niemowląt zwierząt i ich dźwięki do 9 różnych językach.
+
+Funkcje obejmują:
+
+* Ponad 150 zdjęć i dźwięków
+* 2 różne kategorie
+* Pokaz slajdów do ciągłego odtwarzania
+* Opis głos
+* 9 różnych językach
+* Nazwa zwierzęcia dla każdego obrazu
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Uczyć dzieci i niemowląt zwierząt i ich dźwięki do 9 różnych językach.
+
+Funkcje obejmują:
+
+* Ponad 150 zdjęć i dźwięków
+* 2 różne kategorie
+* Pokaz slajdów do ciągłego odtwarzania
+* Opis głos
+* 9 różnych językach
+* Nazwa zwierzęcia dla każdego obrazu
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tom nauczania</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Przełącznik</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dni w próbnej.  Czy chcesz kupić?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Przedłużyć okres próbny do 10 dni przez ocena wniosku?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Aby zainstalować język mowy na telefonie, postępuj zgodnie z insructions poniżej:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Kliknij na "Ustawienia".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Kliknij na "Mowy" (w zakładce "SYSTEM").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Kliknij na "Mowy".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Kliknij język, który chcesz zainstalować, a następnie pobrać monity.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Uwaga: Aby usłyszeć słowa w navtive język, język pakunek musi być zainstalowany.  Kliknij tutaj, aby uzyskać instrukcje.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Masz </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Przedłużyć okres próbny?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Twoja próba wygasła, prosimy o zakup aplikacji!</value>
+  </data>
 </root>

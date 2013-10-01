@@ -105,7 +105,7 @@ namespace BabyApp
                 {
                     if (!skipMessageBox)
                     {
-                        MessageBox.Show("Your trial has expired, please purchase the application!");
+                        MessageBox.Show( AppResources.TrailHasExpired);
                     }
                     EnableApplication(false);
                     _marketPlaceDetailTask.Show();
@@ -132,7 +132,7 @@ namespace BabyApp
                     {
                         if (!skipMessageBox)
                         {
-                            MessageBoxResult result = MessageBox.Show(AppResources.ExtendTrial, "Extend Trial?", MessageBoxButton.OKCancel);
+                            MessageBoxResult result = MessageBox.Show(AppResources.ExtendTrial,  AppResources.ExtendTrailPromptHeader, MessageBoxButton.OKCancel);
 
                             if (result == MessageBoxResult.OK)
                             {

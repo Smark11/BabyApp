@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>On valittava vähintään yksi kieli.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Opetus Tom vaihtoehtoja</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
+
+Ominaisuuksia:
+
+* Yli 150 kuvia ja ääniä
+* 2 eri
+* Slideshow jatkuva play
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
+
+Ominaisuuksia:
+
+* Yli 150 kuvia ja ääniä
+* 2 eri
+* Slideshow jatkuva play
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Opetuksen Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Kytkin</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Apua</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>days jäljelle kotona sinun karsintakilpailu.  Haluatko ostaa?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Avartaa karsintakilpailu jotta 10 days luokituksen sovellus?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Puhe kieli asentaa puhelimeen, noudata alla insructions model:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Klikkaa "Asetukset".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Klikkaa "Puhe" (alla "SYSTEM"-välilehti).</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Klikkaa puhe kieli.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Napsauta kieli asettaa ja harjoittaa lataus kehottaa.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Huomautus: Jotta kuulla sanaa navtive kielen kielipaketti on asennettava.  Klikkaa tästä ohjeet.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Sinulla on </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Avartaa karsintakilpailu?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Kokeiluversio on vanhentunut, voit ostaa sovellus!</value>
+  </data>
 </root>

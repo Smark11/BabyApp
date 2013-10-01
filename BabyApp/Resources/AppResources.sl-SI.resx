@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Izbrati morate vsaj 1 jezika.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Poučevanje Tom možnosti</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 150 slik in zvokov
+* 2 različne kategorije
+* Slideshow za continous igra
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Poučevanje Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Stikalo</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>pomoč</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dni, v vaš poskus.  Ali želite kupiti?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Razširiti poskus za 10 dni ocenite uporabo?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Umestiti jezik govora na telefonu, sledite spodaj insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Kliknite na "Nastavitve".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Kliknite na "Govor" (pod zavihkom "Sistem").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Kliknite na "Govor jezik".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Kliknite na jezik, ki bi želeli namestiti in sledite travnato gričevje uren.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Opomba: Da bi slišali besede v navtive jezik, jezikovni paket mora biti nameščen.  Kliknite tukaj za navodila.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Imate </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Razširiti poskus?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Vaš poskus has izdihniti, prosim nakup uporabe!</value>
+  </data>
 </root>

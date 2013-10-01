@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Moet ten minste 1 taal selecteren.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Onderwijs Tom opties</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Leren baby's en peuters dieren en hun geluiden in 9 verschillende talen.
+
+De eigenschappen omvatten:
+
+* Meer dan 150 beelden en geluiden
+* 2 verschillende categorieën
+* Slideshow voor continu afspelen
+* Stem Afbeeldingsbeschrijving
+* 9 verschillende talen
+* Naam van dier voor elk beeld
+
+Download dit app vandaag nog!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Leren baby's en peuters dieren en hun geluiden in 9 verschillende talen.
+
+De eigenschappen omvatten:
+
+* Meer dan 150 beelden en geluiden
+* 2 verschillende categorieën
+* Slideshow voor continu afspelen
+* Stem Afbeeldingsbeschrijving
+* 9 verschillende talen
+* Naam van dier voor elk beeld
+
+Download dit app vandaag nog!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Onderwijs Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Schakelaar</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dagen links in uw proces.  Wenst u te kopen?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Uitbreiden Trial tot 10 dagen volgens rating de toepassing?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Als u wilt een toespraak taal installeren op uw telefoon, volg de onderstaande insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Klik op 'Instellingen'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Klik op 'SPEECH' (onder het tabblad 'Systeem').</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Klik op 'Spraak taal'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Klik op de taal die u wilt installeren en volg de download wordt gevraagd.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Opmerking: Om te luisteren naar woorden in navtive tounge, taal pack moet zijn geïnstalleerd.  Klik hier voor instructies.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>U hebt </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Uitbreiden Trial?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Uw proefperiode is verlopen, kunt u kopen de toepassing!</value>
+  </data>
 </root>

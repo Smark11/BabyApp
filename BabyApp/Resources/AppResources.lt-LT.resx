@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Turite pasirinkti bent 1 kalba.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Mokymo Tom parinktys</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstraciją nuolat žaisti
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Mokymo Tomas</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Jungiklis</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>pagalba</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dienų paliko savo teismą.  Ar norite pirkti?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Pratęsti tyrimo iki 10 dienų, įvertindami taikymą?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Norėdami įdiegti kalbos kalba telefone, atlikite žemiau insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Spustelėkite "Nustatymai".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Paspauskite ant 'Kalbos' (skirtuke "Sistema").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Spustelėkite "Kalbos kalba".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Spustelėkite kalbos norite įdiegti ir vykdykite atsisiuntimo atvejų.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Pastaba: Kad būtų išgirsti žodžius, navtive kalba, kalbos paketą turi būti įdiegta.  Spauskite čia instrukcijas.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Jūs turite </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Pratęsti tyrimo?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Jūsų bandomasis pasibaigęs, prašome įsigyti!</value>
+  </data>
 </root>

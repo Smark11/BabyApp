@@ -501,4 +501,49 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>कम से कम 1 भाषा का चयन करना होगा।</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>शिक्षण टॉम विकल्प</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>शिक्षण टॉम</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>स्विच</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>मदद</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>दिनों में अपने परीक्षण की छोड़ दिया है।  क्या आप खरीद करना चाहते हैं?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>परीक्षण अनुप्रयोग द्वारा रेटिंग करने के लिए 10 दिन का विस्तार?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>अपने फ़ोन पर एक भाषण भाषा स्थापित करने के लिए, कृपया नीचे दिए गए insructions का पालन करें:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) 'सेटिंग्स' पर क्लिक करें।</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) पर 'वाक्' ('सिस्टम' टैब के अंतर्गत) क्लिक करें।</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) 'वाक् भाषा' पर क्लिक करें।</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) भाषा तुम स्थापित करें और डाउनलोड का पालन करने के लिए चाहते हैं पर क्लिक करें संकेत देता है।</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>नोट: navtive छू में शब्दों को सुनने के लिए, भाषा पैक स्थापित होना आवश्यक है।  निर्देश के लिए यहाँ क्लिक करें।</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>आपके पास </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>परीक्षण का विस्तार?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>अपने परीक्षण समाप्त हो गया है, कृपया आवेदन खरीद!</value>
+  </data>
 </root>

@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Debe seleccionar al menos un idioma.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Opciones de enseñanza Tom</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Enseñar a los bebés y niños pequeños animales y sus sonidos de hasta 9 idiomas diferentes.
+
+Las características incluyen:
+
+* Más de 150 imágenes y sonidos
+* 2 diferentes categorías
+* Presentación de diapositivas para el juego continua
+* Imagen Descripción de voz
+* 9 idiomas
+* Nombre del animal para cada imagen
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Enseñar a los bebés y niños pequeños animales y sus sonidos de hasta 9 idiomas diferentes.
+
+Las características incluyen:
+
+* Más de 150 imágenes y sonidos
+* 2 diferentes categorías
+* Presentación de diapositivas para el juego continua
+* Imagen Descripción de voz
+* 9 idiomas
+* Nombre del animal para cada imagen
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Enseñanza Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Interruptor</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>días de su juicio.  ¿Desea comprar?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>¿Juicio se extiende a 10 días de calificación la aplicación?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Para instalar un lenguaje en el teléfono, por favor siga las instrucciones siguientes:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Haga clic en 'Configuración'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Haga clic en 'Discurso' (en la pestaña 'Sistema').</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Haga clic en 'Lenguaje'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Solicita haga clic en el idioma que desea instalar y seguir la descarga.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Nota: Para oír palabras en lengua navtive, paquete de idioma debe ser instalado.  Haga clic aquí para obtener instrucciones.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Tienes </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>¿Extender el juicio?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Su juicio ha caducado, por favor compra la aplicación!</value>
+  </data>
 </root>

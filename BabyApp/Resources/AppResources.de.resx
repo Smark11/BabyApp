@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Müssen mindestens 1 Sprache auswählen.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Lehre Tom Optionen</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
+
+Eigenschaften umfassen:
+
+* Über 150 Bilder und Töne
+* 2 verschiedenen Kategorien
+* Diashow für Continous play
+* Stimme Bildbeschreibung
+* 9 verschiedene Sprachen
+* Name des Tieres für jedes Bild
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
+
+Eigenschaften umfassen:
+
+* Über 150 Bilder und Töne
+* 2 verschiedenen Kategorien
+* Diashow für Continous play
+* Stimme Bildbeschreibung
+* 9 verschiedene Sprachen
+* Name des Tieres für jedes Bild
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Lehre Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Schalter</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>Tage in Ihrer Studie.  Möchten Sie kaufen?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Verlängern Sie Testversion bis 10 Tage nach Bewertung der Anwendung?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Um eine Rede-Sprache auf Ihrem Handy zu installieren, folgen Sie bitte dem Insructions unten:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Klicken Sie auf 'Einstellungen'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Klicken Sie auf 'SPEECH' (unter der Registerkarte "SYSTEM").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Klicken Sie auf "SPEECH-LANGUAGE".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Klicken Sie auf die Sprache, die Sie gerne möchten, installieren und folgen den Download fordert.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Hinweis: Um Wörter in Navtive Sprache zu hören, muss Sprachpaket installiert werden.  Klicken Sie hier, um Anweisungen zu erhalten.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Sie haben </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Verlängern Testversion?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Ihre Testversion ist abgelaufen, bitte kaufen Sie die Anwendung!</value>
+  </data>
 </root>

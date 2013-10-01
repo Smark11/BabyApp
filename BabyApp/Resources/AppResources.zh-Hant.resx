@@ -501,4 +501,49 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>必須選擇至少 1 語言。</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>教學湯姆選項</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>教學湯姆</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>開關</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>天留在您的試用。你希望購買嗎？</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>通過評分中應用擴展至 10 天的審判嗎？</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>要在您的手機上安裝一種講話的語言，請遵循下面的 insructions：</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1） 按一下設置。</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2） 按一下 '講話' （下的系統選項卡）。</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3） 按一下語音語言。</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4） 按一下您想要安裝，並按照下載的語言提示。</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>注意： 要聽 navtive 語言中的單詞，必須安裝語言包。有關說明，請按一下此處。</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>你有</value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>延長審判嗎？</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>您的試用版已過期，請購買應用程式 ！</value>
+  </data>
 </root>

@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Harus memilih minimal 1 bahasa.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Pengajaran Tom pilihan</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 150 gambar dan suara
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 150 gambar dan suara
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tom pengajaran</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Tolong</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>hari yang tersisa di sidang Anda.  Apakah Anda ingin membeli?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Memperpanjang percobaan untuk 10 hari menurut penilaian aplikasi?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Untuk menginstal sebuah pidato bahasa pada telepon Anda, harap ikuti insructions di bawah ini:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Klik 'Pengaturan'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Klik pada 'Berbicara' (di bawah tab 'Sistem').</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Klik pada 'Pidato bahasa'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Klik pada bahasa yang Anda ingin menginstal dan mengikuti download prompt.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Catatan: Untuk mendengar kata-kata dalam lidah navtive, paket bahasa harus diinstal.  Klik di sini untuk petunjuk.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Anda memiliki </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Memperpanjang percobaan?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Anda persidangan telah berakhir, silahkan membeli aplikasi!</value>
+  </data>
 </root>

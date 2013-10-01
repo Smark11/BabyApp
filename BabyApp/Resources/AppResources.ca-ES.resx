@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Heu de seleccionar almenys 1 llengua.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Ensenyament Tom opcions</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tom ensenyament</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Interruptor</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dies deixats en el seu judici.  Voleu comprar?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Estengui judici de 10 dies considerant l'aplicació?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Per instal·lar un idioma parla al seu telèfon, seguiu el insructions següent:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Feu clic a "Configuració".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Feu clic a "Discurs" (sota el tabulador de 'Sistema').</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Fer clic a "Expressió llengua".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Apuntadors feu clic a l'idioma que li agradaria instal·lar i segueixi el descarregar.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Nota: Per poder escoltar paraules en navtive hi ha llengua, llengua cal instal·lar.  Feu clic aquí per obtenir instruccions.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Teniu </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Ampliar de Trial?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>El seu judici ha expirat, si us plau comprar l'aplicació!</value>
+  </data>
 </root>

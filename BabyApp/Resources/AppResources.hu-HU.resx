@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Ki kell választania legalább 1 nyelv.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Tanítás Tom beállítások</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
+
+Funkciók közé tartozik:
+
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
+
+Funkciók közé tartozik:
+
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tom tanítás</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Kapcsoló</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>segítség</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>nap van hátra a próba.  Meg kívánja vásárolni?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>10 Napos próba meghosszabbíthatja értékelés alkalmazása?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>A telefon a beszéd-nyelv telepítéséhez kövesse az alábbi insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Kattintson a "Beállítások".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Kattintson a "Beszéd" (a "Rendszer" fülön).</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Kattintson "Beszéd nyelv".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Kattintson a nyelvet szeretne telepíteni, és kövesse a letöltési kéri.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Megjegyzés: Annak érdekében, hogy hallhassák a szavakat a navtive nyelv, nyelvi csomagját telepíteni kell.  Kattintson ide az utasítást.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Van </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Kiterjesztése a próba?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>A próba-birtokol lejárt, kérjük, vásárolja meg a kérelem!</value>
+  </data>
 </root>

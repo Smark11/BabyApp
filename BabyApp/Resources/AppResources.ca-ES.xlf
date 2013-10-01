@@ -290,7 +290,7 @@
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
           <source>Teaching Tom Options</source>
-          <target state="new">Teaching Tom Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ensenyament Tom opcions</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -473,18 +473,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
 
-Features include:
+Les característiques inclouen:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
 
-Download this app today!</target>
+Descarregar aquest app avui!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -499,22 +499,22 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
 
-Features include:
+Les característiques inclouen:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Més de 150 imatges i sons
+* 2 categories diferents
+* Presentació de diapositives per jugar continuada
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
 
-Download this app today!</target>
+Descarregar aquest app avui!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tom ensenyament</target>
         </trans-unit>
         <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
           <source>Brought to you by:</source>
@@ -542,47 +542,55 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
           <source>Switch</source>
-          <target state="new">Switch</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Interruptor</target>
         </trans-unit>
         <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
           <source>Help</source>
-          <target state="new">Help</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ajuda</target>
         </trans-unit>
         <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
           <source>days left in your trial.  Do you wish to purchase?</source>
-          <target state="new">days left in your trial.  Do you wish to purchase?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">dies deixats en el seu judici.  Voleu comprar?</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
           <source>Extend Trial to 10 days by rating the application?</source>
-          <target state="new">Extend Trial to 10 days by rating the application?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Estengui judici de 10 dies considerant l'aplicació?</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
-          <target state="new">To install a speech language on your phone, please follow the insructions below:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Per instal·lar un idioma parla al seu telèfon, seguiu el insructions següent:</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions2" translate="yes" xml:space="preserve">
           <source>1) Click on 'SETTINGS'.</source>
-          <target state="new">1) Click on 'SETTINGS'.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1) Feu clic a "Configuració".</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions3" translate="yes" xml:space="preserve">
           <source>2) Click on 'SPEECH' (under the 'SYSTEM' tab).</source>
-          <target state="new">2) Click on 'SPEECH' (under the 'SYSTEM' tab).</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">2) Feu clic a "Discurs" (sota el tabulador de 'Sistema').</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions4" translate="yes" xml:space="preserve">
           <source>3) Click on 'SPEECH LANGUAGE'.</source>
-          <target state="new">3) Click on 'SPEECH LANGUAGE'.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3) Fer clic a "Expressió llengua".</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions5" translate="yes" xml:space="preserve">
           <source>4) Click on the language you would like to install and follow the download prompts.</source>
-          <target state="new">4) Click on the language you would like to install and follow the download prompts.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">4) Apuntadors feu clic a l'idioma que li agradaria instal·lar i segueixi el descarregar.</target>
         </trans-unit>
         <trans-unit id="Resx/LanguageNote" translate="yes" xml:space="preserve">
           <source>NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</source>
-          <target state="new">NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nota: Per poder escoltar paraules en navtive hi ha llengua, llengua cal instal·lar.  Feu clic aquí per obtenir instruccions.</target>
         </trans-unit>
         <trans-unit id="Resx/Youhave" translate="yes" xml:space="preserve">
           <source>You have </source>
-          <target state="new">You have </target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teniu </target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrailPromptHeader" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ampliar de Trial?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">El seu judici ha expirat, si us plau comprar l'aplicació!</target>
         </trans-unit>
       </group>
     </body>

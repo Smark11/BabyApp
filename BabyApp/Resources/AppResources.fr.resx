@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Devez sélectionner au moins 1 langue.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Enseignement Tom Options</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
+
+Caractéristiques comprennent :
+
+* Plus de 150 images et sons
+* 2 catégories différentes
+* Diaporama pour le jeu continu
+* Description vocale image
+* 9 langues
+* Nom de l'animal pour chaque image
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
+
+Caractéristiques comprennent :
+
+* Plus de 150 images et sons
+* 2 catégories différentes
+* Diaporama pour le jeu continu
+* Description vocale image
+* 9 langues
+* Nom de l'animal pour chaque image
+
+Téléchargez cette application dès aujourd'hui !</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Enseignement Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Commutateur</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>jours restants dans votre période d'essai.  Vous souhaitez acheter ?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Prolonger le procès à 10 jours par l'application de la notation ?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Pour installer une langue vocale sur votre téléphone, veuillez suivre les instructions ci-dessous :</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Cliquez sur "Paramètres".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Cliquez sur le « Discours » (sous l'onglet "SYSTEM").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Cliquez sur 'SPEECH LANGUAGE'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Cliquez sur la langue que vous souhaitez installer et suivre le téléchargement vous invite.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Remarque : Afin d'entendre les mots dans la langue navtive, module linguistique doit être installé.  Cliquez ici pour obtenir des instructions.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Vous avez </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Prolonger le procès ?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Votre période d'essai a expiré, s'il vous plaît acheter l'application !</value>
+  </data>
 </root>

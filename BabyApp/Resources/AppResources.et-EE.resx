@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Peate valima vähemalt ühe keele.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Õppetöö Tom Valikud</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
+
+Funktsioonide hulka kuuluvad:
+
+* Rohkem kui 150 pildid ja helid
+* 2 erinevat kategooriat
+* Pidev play Slideshow
+* Pilt hääl kirjeldus
+* 9 erinevat keelt
+* Animal nimi igale pildile
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
+
+Funktsioonide hulka kuuluvad:
+
+* Rohkem kui 150 pildid ja helid
+* 2 erinevat kategooriat
+* Pidev play Slideshow
+* Pilt hääl kirjeldus
+* 9 erinevat keelt
+* Animal nimi igale pildile
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Õppetöö Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Lüliti</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Abi</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>päeva jäänud oma uuringus.  Kas soovite osta?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Laiendada kohtuprotsessi hinnangu taotluse järgi 10 päeva?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Kõne keele installimiseks järgige alltoodud insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Vajuta "Seaded".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Vajuta "Kõne" (vastavalt "SYSTEM" alt).</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Klõpsake KÕNETUVASTUSE keelt.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Klõpsa keeles soovite installida ja järgige laadida küsib.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Märkus: Selleks, et kuulda sõnu navtive murre, keel pakk peab olema paigaldatud.  Kliki siia juhiseid.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Teil on </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Laiendamine kohtuprotsess?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Teie prooviversioon on aegunud, palun osta taotlus!</value>
+  </data>
 </root>

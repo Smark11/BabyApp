@@ -584,6 +584,14 @@ Download this app today!</target>
           <source>You have </source>
           <target state="new">You have </target>
         </trans-unit>
+        <trans-unit id="Resx/ExtendTrailPromptHeader" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="new">Extend Trial?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!</source>
+          <target state="new">Your trial has expired, please purchase the application!</target>
+        </trans-unit>
       </group>
     </body>
   </file>

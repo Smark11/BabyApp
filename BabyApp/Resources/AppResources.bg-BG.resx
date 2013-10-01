@@ -501,4 +501,49 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Трябва да изберете поне един език.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Преподаване Том опции</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Преподаване Том</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Превключване</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Помощ</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>дни ляво във вашия опит.  Желаете ли да закупите?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Разшири изпитание за 10 дни по оценка на заявлението?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>За да инсталирате реч език на телефона си, моля, следвайте insructions по-долу:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Кликнете върху "Настройки".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Кликнете върху "Реч" (в раздела "Система").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Щракнете върху "Реч език".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Щракнете върху език, който искате да инсталирате и следвайте изтегляне бърз.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Забележка: За да чуете думи в navtive език, езиков пакет трябва да бъде инсталиран.  Щракнете тук, за инструкции.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Имате </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Разшири изпитание?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Вашият пробен период е изтекъл, моля закупуване на приложението!</value>
+  </data>
 </root>

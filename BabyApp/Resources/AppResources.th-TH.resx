@@ -501,4 +501,49 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>ต้องเลือกอย่างน้อย 1 ภาษา</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>ตัวเลือกทอมสอน</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ทอมสอน</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>สวิตช์</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>วิธีใช้</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>วันที่เหลืออยู่ในการทดลอง  คุณต้องการซื้อหรือไม่</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>ขยายทดลอง 10 วัน โดยใช้การจัดอันดับหรือไม่</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>การติดตั้งภาษาพูดในโทรศัพท์ของคุณ โปรดทำตาม insructions ด้านล่าง:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) คลิก 'การตั้งค่า'</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) คลิกที่ 'คำพูด' (ภายใต้แท็บ 'ระบบ')</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) คลิกที่ 'พูดภาษา'</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) คลิกที่ภาษาคุณต้องการติดตั้ง และทำตามการดาวน์โหลดเตือน</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>หมายเหตุ: การได้ยินคำ navtive tounge ชุดภาษาต้องสามารถติดตั้ง  คลิกที่นี่สำหรับคำแนะนำ</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>คุณมี </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>ขยายการทดลองหรือไม่</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>ทดลองของคุณหมดอายุแล้ว กรุณาซื้อแอพลิเคชัน</value>
+  </data>
 </root>

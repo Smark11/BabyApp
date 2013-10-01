@@ -290,7 +290,7 @@
         </trans-unit>
         <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
           <source>Teaching Tom Options</source>
-          <target state="new">Teaching Tom Options</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Giảng dạy Tom tùy chọn</target>
         </trans-unit>
         <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
           <source>Cartoon</source>
@@ -473,18 +473,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
 
-Features include:
+Tính năng bao gồm:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Hơn 150 hình ảnh và âm thanh
+* 2 các loại khác nhau
+* Slideshow cho liên tục chơi
+* Hình ảnh thoại mô tả
+* 9 ngôn ngữ khác nhau
+* Tên của động vật cho mỗi hình ảnh
 
-Download this app today!</target>
+Tải về ứng dụng này vào ngày hôm nay!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -499,22 +499,22 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
 
-Features include:
+Tính năng bao gồm:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Hơn 150 hình ảnh và âm thanh
+* 2 các loại khác nhau
+* Slideshow cho liên tục chơi
+* Hình ảnh thoại mô tả
+* 9 ngôn ngữ khác nhau
+* Tên của động vật cho mỗi hình ảnh
 
-Download this app today!</target>
+Tải về ứng dụng này vào ngày hôm nay!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Giảng dạy Tom</target>
         </trans-unit>
         <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
           <source>Brought to you by:</source>
@@ -542,47 +542,55 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
           <source>Switch</source>
-          <target state="new">Switch</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chuyển đổi</target>
         </trans-unit>
         <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
           <source>Help</source>
-          <target state="new">Help</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trợ giúp</target>
         </trans-unit>
         <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
           <source>days left in your trial.  Do you wish to purchase?</source>
-          <target state="new">days left in your trial.  Do you wish to purchase?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ngày còn lại trong thử nghiệm của bạn.  Bạn có muốn mua?</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
           <source>Extend Trial to 10 days by rating the application?</source>
-          <target state="new">Extend Trial to 10 days by rating the application?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở rộng phiên tòa để 10 ngày bằng cách đánh giá các ứng dụng?</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
-          <target state="new">To install a speech language on your phone, please follow the insructions below:</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Để cài đặt một ngôn ngữ bài phát biểu trên điện thoại của bạn, hãy làm theo insructions dưới đây:</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions2" translate="yes" xml:space="preserve">
           <source>1) Click on 'SETTINGS'.</source>
-          <target state="new">1) Click on 'SETTINGS'.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1) Nhấp vào 'Cài đặt'.</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions3" translate="yes" xml:space="preserve">
           <source>2) Click on 'SPEECH' (under the 'SYSTEM' tab).</source>
-          <target state="new">2) Click on 'SPEECH' (under the 'SYSTEM' tab).</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">2) Bấm vào 'Tiếng nói' (trong tab 'Hệ thống').</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions4" translate="yes" xml:space="preserve">
           <source>3) Click on 'SPEECH LANGUAGE'.</source>
-          <target state="new">3) Click on 'SPEECH LANGUAGE'.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3) Bấm vào 'Tiếng nói ngôn ngữ'.</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions5" translate="yes" xml:space="preserve">
           <source>4) Click on the language you would like to install and follow the download prompts.</source>
-          <target state="new">4) Click on the language you would like to install and follow the download prompts.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">4) Nhấp chuột vào ngôn ngữ mà bạn muốn cài đặt và thực hiện theo tải về nhắc nhở.</target>
         </trans-unit>
         <trans-unit id="Resx/LanguageNote" translate="yes" xml:space="preserve">
           <source>NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</source>
-          <target state="new">NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lưu ý: Để nghe từ trong navtive lưỡi, gói ngôn ngữ phải được cài đặt.  Click vào đây để được hướng dẫn.</target>
         </trans-unit>
         <trans-unit id="Resx/Youhave" translate="yes" xml:space="preserve">
           <source>You have </source>
-          <target state="new">You have </target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bạn có </target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrailPromptHeader" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở rộng phiên tòa?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thử nghiệm của bạn đã hết hạn, xin vui lòng mua ứng dụng!</target>
         </trans-unit>
       </group>
     </body>

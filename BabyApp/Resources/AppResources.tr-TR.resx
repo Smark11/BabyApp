@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>En az 1 dil seçmelisiniz.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Öğretim Tom seçenekleri</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 150 Resimleri ve sesleri
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 150 Resimleri ve sesleri
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Öğretim Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Anahtarı</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>gün içinde deneme yaptı.  Satın almak ister misiniz?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Deneme için 10 gün uygulama derecelendirmeye göre uzatmak?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Telefonda konuşma dili yüklemek için aşağıdaki insructions izleyin:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) 'Ayarlar' ı tıklayın.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) 'Konuşma' ('Sistem' sekmesi altında) tıklatın.</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>'Konuşma dili' 3) tıklayın.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) İster yüklemek ve indirmek izlemek için istediğiniz dili tıklatın.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Not: kelimeyle navtive lisan duymak için dil paketi yüklenmelidir.  Talimatları için burayı tıklatın.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Sen-si olmak </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Deneme uzatmak?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Deneme süresi doldu, lütfen uygulama satın!</value>
+  </data>
 </root>

@@ -473,4 +473,77 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>Trebuie să selectaţi cel puţin 1 limba.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Opţiuni de Tom predare</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Invata-copii şi copii mici animale şi sunetele lor în până la 9 limbi diferite.
+
+Caracteristicile includ:
+
+* Peste 150 de imagini şi sunete
+* 2 categorii diferite
+* Prezentare de diapozitive pentru redare continuă
+* Descrierea de voce imaginii
+* 9 limbi diferite
+* Nume de animale pentru fiecare imagine
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Invata-copii şi copii mici animale şi sunetele lor în până la 9 limbi diferite.
+
+Caracteristicile includ:
+
+* Peste 150 de imagini şi sunete
+* 2 categorii diferite
+* Prezentare de diapozitive pentru redare continuă
+* Descrierea de voce imaginii
+* 9 limbi diferite
+* Nume de animale pentru fiecare imagine
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Predare Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Comutator</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>ajutor</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>zile stânga în proces dumneavoastră.  Doriţi să cumpere?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Prelungi proces la 10 zile de evaluare aplicarea?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Pentru a instala un limbaj de vorbire pe telefonul dvs., vă rugăm să urmaţi insructions de mai jos:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Faceţi clic pe "Setări".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Faceţi clic pe "SPEECH" (în fila "Sistem").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Faceţi clic pe "Limba de VORBIRE".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Faceţi clic pe limba pe care doriţi să instalaţi şi urmaţi download solicită.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Notă: Pentru a auzi cuvintele în limba navtive, limba pack trebuie instalat.  Click aici pentru instrucţiuni.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Aveţi </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Prelungi proces?</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Vă proces a expirat, vă rugăm să cumpere aplicaţia!</value>
+  </data>
 </root>

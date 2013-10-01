@@ -501,4 +501,49 @@
   <data name="MustSelectAtLeast1Language" xml:space="preserve">
     <value>يجب تحديد لغة على الأقل 1.</value>
   </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>خيارات توم التدريس</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>توم التدريس</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>رمز التبديل</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>تعليمات</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>الأيام المتبقية في المحاكمة الخاصة بك.  هل ترغب في شراء؟</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>تمديد المحاكمة لمدة 10 أيام بتصنيف التطبيق؟</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>لتثبيت لغة كلام على الهاتف الخاص بك، الرجاء اتباع إينسروكشنز أدناه:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) انقر فوق 'إعدادات'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) انقر على 'الكلام' (ضمن علامة التبويب 'نظام').</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) انقر على 'لغة الكلام'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) يطالب انقر فوق اللغة التي ترغب في تثبيت ومتابعة التحميل.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>ملاحظة: من أجل سماع الكلمات في اللسان نافتيفي، يجب تثبيت حزمة اللغة.  انقر هنا للحصول على إرشادات.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>لديك </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>تمديد المحاكمة؟</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>انتهت المحاكمة الخاصة بك، الرجاء شراء التطبيق!</value>
+  </data>
 </root>
