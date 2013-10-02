@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Gấu trúc</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Giống như ứng dụng này? Hãy để tất cả mọi người khác biết!  Như chúng tôi cảm ơn cho bạn, chúng tôi sẽ mở rộng thử nghiệm của bạn để 10 ngày!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Giống như ứng dụng này? Hãy để tất cả mọi người khác biết!  Như chúng tôi cảm ơn cho bạn, chúng tôi sẽ mở rộng thử nghiệm của bạn để 10 ngày!  Đánh giá các ứng dụng này?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Mang đến cho bạn bởi:</value>
   </data>
@@ -501,9 +495,6 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>ngày còn lại trong thử nghiệm của bạn.  Bạn có muốn mua?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Mở rộng phiên tòa để 10 ngày bằng cách đánh giá các ứng dụng?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Để cài đặt một ngôn ngữ bài phát biểu trên điện thoại của bạn, hãy làm theo insructions dưới đây:</value>

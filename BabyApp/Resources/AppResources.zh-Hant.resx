@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>浣熊</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>像這個應用程式嗎？讓大家都知道 ！我們感謝你我們將會延長至 10 天試用版 ！</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>像這個應用程式嗎？讓大家都知道 ！我們感謝你我們將會延長至 10 天試用版 ！率這個應用程式嗎？</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>帶給你的：</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>天留在您的試用。你希望購買嗎？</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>通過評分中應用擴展至 10 天的審判嗎？</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>要在您的手機上安裝一種講話的語言，請遵循下面的 insructions：</value>

@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Szop pracz</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Jak ta aplikacja? Niech wszyscy wiedzą!  Jako nasz dzięki wam będziemy rozszerzać swój okres próbny do 10 dni!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Jak ta aplikacja? Niech wszyscy wiedzą!  Jako nasz dzięki wam będziemy rozszerzać swój okres próbny do 10 dni!  Oceń ten aplikacja?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Przyniósł ci przez:</value>
   </data>
@@ -501,9 +495,6 @@ Pobrać tę aplikację dziś!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dni w próbnej.  Czy chcesz kupić?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Przedłużyć okres próbny do 10 dni przez ocena wniosku?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Aby zainstalować język mowy na telefonie, postępuj zgodnie z insructions poniżej:</value>

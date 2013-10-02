@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Raton laveur</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Comme ce soft ? Tout le monde faites le savoir !  Comme nos remerciements à vous, nous prolongerons votre période d'essai de 10 jours !</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Comme ce soft ? Tout le monde faites le savoir !  Comme nos remerciements à vous, nous prolongerons votre période d'essai de 10 jours !  Noter ce soft ?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Présentée par :</value>
   </data>
@@ -501,9 +495,6 @@ Téléchargez cette application dès aujourd'hui !</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>jours restants dans votre période d'essai.  Vous souhaitez acheter ?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Prolonger le procès à 10 jours par l'application de la notation ?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Pour installer une langue vocale sur votre téléphone, veuillez suivre les instructions ci-dessous :</value>

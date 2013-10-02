@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Енот</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Как этот app? Пусть все еще знают!  Как наш благодаря вам мы расширим пробной до 10 дней!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Как этот app? Пусть все еще знают!  Как наш благодаря вам мы расширим пробной до 10 дней!  Оценить этот app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Привлечены к вам:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>дней осталось в пробную версию.  Вы хотите приобрести?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Расширить судебное разбирательство до 10 дней, рейтинг приложения?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Для установки языка речи на вашем телефоне, пожалуйста, следуйте ниже insructions:</value>

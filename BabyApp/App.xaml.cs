@@ -29,7 +29,7 @@ namespace BabyApp
 
         private static LicenseInformation _licenseInfo = new LicenseInformation();
 
-        private static bool _isTrial;
+        private static bool _isTrial = false;
         public bool IsTrial
         {
             get
@@ -38,14 +38,14 @@ namespace BabyApp
             }
         }
 
-        private static bool _isFreeVersion = false;
-        public bool IsFreeVersion
-        {
-            get
-            {
-                return _isFreeVersion;
-            }
-        }
+        //private static bool _isFreeVersion = false;
+        //public bool IsFreeVersion
+        //{
+        //    get
+        //    {
+        //        return _isFreeVersion;
+        //    }
+        //}
 
         /// <summary>
         /// Constructor for the Application object.

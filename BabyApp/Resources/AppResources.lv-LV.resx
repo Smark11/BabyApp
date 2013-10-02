@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Jenots</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Piemēram, šī app? Ļaut visiem zināt!  Kā jums mūsu pateicību mēs paplašinām savu izmēģinājuma versiju uz 10 dienām!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Piemēram, šī app? Ļaut visiem zināt!  Kā jums mūsu pateicību mēs paplašinām savu izmēģinājuma versiju uz 10 dienām!  Novērtēt šo app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Kas tev ar:</value>
   </data>
@@ -501,9 +495,6 @@ Lejupielādēt šo app šodien!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dienas kreisajā jūsu pētījumā.  Vai jūs vēlaties iegādāties?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Paplašināt izmēģinājuma 10 dienu laikā pēc novērtējuma piemērošanu?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Uzstādīt runas valodu uz jūsu tālruni, lūdzu, sekojiet zemāk insructions:</value>

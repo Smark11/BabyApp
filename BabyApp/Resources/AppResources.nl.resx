@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Raccoon</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Als dit app? Laat iedereen weten!  Als onze dank aan u zullen we uw proces tot 10 dagen verlengen!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Als dit app? Laat iedereen weten!  Als onze dank aan u zullen we uw proces tot 10 dagen verlengen!  Stem op dit app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Gebracht aan u door:</value>
   </data>
@@ -501,9 +495,6 @@ Download dit app vandaag nog!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dagen links in uw proces.  Wenst u te kopen?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Uitbreiden Trial tot 10 dagen volgens rating de toepassing?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Als u wilt een toespraak taal installeren op uw telefoon, volg de onderstaande insructions:</value>

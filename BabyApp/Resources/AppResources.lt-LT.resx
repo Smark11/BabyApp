@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Meškėnas</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Kaip šią programą? Tegul visi kiti nežino!  Kaip mūsų Ačiū jums mes bus išplėsti savo teismą iki 10 dienų!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Kaip šią programą? Tegul visi kiti nežino!  Kaip mūsų Ačiū jums mes bus išplėsti savo teismą iki 10 dienų!  Įvertinkite šią programą?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Atnešė į jūsų:</value>
   </data>
@@ -501,9 +495,6 @@ Parsisiųsti šią programą šiandien!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dienų paliko savo teismą.  Ar norite pirkti?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Pratęsti tyrimo iki 10 dienų, įvertindami taikymą?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Norėdami įdiegti kalbos kalba telefone, atlikite žemiau insructions:</value>

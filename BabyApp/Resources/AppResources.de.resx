@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Waschbär</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Wie diese app? Lassen Sie alle anderen wissen!  Als unser Dank Ihnen können wir Ihre Testversion bis 10 Tage verlängern!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Wie diese app? Lassen Sie alle anderen wissen!  Als unser Dank Ihnen können wir Ihre Testversion bis 10 Tage verlängern!  Bewerten Sie diese app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Geholt Ihnen durch:</value>
   </data>
@@ -501,9 +495,6 @@ Laden Sie diese app herunter!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>Tage in Ihrer Studie.  Möchten Sie kaufen?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Verlängern Sie Testversion bis 10 Tage nach Bewertung der Anwendung?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Um eine Rede-Sprache auf Ihrem Handy zu installieren, folgen Sie bitte dem Insructions unten:</value>

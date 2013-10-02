@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>الراكون</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  كما شكرنا لكم وسوف نتقدم بالنسخة التجريبية لمدة 10 أيام!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  كما شكرنا لكم وسوف نتقدم بالنسخة التجريبية لمدة 10 أيام!  معدل هذا التطبيق؟</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>جلبت لك من قبل:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>الأيام المتبقية في المحاكمة الخاصة بك.  هل ترغب في شراء؟</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>تمديد المحاكمة لمدة 10 أيام بتصنيف التطبيق؟</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>لتثبيت لغة كلام على الهاتف الخاص بك، الرجاء اتباع إينسروكشنز أدناه:</value>

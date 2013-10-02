@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>アライグマ</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>このアプリは？ のような誰もが知っている聞かせて ！あなたに感謝として 10 日にあなたのトライアルを延長 ！</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>このアプリは？ のような誰もが知っている聞かせて ！あなたに感謝として 10 日にあなたのトライアルを延長 ！このアプリを評価ですか？</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>によってあなたに持って来られます。</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>あなたのトライアルに残っている幾日。購入を希望するか？</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>10 日試用版アプリケーションを評価して拡張ですか？</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>あなたの電話で音声言語をインストールするには、以下の開設は次のとおりです。</value>

@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Mapache</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>¿Como esta aplicación? Saber a los demás!  Como nuestro agradecimiento a usted extenderemos su juicio a 10 días.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>¿Como esta aplicación? Saber a los demás!  Como nuestro agradecimiento a usted extenderemos su juicio a 10 días.  ¿Valora esta aplicación?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Traído a usted por:</value>
   </data>
@@ -501,9 +495,6 @@ Descargar esta aplicación hoy!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>días de su juicio.  ¿Desea comprar?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>¿Juicio se extiende a 10 días de calificación la aplicación?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Para instalar un lenguaje en el teléfono, por favor siga las instrucciones siguientes:</value>

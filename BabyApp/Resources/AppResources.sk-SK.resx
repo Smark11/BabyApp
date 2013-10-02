@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Psík</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Ako túto aplikáciu? Nech všetci ostatní vedieť!  Ako naše vďaka vám budeme rozširovať svoj súd do 10 dní!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Ako túto aplikáciu? Nech všetci ostatní vedieť!  Ako naše vďaka vám budeme rozširovať svoj súd do 10 dní!  Hodnotiť túto aplikáciu?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Ti prináša:</value>
   </data>
@@ -501,9 +495,6 @@ Stiahnite si túto app dnes!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dni v skúšobnej verzie.  Prajete si kúpiť?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Hodnotenie žiadosti predĺžiť skúšobnú verziu do 10 dní?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Na inštaláciu reči jazyk telefónu, postupujte podľa insructions nižšie:</value>

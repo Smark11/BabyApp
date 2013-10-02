@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Pesukarhu</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Pidän tästä app? Antaa kaikille muille tietää!  Kiitos sinulle laajennamme 10 päivän kokeiluversio!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Pidän tästä app? Antaa kaikille muille tietää!  Kiitos sinulle laajennamme 10 päivän kokeiluversio!  Arvioi tämä app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Tuonut sinulle:</value>
   </data>
@@ -501,9 +495,6 @@ Lataa tämän app tänään!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>days jäljelle kotona sinun karsintakilpailu.  Haluatko ostaa?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Avartaa karsintakilpailu jotta 10 days luokituksen sovellus?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Puhe kieli asentaa puhelimeen, noudata alla insructions model:</value>

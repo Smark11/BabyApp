@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Raccoon</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Brought to you by:</value>
   </data>
@@ -501,9 +495,6 @@ Download this app today!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>days left in your trial.  Do you wish to purchase?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Extend Trial to 10 days by rating the application?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>To install a speech language on your phone, please follow the insructions below:</value>

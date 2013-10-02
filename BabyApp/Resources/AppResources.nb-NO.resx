@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Vaskebjørn</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Som denne app? La alle andre vet!  Som vår takk til deg vil vi utvide prøveversjonen til 10 dager!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Som denne app? La alle andre vet!  Som vår takk til deg vil vi utvide prøveversjonen til 10 dager!  Vurdere dette programmet?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Brakt til deg av:</value>
   </data>
@@ -501,9 +495,6 @@ Last ned denne app i dag!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dager igjen i prøveversjonen.  Vil du kjøpe?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Utvide rettssaken til 10 dager etter vurdering programmet?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>For å installere et talespråk på telefonen, følg det insructions nedenfor:</value>

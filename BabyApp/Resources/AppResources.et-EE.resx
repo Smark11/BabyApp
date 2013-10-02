@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Pesukaru</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Nagu see app? Lase kõik teised teavad!  Nagu meie tänu teile me laiendada oma uuringus 10 päeva!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Nagu see app? Lase kõik teised teavad!  Nagu meie tänu teile me laiendada oma uuringus 10 päeva!  Hinda seda app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Kodulehekülge toob teieni:</value>
   </data>
@@ -501,9 +495,6 @@ Lae alla käesoleva app täna!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>päeva jäänud oma uuringus.  Kas soovite osta?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Laiendada kohtuprotsessi hinnangu taotluse järgi 10 päeva?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Kõne keele installimiseks järgige alltoodud insructions:</value>

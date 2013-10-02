@@ -313,12 +313,12 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Курс</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
-          <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Като този app? Позволявам всеки иначе зная!  Тъй като нашите благодаря ви ние ще разшири своя опит до 10 дни!</target>
+          <source>Like this app? Let everyone else know!</source>
+          <target state="new">Like this app? Let everyone else know!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
-          <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Като този app? Позволявам всеки иначе зная!  Тъй като нашите благодаря ви ние ще разшири своя опит до 10 дни!  Оцени този app?</target>
+          <source>Like this app? Let everyone else know! Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know! Rate this app?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -553,8 +553,8 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">дни ляво във вашия опит.  Желаете ли да закупите?</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
-          <source>Extend Trial to 10 days by rating the application?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Разшири изпитание за 10 дни по оценка на заявлението?</target>
+          <source>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
@@ -591,6 +591,10 @@ Download this app today!</target>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Вашият пробен период е изтекъл, моля закупуване на приложението!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="new">Purchase</target>
         </trans-unit>
       </group>
     </body>

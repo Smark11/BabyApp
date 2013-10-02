@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>너구리</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  당신에 게 우리의 감사로 우리 10 일 평가판을 확장할 것입니다!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  당신에 게 우리의 감사로 우리 10 일 평가판을 확장할 것입니다!  이 애플 리 케이이 션 평가?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>에 의해 당신에 게 가져:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>일 재판에 남아 있습니다.  구입 하 시겠습니까?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>응용 프로그램을 평가 하 여 10 일 재판을 연장?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>귀하의 휴대 전화에 음성 언어를 설치 하려면 아래의 insructions를 따르시기 바랍니다.</value>

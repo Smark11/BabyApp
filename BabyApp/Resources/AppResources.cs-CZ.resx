@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Mýval</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Jako tato app? Ať všichni vědí!  Jako naše poděkování vám můžeme prodloužit zkušební verze do 10 dní!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Jako tato app? Ať všichni vědí!  Jako naše poděkování vám můžeme prodloužit zkušební verze do 10 dní!  Ohodnoťte tuto app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Vám přináší:</value>
   </data>
@@ -501,9 +495,6 @@ Stáhněte tuto app dnes!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dny v zkušební verze.  Chcete koupit?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Rozšířit proces na 10 dní podle hodnocení aplikace?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Nainstalovat jazyk řeči na telefonu, postupujte podle následujících insructions:</value>

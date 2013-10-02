@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Vaskebjørn</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Ligesom denne app? Lade enhver ellers kende!  Som vores tak til dig vil vi udvide din prøveversion til 10 dage!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Ligesom denne app? Lade enhver ellers kende!  Som vores tak til dig vil vi udvide din prøveversion til 10 dage!  Vurder denne app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Bragt til dig af:</value>
   </data>
@@ -501,9 +495,6 @@ Download denne app i dag!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dage tilbage i din retssag.  Ønsker du at købe?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Forlænge retssagen til 10 dage ved rating ansøgningen?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Hvis du vil installere en tale sprog på telefonen, skal du følge insructions nedenfor:</value>

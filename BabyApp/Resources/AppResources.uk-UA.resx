@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Єнот</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Як цей застосунок? Хай всі інші знають!  Як ми Дякуємо вам розширюємо вашого суду до 10 днів!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Як цей застосунок? Хай всі інші знають!  Як ми Дякуємо вам розширюємо вашого суду до 10 днів!  Оцінити цей застосунок?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Приходить до вас по:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>Days left у вашого суду.  Ви хочете придбати?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Продовжити судовий розгляд до 10 днів шляхом рейтинг застосунок?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Встановити мову виступу на вашому телефоні, виконайте insructions нижче.</value>

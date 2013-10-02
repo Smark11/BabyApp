@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Rakun</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Bu app gibi mi? Başka herkes bildirin!  Sizin için teşekkür olarak 10 gün deneme uzatacaktır.</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Bu app gibi mi? Başka herkes bildirin!  Sizin için teşekkür olarak 10 gün deneme uzatacaktır.  Bu app oranı?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Tarafından size getirdim:</value>
   </data>
@@ -501,9 +495,6 @@ Bu app bugün yükleyin!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>gün içinde deneme yaptı.  Satın almak ister misiniz?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Deneme için 10 gün uygulama derecelendirmeye göre uzatmak?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Telefonda konuşma dili yüklemek için aşağıdaki insructions izleyin:</value>

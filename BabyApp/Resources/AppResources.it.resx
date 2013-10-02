@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Procione</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Come questa app? Tutti gli altri far sapere!  Come i nostri ringraziamenti a voi estenderemo la tua prova per 10 giorni!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Come questa app? Tutti gli altri far sapere!  Come i nostri ringraziamenti a voi estenderemo la tua prova per 10 giorni!  Votare questa app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Portato a voi da:</value>
   </data>
@@ -501,9 +495,6 @@ Scarica questa applicazione!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>giorni lasciato nella tua prova.  Si desidera acquistare?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Estendere il Trial per 10 giorni di valutazione dell'applicazione?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Per installare una lingua di discorso sul telefono, si prega di seguire le insructions qui sotto:</value>

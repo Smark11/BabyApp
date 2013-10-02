@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Rakun</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Seperti aplikasi ini? Biarkan orang lain tahu!  Sebagai terima kasih kami kepada Anda, kami akan memperpanjang percobaan Anda sampai dengan 10 hari!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Seperti aplikasi ini? Biarkan orang lain tahu!  Sebagai terima kasih kami kepada Anda, kami akan memperpanjang percobaan Anda sampai dengan 10 hari!  Tingkat app ini?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Dibawa ke Anda oleh:</value>
   </data>
@@ -501,9 +495,6 @@ Download aplikasi ini hari ini!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>hari yang tersisa di sidang Anda.  Apakah Anda ingin membeli?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Memperpanjang percobaan untuk 10 hari menurut penilaian aplikasi?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Untuk menginstal sebuah pidato bahasa pada telepon Anda, harap ikuti insructions di bawah ini:</value>

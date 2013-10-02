@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>एक प्रकार का जानवर</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>इस app की तरह? हर कोई पता है चलो!  तुम हमारे धन्यवाद के रूप में हम 10 दिनों के लिए अपने परीक्षण का विस्तार होगा!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>इस app की तरह? हर कोई पता है चलो!  तुम हमारे धन्यवाद के रूप में हम 10 दिनों के लिए अपने परीक्षण का विस्तार होगा!  दर इस app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>आप द्वारा लाया:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>दिनों में अपने परीक्षण की छोड़ दिया है।  क्या आप खरीद करना चाहते हैं?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>परीक्षण अनुप्रयोग द्वारा रेटिंग करने के लिए 10 दिन का विस्तार?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>अपने फ़ोन पर एक भाषण भाषा स्थापित करने के लिए, कृपया नीचे दिए गए insructions का पालन करें:</value>

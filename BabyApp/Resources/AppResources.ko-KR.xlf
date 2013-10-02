@@ -313,12 +313,12 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">속도</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
-          <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  당신에 게 우리의 감사로 우리 10 일 평가판을 확장할 것입니다!</target>
+          <source>Like this app? Let everyone else know!</source>
+          <target state="new">Like this app? Let everyone else know!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
-          <source>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  당신에 게 우리의 감사로 우리 10 일 평가판을 확장할 것입니다!  이 애플 리 케이이 션 평가?</target>
+          <source>Like this app? Let everyone else know! Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know! Rate this app?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -553,8 +553,8 @@ Download this app today!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">일 재판에 남아 있습니다.  구입 하 시겠습니까?</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
-          <source>Extend Trial to 10 days by rating the application?</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">응용 프로그램을 평가 하 여 10 일 재판을 연장?</target>
+          <source>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
@@ -591,6 +591,10 @@ Download this app today!</target>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application!</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">평가판 만료, 응용 프로그램을 구입 하십시오!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="new">Purchase</target>
         </trans-unit>
       </group>
     </body>

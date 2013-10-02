@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Mosómedve</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Mint ez app? Hagyja, hogy mindenki tudja!  Köszönjük, hogy Ön mint mi fogja terjeszteni a 10 napos próba!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Mint ez app? Hagyja, hogy mindenki tudja!  Köszönjük, hogy Ön mint mi fogja terjeszteni a 10 napos próba!  Arány ez app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Ajánlója:</value>
   </data>
@@ -501,9 +495,6 @@ Letölt ez app ma!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>nap van hátra a próba.  Meg kívánja vásárolni?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>10 Napos próba meghosszabbíthatja értékelés alkalmazása?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>A telefon a beszéd-nyelv telepítéséhez kövesse az alábbi insructions:</value>

@@ -348,10 +348,10 @@
     <value>Rate</value>
   </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!</value>
+    <value>Like this app? Let everyone else know!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?</value>
+    <value>Like this app? Let everyone else know! Rate this app?</value>
   </data>
   <data name="Real" xml:space="preserve">
     <value>Real</value>
@@ -517,7 +517,7 @@ Download this app today!</value>
     <value>days left in your trial.  Do you wish to purchase?</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
-    <value>Extend Trial to 10 days by rating the application?</value>
+    <value>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>To install a speech language on your phone, please follow the insructions below:</value>
@@ -545,5 +545,8 @@ Download this app today!</value>
   </data>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Your trial has expired, please purchase the application!</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Purchase</value>
   </data>
 </root>

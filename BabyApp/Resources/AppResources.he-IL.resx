@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>דביבון</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>כמו יישום זה? ליידע את כולם אחר!  כמו אנו מודות לך אנו להרחיב את הניסיון שלך ל-10 ימים!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>כמו יישום זה? ליידע את כולם אחר!  כמו אנו מודות לך אנו להרחיב את הניסיון שלך ל-10 ימים!  קצב יישום זה?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>נשלח על ידי:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>ימים של המשפט שלך.  האם ברצונך לרכוש?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>להרחיב משפט ל-10 ימים על-ידי דירוג של היישום?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>כדי להתקין שפה דיבור בטלפון שלך, נא בצע את insructions להלן:</value>

@@ -58,21 +58,12 @@ namespace BabyApp
             InitializeComponent();
             _mainPageInstance = this;
 
-            EnableApplication(true);
             _numberOfTimesOpened = GetNumberOfTimesOpened();
-
-
-            //if the user has rated using the 5 day, or
-            //if the user has rated to extend the trial, mark the app as rated.
-            if (Rate.HasAppBeenRated() == "Yes")
+         
+            if (Rate.HasAppBeenRated().ToUpper() == "YES")
             {
                 _rated = true;
-            }
-            else
-            {
-                //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-                Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
-            }
+            }         
 
             PivotSlides = new ObservableCollection<PivotSlide>();
 
@@ -81,7 +72,6 @@ namespace BabyApp
 
             NavigateToScreen(Screen.MainGrid);
             LoadPicsIntoCollection();
-            SetPivots(App.gCategory);
             BuildLocalizedApplicationBar();
             Mode = Screen.MainGrid;
             PaidAppInitialization(false);
@@ -92,6 +82,70 @@ namespace BabyApp
         private void FreeAppInitialization()
         {
         }
+
+        //private void PaidAppInitialization(bool skipMessageBox)
+        // {
+        //     if ((Application.Current as App).IsTrial)
+        //     {
+        //         if (Trial.IsTrialExpired())
+        //         {
+        //             if (!skipMessageBox)
+        //             {
+        //                 MessageBox.Show(AppResources.TrailHasExpired);
+        //             }
+        //             EnableApplication(false);
+        //             _marketPlaceDetailTask.Show();
+        //         }
+        //         else //Trial has NOT expired
+        //         {
+        //             EnableApplication(true);
+
+        //             if (_rated)
+        //             {
+        //                 if (!skipMessageBox)
+        //                 {
+        //                     MessageBoxResult result = MessageBox.Show(AppResources.Youhave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial, "Purchase?", MessageBoxButton.OKCancel);
+
+        //                     if (result == MessageBoxResult.OK)
+        //                     {
+        //                         MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+        //                         marketplaceReviewTask.Show();
+        //                     }
+        //                 }
+        //             }
+        //             //app not rated, rate to add 10 days to trial
+        //             else if (!_rated && _numberOfTimesOpened >= 2)
+        //             {
+        //                 if (!skipMessageBox)
+        //                 {
+        //                     MessageBoxResult result = MessageBox.Show(AppResources.ExtendTrial, AppResources.ExtendTrailPromptHeader, MessageBoxButton.OKCancel);
+
+        //                     if (result == MessageBoxResult.OK)
+        //                     {
+        //                         Trial.Add10DaysToTrial();
+
+        //                         IS.SaveSetting("AppRated", "Yes");
+        //                         _rated = true;
+        //                         MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+        //                         marketplaceReviewTask.Show();
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        //     else
+        //     {
+        //         EnableApplication(true);
+        //         if (!_rated)
+        //         {
+        //             if (!skipMessageBox)
+        //             {
+        //                 //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+        //                 Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
+        //             }
+        //         }
+        //     }
+        // }
 
         private void PaidAppInitialization(bool skipMessageBox)
         {
@@ -106,25 +160,9 @@ namespace BabyApp
                     EnableApplication(false);
                     _marketPlaceDetailTask.Show();
                 }
-                else //Trial has expired
-                {
-                    EnableApplication(true);
-
-                    if (_rated)
-                    {
-                        if (!skipMessageBox)
-                        {
-                            MessageBoxResult result = MessageBox.Show(AppResources.Youhave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial, "Purchase?", MessageBoxButton.OKCancel);
-
-                            if (result == MessageBoxResult.OK)
-                            {
-                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                                marketplaceReviewTask.Show();
-                            }
-                        }
-                    }
-                    //app not rated, rate to add 10 days to trial
-                    else if (!_rated && _numberOfTimesOpened >= 2)
+                else //Trial has NOT expired
+                {                   
+                    if (!_rated && _numberOfTimesOpened >= 2)
                     {
                         if (!skipMessageBox)
                         {
@@ -132,18 +170,15 @@ namespace BabyApp
 
                             if (result == MessageBoxResult.OK)
                             {
-                                Trial.Add10DaysToTrial();
-
                                 IS.SaveSetting("AppRated", "Yes");
                                 _rated = true;
-                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                                marketplaceReviewTask.Show();
                             }
                         }
                     }
+                    EnableApplication(true);
                 }
             }
-            else
+            else//This is not a trial
             {
                 EnableApplication(true);
                 if (!_rated)
@@ -159,6 +194,7 @@ namespace BabyApp
 
         private void EnableApplication(bool enabled)
         {
+            SetPivots(App.gCategory);
             if (enabled)
             {
                 TrialOverTextBlock.Visibility = Visibility.Collapsed;
@@ -300,42 +336,83 @@ namespace BabyApp
             {
                 case "CartoonAnimals":
                     App.gCategory = "CartoonAnimals";
-                    PivotSlides.Clear();
-                    PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
-                    PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
-                    PivotSlides.Add(new PivotSlide("Slide3", CartoonAnimals[18], CartoonAnimals[19], CartoonAnimals[20], CartoonAnimals[21], CartoonAnimals[22], CartoonAnimals[23], CartoonAnimals[24], CartoonAnimals[25], CartoonAnimals[26]));
-                    PivotSlides.Add(new PivotSlide("Slide4", CartoonAnimals[27], CartoonAnimals[28], CartoonAnimals[29], CartoonAnimals[30], CartoonAnimals[31], CartoonAnimals[32], CartoonAnimals[33], CartoonAnimals[34], CartoonAnimals[35]));
-                    PivotSlides.Add(new PivotSlide("Slide5", CartoonAnimals[36], CartoonAnimals[37], CartoonAnimals[38], CartoonAnimals[39], CartoonAnimals[40], CartoonAnimals[41], CartoonAnimals[42], CartoonAnimals[43], CartoonAnimals[44]));
 
-                    //TJY Hack due to pivot not loading correctly when user switches to new pivot then changes category
-                    PivotSlides.Clear();
-                    PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
-                    PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
-                    PivotSlides.Add(new PivotSlide("Slide3", CartoonAnimals[18], CartoonAnimals[19], CartoonAnimals[20], CartoonAnimals[21], CartoonAnimals[22], CartoonAnimals[23], CartoonAnimals[24], CartoonAnimals[25], CartoonAnimals[26]));
-                    PivotSlides.Add(new PivotSlide("Slide4", CartoonAnimals[27], CartoonAnimals[28], CartoonAnimals[29], CartoonAnimals[30], CartoonAnimals[31], CartoonAnimals[32], CartoonAnimals[33], CartoonAnimals[34], CartoonAnimals[35]));
-                    PivotSlides.Add(new PivotSlide("Slide5", CartoonAnimals[36], CartoonAnimals[37], CartoonAnimals[38], CartoonAnimals[39], CartoonAnimals[40], CartoonAnimals[41], CartoonAnimals[42], CartoonAnimals[43], CartoonAnimals[44]));
+                    if ((Application.Current as App).IsTrial)
+                    {
+                        if (_rated)
+                        {
+                            PivotSlides.Clear();
+                            PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+                            PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
 
-                    //          PivotSlides.Add(new PivotSlide("Slide6", CartoonAnimals[45], CartoonAnimals[46], CartoonAnimals[47], CartoonAnimals[48], CartoonAnimals[49], CartoonAnimals[50], CartoonAnimals[51], CartoonAnimals[52], CartoonAnimals[53]));
-                    //          PivotSlides.Add(new PivotSlide("Slide7", CartoonAnimals[54], CartoonAnimals[55], CartoonAnimals[56], CartoonAnimals[57], CartoonAnimals[58], CartoonAnimals[59], CartoonAnimals[60], CartoonAnimals[61], CartoonAnimals[62]));
+                            PivotSlides.Clear();
+                            PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+                            PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
+                        }
+                        else
+                        {
+                            PivotSlides.Clear();
+                            PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
 
+                            PivotSlides.Clear();
+                            PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+                        }
+                    }
+                    else //NOT a trial so make all pics available
+                    {
+                        PivotSlides.Clear();
+                        PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+                        PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
+                        PivotSlides.Add(new PivotSlide("Slide3", CartoonAnimals[18], CartoonAnimals[19], CartoonAnimals[20], CartoonAnimals[21], CartoonAnimals[22], CartoonAnimals[23], CartoonAnimals[24], CartoonAnimals[25], CartoonAnimals[26]));
+                        PivotSlides.Add(new PivotSlide("Slide4", CartoonAnimals[27], CartoonAnimals[28], CartoonAnimals[29], CartoonAnimals[30], CartoonAnimals[31], CartoonAnimals[32], CartoonAnimals[33], CartoonAnimals[34], CartoonAnimals[35]));
+                        PivotSlides.Add(new PivotSlide("Slide5", CartoonAnimals[36], CartoonAnimals[37], CartoonAnimals[38], CartoonAnimals[39], CartoonAnimals[40], CartoonAnimals[41], CartoonAnimals[42], CartoonAnimals[43], CartoonAnimals[44]));
+
+                        //TJY Hack due to pivot not loading correctly when user switches to new pivot then changes category
+                        PivotSlides.Clear();
+                        PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+                        PivotSlides.Add(new PivotSlide("Slide2", CartoonAnimals[9], CartoonAnimals[10], CartoonAnimals[11], CartoonAnimals[12], CartoonAnimals[13], CartoonAnimals[14], CartoonAnimals[15], CartoonAnimals[16], CartoonAnimals[17]));
+                        PivotSlides.Add(new PivotSlide("Slide3", CartoonAnimals[18], CartoonAnimals[19], CartoonAnimals[20], CartoonAnimals[21], CartoonAnimals[22], CartoonAnimals[23], CartoonAnimals[24], CartoonAnimals[25], CartoonAnimals[26]));
+                        PivotSlides.Add(new PivotSlide("Slide4", CartoonAnimals[27], CartoonAnimals[28], CartoonAnimals[29], CartoonAnimals[30], CartoonAnimals[31], CartoonAnimals[32], CartoonAnimals[33], CartoonAnimals[34], CartoonAnimals[35]));
+                        PivotSlides.Add(new PivotSlide("Slide5", CartoonAnimals[36], CartoonAnimals[37], CartoonAnimals[38], CartoonAnimals[39], CartoonAnimals[40], CartoonAnimals[41], CartoonAnimals[42], CartoonAnimals[43], CartoonAnimals[44]));
+
+                        //          PivotSlides.Add(new PivotSlide("Slide6", CartoonAnimals[45], CartoonAnimals[46], CartoonAnimals[47], CartoonAnimals[48], CartoonAnimals[49], CartoonAnimals[50], CartoonAnimals[51], CartoonAnimals[52], CartoonAnimals[53]));
+                        //          PivotSlides.Add(new PivotSlide("Slide7", CartoonAnimals[54], CartoonAnimals[55], CartoonAnimals[56], CartoonAnimals[57], CartoonAnimals[58], CartoonAnimals[59], CartoonAnimals[60], CartoonAnimals[61], CartoonAnimals[62]));
+                    }
                     break;
                 case "Animals":
                     App.gCategory = "Animals";
-                    PivotSlides.Clear();
-                    PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
-                    PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
-                    PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
-                    PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
-                    PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
 
-                    //TJY Hack due to pivot not loading correctly when user switches to new pivot then changes category
-                    PivotSlides.Clear();
-                    PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
-                    PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
-                    PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
-                    PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
-                    PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
+                    if ((Application.Current as App).IsTrial)
+                    {
+                        if (_rated)
+                        {
+                            PivotSlides.Clear();
+                            PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                            PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
+                        }
+                        else
+                        {
+                            PivotSlides.Clear();
+                            PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                        }
+                    }
+                    else
+                    {
+                        PivotSlides.Clear();
+                        PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                        PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
+                        PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
+                        PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
+                        PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
 
+                        //TJY Hack due to pivot not loading correctly when user switches to new pivot then changes category
+                        PivotSlides.Clear();
+                        PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                        PivotSlides.Add(new PivotSlide("Slide2", Animals[9], Animals[10], Animals[11], Animals[12], Animals[13], Animals[14], Animals[15], Animals[16], Animals[17]));
+                        PivotSlides.Add(new PivotSlide("Slide3", Animals[18], Animals[19], Animals[20], Animals[21], Animals[22], Animals[23], Animals[24], Animals[25], Animals[26]));
+                        PivotSlides.Add(new PivotSlide("Slide4", Animals[27], Animals[28], Animals[29], Animals[30], Animals[31], Animals[32], Animals[33], Animals[34], Animals[35]));
+                        PivotSlides.Add(new PivotSlide("Slide5", Animals[36], Animals[37], Animals[38], Animals[39], Animals[40], Animals[41], Animals[42], Animals[43], Animals[44]));
+                    }
                     break;
             }
         }
@@ -567,6 +644,11 @@ namespace BabyApp
             }
 
             return returnValue;
+        }
+
+        public void AppHasComeBackIntoFocus()
+        {
+            PaidAppInitialization(true);
         }
 
         #endregion "Methods"
@@ -1551,6 +1633,11 @@ namespace BabyApp
             marketplaceSearchTask.Show();
         }
 
+        private void Purchase_Click(object sender, EventArgs e)
+        {   
+            _marketPlaceDetailTask.Show();
+        }
+
         private void Help_Click(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/Help.xaml", UriKind.Relative));
@@ -1621,6 +1708,12 @@ namespace BabyApp
                     appBarMenuItem3.Click += new EventHandler(Review_Click);
                 }
 
+                if ((Application.Current as App).IsTrial)
+                {
+                    ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.Purchase);
+                    ApplicationBar.MenuItems.Add(appBarMenuItem4);
+                    appBarMenuItem4.Click += new EventHandler(Purchase_Click);
+                }
                 //Decided to not show this for baby app since more apps would show spycam
                 //  ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
                 //  ApplicationBar.MenuItems.Add(appBarMenuItem4);
@@ -1638,9 +1731,6 @@ namespace BabyApp
 
         #endregion "Common Routines"
 
-        public void AppHasComeBackIntoFocus()
-        {
-            PaidAppInitialization(true);
-        }
+
     }
 }

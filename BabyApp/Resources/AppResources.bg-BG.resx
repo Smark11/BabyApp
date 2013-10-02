@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Миеща мечка</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Като този app? Позволявам всеки иначе зная!  Тъй като нашите благодаря ви ние ще разшири своя опит до 10 дни!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Като този app? Позволявам всеки иначе зная!  Тъй като нашите благодаря ви ние ще разшири своя опит до 10 дни!  Оцени този app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Донесох ви от:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>дни ляво във вашия опит.  Желаете ли да закупите?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Разшири изпитание за 10 дни по оценка на заявлението?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>За да инсталирате реч език на телефона си, моля, следвайте insructions по-долу:</value>

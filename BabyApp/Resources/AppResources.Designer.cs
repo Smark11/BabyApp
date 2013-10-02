@@ -450,7 +450,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extend Trial to 10 days by rating the application?.
+        ///   Looks up a localized string similar to Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?.
         /// </summary>
         public static string ExtendTrial {
             get {
@@ -918,6 +918,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Purchase.
+        /// </summary>
+        public static string Purchase {
+            get {
+                return ResourceManager.GetString("Purchase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rabbit.
         /// </summary>
         public static string Rabbit {
@@ -945,7 +954,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!.
+        ///   Looks up a localized string similar to Like this app? Let everyone else know!.
         /// </summary>
         public static string RateTheAppPrompt {
             get {
@@ -954,7 +963,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Like this app? Let everyone else know!  As our thanks to you we will extend your trial to 10 days!  Rate this app?.
+        ///   Looks up a localized string similar to Like this app? Let everyone else know! Rate this app?.
         /// </summary>
         public static string RateTheAppQuestion {
             get {

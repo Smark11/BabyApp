@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Guaxinim</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Como este app? Avise todo mundo!  Como nossos agradecimentos a você, nós estenderemos seu julgamento para 10 dias!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Como este app? Avise todo mundo!  Como nossos agradecimentos a você, nós estenderemos seu julgamento para 10 dias!  Classifique este app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Trazido a você por:</value>
   </data>
@@ -501,9 +495,6 @@ Baixe este app hoje!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dias deixaram em seu julgamento.  Deseja comprar?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Estender o julgamento de 10 dias pela avaliação da aplicação?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Para instalar um idioma de discurso em seu telefone, por favor, siga a operação abaixo:</value>

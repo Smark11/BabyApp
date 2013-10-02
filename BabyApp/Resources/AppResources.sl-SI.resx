@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Rakun</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Kot to app? Naj vsi ostali vedo!  Kot je naša hvala vam bomo podaljšanje vaš poskus za 10 dni!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Kot to app? Naj vsi ostali vedo!  Kot je naša hvala vam bomo podaljšanje vaš poskus za 10 dni!  Ocenite to app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Vam prinaša:</value>
   </data>
@@ -501,9 +495,6 @@ Travnato gričevje to app danes!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>dni, v vaš poskus.  Ali želite kupiti?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Razširiti poskus za 10 dni ocenite uporabo?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Umestiti jezik govora na telefonu, sledite spodaj insructions:</value>

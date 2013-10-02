@@ -449,12 +449,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Raton</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Ca acest app? Lasa toata lumea ştie!  Ca noastre mulţumiri la spre tu îţi vom prelungi proces dumneavoastră la 10 zile!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Ca acest app? Lasa toata lumea ştie!  Ca noastre mulţumiri la spre tu îţi vom prelungi proces dumneavoastră la 10 zile!  Rata de acest app?</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Adus la tine de:</value>
   </data>
@@ -501,9 +495,6 @@ Descărcaţi acest app astăzi!</value>
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>zile stânga în proces dumneavoastră.  Doriţi să cumpere?</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Prelungi proces la 10 zile de evaluare aplicarea?</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Pentru a instala un limbaj de vorbire pe telefonul dvs., vă rugăm să urmaţi insructions de mai jos:</value>

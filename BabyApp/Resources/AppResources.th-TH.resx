@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>สัตว์คล้ายหมีเล็ก</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>เช่น app นี้ ให้คนอื่นรู้  เป็นเราขอขอบคุณคุณ เราจะขยายการทดลอง 10 วัน</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>เช่น app นี้ ให้คนอื่นรู้  เป็นเราขอขอบคุณคุณ เราจะขยายการทดลอง 10 วัน  ราคา app นี้</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>นำมาให้คุณโดย:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>วันที่เหลืออยู่ในการทดลอง  คุณต้องการซื้อหรือไม่</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>ขยายทดลอง 10 วัน โดยใช้การจัดอันดับหรือไม่</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>การติดตั้งภาษาพูดในโทรศัพท์ของคุณ โปรดทำตาม insructions ด้านล่าง:</value>

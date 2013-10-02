@@ -463,12 +463,6 @@
   <data name="Raccoon" xml:space="preserve">
     <value>Ρακούν</value>
   </data>
-  <data name="RateTheAppPrompt" xml:space="preserve">
-    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Ως τις ευχαριστίες μας προς εσάς θα επεκτείνουμε την ΔΙΚΗ σας σε 10 ημέρες!</value>
-  </data>
-  <data name="RateTheAppQuestion" xml:space="preserve">
-    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Ως τις ευχαριστίες μας προς εσάς θα επεκτείνουμε την ΔΙΚΗ σας σε 10 ημέρες!  Βαθμολογήστε αυτό το app;</value>
-  </data>
   <data name="BroughtToYouBy" xml:space="preserve">
     <value>Έφερε σε σας από:</value>
   </data>
@@ -501,9 +495,6 @@
   </data>
   <data name="DaysLeftInTrial" xml:space="preserve">
     <value>ημέρες που αφήνονται στη ΔΙΚΗ σας.  Θέλετε να αγοράσετε;</value>
-  </data>
-  <data name="ExtendTrial" xml:space="preserve">
-    <value>Επεκτείνει δίκη για 10 ημέρες, με την εκτίμηση της εφαρμογής;</value>
   </data>
   <data name="Instructions1" xml:space="preserve">
     <value>Για να εγκαταστήσετε μια ομιλία γλώσσα στο τηλέφωνό σας, ακολουθήστε τα παρακάτω insructions:</value>
