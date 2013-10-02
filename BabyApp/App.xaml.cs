@@ -38,6 +38,15 @@ namespace BabyApp
             }
         }
 
+        private static bool _isFreeVersion = false;
+        public bool IsFreeVersion
+        {
+            get
+            {
+                return _isFreeVersion;
+            }
+        }
+
         /// <summary>
         /// Constructor for the Application object.
         /// </summary>

@@ -59,18 +59,8 @@ namespace BabyApp
             _mainPageInstance = this;
 
             EnableApplication(true);
+            _numberOfTimesOpened = GetNumberOfTimesOpened();
 
-            //  EnableSpeechRecognition();
-
-            if (IS.GetSetting(NUMBEROFTIMESOPENED) == null)
-            {
-                IS.SaveSetting(NUMBEROFTIMESOPENED, 0);
-            }
-            else
-            {
-                IS.SaveSetting(NUMBEROFTIMESOPENED, (int)IS.GetSetting(NUMBEROFTIMESOPENED) + 1);
-                _numberOfTimesOpened = (int)IS.GetSetting(NUMBEROFTIMESOPENED);
-            }
 
             //if the user has rated using the 5 day, or
             //if the user has rated to extend the trial, mark the app as rated.
@@ -97,6 +87,12 @@ namespace BabyApp
             PaidAppInitialization(false);
         }
 
+        #region "Methods"
+
+        private void FreeAppInitialization()
+        {
+        }
+
         private void PaidAppInitialization(bool skipMessageBox)
         {
             if ((Application.Current as App).IsTrial)
@@ -105,15 +101,15 @@ namespace BabyApp
                 {
                     if (!skipMessageBox)
                     {
-                        MessageBox.Show( AppResources.TrailHasExpired);
+                        MessageBox.Show(AppResources.TrailHasExpired);
                     }
                     EnableApplication(false);
                     _marketPlaceDetailTask.Show();
                 }
-                else
+                else //Trial has expired
                 {
                     EnableApplication(true);
-                    //App has already been rated
+
                     if (_rated)
                     {
                         if (!skipMessageBox)
@@ -132,7 +128,7 @@ namespace BabyApp
                     {
                         if (!skipMessageBox)
                         {
-                            MessageBoxResult result = MessageBox.Show(AppResources.ExtendTrial,  AppResources.ExtendTrailPromptHeader, MessageBoxButton.OKCancel);
+                            MessageBoxResult result = MessageBox.Show(AppResources.ExtendTrial, AppResources.ExtendTrailPromptHeader, MessageBoxButton.OKCancel);
 
                             if (result == MessageBoxResult.OK)
                             {
@@ -174,21 +170,6 @@ namespace BabyApp
                 TrialOverTextBlock.Visibility = Visibility.Visible;
                 pivotControl.IsEnabled = false;
                 appBarButton1.IsEnabled = false;
-            }
-        }
-
-        #region "Methods"
-
-        private void EnableSpeechRecognition()
-        {
-            try
-            {
-                SpeechRecognizerUI recoWithUI = new SpeechRecognizerUI();
-                recoWithUI.Recognizer.SetRecognizer(InstalledSpeechRecognizers.All.First());
-            }
-            catch
-            {
-                throw;
             }
         }
 
@@ -560,6 +541,29 @@ namespace BabyApp
                 case "BOX9":
                     returnValue = slide.Box9;
                     break;
+            }
+
+            return returnValue;
+        }
+
+        private int GetNumberOfTimesOpened()
+        {
+            int returnValue = 0;
+
+            try
+            {
+                if (IS.GetSetting(NUMBEROFTIMESOPENED) == null)
+                {
+                    IS.SaveSetting(NUMBEROFTIMESOPENED, 0);
+                }
+                else
+                {
+                    IS.SaveSetting(NUMBEROFTIMESOPENED, (int)IS.GetSetting(NUMBEROFTIMESOPENED) + 1);
+                    returnValue = (int)IS.GetSetting(NUMBEROFTIMESOPENED);
+                }
+            }
+            catch (Exception)
+            {
             }
 
             return returnValue;
@@ -1623,9 +1627,9 @@ namespace BabyApp
                 //  appBarMenuItem4.Click += new EventHandler(MoreApps_Click);
 
                 //Removing from menu.  Adding button to option screen.
-                  //ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.Help);
-                  //ApplicationBar.MenuItems.Add(appBarMenuItem5);
-                  //appBarMenuItem5.Click += new EventHandler(Help_Click);
+                //ApplicationBarMenuItem appBarMenuItem5 = new ApplicationBarMenuItem(AppResources.Help);
+                //ApplicationBar.MenuItems.Add(appBarMenuItem5);
+                //appBarMenuItem5.Click += new EventHandler(Help_Click);
             }
             catch (Exception ex)
             {

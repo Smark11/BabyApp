@@ -493,24 +493,24 @@ Features include:
 
 * Over 150 images and sounds
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Навчити немовлят і малюків тварин та їх звуки до 9 різними мовами.
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
 
-Особливості включають:
+Features include:
 
-* 150 Зображення та звуки
-* 2 різних категорій
-* Слайд-шоу для безперервної грати
-* Зображення голос Опис
-* 9 різними мовами
-* Назва тварини для кожного зображення
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
 
-Завантажити цей застосунок сьогодні!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>

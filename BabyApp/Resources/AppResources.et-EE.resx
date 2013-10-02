@@ -490,20 +490,6 @@ Funktsioonide hulka kuuluvad:
 
 Lae alla käesoleva app täna!</value>
   </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
-
-Funktsioonide hulka kuuluvad:
-
-* Rohkem kui 150 pildid ja helid
-* 2 erinevat kategooriat
-* Pidev play Slideshow
-* Pilt hääl kirjeldus
-* 9 erinevat keelt
-* Animal nimi igale pildile
-
-Lae alla käesoleva app täna!</value>
-  </data>
   <data name="AppTitle" xml:space="preserve">
     <value>Õppetöö Tom</value>
   </data>

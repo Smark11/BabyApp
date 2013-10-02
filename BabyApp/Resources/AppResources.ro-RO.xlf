@@ -493,24 +493,24 @@ Features include:
 
 * Over 150 images and sounds
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Invata-copii şi copii mici animale şi sunetele lor în până la 9 limbi diferite.
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
 
-Caracteristicile includ:
+Features include:
 
-* Peste 150 de imagini şi sunete
-* 2 categorii diferite
-* Prezentare de diapozitive pentru redare continuă
-* Descrierea de voce imaginii
-* 9 limbi diferite
-* Nume de animale pentru fiecare imagine
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
 
-Descărcaţi acest app astăzi!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>

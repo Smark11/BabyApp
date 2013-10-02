@@ -493,24 +493,24 @@ Features include:
 
 * Over 150 images and sounds
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">教婴儿和初学走路的儿童动物和其达 9 种不同语言的声音。
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
 
-功能包括：
+Features include:
 
-* 超过 150 的图像和声音
-* 2 不同类别
-* 为连续播放的的幻灯片放映
-* 图像语音说明
-* 9 种不同语言
-* 动物的每个图像的名称
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
 
-今天下载这个应用程序 ！</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
