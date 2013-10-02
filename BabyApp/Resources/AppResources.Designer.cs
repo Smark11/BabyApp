@@ -1230,7 +1230,7 @@ namespace BabyApp.Resources {
         ///
         ///* Over 150 images and sounds
         ///* 2 different categories
-        ///* Slideshow for continous play
+        ///* Slideshow for continuous play
         ///* Image voice description
         ///* 9 different languages
         ///* Name of animal for each image
