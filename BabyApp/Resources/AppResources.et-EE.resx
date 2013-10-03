@@ -520,28 +520,11 @@ Lae alla käesoleva app täna!</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Laiendamine kohtuprotsess?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Teie prooviversioon on aegunud, palun osta taotlus!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Nagu see app? Lase kõik teised teavad!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Nagu see app? Lase kõik teised teavad! Hinda seda app?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
-
-Funktsioonide hulka kuuluvad:
-
-* Rohkem kui 150 pildid ja helid
-* 2 erinevat kategooriat
-* Slideshow pidevaks mängimiseks
-* Pilt hääl kirjeldus
-* 9 erinevat keelt
-* Animal nimi igale pildile
-
-Lae alla käesoleva app täna!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Nagu see app? Lase kõik teised teavad!  Nagu meie tänu teile me lisada 9 uus cartoon ja 9 real loomade pildid. Hinda seda app?</value>

@@ -520,28 +520,11 @@ Téléchargez cette application dès aujourd'hui !</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Prolonger le procès ?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Votre période d'essai a expiré, s'il vous plaît acheter l'application !</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Comme ce soft ? Tout le monde faites le savoir !</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Comme ce soft ? Tout le monde faites le savoir ! Noter ce soft ?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Enseigner les bébés et les animaux les tout-petits et leurs sons en jusqu'à 9 langues différentes.
-
-Caractéristiques comprennent :
-
-* Plus de 150 images et sons
-* 2 catégories différentes
-* Diaporama à lecture continue
-* Description vocale image
-* 9 langues
-* Nom de l'animal pour chaque image
-
-Téléchargez cette application dès aujourd'hui !</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Comme ce soft ? Tout le monde faites le savoir !  Comme nos remerciements à vous, nous allons ajouter cartoon nouvelle 9 et 9 nouvelles images d'animal réel. Noter ce soft ?</value>

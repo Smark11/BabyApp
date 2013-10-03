@@ -83,74 +83,16 @@ namespace BabyApp
         {
         }
 
-        //private void PaidAppInitialization(bool skipMessageBox)
-        // {
-        //     if ((Application.Current as App).IsTrial)
-        //     {
-        //         if (Trial.IsTrialExpired())
-        //         {
-        //             if (!skipMessageBox)
-        //             {
-        //                 MessageBox.Show(AppResources.TrailHasExpired);
-        //             }
-        //             EnableApplication(false);
-        //             _marketPlaceDetailTask.Show();
-        //         }
-        //         else //Trial has NOT expired
-        //         {
-        //             EnableApplication(true);
-
-        //             if (_rated)
-        //             {
-        //                 if (!skipMessageBox)
-        //                 {
-        //                     MessageBoxResult result = MessageBox.Show(AppResources.Youhave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial, "Purchase?", MessageBoxButton.OKCancel);
-
-        //                     if (result == MessageBoxResult.OK)
-        //                     {
-        //                         MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-        //                         marketplaceReviewTask.Show();
-        //                     }
-        //                 }
-        //             }
-        //             //app not rated, rate to add 10 days to trial
-        //             else if (!_rated && _numberOfTimesOpened >= 2)
-        //             {
-        //                 if (!skipMessageBox)
-        //                 {
-        //                     MessageBoxResult result = MessageBox.Show(AppResources.ExtendTrial, AppResources.ExtendTrailPromptHeader, MessageBoxButton.OKCancel);
-
-        //                     if (result == MessageBoxResult.OK)
-        //                     {
-        //                         Trial.Add10DaysToTrial();
-
-        //                         IS.SaveSetting("AppRated", "Yes");
-        //                         _rated = true;
-        //                         MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-        //                         marketplaceReviewTask.Show();
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     }
-        //     else
-        //     {
-        //         EnableApplication(true);
-        //         if (!_rated)
-        //         {
-        //             if (!skipMessageBox)
-        //             {
-        //                 //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
-        //                 Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
-        //             }
-        //         }
-        //     }
-        // }
 
         private void PaidAppInitialization(bool skipMessageBox)
-        {
+        {         
             if ((Application.Current as App).IsTrial)
             {
+                if (_numberOfTimesOpened == 0)
+                {
+                    MessageBox.Show(AppResources.InformationalMessage, AppResources.InformationalMessageHeader, MessageBoxButton.OK);
+                }
+
                 if (Trial.IsTrialExpired())
                 {
                     if (!skipMessageBox)
@@ -162,7 +104,7 @@ namespace BabyApp
                 }
                 else //Trial has NOT expired
                 {
-                    if (!_rated && _numberOfTimesOpened >= 2)
+                    if (!_rated && _numberOfTimesOpened >= 3)
                     {
                         if (!skipMessageBox)
                         {
@@ -170,6 +112,8 @@ namespace BabyApp
 
                             if (result == MessageBoxResult.OK)
                             {
+                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                                marketplaceReviewTask.Show();                            
                                 IS.SaveSetting("AppRated", "Yes");
                                 _rated = true;
                                 MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();

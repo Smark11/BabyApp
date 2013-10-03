@@ -520,28 +520,11 @@
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>ขยายการทดลองหรือไม่</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>ทดลองของคุณหมดอายุแล้ว กรุณาซื้อแอพลิเคชัน</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>เช่น app นี้ ให้คนอื่นรู้</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>เช่น app นี้ ให้คนอื่นรู้ ราคา app นี้</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>สอนเด็กทารก และเด็กวัยหัดเดินสัตว์ และเสียงของพวกเขาในภาษาต่าง ๆ ถึง 9
-
-คุณสมบัติรวมถึง:
-
-* กว่า 150 ภาพและเสียง
-* 2 ประเภทแตกต่างกัน
-* การนำเสนอภาพนิ่งสำหรับการเล่นอย่างต่อเนื่อง
-* ภาพเสียงอธิบาย
-* ภาษา 9
-* ชื่อของสัตว์แต่ละรูป
-
-ดาวน์โหลด app นี้วันนี้</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>เช่น app นี้ ให้คนอื่นรู้  เป็นเราขอขอบคุณคุณ เราจะเพิ่มการ์ตูน 9 ใหม่และรูปภาพสัตว์จริงใหม่ 9 ราคา app นี้</value>

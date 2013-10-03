@@ -477,7 +477,8 @@ Download this app today!</value>
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
 * Slideshow for continuous play
 * Image voice description
@@ -544,12 +545,18 @@ Download this app today!</value>
     <value>Extend Trial?</value>
   </data>
   <data name="TrailHasExpired" xml:space="preserve">
-    <value>Your trial has expired, please purchase the application!</value>
+    <value>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</value>
   </data>
   <data name="Purchase" xml:space="preserve">
     <value>Purchase</value>
   </data>
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Trial Has Expired</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Teaching Tom</value>
   </data>
 </root>

@@ -520,28 +520,11 @@ Scarica questa applicazione!</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Estendere la sperimentazione?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>La versione di prova è scaduta, si prega di acquistare l'applicazione!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Come questa app? Tutti gli altri far sapere!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Come questa app? Tutti gli altri far sapere! Votare questa app?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Insegnare a neonati e bambini piccoli animali e loro suoni in fino a 9 lingue diverse.
-
-Le caratteristiche includono:
-
-* Oltre 150 immagini e suoni
-* 2 categorie differenti
-* Slideshow per riproduzione continua
-* Descrizione voce immagine
-* 9 diverse lingue
-* Nome di animale per ogni immagine
-
-Scarica questa applicazione!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Come questa app? Tutti gli altri far sapere!  Come i nostri ringraziamenti a voi aggiungiamo 9 nuovi cartoon e 9 nuove immagini reali degli animali. Votare questa app?</value>

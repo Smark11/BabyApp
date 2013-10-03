@@ -491,7 +491,8 @@ Tải về ứng dụng này vào ngày hôm nay!</target>
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
 * Slideshow for continuous play
 * Image voice description
@@ -499,18 +500,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
 
-Tính năng bao gồm:
+Features include:
 
-* Hơn 150 hình ảnh và âm thanh
-* 2 các loại khác nhau
-* Xem hình tự động để chơi liên tục
-* Hình ảnh thoại mô tả
-* 9 ngôn ngữ khác nhau
-* Tên của động vật cho mỗi hình ảnh
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
 
-Tải về ứng dụng này vào ngày hôm nay!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -589,8 +591,8 @@ Tải về ứng dụng này vào ngày hôm nay!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở rộng phiên tòa?</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
-          <source>Your trial has expired, please purchase the application!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thử nghiệm của bạn đã hết hạn, xin vui lòng mua ứng dụng!</target>
+          <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
+          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -599,6 +601,14 @@ Tải về ứng dụng này vào ngày hôm nay!</target>
         <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
           <source>Trial Has Expired</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Phiên tòa đã hết hạn</target>
+        </trans-unit>
+        <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
+          <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
+          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+        </trans-unit>
+        <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
+          <source>Teaching Tom</source>
+          <target state="new">Teaching Tom</target>
         </trans-unit>
       </group>
     </body>

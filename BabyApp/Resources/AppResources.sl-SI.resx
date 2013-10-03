@@ -520,28 +520,11 @@ Travnato gričevje to app danes!</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Razširiti poskus?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Vaš poskus has izdihniti, prosim nakup uporabe!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Kot to app? Naj vsi ostali vedo!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Kot to app? Naj vsi ostali vedo! Ocenite to app?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
-
-Funkcije vključujejo:
-
-* Več kot 150 slik in zvokov
-* 2 različne kategorije
-* Slideshow za neprekinjeno predvajanje
-* Slika glas opis
-* 9 različnih jezikih
-* Ime živali za vsako sliko
-
-Travnato gričevje to app danes!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Kot to app? Naj vsi ostali vedo!  Kot je naša hvala vam bomo dodali 9 nove risanke in 9 nove slike resnično živali. Ocenite to app?</value>

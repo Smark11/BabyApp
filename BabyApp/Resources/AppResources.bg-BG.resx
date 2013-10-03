@@ -520,28 +520,11 @@
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Разшири изпитание?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Вашият пробен период е изтекъл, моля закупуване на приложението!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Като този app? Позволявам всеки иначе зная!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Като този app? Позволявам всеки иначе зная! Оцени този app?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Научи бебета и toddlers животните и техните звуци до 9 различни езици.
-
-Характеристики включват:
-
-* Над 150 образи и звуци
-* 2 категории
-* Слайдшоу за продължителна игра
-* Изображението глас описание
-* 9 различни езици
-* Име на животното за всяко изображение
-
-Изтеглете този ап днес!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Като този app? Позволявам всеки иначе зная!  Тъй като нашите благодаря ви ние ще добави 9 нови анимационни и 9 нови Недвижими животните снимки. Оцени този app?</value>

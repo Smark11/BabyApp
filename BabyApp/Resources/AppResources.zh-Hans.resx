@@ -520,28 +520,11 @@
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>延长审判吗？</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>您的试用版已过期，请购买应用程序 ！</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>像这个应用程序吗？让大家都知道 ！</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>像这个应用程序吗？让大家都知道 ！率这个应用程序吗？</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>教婴儿和初学走路的儿童动物和其达 9 种不同语言的声音。
-
-功能包括：
-
-* 超过 150 的图像和声音
-* 2 不同类别
-* 以连续播放的幻灯片放映
-* 图像语音说明
-* 9 种不同语言
-* 动物的每个图像的名称
-
-今天下载这个应用程序 ！</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>像这个应用程序吗？让大家都知道 ！作为我们对你的感谢，我们将添加 9 新卡通和 9 新真实动物图片。率这个应用程序吗？</value>
