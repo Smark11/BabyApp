@@ -491,7 +491,8 @@ Descarregar aquest app avui!</target>
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
 * Slideshow for continuous play
 * Image voice description
@@ -499,18 +500,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
 
-Les característiques inclouen:
+Features include:
 
-* Més de 150 imatges i sons
-* 2 categories diferents
-* Presentació de diapositives per jugar contínua
-* Descripció de la veu imatge
-* 9 idiomes diferents
-* Nom del animal per a cada imatge
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
 
-Descarregar aquest app avui!</target>
+Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -589,8 +591,8 @@ Descarregar aquest app avui!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ampliar de Trial?</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
-          <source>Your trial has expired, please purchase the application!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">El seu judici ha expirat, si us plau comprar l'aplicació!</target>
+          <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
+          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -599,6 +601,14 @@ Descarregar aquest app avui!</target>
         <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
           <source>Trial Has Expired</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Judici ha expirat</target>
+        </trans-unit>
+        <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
+          <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
+          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+        </trans-unit>
+        <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
+          <source>Teaching Tom</source>
+          <target state="new">Teaching Tom</target>
         </trans-unit>
       </group>
     </body>

@@ -520,28 +520,11 @@ Stáhněte tuto app dnes!</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Prodloužit zkušební verzi?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Vaše zkušební verze vypršela, zakupte aplikaci!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Jako tato app? Ať všichni vědí!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Jako tato app? Ať všichni vědí! Ohodnoťte tuto app?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Učit děti a batolata zvířata a jejich zvuky v až 9 různých jazycích.
-
-Mezi funkce patří:
-
-* Více než 150 obrazů a zvuků
-* 2 různé kategorie
-* Prezentace pro nepřetržité přehrávání
-* Popis hlas obrazu
-* 9 různé jazyky
-* Jméno zvířete pro každý obrázek
-
-Stáhněte tuto app dnes!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Jako tato app? Ať všichni vědí!  Jako naše poděkování vám přidáme 9 nový komiks a 9 nové fotografie skutečné zvíře. Ohodnoťte tuto app?</value>

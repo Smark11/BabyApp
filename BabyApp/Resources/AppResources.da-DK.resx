@@ -520,28 +520,11 @@ Download denne app i dag!</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Udvide retssag?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Prøveversionen er udløbet, kan du købe programmet!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Ligesom denne app? Lade enhver ellers kende!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Ligesom denne app? Lade enhver ellers kende! Vurder denne app?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Lære babyer og småbørn dyr og deres lyde i op til 9 forskellige sprog.
-
-Funktioner omfatter:
-
-* Mere end 150 billeder og lyde
-* 2 forskellige kategorier
-* Slideshow for kontinuerlig afspilning
-* Billede stemme beskrivelse
-* 9 forskellige sprog
-* Navnet på dyret for hvert billede
-
-Download denne app i dag!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Ligesom denne app? Lade enhver ellers kende!  Som vores tak til dig vil vi tilføje 9 nye tegneserie og 9 nye real dyr billeder. Vurder denne app?</value>

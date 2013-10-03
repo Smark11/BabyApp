@@ -520,28 +520,11 @@
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>تمديد المحاكمة؟</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>انتهت المحاكمة الخاصة بك، الرجاء شراء التطبيق!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف! معدل هذا التطبيق؟</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>تعليم الأطفال الرضع والأطفال الصغار الحيوانات وتلك الأصوات في لغات مختلفة تصل إلى 9.
-
-وتشمل الميزات:
-
-* ما يزيد على 150 من الصور والأصوات
-* 2 فئات مختلفة
-* عرض الشرائح لتشغيله باستمرار
-* الصورة الوصف الصوتي
-* 9 لغات مختلفة
-* اسم حيوان لكل صورة
-
-تحميل هذا التطبيق اليوم!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  كما شكرنا لكم وسوف نضيف الكرتون الجديد 9 و 9 صور حيوانية حقيقية جديدة. معدل هذا التطبيق؟</value>

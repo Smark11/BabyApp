@@ -520,28 +520,11 @@
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Продовжити суду?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Завершився ознайомлювальний, будь ласка, купити додаток!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Як цей застосунок? Хай всі інші знають!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Як цей застосунок? Хай всі інші знають! Оцінити цей застосунок?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Навчити немовлят і малюків тварин та їх звуки до 9 різними мовами.
-
-Особливості включають:
-
-* 150 Зображення та звуки
-* 2 різних категорій
-* Слайд-шоу для безперервного відтворення
-* Зображення голос Опис
-* 9 різними мовами
-* Назва тварини для кожного зображення
-
-Завантажити цей застосунок сьогодні!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Як цей застосунок? Хай всі інші знають!  Як наш завдяки вам ми будемо додавати мультфільм 9 нових і 9 нових реальним тварини фотографії. Оцінити цей застосунок?</value>

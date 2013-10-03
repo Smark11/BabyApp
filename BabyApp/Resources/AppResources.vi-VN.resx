@@ -520,28 +520,11 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Mở rộng phiên tòa?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Thử nghiệm của bạn đã hết hạn, xin vui lòng mua ứng dụng!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Giống như ứng dụng này? Hãy để tất cả mọi người khác biết!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Giống như ứng dụng này? Hãy để tất cả mọi người khác biết! Đánh giá các ứng dụng này?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
-
-Tính năng bao gồm:
-
-* Hơn 150 hình ảnh và âm thanh
-* 2 các loại khác nhau
-* Xem hình tự động để chơi liên tục
-* Hình ảnh thoại mô tả
-* 9 ngôn ngữ khác nhau
-* Tên của động vật cho mỗi hình ảnh
-
-Tải về ứng dụng này vào ngày hôm nay!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Giống như ứng dụng này? Hãy để tất cả mọi người khác biết!  Như chúng tôi cảm ơn cho bạn, chúng tôi sẽ thêm phim hoạt hình mới 9 và 9 hình ảnh mới động vật thực sự. Đánh giá các ứng dụng này?</value>

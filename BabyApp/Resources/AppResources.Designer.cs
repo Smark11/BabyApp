@@ -567,6 +567,24 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app..
+        /// </summary>
+        public static string InformationalMessage {
+            get {
+                return ResourceManager.GetString("InformationalMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teaching Tom.
+        /// </summary>
+        public static string InformationalMessageHeader {
+            get {
+                return ResourceManager.GetString("InformationalMessageHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to To install a speech language on your phone, please follow the insructions below:.
         /// </summary>
         public static string Instructions1 {
@@ -1188,7 +1206,7 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your trial has expired, please purchase the application!.
+        ///   Looks up a localized string similar to Your trial has expired, please purchase the application to get over 130 pictures and sounds!.
         /// </summary>
         public static string TrailHasExpired {
             get {
@@ -1246,7 +1264,8 @@ namespace BabyApp.Resources {
         ///
         ///Features include:
         ///
-        ///* Over 150 images and sounds
+        ///* Over 130 images and sounds (full version)
+        ///* 27 images and sounds (trial version)
         ///* 2 different categories
         ///* Slideshow for continuous play
         ///* Image voice description

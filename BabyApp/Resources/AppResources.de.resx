@@ -520,28 +520,11 @@ Laden Sie diese app herunter!</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Verlängern Testversion?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Ihre Testversion ist abgelaufen, bitte kaufen Sie die Anwendung!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Wie diese app? Lassen Sie alle anderen wissen!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Wie diese app? Lassen Sie alle anderen wissen! Bewerten Sie diese app?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
-
-Eigenschaften umfassen:
-
-* Über 150 Bilder und Töne
-* 2 verschiedenen Kategorien
-* Diashow für kontinuierliche Wiedergabe
-* Stimme Bildbeschreibung
-* 9 verschiedene Sprachen
-* Name des Tieres für jedes Bild
-
-Laden Sie diese app herunter!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Wie diese app? Lassen Sie alle anderen wissen!  Als unser Dank an Sie werden wir 9 neue Cartoon und 9 neue echte Tier Bilder hinzufügen. Bewerten Sie diese app?</value>

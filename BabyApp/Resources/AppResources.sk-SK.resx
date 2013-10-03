@@ -520,28 +520,11 @@ Stiahnite si túto app dnes!</value>
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Predĺžiť skúšobnú verziu?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Vaše skúšobné vypršala, prosím nákup aplikácie!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Ako túto aplikáciu? Nech všetci ostatní vedieť!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Ako túto aplikáciu? Nech všetci ostatní vedieť! Hodnotiť túto aplikáciu?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
-
-Funkcie patrí:
-
-* Viac ako 150 obrazov a zvukov
-* 2 rôzne kategórie
-* Prezentácie pre nepretržité prehrávanie
-* Image hlas Popis
-* 9 rôznych jazykoch
-* Meno zvieraťa pre každý obrázok
-
-Stiahnite si túto app dnes!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Ako túto aplikáciu? Nech všetci ostatní vedieť!  Ako naše vďaka vám pridáme 9 nový kreslený a 9 nový reálny zvierat obrázky. Hodnotiť túto aplikáciu?</value>

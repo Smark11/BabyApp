@@ -520,28 +520,11 @@
   <data name="ExtendTrailPromptHeader" xml:space="preserve">
     <value>Расширить судебное разбирательство?</value>
   </data>
-  <data name="TrailHasExpired" xml:space="preserve">
-    <value>Истек срок действия пробной, пожалуйста приобретите приложение!</value>
-  </data>
   <data name="RateTheAppPrompt" xml:space="preserve">
     <value>Как этот app? Пусть все еще знают!</value>
   </data>
   <data name="RateTheAppQuestion" xml:space="preserve">
     <value>Как этот app? Пусть все еще знают! Оценить этот app?</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Научите младенцев и детей ясельного возраста животных и их звуки до 9 различных языках.
-
-Особенности включают:
-
-* Свыше 150 изображений и звуков
-* 2 различных категорий
-* Слайд-шоу для непрерывного воспроизведения
-* Описание голос изображения
-* 9 различных языках
-* Название животного для каждого изображения
-
-Скачайте этот app сегодня!</value>
   </data>
   <data name="ExtendTrial" xml:space="preserve">
     <value>Как этот app? Пусть все еще знают!  Как наш благодаря вам мы добавим 9 новых мультфильмов и 9 новых фотографии реальных животных. Оценить этот app?</value>
