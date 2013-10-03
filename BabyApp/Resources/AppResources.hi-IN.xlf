@@ -314,11 +314,11 @@
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!</source>
-          <target state="new">Like this app? Let everyone else know!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">इस app की तरह? हर कोई पता है चलो!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know! Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know! Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">इस app की तरह? हर कोई पता है चलो! दर इस app?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -499,18 +499,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">शिशुओं और toddlers जानवरों और अप करने के लिए 9 अलग अलग भाषाओं में उनकी आवाज़ को पढ़ाने।
 
-Features include:
+सुविधाओं में शामिल हैं:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* १५० छवियाँ और ध्वनियाँ
+* 2 अलग श्रेणियों
+* निरंतर चलाने के लिए स्लाइड शो
+* छवि आवाज विवरण
+* 9 अलग अलग भाषाओं
+* प्रत्येक छवि के लिए पशु का नाम
 
-Download this app today!</target>
+इस app डाउनलोड आज!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -554,7 +554,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">इस app की तरह? हर कोई पता है चलो!  तुम हमारे धन्यवाद के रूप में हम 9 नई कार्टून और 9 नए रियल पशु चित्र जोड़ देगा। दर इस app?</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
@@ -594,7 +594,11 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
-          <target state="new">Purchase</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">खरीद</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">परीक्षण समाप्त हो गया है</target>
         </trans-unit>
       </group>
     </body>

@@ -314,11 +314,11 @@
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!</source>
-          <target state="new">Like this app? Let everyone else know!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ligesom denne app? Lade enhver ellers kende!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know! Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know! Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ligesom denne app? Lade enhver ellers kende! Vurder denne app?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -499,18 +499,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lære babyer og småbørn dyr og deres lyde i op til 9 forskellige sprog.
 
-Features include:
+Funktioner omfatter:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Mere end 150 billeder og lyde
+* 2 forskellige kategorier
+* Slideshow for kontinuerlig afspilning
+* Billede stemme beskrivelse
+* 9 forskellige sprog
+* Navnet på dyret for hvert billede
 
-Download this app today!</target>
+Download denne app i dag!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -554,7 +554,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ligesom denne app? Lade enhver ellers kende!  Som vores tak til dig vil vi tilføje 9 nye tegneserie og 9 nye real dyr billeder. Vurder denne app?</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
@@ -594,7 +594,11 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
-          <target state="new">Purchase</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Køb</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prøveperioden er udløbet</target>
         </trans-unit>
       </group>
     </body>

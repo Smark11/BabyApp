@@ -596,6 +596,10 @@ Download this app today!</target>
           <source>Purchase</source>
           <target state="new">Purchase</target>
         </trans-unit>
+        <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired</source>
+          <target state="new">Trial Has Expired</target>
+        </trans-unit>
       </group>
     </body>
   </file>

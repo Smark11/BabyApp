@@ -314,11 +314,11 @@
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!</source>
-          <target state="new">Like this app? Let everyone else know!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">像这个应用程序吗？让大家都知道 ！</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know! Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know! Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">像这个应用程序吗？让大家都知道 ！率这个应用程序吗？</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -499,18 +499,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">教婴儿和初学走路的儿童动物和其达 9 种不同语言的声音。
 
-Features include:
+功能包括：
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* 超过 150 的图像和声音
+* 2 不同类别
+* 以连续播放的幻灯片放映
+* 图像语音说明
+* 9 种不同语言
+* 动物的每个图像的名称
 
-Download this app today!</target>
+今天下载这个应用程序 ！</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -554,7 +554,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">像这个应用程序吗？让大家都知道 ！作为我们对你的感谢，我们将添加 9 新卡通和 9 新真实动物图片。率这个应用程序吗？</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
@@ -594,7 +594,11 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
-          <target state="new">Purchase</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">购买</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">试用版已过期</target>
         </trans-unit>
       </group>
     </body>

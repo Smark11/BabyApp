@@ -314,11 +314,11 @@
         </trans-unit>
         <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!</source>
-          <target state="new">Like this app? Let everyone else know!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaip šią programą? Tegul visi kiti nežino!</target>
         </trans-unit>
         <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know! Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know! Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaip šią programą? Tegul visi kiti nežino! Įvertinkite šią programą?</target>
         </trans-unit>
         <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
           <source>Real</source>
@@ -499,18 +499,18 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
 
-Features include:
+Funkcijos apima:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstracija už grotų
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
 
-Download this app today!</target>
+Parsisiųsti šią programą šiandien!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -554,7 +554,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
           <source>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</source>
-          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaip šią programą? Tegul visi kiti nežino!  Kaip mūsų Ačiū jums mes pridėti 9 naujų animaciją ir 9 naujas nekilnojamojo gyvūnų nuotraukos. Įvertinkite šią programą?</target>
         </trans-unit>
         <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
           <source>To install a speech language on your phone, please follow the insructions below:</source>
@@ -594,7 +594,11 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
-          <target state="new">Purchase</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pirkimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bandomasis pasibaigęs</target>
         </trans-unit>
       </group>
     </body>

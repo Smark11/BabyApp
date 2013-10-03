@@ -29,11 +29,11 @@ namespace BabyApp
 
         private static LicenseInformation _licenseInfo = new LicenseInformation();
 
-        private static bool _isTrial = false;
+        private static bool _isTrial;
         public bool IsTrial
         {
             get
-            {
+            {             
                 return _isTrial;
             }
         }

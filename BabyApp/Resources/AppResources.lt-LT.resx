@@ -523,4 +523,33 @@ Parsisiųsti šią programą šiandien!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Jūsų bandomasis pasibaigęs, prašome įsigyti!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Kaip šią programą? Tegul visi kiti nežino!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Kaip šią programą? Tegul visi kiti nežino! Įvertinkite šią programą?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 150 vaizdai ir garsai
+* 2 skirtingų kategorijų
+* Demonstracija už grotų
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Kaip šią programą? Tegul visi kiti nežino!  Kaip mūsų Ačiū jums mes pridėti 9 naujų animaciją ir 9 naujas nekilnojamojo gyvūnų nuotraukos. Įvertinkite šią programą?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Pirkimo</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Bandomasis pasibaigęs</value>
+  </data>
 </root>

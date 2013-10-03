@@ -549,4 +549,7 @@ Download this app today!</value>
   <data name="Purchase" xml:space="preserve">
     <value>Purchase</value>
   </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Trial Has Expired</value>
+  </data>
 </root>

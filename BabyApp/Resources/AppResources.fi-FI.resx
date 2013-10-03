@@ -523,4 +523,33 @@ Lataa tämän app tänään!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Kokeiluversio on vanhentunut, voit ostaa sovellus!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Pidän tästä app? Antaa kaikille muille tietää!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Pidän tästä app? Antaa kaikille muille tietää! Arvioi tämä app?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
+
+Ominaisuuksia:
+
+* Yli 150 kuvia ja ääniä
+* 2 eri
+* Slideshow jatkuvaan toistoon
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Pidän tästä app? Antaa kaikille muille tietää!  Kiitos sinulle lisätään 9 uusi sarjakuva ja 9 uusi todellinen eläinten kuvia. Arvioi tämä app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Osto</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Oikeudenkäynti on päättynyt</value>
+  </data>
 </root>

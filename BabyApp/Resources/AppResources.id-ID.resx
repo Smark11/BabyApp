@@ -523,4 +523,33 @@ Download aplikasi ini hari ini!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Anda persidangan telah berakhir, silahkan membeli aplikasi!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Seperti aplikasi ini? Biarkan orang lain tahu!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Seperti aplikasi ini? Biarkan orang lain tahu! Tingkat app ini?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 150 gambar dan suara
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Seperti aplikasi ini? Biarkan orang lain tahu!  Sebagai terima kasih kami kepada Anda, kami akan menambah kartun baru 9 dan 9 gambar nyata hewan baru. Tingkat app ini?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Pembelian</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Persidangan telah berakhir</value>
+  </data>
 </root>

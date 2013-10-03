@@ -523,4 +523,33 @@
   <data name="TrailHasExpired" xml:space="preserve">
     <value>פג תוקפו של המשפט שלך, נא לרכוש את היישום!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>כמו יישום זה? ליידע את כולם אחר!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>כמו יישום זה? ליידע את כולם אחר! קצב יישום זה?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>מלמד תינוקות, פעוטות חיות וצלילים שלהם עד 9 שפות שונות.
+
+התכונות כוללות:
+
+* מעל 150 תמונות וצלילים
+* 2 קטגוריות שונות
+* מצגת להפעלה רציפה
+* התמונה תיאור קול
+* 9 שפות שונות
+* שם של חיה עבור כל תמונה
+
+להוריד את יישום זה היום!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>כמו יישום זה? ליידע את כולם אחר!  כמו אנו מודות לך נוסיף 9 קריקטורה חדשים ותמונות אמיתית בעלי חיים חדשים 9. קצב יישום זה?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>רכישה</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>פג תוקפו של המשפט</value>
+  </data>
 </root>

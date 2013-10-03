@@ -523,4 +523,33 @@
   <data name="TrailHasExpired" xml:space="preserve">
     <value>अपने परीक्षण समाप्त हो गया है, कृपया आवेदन खरीद!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>इस app की तरह? हर कोई पता है चलो!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>इस app की तरह? हर कोई पता है चलो! दर इस app?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>शिशुओं और toddlers जानवरों और अप करने के लिए 9 अलग अलग भाषाओं में उनकी आवाज़ को पढ़ाने।
+
+सुविधाओं में शामिल हैं:
+
+* १५० छवियाँ और ध्वनियाँ
+* 2 अलग श्रेणियों
+* निरंतर चलाने के लिए स्लाइड शो
+* छवि आवाज विवरण
+* 9 अलग अलग भाषाओं
+* प्रत्येक छवि के लिए पशु का नाम
+
+इस app डाउनलोड आज!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>इस app की तरह? हर कोई पता है चलो!  तुम हमारे धन्यवाद के रूप में हम 9 नई कार्टून और 9 नए रियल पशु चित्र जोड़ देगा। दर इस app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>खरीद</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>परीक्षण समाप्त हो गया है</value>
+  </data>
 </root>

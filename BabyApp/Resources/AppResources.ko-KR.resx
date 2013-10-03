@@ -523,4 +523,33 @@
   <data name="TrailHasExpired" xml:space="preserve">
     <value>평가판 만료, 응용 프로그램을 구입 하십시오!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자! 이 애플 리 케이이 션 평가?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>아기와 유아 동물 최대 9 다른 언어에서 그들의 소리를 가르쳐.
+
+기능은 다음과 같습니다.
+
+* 150 이미지와 소리
+* 2 개의 다른 종류
+* 연속 재생 슬라이드쇼
+* 이미지 음성 설명
+* 9 다른 언어
+* 각 이미지에 대 한 동물의 이름
+
+오늘은이 애플 리 케이이 션을 다운로드!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>이 애플 리 케이이 션 처럼? 다른 사람을 알고 하자!  당신에 게 우리의 감사 우리가 9 새로운 만화와 9 새로운 실제 동물 그림을 추가 합니다. 이 애플 리 케이이 션 평가?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>구매</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>평가판 만료</value>
+  </data>
 </root>

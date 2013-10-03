@@ -523,4 +523,33 @@ Download this app today!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Your trial has expired, please purchase the application!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Like this app? Let everyone else know!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Like this app? Let everyone else know! Rate this app?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 150 images and sounds
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Trial Has Expired</value>
+  </data>
 </root>

@@ -523,4 +523,33 @@ Baixe este app hoje!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Seu teste expirou, por favor, compra o aplicativo!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Como este app? Avise todo mundo!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Como este app? Avise todo mundo! Classifique este app?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ensine os bebês e crianças animais e seus sons em até 9 idiomas diferentes.
+
+As características incluem:
+
+* Mais de 150 imagens e sons
+* 2 categorias diferentes
+* Apresentação de slides para reprodução contínua
+* Descrição de voz imagem
+* 9 línguas diferentes
+* Nome do animal para cada imagem
+
+Baixe este app hoje!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Como este app? Avise todo mundo!  Adicionaremos cartoon novo 9 e 9 novas fotos muito animais como nossos agradecimentos a você. Classifique este app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Teste expirou</value>
+  </data>
 </root>

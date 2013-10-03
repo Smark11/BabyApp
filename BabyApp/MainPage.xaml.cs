@@ -59,11 +59,11 @@ namespace BabyApp
             _mainPageInstance = this;
 
             _numberOfTimesOpened = GetNumberOfTimesOpened();
-         
+
             if (Rate.HasAppBeenRated().ToUpper() == "YES")
             {
                 _rated = true;
-            }         
+            }
 
             PivotSlides = new ObservableCollection<PivotSlide>();
 
@@ -155,13 +155,13 @@ namespace BabyApp
                 {
                     if (!skipMessageBox)
                     {
-                        MessageBox.Show(AppResources.TrailHasExpired);
+                        MessageBox.Show(AppResources.TrailHasExpired, AppResources.TrialHasExpiredHeader,MessageBoxButton.OK);
+                        _marketPlaceDetailTask.Show();
                     }
                     EnableApplication(false);
-                    _marketPlaceDetailTask.Show();
                 }
                 else //Trial has NOT expired
-                {                   
+                {
                     if (!_rated && _numberOfTimesOpened >= 2)
                     {
                         if (!skipMessageBox)
@@ -1623,6 +1623,7 @@ namespace BabyApp
 
             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
             marketplaceReviewTask.Show();
+            IS.SaveSetting("AppRated", "Yes");
         }
 
         private void MoreApps_Click(object sender, EventArgs e)
@@ -1634,7 +1635,7 @@ namespace BabyApp
         }
 
         private void Purchase_Click(object sender, EventArgs e)
-        {   
+        {
             _marketPlaceDetailTask.Show();
         }
 

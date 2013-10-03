@@ -523,4 +523,33 @@
   <data name="TrailHasExpired" xml:space="preserve">
     <value>試用版の有効期限が切れて、アプリケーションを購入してください ！</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！このアプリを評価ですか？</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>赤ちゃんや幼児動物最大 9 種類の言語で彼らの音を教えます。
+
+機能は含みます。
+
+* 以上 150 の画像とサウンド
+* 2 つの異なるカテゴリー
+* 連続再生のためのスライド ショー
+* 画像音声の説明
+* 9 種類の言語
+* 各イメージのための動物の名前
+
+今日このアプリをダウンロード ！</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！あなたに感謝として我々 は 9 の新しい漫画と 9 の新しい本物の動物の写真を追加します。このアプリを評価ですか？</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>購入</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>試用版の有効期限が切れています。</value>
+  </data>
 </root>

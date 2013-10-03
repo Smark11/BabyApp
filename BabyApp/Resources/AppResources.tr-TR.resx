@@ -523,4 +523,33 @@ Bu app bugün yükleyin!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Deneme süresi doldu, lütfen uygulama satın!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Bu app gibi mi? Başka herkes bildirin!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Bu app gibi mi? Başka herkes bildirin! Bu app oranı?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 150 Resimleri ve sesleri
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Bu app gibi mi? Başka herkes bildirin!  Size teşekkür ederiz biz 9 yeni karikatür ve 9 yeni gerçek hayvan resimleri ekleyecektir. Bu app oranı?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Satın alma</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Deneme süresi sona erdi</value>
+  </data>
 </root>

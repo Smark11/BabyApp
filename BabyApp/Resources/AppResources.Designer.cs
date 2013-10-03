@@ -1197,6 +1197,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Trial Has Expired.
+        /// </summary>
+        public static string TrialHasExpiredHeader {
+            get {
+                return ResourceManager.GetString("TrialHasExpiredHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Turkey.
         /// </summary>
         public static string Turkey {

@@ -523,4 +523,33 @@ Descărcaţi acest app astăzi!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Vă proces a expirat, vă rugăm să cumpere aplicaţia!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie! Rata de acest app?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Invata-copii şi copii mici animale şi sunetele lor în până la 9 limbi diferite.
+
+Caracteristicile includ:
+
+* Peste 150 de imagini şi sunete
+* 2 categorii diferite
+* Prezentarea pentru joc continuu
+* Descrierea de voce imaginii
+* 9 limbi diferite
+* Nume de animale pentru fiecare imagine
+
+Descărcaţi acest app astăzi!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie!  Ca mulţumirile noastre pentru a vă vom adăuga desene animate noi 9 şi 9 fotografii reale animale noi. Rata de acest app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Cumpărare</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Proces a expirat</value>
+  </data>
 </root>

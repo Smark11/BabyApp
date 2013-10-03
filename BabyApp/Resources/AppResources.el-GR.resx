@@ -523,4 +523,33 @@
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Δίκη σας έχει λήξει, παρακαλώ να αγοράσει την εφαρμογή!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω! Βαθμολογήστε αυτό το app;</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Διδάξει τα μωρά και τα νήπια ζώα και τους ήχους σε έως και 9 διαφορετικές γλώσσες.
+
+Τα χαρακτηριστικά γνωρίσματα περιλαμβάνουν:
+
+* Πάνω από 150 εικόνες και ήχοι
+* 2 διαφορετικές κατηγορίες
+* Slideshow για συνεχή αναπαραγωγή
+* Περιγραφή φωνή εικόνας
+* 9 διαφορετικές γλώσσες
+* Το όνομα του ζώου για κάθε εικόνα
+
+Κατεβάστε αυτό το app σήμερα!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Ως τις ευχαριστίες μας προς εσάς θα προσθέσουμε 9 νέα κινούμενα σχέδια και 9 νέο πραγματικό ζωικών εικόνες. Βαθμολογήστε αυτό το app;</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Αγορά</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Δίκη έχει λήξει</value>
+  </data>
 </root>

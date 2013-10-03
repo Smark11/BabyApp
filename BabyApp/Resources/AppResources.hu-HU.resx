@@ -523,4 +523,33 @@ Letölt ez app ma!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>A próba-birtokol lejárt, kérjük, vásárolja meg a kérelem!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Mint ez app? Hagyja, hogy mindenki tudja!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Mint ez app? Hagyja, hogy mindenki tudja! Arány ez app?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
+
+Funkciók közé tartozik:
+
+* Több mint 150 képek és hangok
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
+
+Letölt ez app ma!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Mint ez app? Hagyja, hogy mindenki tudja!  Köszönjük, hogy Ön a mi lesz hozzá 9 új cartoon és 9 új valódi állat képeket. Arány ez app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Vásárlás</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Próba-birtokol lejárt</value>
+  </data>
 </root>

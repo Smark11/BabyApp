@@ -523,4 +523,33 @@ Lejupielādēt šo app šodien!</value>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Izmēģinājuma versijas termiņš ir beidzies, lūdzu pirkšanas pieteikumu!</value>
   </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Piemēram, šī app? Ļaut visiem zināt!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Piemēram, šī app? Ļaut visiem zināt! Novērtēt šo app?</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 150 attēlus un skaņas
+* 2 dažādās kategorijās
+* Lai nepārtraukti atskaņotu slīdrādi
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Piemēram, šī app? Ļaut visiem zināt!  Kā jums mūsu pateicību mēs pievienosim 9 jaunas multfilmas un 9 jauni reālu dzīvnieku attēli. Novērtēt šo app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Pirkšanas</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Izmēģinājuma termiņa beigām</value>
+  </data>
 </root>
