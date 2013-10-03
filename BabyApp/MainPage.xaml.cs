@@ -155,7 +155,7 @@ namespace BabyApp
                 {
                     if (!skipMessageBox)
                     {
-                        MessageBox.Show(AppResources.TrailHasExpired, AppResources.TrialHasExpiredHeader,MessageBoxButton.OK);
+                        MessageBox.Show(AppResources.TrailHasExpired, AppResources.TrialHasExpiredHeader, MessageBoxButton.OK);
                         _marketPlaceDetailTask.Show();
                     }
                     EnableApplication(false);
@@ -172,6 +172,8 @@ namespace BabyApp
                             {
                                 IS.SaveSetting("AppRated", "Yes");
                                 _rated = true;
+                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                                marketplaceReviewTask.Show();
                             }
                         }
                     }
