@@ -85,14 +85,14 @@ namespace BabyApp
 
 
         private void PaidAppInitialization(bool skipMessageBox)
-        {
-            if (_numberOfTimesOpened == 1)
-            {
-                MessageBox.Show(AppResources.InformationalMessage, AppResources.InformationalMessageHeader, MessageBoxButton.OK);
-            }
-
+        {         
             if ((Application.Current as App).IsTrial)
             {
+                if (_numberOfTimesOpened == 0)
+                {
+                    MessageBox.Show(AppResources.InformationalMessage, AppResources.InformationalMessageHeader, MessageBoxButton.OK);
+                }
+
                 if (Trial.IsTrialExpired())
                 {
                     if (!skipMessageBox)
@@ -104,7 +104,7 @@ namespace BabyApp
                 }
                 else //Trial has NOT expired
                 {
-                    if (!_rated && _numberOfTimesOpened >= 4)
+                    if (!_rated && _numberOfTimesOpened >= 3)
                     {
                         if (!skipMessageBox)
                         {
