@@ -111,9 +111,7 @@ namespace BabyApp
                             MessageBoxResult result = MessageBox.Show(AppResources.ExtendTrial, AppResources.ExtendTrailPromptHeader, MessageBoxButton.OKCancel);
 
                             if (result == MessageBoxResult.OK)
-                            {
-                                MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
-                                marketplaceReviewTask.Show();                            
+                            {                          
                                 IS.SaveSetting("AppRated", "Yes");
                                 _rated = true;
                                 MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
