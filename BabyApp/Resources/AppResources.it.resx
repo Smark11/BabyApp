@@ -563,7 +563,4 @@ Scarica questa applicazione!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Trial è scaduto.  Si prega di acquistare.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Trial è 27 foto/suoni. La versione completa è 135 foto/suoni</value>
-  </data>
 </root>

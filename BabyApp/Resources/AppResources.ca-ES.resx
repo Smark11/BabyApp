@@ -563,7 +563,4 @@ Descarregar aquest app avui!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Judici ha expirat.  Si us plau comprar.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Trial és 27 fotos/sons. Versió completa és 135 fotos/sons</value>
-  </data>
 </root>

@@ -563,7 +563,4 @@ Bu app bugün yükleyin!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Deneme süresi doldu.  Mutlu etmek satın almak.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Deneme 27 pics/sesler olduğunu. Tam sürümüdür: 135 pics/sesler</value>
-  </data>
 </root>

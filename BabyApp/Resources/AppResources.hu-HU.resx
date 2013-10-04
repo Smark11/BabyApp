@@ -563,7 +563,4 @@ Letölt ez app ma!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Próba-birtokol lejárt.  Kérjük, vásárolja meg.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Próba 27 képek, hangok. Teljes verzió a 135 képek, hangok</value>
-  </data>
 </root>

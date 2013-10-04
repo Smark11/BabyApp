@@ -563,7 +563,4 @@ Lejupielādēt šo app šodien!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Izmēģinājuma termiņa beigām.  Lūdzu iegādāties.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Izmēģinājums ir 27 attēli un skaņu. Pilna versija ir 135 attēli un skaņu</value>
-  </data>
 </root>

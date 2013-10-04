@@ -563,7 +563,4 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>試用版の有効期限が切れました。購入してください。</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>試用版は 27 の写真/音です。フルバージョンは 135 写真/音です。</value>
-  </data>
 </root>

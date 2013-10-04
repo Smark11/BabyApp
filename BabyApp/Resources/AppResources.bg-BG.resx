@@ -563,7 +563,4 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Пробна версия е изтекъл.  Моля за покупка.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Опит е 27 снимки/звуци. Пълната версия е 135 снимки/звуци</value>
-  </data>
 </root>

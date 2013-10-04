@@ -617,8 +617,12 @@ Descarregar aquest app avui!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Judici ha expirat.  Si us plau comprar.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
-          <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trial és 27 fotos/sons. Versió completa és 135 fotos/sons</target>
+          <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
+          <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
         </trans-unit>
       </group>
     </body>

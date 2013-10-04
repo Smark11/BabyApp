@@ -563,7 +563,4 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>המשפט פג.  נא לרכוש.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>המשפט הוא 27 תמונות/צלילים. הגירסה המלאה היא pics 135/צלילים</value>
-  </data>
 </root>

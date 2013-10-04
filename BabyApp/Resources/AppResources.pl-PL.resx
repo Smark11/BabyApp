@@ -563,7 +563,4 @@ Pobrać tę aplikację dziś!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Wygasła wersja próbna.  Proszę zakupić.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Wersja próbna jest 27 fotki/dźwięki. Pełna wersja jest fotki 135/dźwięki</value>
-  </data>
 </root>

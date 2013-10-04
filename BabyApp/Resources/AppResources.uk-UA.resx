@@ -563,7 +563,4 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Судовий розгляд, минув.  Будь ласка, купити.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Процес є 27 фото/звуки. Повна версія є 135 фото/звуки</value>
-  </data>
 </root>

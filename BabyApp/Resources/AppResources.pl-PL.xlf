@@ -617,8 +617,12 @@ Pobrać tę aplikację dziś!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Wygasła wersja próbna.  Proszę zakupić.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
-          <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wersja próbna jest 27 fotki/dźwięki. Pełna wersja jest fotki 135/dźwięki</target>
+          <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
+          <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
         </trans-unit>
       </group>
     </body>

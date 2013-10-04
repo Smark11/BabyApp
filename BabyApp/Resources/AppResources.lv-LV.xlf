@@ -617,8 +617,12 @@ Lejupielādēt šo app šodien!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājuma termiņa beigām.  Lūdzu iegādāties.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
-          <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājums ir 27 attēli un skaņu. Pilna versija ir 135 attēli un skaņu</target>
+          <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
+          <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
         </trans-unit>
       </group>
     </body>

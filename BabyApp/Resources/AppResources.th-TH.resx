@@ -563,7 +563,4 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>ทดลองใช้หมดอายุ  กรุณาซื้อ</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>ทดลองมีเสียงละ 27 ภาพ เวอร์ชันเต็มมีเสียง 135 ภาพ</value>
-  </data>
 </root>

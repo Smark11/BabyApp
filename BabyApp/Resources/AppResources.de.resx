@@ -563,7 +563,4 @@ Laden Sie diese app herunter!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Testversion ist abgelaufen.  Bitte kaufen Sie.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Trial ist 27 Bilder/Töne. Vollversion ist 135 Bilder/Töne</value>
-  </data>
 </root>

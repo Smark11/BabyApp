@@ -563,7 +563,4 @@ Travnato gričevje to app danes!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Poskus has izdihniti.  Prosimo kupiti.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Sojenje je 27 pics/zvoki. Poln prevod je 135 pics/zvoki</value>
-  </data>
 </root>

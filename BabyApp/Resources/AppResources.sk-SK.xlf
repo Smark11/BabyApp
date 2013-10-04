@@ -617,8 +617,12 @@ Stiahnite si túto app dnes!</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Skúšobné vypršala.  Prosím kúpiť.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
-          <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trial je 27 obrázky/zvuky. Plná verzia je 135 fotky/zvuky</target>
+          <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
+          <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
         </trans-unit>
       </group>
     </body>

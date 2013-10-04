@@ -563,7 +563,4 @@ Stáhněte tuto app dnes!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Zkušební verze vypršela.  Před nákupem.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Soud je 27 fotek/zvuky. Plná verze je 135 fotek/zvuky</value>
-  </data>
 </root>

@@ -563,7 +563,4 @@ Parsisiųsti šią programą šiandien!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Bandomasis pasibaigęs.  Prašome įsigyti.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Tyrimo metu yra 27 nuotraukos/garsai. Pilna versija yra 135 nuotraukos/garsai</value>
-  </data>
 </root>

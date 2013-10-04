@@ -563,7 +563,4 @@ Download this app today!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Trial has expired.  Please purchase.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Trial is 27 pics/sounds. Full version is 135 pics/sounds</value>
-  </data>
 </root>

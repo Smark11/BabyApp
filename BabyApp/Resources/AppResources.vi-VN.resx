@@ -563,7 +563,4 @@ Tải về ứng dụng này vào ngày hôm nay!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Phiên tòa đã hết hạn.  Xin vui lòng mua.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Thử nghiệm là 27 bức ảnh/âm thanh. Phiên bản đầy đủ là 135 bức ảnh/âm thanh</value>
-  </data>
 </root>

@@ -563,7 +563,4 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>試用版已過期。請購買。</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>審判是 27 的圖片聲音。完整版本是 135 的圖片聲音</value>
-  </data>
 </root>

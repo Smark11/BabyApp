@@ -1234,11 +1234,20 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Trial is 27 pics/sounds. Full version is 135 pics/sounds.
+        ///   Looks up a localized string similar to Trial version is 27 pics/sounds. Full version is 135 pics/sounds.
         /// </summary>
         public static string TrialMessageBox2 {
             get {
                 return ResourceManager.GetString("TrialMessageBox2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trial version is 54 pics/sounds. Full version is 135 pics/sounds.
+        /// </summary>
+        public static string TrialMessageBox3 {
+            get {
+                return ResourceManager.GetString("TrialMessageBox3", resourceCulture);
             }
         }
         

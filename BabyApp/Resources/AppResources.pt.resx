@@ -563,7 +563,4 @@ Baixe este app hoje!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Teste expirou.  Por favor, compra.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Julgamento é 27 fotos e sons. Versão completa é de 135 fotos e sons</value>
-  </data>
 </root>

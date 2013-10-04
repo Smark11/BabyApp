@@ -563,7 +563,4 @@ Téléchargez cette application dès aujourd'hui !</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Procès a expiré.  S'il vous plaît acheter.</value>
   </data>
-  <data name="TrialMessageBox2" xml:space="preserve">
-    <value>Procès est 27 photos/sons. La version complète est de 135 photos/sons</value>
-  </data>
 </root>
