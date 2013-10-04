@@ -610,6 +610,14 @@ Download this app today!</target>
           <source>Teaching Tom</source>
           <target state="new">Teaching Tom</target>
         </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
+          <source>Trial has expired.  Please purchase.</source>
+          <target state="new">Trial has expired.  Please purchase.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
+          <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
       </group>
     </body>
   </file>

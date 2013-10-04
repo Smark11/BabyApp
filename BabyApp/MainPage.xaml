@@ -124,8 +124,8 @@
                       AutoPlay="False" Visibility="Collapsed"></MediaElement>
 
             </Grid>
-            
-            <TextBlock x:Name="TrialOverTextBlock" HorizontalAlignment="Center"  FontSize="25" Grid.Row="2" Text="Trial has expired.  Please purchase."/>
+
+            <TextBlock x:Name="TrialOverTextBlock" HorizontalAlignment="Center"  FontSize="25" Grid.Row="2" Text="{Binding TrialTextBoxMessage}"/>
         </Grid>
     </Viewbox>
 

@@ -470,20 +470,6 @@
   <data name="AppOptions" xml:space="preserve">
     <value>Výučba Tom možnosti</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
-
-Funkcie patrí:
-
-* Viac ako 150 obrazov a zvukov
-* 2 rôzne kategórie
-* Prezentácie pre kontinuálne play
-* Image hlas Popis
-* 9 rôznych jazykoch
-* Meno zvieraťa pre každý obrázok
-
-Stiahnite si túto app dnes!</value>
-  </data>
   <data name="AppTitle" xml:space="preserve">
     <value>Tom výučby</value>
   </data>

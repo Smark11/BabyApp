@@ -470,20 +470,6 @@
   <data name="AppOptions" xml:space="preserve">
     <value>Toms mācību iespējas</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
-
-Funkcijas ietver:
-
-* Vairāk nekā 150 attēlus un skaņas
-* 2 dažādās kategorijās
-* Nepārtraukts Play Slideshow
-* Attēla balss apraksts
-* 9 dažādās valodās
-* Dzīvnieka vārds katram attēlam
-
-Lejupielādēt šo app šodien!</value>
-  </data>
   <data name="AppTitle" xml:space="preserve">
     <value>Mācību Toms</value>
   </data>

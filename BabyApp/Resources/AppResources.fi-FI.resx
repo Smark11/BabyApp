@@ -470,20 +470,6 @@
   <data name="AppOptions" xml:space="preserve">
     <value>Opetus Tom vaihtoehtoja</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
-
-Ominaisuuksia:
-
-* Yli 150 kuvia ja ääniä
-* 2 eri
-* Slideshow jatkuva play
-* Kuva ääni kuvaus
-* 9 eri kielellä
-* Eläimen nimi kunkin kuvan
-
-Lataa tämän app tänään!</value>
-  </data>
   <data name="AppTitle" xml:space="preserve">
     <value>Opetuksen Tom</value>
   </data>

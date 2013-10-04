@@ -470,20 +470,6 @@
   <data name="AppOptions" xml:space="preserve">
     <value>Giảng dạy Tom tùy chọn</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
-
-Tính năng bao gồm:
-
-* Hơn 150 hình ảnh và âm thanh
-* 2 các loại khác nhau
-* Slideshow cho liên tục chơi
-* Hình ảnh thoại mô tả
-* 9 ngôn ngữ khác nhau
-* Tên của động vật cho mỗi hình ảnh
-
-Tải về ứng dụng này vào ngày hôm nay!</value>
-  </data>
   <data name="AppTitle" xml:space="preserve">
     <value>Giảng dạy Tom</value>
   </data>

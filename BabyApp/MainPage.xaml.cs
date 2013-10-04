@@ -88,13 +88,11 @@ namespace BabyApp
         {         
             if ((Application.Current as App).IsTrial)
             {
-                if (_numberOfTimesOpened == 0)
-                {
-                    MessageBox.Show(AppResources.InformationalMessage, AppResources.InformationalMessageHeader, MessageBoxButton.OK);
-                }
-
+                TrialTextBoxMessage = AppResources.TrialMessageBox2;
+                TrialOverTextBlock.Visibility = Visibility.Visible;
                 if (Trial.IsTrialExpired())
                 {
+                    TrialTextBoxMessage = AppResources.TrialMessageBox1;
                     if (!skipMessageBox)
                     {
                         MessageBox.Show(AppResources.TrailHasExpired, AppResources.TrialHasExpiredHeader, MessageBoxButton.OK);
@@ -124,7 +122,8 @@ namespace BabyApp
             }
             else//This is not a trial
             {
-                EnableApplication(true);
+                TrialOverTextBlock.Visibility = Visibility.Collapsed;
+                EnableApplication(true);             
                 if (!_rated)
                 {
                     if (!skipMessageBox)
@@ -141,13 +140,13 @@ namespace BabyApp
             SetPivots(App.gCategory);
             if (enabled)
             {
-                TrialOverTextBlock.Visibility = Visibility.Collapsed;
+            //    TrialOverTextBlock.Visibility = Visibility.Collapsed;
                 pivotControl.IsEnabled = true;
                 appBarButton1.IsEnabled = true;
             }
             else
             {
-                TrialOverTextBlock.Visibility = Visibility.Visible;
+               // TrialOverTextBlock.Visibility = Visibility.Visible;
                 pivotControl.IsEnabled = false;
                 appBarButton1.IsEnabled = false;
             }
@@ -1133,6 +1132,13 @@ namespace BabyApp
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
+        }
+
+        private string _trialTextBoxMessage;
+        public string TrialTextBoxMessage
+        {
+            get { return _trialTextBoxMessage; }
+            set { _trialTextBoxMessage = value; NotifyPropertyChanged("TrialTextBoxMessage"); }
         }
 
         private ObservableCollection<PivotSlide> _pivotSlides;

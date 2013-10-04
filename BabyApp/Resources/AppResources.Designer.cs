@@ -1224,6 +1224,24 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Trial has expired.  Please purchase..
+        /// </summary>
+        public static string TrialMessageBox1 {
+            get {
+                return ResourceManager.GetString("TrialMessageBox1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trial is 27 pics/sounds. Full version is 135 pics/sounds.
+        /// </summary>
+        public static string TrialMessageBox2 {
+            get {
+                return ResourceManager.GetString("TrialMessageBox2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Turkey.
         /// </summary>
         public static string Turkey {

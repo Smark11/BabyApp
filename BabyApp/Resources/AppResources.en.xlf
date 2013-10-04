@@ -473,7 +473,7 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
 
 Features include:
 
@@ -609,6 +609,14 @@ Download this app today!</target>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
           <target state="new">Teaching Tom</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
+          <source>Trial has expired.  Please purchase.</source>
+          <target state="new">Trial has expired.  Please purchase.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
+          <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
         </trans-unit>
       </group>
     </body>
