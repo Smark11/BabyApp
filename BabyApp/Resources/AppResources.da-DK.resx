@@ -563,4 +563,10 @@ Download denne app i dag!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Prøveperioden er udløbet.  Du skal selv købe.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Prøveversionen er 27 pics/lyde. Fuld version er 135 pics/lyde</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Prøveversionen er 54 billeder/lyde. Fuld version er 135 pics/lyde</value>
+  </data>
 </root>

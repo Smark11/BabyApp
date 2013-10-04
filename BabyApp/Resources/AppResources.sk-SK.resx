@@ -563,4 +563,10 @@ Stiahnite si túto app dnes!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Skúšobné vypršala.  Prosím kúpiť.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Skúšobná verzia je 27 obrázky/zvuky. Plná verzia je 135 fotky/zvuky</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Skúšobná verzia je 54 fotky/zvuky. Plná verzia je 135 fotky/zvuky</value>
+  </data>
 </root>

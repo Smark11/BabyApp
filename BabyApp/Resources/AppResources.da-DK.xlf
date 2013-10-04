@@ -618,11 +618,11 @@ Download denne app i dag!</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prøveversionen er 27 pics/lyde. Fuld version er 135 pics/lyde</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
           <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prøveversionen er 54 billeder/lyde. Fuld version er 135 pics/lyde</target>
         </trans-unit>
       </group>
     </body>

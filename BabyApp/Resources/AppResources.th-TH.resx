@@ -563,4 +563,10 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>ทดลองใช้หมดอายุ  กรุณาซื้อ</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>รุ่นทดลองได้ 27 ภาพ/เสียง เวอร์ชันเต็มมีเสียง 135 ภาพ</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>รุ่นทดลองเป็น 54 ภาพ/เสียง เวอร์ชันเต็มมีเสียง 135 ภาพ</value>
+  </data>
 </root>

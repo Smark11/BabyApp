@@ -618,11 +618,11 @@ Lae alla käesoleva app täna!</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prooviversiooni on 27 pics/pilt. Täisversioon on 135 pics/pilt</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
           <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prooviversiooni on 54 pics/pilt. Täisversioon on 135 pics/pilt</target>
         </trans-unit>
       </group>
     </body>

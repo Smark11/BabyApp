@@ -618,11 +618,11 @@ Scarica questa applicazione!</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Versione di prova è 27 foto/suoni. La versione completa è 135 foto/suoni</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
           <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Versione di prova è 54 foto/suoni. La versione completa è 135 foto/suoni</target>
         </trans-unit>
       </group>
     </body>

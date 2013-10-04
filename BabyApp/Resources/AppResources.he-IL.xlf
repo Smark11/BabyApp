@@ -618,11 +618,11 @@ Download this app today!</source>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">גירסת הניסיון הוא 27 תמונות/צלילים. הגירסה המלאה היא pics 135/צלילים</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
           <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">גירסת הניסיון הוא pics 54/צלילים. הגירסה המלאה היא pics 135/צלילים</target>
         </trans-unit>
       </group>
     </body>

@@ -563,4 +563,10 @@ Descargar esta aplicación hoy!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Versión de prueba ha caducado.  Por favor compra.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>La versión de prueba es 27 fotos y sonidos. La versión completa es 135 fotos y sonidos</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>La versión de prueba es 54 fotos y sonidos. La versión completa es 135 fotos y sonidos</value>
+  </data>
 </root>

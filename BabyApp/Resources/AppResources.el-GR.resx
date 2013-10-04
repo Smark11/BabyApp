@@ -563,4 +563,10 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Δίκη έχει λήξει.  Παρακαλούμε να αγοράσει.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Δοκιμαστική έκδοση είναι 27 pics/ήχους. Πλήρης έκδοση είναι 135 φωτογραφίες/ήχους</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Δοκιμαστική έκδοση είναι 54 φωτογραφίες/ήχους. Πλήρης έκδοση είναι 135 φωτογραφίες/ήχους</value>
+  </data>
 </root>

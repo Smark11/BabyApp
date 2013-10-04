@@ -563,4 +563,10 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>परीक्षण समाप्त हो गया है।  कृपया खरीद।</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>परीक्षण संस्करण 27 pics/लगता है। 135 Pics लगता है पूर्ण संस्करण है</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>परीक्षण संस्करण 54 pics/लगता है। 135 Pics लगता है पूर्ण संस्करण है</value>
+  </data>
 </root>

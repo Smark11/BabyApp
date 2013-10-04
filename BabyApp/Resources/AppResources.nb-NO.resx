@@ -563,4 +563,10 @@ Last ned denne app i dag!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Prøve har opphøre.  Kjøp.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Prøveversjonen er 27 bilder/lyder. Full versjon er 135 bilder/lyder</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Prøveversjonen er 54 bilder/lyder. Full versjon er 135 bilder/lyder</value>
+  </data>
 </root>

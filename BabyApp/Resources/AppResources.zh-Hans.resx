@@ -563,4 +563,10 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>试用版已过期。请购买。</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>试用版是 27 的图片声音。完整版本是 135 的图片声音</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>试用版是 54 的图片声音。完整版本是 135 的图片声音</value>
+  </data>
 </root>

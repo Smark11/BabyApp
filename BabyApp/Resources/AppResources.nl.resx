@@ -563,4 +563,10 @@ Download dit app vandaag nog!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Proces is verlopen.  Gelieve te kopen.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Proefversie is 27 pics/geluiden. Volledige versie is 135 pics/geluiden</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Proefversie is 54 pics/geluiden. Volledige versie is 135 pics/geluiden</value>
+  </data>
 </root>

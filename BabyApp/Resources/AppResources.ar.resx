@@ -563,4 +563,10 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>وقد انتهت المحاكمة.  يرجى شراء.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>الإصدار التجريبي هو 27 بلدان جزر المحيط الهادئ/الأصوات. النسخة الكاملة من بلدان جزر المحيط الهادئ 135/الأصوات</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>الإصدار التجريبي هو 54 بلدان جزر المحيط الهادئ/الأصوات. النسخة الكاملة من بلدان جزر المحيط الهادئ 135/الأصوات</value>
+  </data>
 </root>

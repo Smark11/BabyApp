@@ -563,4 +563,10 @@ Lae alla käesoleva app täna!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Prooviperiood on aegunud.  Palun osta.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Prooviversiooni on 27 pics/pilt. Täisversioon on 135 pics/pilt</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Prooviversiooni on 54 pics/pilt. Täisversioon on 135 pics/pilt</value>
+  </data>
 </root>

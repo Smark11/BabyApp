@@ -618,11 +618,11 @@ Lejupielādēt šo app šodien!</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājuma versija ir 27 attēli un skaņu. Pilna versija ir 135 attēli un skaņu</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
           <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial version is 54 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājuma versija ir 54 attēli un skaņu. Pilna versija ir 135 attēli un skaņu</target>
         </trans-unit>
       </group>
     </body>

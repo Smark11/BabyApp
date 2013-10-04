@@ -563,4 +563,10 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>평가판이 만료 되었습니다.  구입 하시기 바랍니다.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>트라이얼 버전은 27 사진/소리. 정식 버전은 135 pics/소리</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>트라이얼 버전은 54 갤러리/소리. 정식 버전은 135 pics/소리</value>
+  </data>
 </root>

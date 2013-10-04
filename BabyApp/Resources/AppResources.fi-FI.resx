@@ -563,4 +563,10 @@ Lataa tämän app tänään!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Oikeudenkäynti on päättynyt.  Voit ostaa.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Kokeiluversio on 27 kuvia/ääniä. Täysi versio on 135 kuvia/ääniä</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Kokeiluversio on 54 kuvia/ääniä. Täysi versio on 135 kuvia/ääniä</value>
+  </data>
 </root>

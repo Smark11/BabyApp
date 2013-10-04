@@ -563,4 +563,10 @@
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Суда истек.  Приобретите.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Пробная версия — 27 фото/звуки. Полная версия-135 фото/звуки</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Пробная версия — 54 фото/звуки. Полная версия-135 фото/звуки</value>
+  </data>
 </root>

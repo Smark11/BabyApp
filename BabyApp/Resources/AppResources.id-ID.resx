@@ -563,4 +563,10 @@ Download aplikasi ini hari ini!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Persidangan telah berakhir.  Silahkan membeli.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Versi percobaan adalah 27 pics/suara. Versi lengkap adalah 135 pics/suara</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Versi percobaan adalah pics 54/suara. Versi lengkap adalah 135 pics/suara</value>
+  </data>
 </root>

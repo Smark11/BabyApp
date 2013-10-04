@@ -563,4 +563,10 @@ Bu app bugün yükleyin!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Deneme süresi doldu.  Mutlu etmek satın almak.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>27 Resim/Ses deneme sürümüdür. Tam sürümüdür: 135 pics/sesler</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>54 Resim/Ses deneme sürümüdür. Tam sürümüdür: 135 pics/sesler</value>
+  </data>
 </root>

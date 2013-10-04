@@ -563,4 +563,10 @@ Descărcaţi acest app astăzi!</value>
   <data name="TrialMessageBox1" xml:space="preserve">
     <value>Proces a expirat.  Vă rugăm să cumpere.</value>
   </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Versiunea de încercare este 27 poze/sunete. Versiunea completă este pics/sunete 135</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Versiunea de încercare este pics/sunete 54. Versiunea completă este pics/sunete 135</value>
+  </data>
 </root>
