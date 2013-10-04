@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Prooviperiood on aegunud</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
+
+Funktsioonide hulka kuuluvad:
+
+* Enam kui 130 pildid ja helid (täielik versioon)
+* 27 pildid ja helid (prooviversiooni)
+* 2 erinevat kategooriat
+* Slideshow pidevaks mängimiseks
+* Pilt hääl kirjeldus
+* 9 erinevat keelt
+* Animal nimi igale pildile
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Õpetada imikutel ja väikelastel loomade ja nende helid kuni 9 eri keeltes.
+
+Funktsioonide hulka kuuluvad:
+
+* Enam kui 130 pildid ja helid (täielik versioon)
+* 27 pildid ja helid (prooviversiooni)
+* 2 erinevat kategooriat
+* Slideshow pidevaks mängimiseks
+* Pilt hääl kirjeldus
+* 9 erinevat keelt
+* Animal nimi igale pildile
+
+Lae alla käesoleva app täna!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Teie prooviversioon on aegunud, palun osta taotlus saada üle 130 pilte ja helisid!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Meeldetuletus: Õpetamise Tom prooviversiooni kaasas 27 pildid ja helid.  Lisada 27 rohkem pilte ja helisid teie prooviversioon lihtsalt hinda seda app.  Pildid ja helid saada üle 130 ostke seda app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Õppetöö Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Prooviperiood on aegunud.  Palun osta.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Uuringus on 27 pics/pilt. Täisversioon on 135 pics/pilt</value>
+  </data>
 </root>

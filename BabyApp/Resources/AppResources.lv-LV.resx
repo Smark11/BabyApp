@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Izmēģinājuma termiņa beigām</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 130 attēli un skaņas (pilna versija)
+* 27 attēli un skaņas (izmēģinājuma versija)
+* 2 dažādās kategorijās
+* Lai nepārtraukti atskaņotu slīdrādi
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mācīt zīdaiņiem un maziem bērniem dzīvniekus un to skaņas līdz 9 dažādās valodās.
+
+Funkcijas ietver:
+
+* Vairāk nekā 130 attēli un skaņas (pilna versija)
+* 27 attēli un skaņas (izmēģinājuma versija)
+* 2 dažādās kategorijās
+* Lai nepārtraukti atskaņotu slīdrādi
+* Attēla balss apraksts
+* 9 dažādās valodās
+* Dzīvnieka vārds katram attēlam
+
+Lejupielādēt šo app šodien!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Izmēģinājuma versijas termiņš ir beidzies, lūdzu pirkšanas pieteikumu, lai iegūtu vairāk nekā 130 attēlu un skaņu!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Atgādinājums: Mācību Toms izmēģinājuma versija nāk ar 27 attēlus un skaņas.  27 Pievienot vairāk attēlus un skaņas, lai savu izmēģinājuma versiju, vienkārši novērtēt šo app.  Lai iegūtu vairāk nekā 130 attēlus un skaņas iegādāties šo app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Mācību Toms</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Izmēģinājuma termiņa beigām.  Lūdzu iegādāties.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Izmēģinājums ir 27 attēli un skaņu. Pilna versija ir 135 attēli un skaņu</value>
+  </data>
 </root>

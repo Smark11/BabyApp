@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Zkušební verze vypršela</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Učit děti a batolata zvířata a jejich zvuky v až 9 různých jazycích.
+
+Mezi funkce patří:
+
+* Více než 130 obrazů a zvuků (plná verze)
+* 27 obrazů a zvuků (zkušební verze)
+* 2 různé kategorie
+* Prezentace pro nepřetržité přehrávání
+* Popis hlas obrazu
+* 9 různé jazyky
+* Jméno zvířete pro každý obrázek
+
+Stáhněte tuto app dnes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Učit děti a batolata zvířata a jejich zvuky v až 9 různých jazycích.
+
+Mezi funkce patří:
+
+* Více než 130 obrazů a zvuků (plná verze)
+* 27 obrazů a zvuků (zkušební verze)
+* 2 různé kategorie
+* Prezentace pro nepřetržité přehrávání
+* Popis hlas obrazu
+* 9 různé jazyky
+* Jméno zvířete pro každý obrázek
+
+Stáhněte tuto app dnes!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Vaše zkušební verze vypršela, zakupte aplikaci se přes 130 obrázků a zvuků!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Připomenutí: Výuka Tom zkušební verze přichází s 27 obrázků a zvuků.  Chcete-li přidat 27 více obrázků a zvuků pro zkušební verze prostě ohodnotit tuto aplikaci.  Získat více než 130 obrázků a zvuků koupit tuto aplikaci.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Výuka Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Zkušební verze vypršela.  Před nákupem.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Soud je 27 fotek/zvuky. Plná verze je 135 fotek/zvuky</value>
+  </data>
 </root>

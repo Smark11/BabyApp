@@ -446,20 +446,6 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>学习</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>教婴儿和初学走路的儿童动物和其达 9 种不同语言的声音。
-
-功能包括：
-
-* 超过 150 的图像和声音
-* 2 不同类别
-* 为连续播放的的幻灯片放映
-* 图像语音说明
-* 9 种不同语言
-* 动物的每个图像的名称
-
-今天下载这个应用程序 ！</value>
-  </data>
   <data name="Raccoon" xml:space="preserve">
     <value>浣熊</value>
   </data>
@@ -534,5 +520,50 @@
   </data>
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>试用版已过期</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>教婴儿和初学走路的儿童动物和其达 9 种不同语言的声音。
+
+功能包括：
+
+* 超过 130 的图像和声音 （完整版）
+* 27 的图像和声音 (试用版)
+* 2 不同类别
+* 以连续播放的幻灯片放映
+* 图像语音说明
+* 9 种不同语言
+* 动物的每个图像的名称
+
+今天下载这个应用程序 ！</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>教婴儿和初学走路的儿童动物和其达 9 种不同语言的声音。
+
+功能包括：
+
+* 超过 130 的图像和声音 （完整版）
+* 27 的图像和声音 (试用版)
+* 2 不同类别
+* 以连续播放的幻灯片放映
+* 图像语音说明
+* 9 种不同语言
+* 动物的每个图像的名称
+
+今天下载这个应用程序 ！</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>您的试用版已过期，请购买要忘掉 130 图片和声音的应用程序 ！</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>提醒： 教学汤姆试用版本附带了 27 图片和声音。若要添加 27 更多图片和声音给您的试用版只是速率这个应用程序。要获取超过 130 图片和声音购买这款软件。</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>教学汤姆</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>试用版已过期。请购买。</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>审判是 27 的图片声音。完整版本是 135 的图片声音</value>
   </data>
 </root>

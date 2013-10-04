@@ -353,9 +353,10 @@ namespace BabyApp.Resources {
         ///
         ///Features include:
         ///
-        ///* Over 150 images and sounds
+        ///* Over 130 images and sounds (full version)
+        ///* 27 images and sounds (trial version)
         ///* 2 different categories
-        ///* Slideshow for continous play
+        ///* Slideshow for continuous play
         ///* Image voice description
         ///* 9 different languages
         ///* Name of animal for each image

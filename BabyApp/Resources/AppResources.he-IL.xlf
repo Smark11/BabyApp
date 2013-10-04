@@ -465,9 +465,10 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
@@ -477,9 +478,10 @@ Download this app today!</source>
 
 התכונות כוללות:
 
-* מעל 150 תמונות וצלילים
+* מעל 130 תמונות וצלילים (הגרסה המלאה)
+* 27 תמונות וצלילים (גירסת ניסיון)
 * 2 קטגוריות שונות
-* מצגת למחזה רציפה
+* מצגת להפעלה רציפה
 * התמונה תיאור קול
 * 9 שפות שונות
 * שם של חיה עבור כל תמונה
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">מלמד תינוקות, פעוטות חיות וצלילים שלהם עד 9 שפות שונות.
 
-Features include:
+התכונות כוללות:
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* מעל 130 תמונות וצלילים (הגרסה המלאה)
+* 27 תמונות וצלילים (גירסת ניסיון)
+* 2 קטגוריות שונות
+* מצגת להפעלה רציפה
+* התמונה תיאור קול
+* 9 שפות שונות
+* שם של חיה עבור כל תמונה
 
-Download this app today!</target>
+להוריד את יישום זה היום!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">פג תוקפו של המשפט שלך, נא לרכוש את היישום כדי להתגבר על 130 תמונות וצלילים!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">תזכורת: גירסת ניסיון הוראה טום מגיע עם 27 תמונות וצלילים.  כדי להוסיף 27 יותר תמונות וצלילים לגירסת הניסיון שלך פשוט שיעור יישום זה.  כדי לקבל מעל 130 תמונות וצלילים לרכוש יישום זה.</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">טום הוראה</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">המשפט פג.  נא לרכוש.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">המשפט הוא 27 תמונות/צלילים. הגירסה המלאה היא pics 135/צלילים</target>
         </trans-unit>
       </group>
     </body>

@@ -465,26 +465,28 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
 
-Features include:
+Funkciók közé tartozik:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Több mint 130 képek és hangok (teljes verzió)
+* 27 képek és hangok (próba-változat)
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
 
-Download this app today!</target>
+Letölt ez app ma!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
 
-Features include:
+Funkciók közé tartozik:
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Több mint 130 képek és hangok (teljes verzió)
+* 27 képek és hangok (próba-változat)
+* 2 különböző kategóriák
+* A folyamatos lejátszás indítása
+* Hang leírása
+* 9 különböző nyelveken
+* Minden egyes kép az állat neve
 
-Download this app today!</target>
+Letölt ez app ma!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">A próba-birtokol lejárt, kérjük, vásárolja meg a alkalmazás-hoz kap több mint 130 képek és hangok!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Emlékeztető: Tanítás Tom próba-változat jön-val 27 képek és hangok.  27 Hozzáadásához további képek és hangok, hogy a próba-változat egyszerűen arány ez app.  Ahhoz, hogy több mint 130 képek és hangok megvásárol ez app.</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tom tanítás</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Próba-birtokol lejárt.  Kérjük, vásárolja meg.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Próba 27 képek, hangok. Teljes verzió a 135 képek, hangok</target>
         </trans-unit>
       </group>
     </body>

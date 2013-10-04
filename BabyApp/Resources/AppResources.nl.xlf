@@ -465,26 +465,28 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Leren baby's en peuters dieren en hun geluiden in 9 verschillende talen.
 
-Features include:
+De eigenschappen omvatten:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Meer dan 130 beelden en geluiden (volledige versie)
+* 27 beelden en geluiden (proefversie)
+* 2 verschillende categorieën
+* Slideshow voor continu te worden afgespeeld
+* Stem Afbeeldingsbeschrijving
+* 9 verschillende talen
+* Naam van dier voor elk beeld
 
-Download this app today!</target>
+Download dit app vandaag nog!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Leren baby's en peuters dieren en hun geluiden in 9 verschillende talen.
 
-Features include:
+De eigenschappen omvatten:
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Meer dan 130 beelden en geluiden (volledige versie)
+* 27 beelden en geluiden (proefversie)
+* 2 verschillende categorieën
+* Slideshow voor continu te worden afgespeeld
+* Stem Afbeeldingsbeschrijving
+* 9 verschillende talen
+* Naam van dier voor elk beeld
 
-Download this app today!</target>
+Download dit app vandaag nog!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uw proefperiode is verlopen, kunt u kopen de toepassing te krijgen over 130 foto's en geluiden!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Herinnering: Onderwijs Tom trial versie wordt geleverd met 27 afbeeldingen en geluiden.  Als u wilt toevoegen van 27 stem meer foto's en geluiden naar uw trial-versie gewoon op deze app.  Koop dit app om te krijgen meer dan 130 foto's en geluiden.</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Onderwijs Tom</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Proces is verlopen.  Gelieve te kopen.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Proces is 27 pics/geluiden. Volledige versie is 135 pics/geluiden</target>
         </trans-unit>
       </group>
     </body>

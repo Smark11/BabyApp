@@ -446,20 +446,6 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>学習</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>赤ちゃんや幼児動物最大 9 種類の言語で彼らの音を教えます。
-
-機能は含みます。
-
-* 以上 150 の画像とサウンド
-* 2 つの異なるカテゴリー
-* 連続再生のためのスライド ショー
-* 画像音声の説明
-* 9 種類の言語
-* 各イメージのための動物の名前
-
-今日このアプリをダウンロード ！</value>
-  </data>
   <data name="Raccoon" xml:space="preserve">
     <value>アライグマ</value>
   </data>
@@ -534,5 +520,50 @@
   </data>
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>試用版の有効期限が切れています。</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>赤ちゃんや幼児動物最大 9 種類の言語で彼らの音を教えます。
+
+機能は含みます。
+
+* 以上 130 の画像とサウンド （フルバージョン）
+* 27 の画像と音 （試用版）
+* 2 つの異なるカテゴリー
+* 連続再生のためのスライド ショー
+* 画像音声の説明
+* 9 種類の言語
+* 各イメージのための動物の名前
+
+今日このアプリをダウンロード ！</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>赤ちゃんや幼児動物最大 9 種類の言語で彼らの音を教えます。
+
+機能は含みます。
+
+* 以上 130 の画像とサウンド （フルバージョン）
+* 27 の画像と音 （試用版）
+* 2 つの異なるカテゴリー
+* 連続再生のためのスライド ショー
+* 画像音声の説明
+* 9 種類の言語
+* 各イメージのための動物の名前
+
+今日このアプリをダウンロード ！</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>試用版の有効期限が切れて、130 の画像やサウンド以上を取得するアプリケーションを購入してください ！</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>リマインダー： 教育トム試用版 27 の画像やサウンドが付属します。27 を追加するにはより多くの画像やサウンド、試用版を単にこのアプリを評価します。130 以上を取得するには、画像やサウンドはこのアプリを購入します。</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>教育トム</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>試用版の有効期限が切れました。購入してください。</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>試用版は 27 の写真/音です。フルバージョンは 135 写真/音です。</value>
   </data>
 </root>

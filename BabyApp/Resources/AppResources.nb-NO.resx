@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Prøveversjon utløpt</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Lære babyer og småbarn dyr og deres lyder på opptil 9 forskjellige språk.
+
+Funksjoner inkluderer:
+
+* Over 130 bilder og lyder (fullversjon)
+* 27 bilder og lyder (prøveversjon)
+* 2 ulike kategorier
+* Slideshow for kontinuerlig avspilling
+* Image stemme beskrivelse
+9 forskjellige språk
+* Navn på dyr for hvert bilde
+
+Last ned denne app i dag!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Lære babyer og småbarn dyr og deres lyder på opptil 9 forskjellige språk.
+
+Funksjoner inkluderer:
+
+* Over 130 bilder og lyder (fullversjon)
+* 27 bilder og lyder (prøveversjon)
+* 2 ulike kategorier
+* Slideshow for kontinuerlig avspilling
+* Image stemme beskrivelse
+9 forskjellige språk
+* Navn på dyr for hvert bilde
+
+Last ned denne app i dag!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Prøveperioden er utgått, Kjøp programmet å komme over 130 bilder og lyder!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Påminnelse: Undervisning Tom prøveversjon kommer med 27 bilder og lyder.  For å legge til 27 vurdere flere bilder og lyder til prøveversjonen bare denne app.  For å få over 130 kjøpe bilder og lyder denne app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Undervisning Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Prøve har opphøre.  Kjøp.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Trial er 27 bilder/lyder. Full versjon er 135 bilder/lyder</value>
+  </data>
 </root>

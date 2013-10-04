@@ -446,20 +446,6 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>학습</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>아기와 유아 동물 최대 9 다른 언어에서 그들의 소리를 가르쳐.
-
-기능은 다음과 같습니다.
-
-* 150 이미지와 소리
-* 2 개의 다른 종류
-* 연속 재생 슬라이드쇼
-* 이미지 음성 설명
-* 9 다른 언어
-* 각 이미지에 대 한 동물의 이름
-
-오늘은이 애플 리 케이이 션을 다운로드!</value>
-  </data>
   <data name="Raccoon" xml:space="preserve">
     <value>너구리</value>
   </data>
@@ -534,5 +520,50 @@
   </data>
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>평가판 만료</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>아기와 유아 동물 최대 9 다른 언어에서 그들의 소리를 가르쳐.
+
+기능은 다음과 같습니다.
+
+* 130 이미지와 소리 (풀 버전)
+* 27 이미지와 소리 (트라이얼 버전)
+* 2 개의 다른 종류
+* 연속 재생 슬라이드쇼
+* 이미지 음성 설명
+* 9 다른 언어
+* 각 이미지에 대 한 동물의 이름
+
+오늘은이 애플 리 케이이 션을 다운로드!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>아기와 유아 동물 최대 9 다른 언어에서 그들의 소리를 가르쳐.
+
+기능은 다음과 같습니다.
+
+* 130 이미지와 소리 (풀 버전)
+* 27 이미지와 소리 (트라이얼 버전)
+* 2 개의 다른 종류
+* 연속 재생 슬라이드쇼
+* 이미지 음성 설명
+* 9 다른 언어
+* 각 이미지에 대 한 동물의 이름
+
+오늘은이 애플 리 케이이 션을 다운로드!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>평가판 만료, 130 사진과 소리를 극복 하기 위해 응용 프로그램을 구입 하십시오!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>알림: 교육 톰 평가판 27 사진 및 소리와 함께 온다.  27 추가 하려면 더 많은 사진과 소리 예 심 버전을 간단 하 게이 애플 리 케이이 션 평가.  130을 그림 및 소리가 애플 리 케이이 션을 구입.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>교육 톰</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>평가판이 만료 되었습니다.  구입 하시기 바랍니다.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>재판은 27 사진/소리. 정식 버전은 135 pics/소리</value>
   </data>
 </root>

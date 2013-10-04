@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Testversion ist abgelaufen</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
+
+Eigenschaften umfassen:
+
+* Mehr als 130 Bilder und Töne (Vollversion)
+* 27 Bilder und Töne (Testversion)
+* 2 verschiedenen Kategorien
+* Diashow für kontinuierliche Wiedergabe
+* Stimme Bildbeschreibung
+* 9 verschiedene Sprachen
+* Name des Tieres für jedes Bild
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Babys und Kleinkinder-Tiere und ihre Töne in bis zu 9 verschiedenen Sprachen zu unterrichten.
+
+Eigenschaften umfassen:
+
+* Mehr als 130 Bilder und Töne (Vollversion)
+* 27 Bilder und Töne (Testversion)
+* 2 verschiedenen Kategorien
+* Diashow für kontinuierliche Wiedergabe
+* Stimme Bildbeschreibung
+* 9 verschiedene Sprachen
+* Name des Tieres für jedes Bild
+
+Laden Sie diese app herunter!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Ihre Testversion ist abgelaufen, bitte kaufen Sie die Anwendung auf über 130 Bilder und Sounds zu erhalten!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Zur Erinnerung: Lehre Tom-trial-Version kommt mit 27 Bildern und Tönen.  Fügen Sie 27 bewerten weitere Bilder und Sounds auf Ihre Testversion einfach diese app.  Über 130 erhalten kaufen Bilder und Töne diese app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Lehre Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Testversion ist abgelaufen.  Bitte kaufen Sie.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Trial ist 27 Bilder/Töne. Vollversion ist 135 Bilder/Töne</value>
+  </data>
 </root>

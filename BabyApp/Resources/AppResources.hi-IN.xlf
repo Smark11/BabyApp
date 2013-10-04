@@ -465,9 +465,10 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
@@ -477,9 +478,10 @@ Download this app today!</source>
 
 सुविधाओं में शामिल हैं:
 
-* १५० छवियाँ और ध्वनियाँ
+* से अधिक 130 छवियाँ और ध्वनियाँ (पूर्ण संस्करण)
+* 27 छवियाँ और ध्वनियाँ (परीक्षण संस्करण)
 * 2 अलग श्रेणियों
-* निरंतर खेलने के लिए स्लाइड शो
+* निरंतर चलाने के लिए स्लाइड शो
 * छवि आवाज विवरण
 * 9 अलग अलग भाषाओं
 * प्रत्येक छवि के लिए पशु का नाम
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">शिशुओं और toddlers जानवरों और अप करने के लिए 9 अलग अलग भाषाओं में उनकी आवाज़ को पढ़ाने।
 
-Features include:
+सुविधाओं में शामिल हैं:
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* से अधिक 130 छवियाँ और ध्वनियाँ (पूर्ण संस्करण)
+* 27 छवियाँ और ध्वनियाँ (परीक्षण संस्करण)
+* 2 अलग श्रेणियों
+* निरंतर चलाने के लिए स्लाइड शो
+* छवि आवाज विवरण
+* 9 अलग अलग भाषाओं
+* प्रत्येक छवि के लिए पशु का नाम
 
-Download this app today!</target>
+इस app डाउनलोड आज!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">अपने परीक्षण समाप्त हो गया है, कृपया 130 चित्रों और ध्वनियों से अधिक प्राप्त करने के लिए आवेदन खरीद!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">अनुस्मारक: शिक्षण टॉम परीक्षण संस्करण 27 चित्रों और ध्वनियों के साथ आता है।  27 को जोड़ने के लिए और अधिक चित्रों और आपके परीक्षण संस्करण के लिए लगता है बस इस app दें।  130 से अधिक प्राप्त करने के लिए इस app चित्रों और ध्वनियाँ खरीद।</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">शिक्षण टॉम</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">परीक्षण समाप्त हो गया है।  कृपया खरीद।</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">परीक्षण 27 pics/लगता है। 135 Pics लगता है पूर्ण संस्करण है</target>
         </trans-unit>
       </group>
     </body>

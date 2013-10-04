@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Proces is verlopen</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Leren baby's en peuters dieren en hun geluiden in 9 verschillende talen.
+
+De eigenschappen omvatten:
+
+* Meer dan 130 beelden en geluiden (volledige versie)
+* 27 beelden en geluiden (proefversie)
+* 2 verschillende categorieën
+* Slideshow voor continu te worden afgespeeld
+* Stem Afbeeldingsbeschrijving
+* 9 verschillende talen
+* Naam van dier voor elk beeld
+
+Download dit app vandaag nog!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Leren baby's en peuters dieren en hun geluiden in 9 verschillende talen.
+
+De eigenschappen omvatten:
+
+* Meer dan 130 beelden en geluiden (volledige versie)
+* 27 beelden en geluiden (proefversie)
+* 2 verschillende categorieën
+* Slideshow voor continu te worden afgespeeld
+* Stem Afbeeldingsbeschrijving
+* 9 verschillende talen
+* Naam van dier voor elk beeld
+
+Download dit app vandaag nog!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Uw proefperiode is verlopen, kunt u kopen de toepassing te krijgen over 130 foto's en geluiden!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Herinnering: Onderwijs Tom trial versie wordt geleverd met 27 afbeeldingen en geluiden.  Als u wilt toevoegen van 27 stem meer foto's en geluiden naar uw trial-versie gewoon op deze app.  Koop dit app om te krijgen meer dan 130 foto's en geluiden.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Onderwijs Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Proces is verlopen.  Gelieve te kopen.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Proces is 27 pics/geluiden. Volledige versie is 135 pics/geluiden</value>
+  </data>
 </root>

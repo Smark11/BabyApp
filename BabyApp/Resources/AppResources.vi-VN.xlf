@@ -465,26 +465,28 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
 
-Features include:
+Tính năng bao gồm:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Hơn 130 hình ảnh và âm thanh (Phiên bản đầy đủ)
+* 27 hình ảnh và âm thanh (Phiên bản dùng thử)
+* 2 các loại khác nhau
+* Xem hình tự động để chơi liên tục
+* Hình ảnh thoại mô tả
+* 9 ngôn ngữ khác nhau
+* Tên của động vật cho mỗi hình ảnh
 
-Download this app today!</target>
+Tải về ứng dụng này vào ngày hôm nay!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
 
-Features include:
+Tính năng bao gồm:
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Hơn 130 hình ảnh và âm thanh (Phiên bản đầy đủ)
+* 27 hình ảnh và âm thanh (Phiên bản dùng thử)
+* 2 các loại khác nhau
+* Xem hình tự động để chơi liên tục
+* Hình ảnh thoại mô tả
+* 9 ngôn ngữ khác nhau
+* Tên của động vật cho mỗi hình ảnh
 
-Download this app today!</target>
+Tải về ứng dụng này vào ngày hôm nay!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thử nghiệm của bạn đã hết hạn, xin vui lòng mua các ứng dụng để có được hơn 130 hình ảnh và âm thanh!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nhắc nhở: Phiên bản thử nghiệm giảng dạy Tom đi kèm với 27 hình ảnh và âm thanh.  Để thêm 27 thêm hình ảnh và âm thanh với phiên bản dùng thử của bạn chỉ đơn giản là giá ứng dụng này.  Để có được hơn 130 hình ảnh và âm thanh mua ứng dụng này.</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Giảng dạy Tom</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Phiên tòa đã hết hạn.  Xin vui lòng mua.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thử nghiệm là 27 bức ảnh/âm thanh. Phiên bản đầy đủ là 135 bức ảnh/âm thanh</target>
         </trans-unit>
       </group>
     </body>

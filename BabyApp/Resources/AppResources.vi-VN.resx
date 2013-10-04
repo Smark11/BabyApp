@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Phiên tòa đã hết hạn</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
+
+Tính năng bao gồm:
+
+* Hơn 130 hình ảnh và âm thanh (Phiên bản đầy đủ)
+* 27 hình ảnh và âm thanh (Phiên bản dùng thử)
+* 2 các loại khác nhau
+* Xem hình tự động để chơi liên tục
+* Hình ảnh thoại mô tả
+* 9 ngôn ngữ khác nhau
+* Tên của động vật cho mỗi hình ảnh
+
+Tải về ứng dụng này vào ngày hôm nay!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
+
+Tính năng bao gồm:
+
+* Hơn 130 hình ảnh và âm thanh (Phiên bản đầy đủ)
+* 27 hình ảnh và âm thanh (Phiên bản dùng thử)
+* 2 các loại khác nhau
+* Xem hình tự động để chơi liên tục
+* Hình ảnh thoại mô tả
+* 9 ngôn ngữ khác nhau
+* Tên của động vật cho mỗi hình ảnh
+
+Tải về ứng dụng này vào ngày hôm nay!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Thử nghiệm của bạn đã hết hạn, xin vui lòng mua các ứng dụng để có được hơn 130 hình ảnh và âm thanh!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Nhắc nhở: Phiên bản thử nghiệm giảng dạy Tom đi kèm với 27 hình ảnh và âm thanh.  Để thêm 27 thêm hình ảnh và âm thanh với phiên bản dùng thử của bạn chỉ đơn giản là giá ứng dụng này.  Để có được hơn 130 hình ảnh và âm thanh mua ứng dụng này.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Giảng dạy Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Phiên tòa đã hết hạn.  Xin vui lòng mua.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Thử nghiệm là 27 bức ảnh/âm thanh. Phiên bản đầy đủ là 135 bức ảnh/âm thanh</value>
+  </data>
 </root>

@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Scadenza</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Insegnare a neonati e bambini piccoli animali e loro suoni in fino a 9 lingue diverse.
+
+Le caratteristiche includono:
+
+* Oltre 130 immagini e suoni (versione completa)
+* 27 immagini e suoni (versione di prova)
+* 2 categorie differenti
+* Slideshow per riproduzione continua
+* Descrizione voce immagine
+* 9 diverse lingue
+* Nome di animale per ogni immagine
+
+Scarica questa applicazione!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Insegnare a neonati e bambini piccoli animali e loro suoni in fino a 9 lingue diverse.
+
+Le caratteristiche includono:
+
+* Oltre 130 immagini e suoni (versione completa)
+* 27 immagini e suoni (versione di prova)
+* 2 categorie differenti
+* Slideshow per riproduzione continua
+* Descrizione voce immagine
+* 9 diverse lingue
+* Nome di animale per ogni immagine
+
+Scarica questa applicazione!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>La versione di prova è scaduta, si prega di acquistare l'applicazione per ottenere oltre 130 immagini e suoni!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Promemoria: Versione di prova di insegnamento Tom è dotato di 27 immagini e suoni.  Per aggiungere 27 più immagini e suoni per la versione di prova semplicemente votare questa app.  Per ottenere oltre 130 immagini e suoni comprare questa app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Insegnamento Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Trial è scaduto.  Si prega di acquistare.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Trial è 27 foto/suoni. La versione completa è 135 foto/suoni</value>
+  </data>
 </root>

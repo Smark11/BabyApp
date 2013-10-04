@@ -465,26 +465,28 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enseñar a los bebés y niños pequeños animales y sus sonidos de hasta 9 idiomas diferentes.
 
-Features include:
+Las características incluyen:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Más de 130 imágenes y sonidos (versión completa)
+* 27 imágenes y sonidos (versión de prueba)
+* 2 diferentes categorías
+* Presentación de diapositivas para reproducción continua
+* Imagen Descripción de voz
+* 9 idiomas
+* Nombre del animal para cada imagen
 
-Download this app today!</target>
+Descargar esta aplicación hoy!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enseñar a los bebés y niños pequeños animales y sus sonidos de hasta 9 idiomas diferentes.
 
-Features include:
+Las características incluyen:
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Más de 130 imágenes y sonidos (versión completa)
+* 27 imágenes y sonidos (versión de prueba)
+* 2 diferentes categorías
+* Presentación de diapositivas para reproducción continua
+* Imagen Descripción de voz
+* 9 idiomas
+* Nombre del animal para cada imagen
 
-Download this app today!</target>
+Descargar esta aplicación hoy!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Su juicio ha caducado, por favor compra la aplicación para conseguir más de 130 imágenes y sonidos!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Recordatorio: Versión de prueba de enseñanza Tom viene con 27 imágenes y sonidos.  Para agregar 27 más imágenes y sonidos para tu versión de prueba simplemente tarifa esta aplicación.  Para obtener más de 130 imágenes y sonidos comprar esta aplicación.</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Enseñanza Tom</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Versión de prueba ha caducado.  Por favor compra.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">El juicio es 27 fotos y sonidos. La versión completa es 135 fotos y sonidos</target>
         </trans-unit>
       </group>
     </body>

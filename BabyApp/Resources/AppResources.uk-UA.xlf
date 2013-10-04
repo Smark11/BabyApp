@@ -465,9 +465,10 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
@@ -477,9 +478,10 @@ Download this app today!</source>
 
 Особливості включають:
 
-* 150 Зображення та звуки
+* Понад 130 образам та звукам (повна версія)
+* 27 образам та звукам (пробна версія)
 * 2 різних категорій
-* Слайд-шоу для безперервної грати
+* Слайд-шоу для безперервного відтворення
 * Зображення голос Опис
 * 9 різними мовами
 * Назва тварини для кожного зображення
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Навчити немовлят і малюків тварин та їх звуки до 9 різними мовами.
 
-Features include:
+Особливості включають:
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Понад 130 образам та звукам (повна версія)
+* 27 образам та звукам (пробна версія)
+* 2 різних категорій
+* Слайд-шоу для безперервного відтворення
+* Зображення голос Опис
+* 9 різними мовами
+* Назва тварини для кожного зображення
 
-Download this app today!</target>
+Завантажити цей застосунок сьогодні!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Завершився ознайомлювальний, будь ласка, купити додаток до отримати більше 130 зображень і звуків!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Нагадування: Викладання Том пробна версія поставляється з 27 зображень і звуків.  Щоб додати 27 більше зображень і звуків для ознайомлювальної версії просто оцінити це ОК.  Щоб отримати більш ніж 130 зображень і звуків придбати це ОК.</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Викладання Том</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Судовий розгляд, минув.  Будь ласка, купити.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Процес є 27 фото/звуки. Повна версія є 135 фото/звуки</target>
         </trans-unit>
       </group>
     </body>

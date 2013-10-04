@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Trial Has Expired</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Teaching Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Trial has expired.  Please purchase.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Trial is 27 pics/sounds. Full version is 135 pics/sounds</value>
+  </data>
 </root>

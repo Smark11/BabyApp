@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Skúšobné vypršala</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
+
+Funkcie patrí:
+
+* Viac ako 130 obrázky a zvuky (plná verzia)
+* 27 obrázky a zvuky (skúšobná verzia)
+* 2 rôzne kategórie
+* Prezentácie pre nepretržité prehrávanie
+* Image hlas Popis
+* 9 rôznych jazykoch
+* Meno zvieraťa pre každý obrázok
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Naučiť dojčatá a batoľatá zvierat a ich zvuky v až 9 rôznych jazykoch.
+
+Funkcie patrí:
+
+* Viac ako 130 obrázky a zvuky (plná verzia)
+* 27 obrázky a zvuky (skúšobná verzia)
+* 2 rôzne kategórie
+* Prezentácie pre nepretržité prehrávanie
+* Image hlas Popis
+* 9 rôznych jazykoch
+* Meno zvieraťa pre každý obrázok
+
+Stiahnite si túto app dnes!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Vaše skúšobné vypršala, prosím nákup aplikácie dostať cez 130 obrázky a zvuky!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Pripomenutie: Výučba Tom skúšobná verzia prichádza s 27 obrázky a zvuky.  Pridať 27 viac obrázkov a zvukov na skúšobnú verziu jednoducho ohodnotiť túto app.  Získať viac ako 130 obrázky a zvuky kúpiť túto aplikáciu.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Tom výučby</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Skúšobné vypršala.  Prosím kúpiť.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Trial je 27 obrázky/zvuky. Plná verzia je 135 fotky/zvuky</value>
+  </data>
 </root>

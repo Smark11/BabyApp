@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Deneme süresi sona erdi</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 130 Resimleri ve sesleri (tam sürüm)
+* 27 resimleri ve sesleri (deneme sürümü)
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
+
+Özellikleri şunlardır:
+
+* 130 Resimleri ve sesleri (tam sürüm)
+* 27 resimleri ve sesleri (deneme sürümü)
+* 2 farklı kategoriler
+* Sürekli oynamak için slayt gösterisi
+* Görüntü ses açıklaması
+* 9 farklı dilde
+* Her resim için hayvan adını
+
+Bu app bugün yükleyin!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Deneme süresi doldu, lütfen 130 Resimler ve sesler almak için uygulama satın almak!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Hatırlatma: Öğretim Tom deneme sürümü 27 resimler ve sesler geliyor.  27 Eklemek için daha fazla resim ve ses deneme sürümü sadece bu app oranı.  130 Den fazla almak için resimler ve sesler bu uygulama satın alma.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Öğretim Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Deneme süresi doldu.  Mutlu etmek satın almak.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Deneme 27 pics/sesler olduğunu. Tam sürümüdür: 135 pics/sesler</value>
+  </data>
 </root>

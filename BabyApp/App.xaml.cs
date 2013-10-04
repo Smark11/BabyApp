@@ -33,7 +33,7 @@ namespace BabyApp
         public bool IsTrial
         {
             get
-            {              
+            {             
                 return _isTrial;
             }
         }

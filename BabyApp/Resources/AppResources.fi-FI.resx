@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Oikeudenkäynti on päättynyt</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
+
+Ominaisuuksia:
+
+* Yli 130 kuvia ja ääniä (täysi versio)
+* 27 kuvat ja äänet (kokeiluversio)
+* 2 eri
+* Slideshow jatkuvaan toistoon
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Opettaa vauvoille ja pikkulapsille eläimiä ja niiden ääniä jopa 9 eri kielellä.
+
+Ominaisuuksia:
+
+* Yli 130 kuvia ja ääniä (täysi versio)
+* 27 kuvat ja äänet (kokeiluversio)
+* 2 eri
+* Slideshow jatkuvaan toistoon
+* Kuva ääni kuvaus
+* 9 eri kielellä
+* Eläimen nimi kunkin kuvan
+
+Lataa tämän app tänään!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Kokeiluversio on vanhentunut, voit ostaa sovelluksen päästä yli 130 kuvia ja ääniä!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Muistutus: Opetus Tom kokeiluversio on 27 kuvia ja ääniä.  Lisää 27 lisää kuvia ja ääniä kokeiluversio vain luokitus tämän app.  Saada yli 130 kuvia ja ääniä ostaa tämän app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Opetuksen Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Oikeudenkäynti on päättynyt.  Voit ostaa.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>On 27 kuvia/ääniä. Täysi versio on 135 kuvia/ääniä</value>
+  </data>
 </root>

@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Versión de prueba ha caducado</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Enseñar a los bebés y niños pequeños animales y sus sonidos de hasta 9 idiomas diferentes.
+
+Las características incluyen:
+
+* Más de 130 imágenes y sonidos (versión completa)
+* 27 imágenes y sonidos (versión de prueba)
+* 2 diferentes categorías
+* Presentación de diapositivas para reproducción continua
+* Imagen Descripción de voz
+* 9 idiomas
+* Nombre del animal para cada imagen
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Enseñar a los bebés y niños pequeños animales y sus sonidos de hasta 9 idiomas diferentes.
+
+Las características incluyen:
+
+* Más de 130 imágenes y sonidos (versión completa)
+* 27 imágenes y sonidos (versión de prueba)
+* 2 diferentes categorías
+* Presentación de diapositivas para reproducción continua
+* Imagen Descripción de voz
+* 9 idiomas
+* Nombre del animal para cada imagen
+
+Descargar esta aplicación hoy!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Su juicio ha caducado, por favor compra la aplicación para conseguir más de 130 imágenes y sonidos!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Recordatorio: Versión de prueba de enseñanza Tom viene con 27 imágenes y sonidos.  Para agregar 27 más imágenes y sonidos para tu versión de prueba simplemente tarifa esta aplicación.  Para obtener más de 130 imágenes y sonidos comprar esta aplicación.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Enseñanza Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Versión de prueba ha caducado.  Por favor compra.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>El juicio es 27 fotos y sonidos. La versión completa es 135 fotos y sonidos</value>
+  </data>
 </root>

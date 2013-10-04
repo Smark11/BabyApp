@@ -446,20 +446,6 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>การเรียนรู้</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>สอนเด็กทารก และเด็กวัยหัดเดินสัตว์ และเสียงของพวกเขาในภาษาต่าง ๆ ถึง 9
-
-คุณสมบัติรวมถึง:
-
-* กว่า 150 ภาพและเสียง
-* 2 ประเภทแตกต่างกัน
-* สไลด์โชว์การเล่นต่อเนื่อง
-* ภาพเสียงอธิบาย
-* ภาษา 9
-* ชื่อของสัตว์แต่ละรูป
-
-ดาวน์โหลด app นี้วันนี้</value>
-  </data>
   <data name="Raccoon" xml:space="preserve">
     <value>สัตว์คล้ายหมีเล็ก</value>
   </data>
@@ -534,5 +520,50 @@
   </data>
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>ทดลองใช้หมดอายุ</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>สอนเด็กทารก และเด็กวัยหัดเดินสัตว์ และเสียงของพวกเขาในภาษาต่าง ๆ ถึง 9
+
+คุณสมบัติรวมถึง:
+
+* กว่า 130 รูปภาพและเสียง (ฉบับเต็ม)
+* 27 ภาพและเสียง (รุ่นทดลอง)
+* 2 ประเภทแตกต่างกัน
+* การนำเสนอภาพนิ่งสำหรับการเล่นอย่างต่อเนื่อง
+* ภาพเสียงอธิบาย
+* ภาษา 9
+* ชื่อของสัตว์แต่ละรูป
+
+ดาวน์โหลด app นี้วันนี้</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>สอนเด็กทารก และเด็กวัยหัดเดินสัตว์ และเสียงของพวกเขาในภาษาต่าง ๆ ถึง 9
+
+คุณสมบัติรวมถึง:
+
+* กว่า 130 รูปภาพและเสียง (ฉบับเต็ม)
+* 27 ภาพและเสียง (รุ่นทดลอง)
+* 2 ประเภทแตกต่างกัน
+* การนำเสนอภาพนิ่งสำหรับการเล่นอย่างต่อเนื่อง
+* ภาพเสียงอธิบาย
+* ภาษา 9
+* ชื่อของสัตว์แต่ละรูป
+
+ดาวน์โหลด app นี้วันนี้</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>ทดลองของคุณหมดอายุแล้ว กรุณาซื้อแอพลิเคชันได้ 130 รูปภาพและเสียง</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>เตือน: รุ่นทดลองสอนต้มมา 27 ภาพและเสียง  เพิ่ม 27 เพิ่มเติมรูปภาพและเสียงของรุ่นทดลองเพียงอันดับ app นี้  จะได้รับกว่า 130 รูปภาพและเสียงซื้อ app นี้</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>ทอมสอน</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>ทดลองใช้หมดอายุ  กรุณาซื้อ</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>ทดลองมีเสียงละ 27 ภาพ เวอร์ชันเต็มมีเสียง 135 ภาพ</value>
   </data>
 </root>

@@ -465,9 +465,10 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
@@ -477,9 +478,10 @@ Download this app today!</source>
 
 功能包括：
 
-* 超過 150 的圖像和聲音
+* 超過 130 的圖像和聲音 （完整版）
+* 27 的圖像和聲音 (試用版)
 * 2 不同類別
-* 為連續播放的的投影片放映
+* 以連續播放的投影片放映
 * 圖像語音說明
 * 9 種不同語言
 * 動物的每個圖像的名稱
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">教嬰兒和初學走路的兒童動物和其達 9 種不同語言的聲音。
 
-Features include:
+功能包括：
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* 超過 130 的圖像和聲音 （完整版）
+* 27 的圖像和聲音 (試用版)
+* 2 不同類別
+* 以連續播放的投影片放映
+* 圖像語音說明
+* 9 種不同語言
+* 動物的每個圖像的名稱
 
-Download this app today!</target>
+今天下載這個應用程式 ！</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">您的試用版已過期，請購買要忘掉 130 圖片和聲音的應用程式 ！</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">提醒： 教學湯姆試用版本附帶了 27 圖片和聲音。若要添加 27 更多圖片和聲音給您的試用版只是速率這個應用程式。要獲取超過 130 圖片和聲音購買這款軟體。</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">教學湯姆</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">試用版已過期。請購買。</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">審判是 27 的圖片聲音。完整版本是 135 的圖片聲音</target>
         </trans-unit>
       </group>
     </body>

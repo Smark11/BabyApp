@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Bandomasis pasibaigęs</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 130 vaizdai ir garsai (pilna versija)
+* 27 vaizdų ir garsų (bandomoji versija)
+* 2 skirtingų kategorijų
+* Demonstracija už grotų
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
+
+Funkcijos apima:
+
+* Daugiau nei 130 vaizdai ir garsai (pilna versija)
+* 27 vaizdų ir garsų (bandomoji versija)
+* 2 skirtingų kategorijų
+* Demonstracija už grotų
+* Nuotrauka balso Aprašymas
+* 9 skirtingų kalbų
+* Gyvulio vardas kiekvieno vaizdas
+
+Parsisiųsti šią programą šiandien!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Jūsų bandomasis pasibaigęs, prašome įsigyti gauti per 130 paveikslėliai ir garsai!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Priminimas: Mokymo Tom bandomąją versiją yra 27 nuotraukos ir garsai.  Pridėti 27 daugiau nuotraukų ir garsų, kurie savo bandomąją versiją tiesiog Įvertinkite šią programą.  Norėdami gauti daugiau nei 130 paveikslėliai ir garsai įsigyti šią programą.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Mokymo Tomas</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Bandomasis pasibaigęs.  Prašome įsigyti.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Tyrimo metu yra 27 nuotraukos/garsai. Pilna versija yra 135 nuotraukos/garsai</value>
+  </data>
 </root>

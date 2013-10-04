@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Judici ha expirat</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 130 imatges i sons (versió completa)
+* 27 imatges i sons (versió en proves)
+* 2 categories diferents
+* Presentació de diapositives per jugar contínua
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ensenyar els nadons i nens petits animals i seus sons fins a 9 idiomes diferents.
+
+Les característiques inclouen:
+
+* Més de 130 imatges i sons (versió completa)
+* 27 imatges i sons (versió en proves)
+* 2 categories diferents
+* Presentació de diapositives per jugar contínua
+* Descripció de la veu imatge
+* 9 idiomes diferents
+* Nom del animal per a cada imatge
+
+Descarregar aquest app avui!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>El seu judici ha expirat, si us plau comprar l'aplicació a superar els 130 imatges i sons!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Recordatori: Versió de judici d'ensenyament Tom ve amb 27 imatges i sons.  Per afegir 27 més imatges i sons a la versió de judici només Valora aquest app.  Per obtenir més de 130 imatges i sons comprar aquest app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Tom ensenyament</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Judici ha expirat.  Si us plau comprar.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Trial és 27 fotos/sons. Versió completa és 135 fotos/sons</value>
+  </data>
 </root>

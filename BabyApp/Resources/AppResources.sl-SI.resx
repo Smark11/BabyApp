@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Poskus Has izdihniti</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 130 slike in zvoki (poln prevod)
+* 27 slik in zvokov (poskus prevod)
+* 2 različne kategorije
+* Slideshow za neprekinjeno predvajanje
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Poučevanje dojenčki in malčki živali in njihovih zvokov v do 9 različnih jezikih.
+
+Funkcije vključujejo:
+
+* Več kot 130 slike in zvoki (poln prevod)
+* 27 slik in zvokov (poskus prevod)
+* 2 različne kategorije
+* Slideshow za neprekinjeno predvajanje
+* Slika glas opis
+* 9 različnih jezikih
+* Ime živali za vsako sliko
+
+Travnato gričevje to app danes!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Vaš poskus has izdihniti, prosim nakup uporabe dobiti čez 130 slike in zvoki!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Opomnik: Poučevanje Tom poskus prevod priti s 27 slik in zvokov.  Dodati 27 več slik in zvokov poskus prevod preprosto Ocenite to app.  Da bi dobili več kot 130 slike in zvoki nakup to app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Poučevanje Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Poskus has izdihniti.  Prosimo kupiti.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Sojenje je 27 pics/zvoki. Poln prevod je 135 pics/zvoki</value>
+  </data>
 </root>

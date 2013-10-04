@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Wygasła wersja próbna</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Uczyć dzieci i niemowląt zwierząt i ich dźwięki do 9 różnych językach.
+
+Funkcje obejmują:
+
+* Ponad 130 zdjęć i dźwięków (pełna wersja)
+* 27 obrazów i dźwięków (wersja próbna)
+* 2 różne kategorie
+* Pokaz slajdów do ciągłego odtwarzania
+* Opis głos
+* 9 różnych językach
+* Nazwa zwierzęcia dla każdego obrazu
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Uczyć dzieci i niemowląt zwierząt i ich dźwięki do 9 różnych językach.
+
+Funkcje obejmują:
+
+* Ponad 130 zdjęć i dźwięków (pełna wersja)
+* 27 obrazów i dźwięków (wersja próbna)
+* 2 różne kategorie
+* Pokaz slajdów do ciągłego odtwarzania
+* Opis głos
+* 9 różnych językach
+* Nazwa zwierzęcia dla każdego obrazu
+
+Pobrać tę aplikację dziś!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Twoja próba wygasła, prosimy o zakup aplikacji aby uzyskać ponad 130 zdjęć i dźwięków!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Przypomnienie: Pedagogika Tom wersji próbnej pochodzi z 27 obrazów i dźwięków.  Aby dodać 27 więcej zdjęć i dźwięków do swojej wersji próbnej po prostu ocenić tej aplikacji.  Aby uzyskać ponad 130 zdjęć i dźwięków zakup tej aplikacji.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Tom nauczania</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Wygasła wersja próbna.  Proszę zakupić.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Wersja próbna jest 27 fotki/dźwięki. Pełna wersja jest fotki 135/dźwięki</value>
+  </data>
 </root>

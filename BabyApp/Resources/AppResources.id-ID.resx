@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Persidangan telah berakhir</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 130 gambar dan suara (versi lengkap)
+* 27 gambar dan suara (versi trial)
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
+
+Fitur termasuk:
+
+* Lebih dari 130 gambar dan suara (versi lengkap)
+* 27 gambar dan suara (versi trial)
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
+
+Download aplikasi ini hari ini!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Anda persidangan telah berakhir, silahkan membeli aplikasi untuk mendapatkan lebih dari 130 gambar dan suara!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Pengingat: Versi trial pengajaran Tom dilengkapi dengan 27 gambar dan suara.  Untuk menambahkan 27 lebih gambar dan suara dengan versi trial hanya tingkat app ini.  Untuk mendapatkan lebih dari 130 gambar dan suara membeli aplikasi ini.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Tom pengajaran</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Persidangan telah berakhir.  Silahkan membeli.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Uji adalah 27 pics/suara. Versi lengkap adalah 135 pics/suara</value>
+  </data>
 </root>

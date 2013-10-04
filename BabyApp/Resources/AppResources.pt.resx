@@ -521,4 +521,49 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Teste expirou</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Ensine os bebês e crianças animais e seus sons em até 9 idiomas diferentes.
+
+As características incluem:
+
+* Mais de 130 imagens e sons (versão completa)
+* 27 imagens e sons (versão de teste)
+* 2 categorias diferentes
+* Apresentação de slides para reprodução contínua
+* Descrição de voz imagem
+* 9 línguas diferentes
+* Nome do animal para cada imagem
+
+Baixe este app hoje!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ensine os bebês e crianças animais e seus sons em até 9 idiomas diferentes.
+
+As características incluem:
+
+* Mais de 130 imagens e sons (versão completa)
+* 27 imagens e sons (versão de teste)
+* 2 categorias diferentes
+* Apresentação de slides para reprodução contínua
+* Descrição de voz imagem
+* 9 línguas diferentes
+* Nome do animal para cada imagem
+
+Baixe este app hoje!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Seu teste expirou, por favor adquirir o aplicativo para obter mais de 130 fotos e sons!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Lembrete: A versão de avaliação do ensino Tom vem com 27 fotos e sons.  Para adicionar 27 mais imagens e sons para sua versão de teste, simplesmente, taxa este app.  Para obter mais de 130 fotos e sons compra este app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Tom de ensino</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Teste expirou.  Por favor, compra.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Julgamento é 27 fotos e sons. Versão completa é de 135 fotos e sons</value>
+  </data>
 </root>

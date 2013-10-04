@@ -465,26 +465,28 @@
 
 Features include:
 
-* Over 150 images and sounds
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
 * 2 different categories
-* Slideshow for continous play
+* Slideshow for continuous play
 * Image voice description
 * 9 different languages
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
 
-Features include:
+Fitur termasuk:
 
-* Over 150 images and sounds
-* 2 different categories
-* Slideshow for continous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Lebih dari 130 gambar dan suara (versi lengkap)
+* 27 gambar dan suara (versi trial)
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
 
-Download this app today!</target>
+Download aplikasi ini hari ini!</target>
         </trans-unit>
         <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
           <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
@@ -500,19 +502,19 @@ Features include:
 * Name of animal for each image
 
 Download this app today!</source>
-          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mengajarkan bayi dan balita hewan dan suara mereka dalam hingga 9 bahasa yang berbeda.
 
-Features include:
+Fitur termasuk:
 
-* Over 130 images and sounds (full version)
-* 27 images and sounds (trial version)
-* 2 different categories
-* Slideshow for continuous play
-* Image voice description
-* 9 different languages
-* Name of animal for each image
+* Lebih dari 130 gambar dan suara (versi lengkap)
+* 27 gambar dan suara (versi trial)
+* 2 kategori yang berbeda
+* Slideshow untuk terus-menerus bermain
+* Deskripsi suara gambar
+* 9 bahasa yang berbeda
+* Nama binatang untuk setiap gambar
 
-Download this app today!</target>
+Download aplikasi ini hari ini!</target>
         </trans-unit>
         <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
@@ -592,7 +594,7 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
           <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
-          <target state="new">Your trial has expired, please purchase the application to get over 130 pictures and sounds!</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anda persidangan telah berakhir, silahkan membeli aplikasi untuk mendapatkan lebih dari 130 gambar dan suara!</target>
         </trans-unit>
         <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
           <source>Purchase</source>
@@ -604,19 +606,19 @@ Download this app today!</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
           <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
-          <target state="new">Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pengingat: Versi trial pengajaran Tom dilengkapi dengan 27 gambar dan suara.  Untuk menambahkan 27 lebih gambar dan suara dengan versi trial hanya tingkat app ini.  Untuk mendapatkan lebih dari 130 gambar dan suara membeli aplikasi ini.</target>
         </trans-unit>
         <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
           <source>Teaching Tom</source>
-          <target state="new">Teaching Tom</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tom pengajaran</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
           <source>Trial has expired.  Please purchase.</source>
-          <target state="new">Trial has expired.  Please purchase.</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Persidangan telah berakhir.  Silahkan membeli.</target>
         </trans-unit>
         <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
           <source>Trial is 27 pics/sounds. Full version is 135 pics/sounds</source>
-          <target state="new">Trial is 27 pics/sounds. Full version is 135 pics/sounds</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uji adalah 27 pics/suara. Versi lengkap adalah 135 pics/suara</target>
         </trans-unit>
       </group>
     </body>
