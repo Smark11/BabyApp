@@ -355,6 +355,8 @@
     <Content Include="Assets\Pics\BabyMisc\Tractor.png" />
     <Content Include="Assets\Pics\BabyMisc\TV.png" />
     <Content Include="Assets\Pics\BabyMisc\Vacuum.png" />
+    <Content Include="Assets\Pics\questionmark480x800.png" />
+    <Content Include="Assets\Pics\questionmark80x100.png" />
     <Content Include="Assets\Sounds\Animals\alligator.wav" />
     <Content Include="Assets\Sounds\Animals\anteater.wav" />
     <Content Include="Assets\Sounds\Animals\badger.wav" />

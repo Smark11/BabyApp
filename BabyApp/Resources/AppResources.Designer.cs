@@ -442,6 +442,15 @@ namespace BabyApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Like this app? Let everyone else know!  As our thanks to you we will add 5 new cartoon and 5 new real animal pictures. Rate this app?.
+        /// </summary>
+        public static string ExtendFreeVersion {
+            get {
+                return ResourceManager.GetString("ExtendFreeVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Extend Trial?.
         /// </summary>
         public static string ExtendTrailPromptHeader {
@@ -474,6 +483,24 @@ namespace BabyApp.Resources {
         public static string Fox {
             get {
                 return ResourceManager.GetString("Fox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Free version is 12 pics/sounds. Full version is 135 pics/sounds.
+        /// </summary>
+        public static string FreeVersionMessageBox1 {
+            get {
+                return ResourceManager.GetString("FreeVersionMessageBox1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Free version is 27 pics/sounds. Full version is 135 pics/sounds.
+        /// </summary>
+        public static string FreeVersionMessageBox2 {
+            get {
+                return ResourceManager.GetString("FreeVersionMessageBox2", resourceCulture);
             }
         }
         
@@ -942,6 +969,15 @@ namespace BabyApp.Resources {
         public static string Purchase {
             get {
                 return ResourceManager.GetString("Purchase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to QuestionMark.
+        /// </summary>
+        public static string QuestionMark {
+            get {
+                return ResourceManager.GetString("QuestionMark", resourceCulture);
             }
         }
         

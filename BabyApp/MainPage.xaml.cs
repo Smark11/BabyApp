@@ -35,6 +35,7 @@ namespace BabyApp
         public event PropertyChangedEventHandler PropertyChanged;
         SpeechSynthesizer synthesizer;
 
+
         ApplicationBarIconButton appBarButton1 = new ApplicationBarIconButton(new Uri("/Assets/transport.play.png", UriKind.Relative));
         ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Elephant80x100.png", UriKind.Relative));
         ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/Pics/BabyAnimals/Dog80x100.png", UriKind.Relative));
@@ -70,22 +71,58 @@ namespace BabyApp
             synthesizer = new SpeechSynthesizer();
             this.DataContext = this;
 
-            NavigateToScreen(Screen.MainGrid);
             BuildLocalizedApplicationBar();
-            LoadPicsIntoCollection();
+            NavigateToScreen(Screen.MainGrid);
+
             Mode = Screen.MainGrid;
-            PaidAppInitialization(false);
+
+
+            if ((Application.Current as App).IsFreeVersion)
+            {
+                FreeAppInitialization();
+            }
+            else
+            {
+                PaidAppInitialization(false);
+            }
         }
 
         #region "Methods"
 
         private void FreeAppInitialization()
         {
-        }
+            pivotControl.IsEnabled = true;
+            appBarButton1.IsEnabled = true;
+            TrialOverTextBlock.Visibility = Visibility.Visible;
+            LoadPicsIntoCollectionFree();
+            SetPivotsFree(App.gCategory);
 
+            if (_rated)
+            {
+                TrialTextBoxMessage = AppResources.FreeVersionMessageBox2;
+            }
+            else
+            {
+                TrialTextBoxMessage = AppResources.FreeVersionMessageBox1;
+            }
+
+            if (!_rated && _numberOfTimesOpened >= 1)
+            {
+                MessageBoxResult result = MessageBox.Show(AppResources.ExtendFreeVersion, AppResources.RateAppHeader, MessageBoxButton.OKCancel);
+
+                if (result == MessageBoxResult.OK)
+                {
+                    IS.SaveSetting("AppRated", "Yes");
+                    _rated = true;
+                    MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                    marketplaceReviewTask.Show();
+                }
+            }
+        }
 
         private void PaidAppInitialization(bool skipMessageBox)
         {
+            LoadPicsIntoCollection();
             if ((Application.Current as App).IsTrial)
             {
                 TrialOverTextBlock.Visibility = Visibility.Visible;
@@ -97,7 +134,7 @@ namespace BabyApp
                 {
                     TrialTextBoxMessage = AppResources.TrialMessageBox2;
                 }
-               
+
                 if (Trial.IsTrialExpired())
                 {
                     TrialTextBoxMessage = AppResources.TrialMessageBox1;
@@ -157,6 +194,57 @@ namespace BabyApp
                 // TrialOverTextBlock.Visibility = Visibility.Visible;
                 pivotControl.IsEnabled = false;
                 appBarButton1.IsEnabled = false;
+            }
+        }
+
+        private void LoadPicsIntoCollectionFree()
+        {
+            Animals = new List<Box>();
+            if (_rated)
+            {
+                Animals.Add(new Box("Alligator", "/Assets/Pics/Animals/alligator80x100.png", "/Assets/Pics/Animals/alligator480x800.png", "/Assets/Sounds/Animals/alligator.wav"));
+                Animals.Add(new Box("Anteater", "/Assets/Pics/Animals/anteater80x100.png", "/Assets/Pics/Animals/anteater480x800.png", "/Assets/Sounds/Animals/anteater.wav"));
+                Animals.Add(new Box("Badger", "/Assets/Pics/Animals/badger80x100.png", "/Assets/Pics/Animals/badger480x800.png", "/Assets/Sounds/Animals/badger.wav"));
+                Animals.Add(new Box("Bear", "/Assets/Pics/Animals/bear80x100.png", "/Assets/Pics/Animals/bear480x800.png", "/Assets/Sounds/Animals/bear.wav"));
+                Animals.Add(new Box("Camel", "/Assets/Pics/Animals/camel80x100.png", "/Assets/Pics/Animals/camel480x800.png", "/Assets/Sounds/Animals/camel.wav"));
+                Animals.Add(new Box("Cheetah", "/Assets/Pics/Animals/cheetah80x100.png", "/Assets/Pics/Animals/cheetah480x800.png", "/Assets/Sounds/Animals/cheetah.wav"));
+                Animals.Add(new Box("Crocodile", "/Assets/Pics/Animals/crocodile80x100.png", "/Assets/Pics/Animals/crocodile480x800.png", "/Assets/Sounds/Animals/crocodile.wav"));
+                Animals.Add(new Box("Deer", "/Assets/Pics/Animals/deer80x100.png", "/Assets/Pics/Animals/deer480x800.png", "/Assets/Sounds/Animals/deer.wav"));
+                Animals.Add(new Box("Dog", "/Assets/Pics/Animals/dog80x100.png", "/Assets/Pics/Animals/dog480x800.png", "/Assets/Sounds/Animals/dog.wav"));
+            }
+            else
+            {
+                Animals.Add(new Box("Alligator", "/Assets/Pics/Animals/alligator80x100.png", "/Assets/Pics/Animals/alligator480x800.png", "/Assets/Sounds/Animals/alligator.wav"));
+                Animals.Add(new Box("Anteater", "/Assets/Pics/Animals/anteater80x100.png", "/Assets/Pics/Animals/anteater480x800.png", "/Assets/Sounds/Animals/anteater.wav"));
+                Animals.Add(new Box("Badger", "/Assets/Pics/Animals/badger80x100.png", "/Assets/Pics/Animals/badger480x800.png", "/Assets/Sounds/Animals/badger.wav"));
+                Animals.Add(new Box("Bear", "/Assets/Pics/Animals/bear80x100.png", "/Assets/Pics/Animals/bear480x800.png", "/Assets/Sounds/Animals/bear.wav"));
+
+                Animals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+                Animals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+                Animals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+                Animals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+                Animals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+            }
+
+            CartoonAnimals = new List<Box>();
+            if (_rated)
+            {
+                CartoonAnimals.Add(new Box("Alligator", "/Assets/Pics/BabyAnimals/alligator80x100.png", "/Assets/Pics/BabyAnimals/alligator480x800.png", "/Assets/Sounds/Animals/alligator.wav"));
+                CartoonAnimals.Add(new Box("Anteater", "/Assets/Pics/BabyAnimals/anteater80x100.png", "/Assets/Pics/BabyAnimals/anteater480x800.png", "/Assets/Sounds/Animals/anteater.wav"));
+                CartoonAnimals.Add(new Box("Badger", "/Assets/Pics/BabyAnimals/badger80x100.png", "/Assets/Pics/BabyAnimals/badger480x800.png", "/Assets/Sounds/Animals/badger.wav"));
+                CartoonAnimals.Add(new Box("Bear", "/Assets/Pics/BabyAnimals/bear80x100.png", "/Assets/Pics/BabyAnimals/bear480x800.png", "/Assets/Sounds/Animals/bear.wav"));
+                CartoonAnimals.Add(new Box("Camel", "/Assets/Pics/BabyAnimals/camel80x100.png", "/Assets/Pics/BabyAnimals/camel480x800.png", "/Assets/Sounds/Animals/camel.wav"));
+                CartoonAnimals.Add(new Box("Cheetah", "/Assets/Pics/BabyAnimals/cheetah80x100.png", "/Assets/Pics/BabyAnimals/cheetah480x800.png", "/Assets/Sounds/Animals/cheetah.wav"));
+                CartoonAnimals.Add(new Box("Crocodile", "/Assets/Pics/BabyAnimals/crocodile80x100.png", "/Assets/Pics/BabyAnimals/crocodile480x800.png", "/Assets/Sounds/Animals/crocodile.wav"));
+                CartoonAnimals.Add(new Box("Deer", "/Assets/Pics/BabyAnimals/deer80x100.png", "/Assets/Pics/BabyAnimals/deer480x800.png", "/Assets/Sounds/Animals/deer.wav"));
+                CartoonAnimals.Add(new Box("Dog", "/Assets/Pics/BabyAnimals/dog80x100.png", "/Assets/Pics/BabyAnimals/dog480x800.png", "/Assets/Sounds/Animals/dog.wav"));
+            }
+            else
+            {
+                CartoonAnimals.Add(new Box("Alligator", "/Assets/Pics/BabyAnimals/alligator80x100.png", "/Assets/Pics/BabyAnimals/alligator480x800.png", "/Assets/Sounds/Animals/alligator.wav"));
+                CartoonAnimals.Add(new Box("Anteater", "/Assets/Pics/BabyAnimals/anteater80x100.png", "/Assets/Pics/BabyAnimals/anteater480x800.png", "/Assets/Sounds/Animals/anteater.wav"));
+                CartoonAnimals.Add(new Box("Badger", "/Assets/Pics/BabyAnimals/badger80x100.png", "/Assets/Pics/BabyAnimals/badger480x800.png", "/Assets/Sounds/Animals/badger.wav"));
+                CartoonAnimals.Add(new Box("Bear", "/Assets/Pics/BabyAnimals/bear80x100.png", "/Assets/Pics/BabyAnimals/bear480x800.png", "/Assets/Sounds/Animals/bear.wav"));
             }
         }
 
@@ -345,6 +433,44 @@ namespace BabyApp
                 CartoonAnimals.Add(new Box("Zebra", "/Assets/Pics/BabyAnimals/zebra80x100.png", "/Assets/Pics/BabyAnimals/zebra480x800.png", "/Assets/Sounds/Animals/zebra.wav"));
             }
         }
+
+        private void SetPivotsFree(string category)
+        {
+            if (category == "")
+            {
+                if (App.gCategory == "CartoonAnimals")
+                {
+                    category = "Animals";
+                }
+                else
+                {
+                    category = "CartoonAnimals";
+                }
+            }
+
+            switch (category)
+            {
+                case "CartoonAnimals":
+                    App.gCategory = "CartoonAnimals";
+                    PivotSlides.Clear();
+                    PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+
+                    PivotSlides.Clear();
+                    PivotSlides.Add(new PivotSlide("Slide1", CartoonAnimals[0], CartoonAnimals[1], CartoonAnimals[2], CartoonAnimals[3], CartoonAnimals[4], CartoonAnimals[5], CartoonAnimals[6], CartoonAnimals[7], CartoonAnimals[8]));
+
+                    break;
+                case "Animals":
+                    App.gCategory = "Animals";
+
+                    PivotSlides.Clear();
+                    PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+
+                    PivotSlides.Clear();
+                    PivotSlides.Add(new PivotSlide("Slide1", Animals[0], Animals[1], Animals[2], Animals[3], Animals[4], Animals[5], Animals[6], Animals[7], Animals[8]));
+                    break;
+            }
+        }
+
         private void SetPivots(string category)
         {
             Box blankBox = new Box("", "", "", "");
@@ -501,7 +627,10 @@ namespace BabyApp
 
                 if (!_cancellationTokens[tokenNumber].IsCancellationRequested)
                 {
-                    PlayVoiceTextAndSound(tokenNumber);
+                    if (Description != "QuestionMark")
+                    {
+                        PlayVoiceTextAndSound(tokenNumber);
+                    }
                 }
             }
             catch (Exception)
@@ -519,6 +648,7 @@ namespace BabyApp
                         this.PictureGrid.Visibility = Visibility.Visible;
                         this.SlideShow.Visibility = Visibility.Collapsed;
                         this.TitlePanel.Visibility = Visibility.Visible;
+                        ApplicationBar.IsVisible = true;
                         appBarButton1.IsEnabled = true;
                         appBarButton2.IsEnabled = true;
                         appBarButton3.IsEnabled = true;
@@ -529,16 +659,20 @@ namespace BabyApp
                         this.PictureGrid.Visibility = Visibility.Collapsed;
                         this.SlideShow.Visibility = Visibility.Visible;
                         this.TitlePanel.Visibility = Visibility.Collapsed;
+                        ApplicationBar.IsVisible = false;
                         appBarButton1.IsEnabled = false;
                         appBarButton2.IsEnabled = false;
                         appBarButton3.IsEnabled = false;
                         Mode = Screen.SlideShow;
                         break;
                 }
-
             }
             catch (Exception)
             {
+                ApplicationBar.IsVisible = true;
+                appBarButton1.IsEnabled = true;
+                appBarButton2.IsEnabled = true;
+                appBarButton3.IsEnabled = true;
             }
         }
 
@@ -594,8 +728,10 @@ namespace BabyApp
                         Thread.Sleep(250);
                     }
 
-                    PlayVoiceTextAndSound(tokenNumber);
-
+                    if (Description != "QuestionMark")
+                    {
+                        PlayVoiceTextAndSound(tokenNumber);
+                    }
                     if (_cancellationTokens[tokenNumber].IsCancellationRequested)
                     {
                         break;
@@ -677,7 +813,14 @@ namespace BabyApp
 
         public void AppHasComeBackIntoFocus()
         {
-            PaidAppInitialization(true);
+            if ((Application.Current as App).IsFreeVersion)
+            {
+                FreeAppInitialization();
+            }
+            else
+            {
+                PaidAppInitialization(true);
+            }
         }
 
         #endregion "Methods"
@@ -1632,10 +1775,10 @@ namespace BabyApp
                         NavigateToScreen(Screen.MainGrid);
                         break;
                 }
-
             }
             catch (Exception)
             {
+                ApplicationBar.IsVisible = true;
             }
         }
 
@@ -1660,6 +1803,7 @@ namespace BabyApp
             MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
             marketplaceReviewTask.Show();
             IS.SaveSetting("AppRated", "Yes");
+            _rated = true;
         }
 
         private void MoreApps_Click(object sender, EventArgs e)
@@ -1745,12 +1889,13 @@ namespace BabyApp
                     appBarMenuItem3.Click += new EventHandler(Review_Click);
                 }
 
-                if ((Application.Current as App).IsTrial)
+                if (((Application.Current as App).IsTrial) || ((Application.Current as App).IsFreeVersion))
                 {
                     ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.Purchase);
                     ApplicationBar.MenuItems.Add(appBarMenuItem4);
                     appBarMenuItem4.Click += new EventHandler(Purchase_Click);
                 }
+
                 //Decided to not show this for baby app since more apps would show spycam
                 //  ApplicationBarMenuItem appBarMenuItem4 = new ApplicationBarMenuItem(AppResources.AppMenuItemMoreApps);
                 //  ApplicationBar.MenuItems.Add(appBarMenuItem4);

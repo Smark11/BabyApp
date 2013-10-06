@@ -624,6 +624,22 @@ Lae alla käesoleva app täna!</target>
           <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Prooviversiooni on 54 pics/pilt. Täisversioon on 135 pics/pilt</target>
         </trans-unit>
+        <trans-unit id="Resx/FreeVersionMessageBox1" translate="yes" xml:space="preserve">
+          <source>Free version is 12 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Free version is 12 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/FreeVersionMessageBox2" translate="yes" xml:space="preserve">
+          <source>Free version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Free version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendFreeVersion" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  As our thanks to you we will add 5 new cartoon and 5 new real animal pictures. Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 5 new cartoon and 5 new real animal pictures. Rate this app?</target>
+        </trans-unit>
+        <trans-unit id="Resx/QuestionMark" translate="yes" xml:space="preserve">
+          <source>QuestionMark</source>
+          <target state="new">QuestionMark</target>
+        </trans-unit>
       </group>
     </body>
   </file>
