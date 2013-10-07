@@ -521,36 +521,6 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Deneme süresi sona erdi</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
-
-Özellikleri şunlardır:
-
-* 130 Resimleri ve sesleri (tam sürüm)
-* 27 resimleri ve sesleri (deneme sürümü)
-* 2 farklı kategoriler
-* Sürekli oynamak için slayt gösterisi
-* Görüntü ses açıklaması
-* 9 farklı dilde
-* Her resim için hayvan adını
-
-Bu app bugün yükleyin!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Bebekler ve toddlers hayvanlar ve onların sesleri kadar 9 farklı dilde öğretmek.
-
-Özellikleri şunlardır:
-
-* 130 Resimleri ve sesleri (tam sürüm)
-* 27 resimleri ve sesleri (deneme sürümü)
-* 2 farklı kategoriler
-* Sürekli oynamak için slayt gösterisi
-* Görüntü ses açıklaması
-* 9 farklı dilde
-* Her resim için hayvan adını
-
-Bu app bugün yükleyin!</value>
-  </data>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Deneme süresi doldu, lütfen 130 Resimler ve sesler almak için uygulama satın almak!</value>
   </data>

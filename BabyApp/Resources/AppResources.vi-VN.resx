@@ -521,36 +521,6 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Phiên tòa đã hết hạn</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
-
-Tính năng bao gồm:
-
-* Hơn 130 hình ảnh và âm thanh (Phiên bản đầy đủ)
-* 27 hình ảnh và âm thanh (Phiên bản dùng thử)
-* 2 các loại khác nhau
-* Xem hình tự động để chơi liên tục
-* Hình ảnh thoại mô tả
-* 9 ngôn ngữ khác nhau
-* Tên của động vật cho mỗi hình ảnh
-
-Tải về ứng dụng này vào ngày hôm nay!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Dạy cho trẻ sơ sinh và trẻ mới biết đi động vật và âm thanh của họ trong lên đến 9 ngôn ngữ khác nhau.
-
-Tính năng bao gồm:
-
-* Hơn 130 hình ảnh và âm thanh (Phiên bản đầy đủ)
-* 27 hình ảnh và âm thanh (Phiên bản dùng thử)
-* 2 các loại khác nhau
-* Xem hình tự động để chơi liên tục
-* Hình ảnh thoại mô tả
-* 9 ngôn ngữ khác nhau
-* Tên của động vật cho mỗi hình ảnh
-
-Tải về ứng dụng này vào ngày hôm nay!</value>
-  </data>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Thử nghiệm của bạn đã hết hạn, xin vui lòng mua các ứng dụng để có được hơn 130 hình ảnh và âm thanh!</value>
   </data>

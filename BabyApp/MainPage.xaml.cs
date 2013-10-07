@@ -24,6 +24,7 @@ using Common.Utilities;
 using System.Collections.ObjectModel;
 using Common.Licencing;
 using Common.IsolatedStoreage;
+using Windows.ApplicationModel.Store;
 
 
 namespace BabyApp
@@ -1814,9 +1815,30 @@ namespace BabyApp
             marketplaceSearchTask.Show();
         }
 
-        private void Purchase_Click(object sender, EventArgs e)
+        string _receipt = string.Empty;
+        private async void Purchase_Click(object sender, EventArgs e)
         {
-            _marketPlaceDetailTask.Show();
+            try
+            {
+                //Don't go to app store, we need to use "In App Purchases" here.
+                var listing = await CurrentApp.LoadListingInformationAsync();
+
+                var fullAppPurchase = listing.ProductListings.FirstOrDefault();
+
+                _receipt = await CurrentApp.RequestProductPurchaseAsync(fullAppPurchase.Value.ProductId, true);
+
+                if (CurrentApp.LicenseInformation.ProductLicenses[fullAppPurchase.Value.ProductId].IsActive)
+                {
+                    //User has purchased the in app purchase for full pictures.  Load up all of the pictures now, and
+                    //record that the in app purchase has been made in isolated storeage.  That way, next time the 
+                    //app opens, you don't have to re-do this.
+                    //Also, you'll want to remove the "Purchase" from the menu.
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void Help_Click(object sender, EventArgs e)

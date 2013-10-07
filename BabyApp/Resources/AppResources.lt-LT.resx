@@ -521,36 +521,6 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Bandomasis pasibaigęs</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
-
-Funkcijos apima:
-
-* Daugiau nei 130 vaizdai ir garsai (pilna versija)
-* 27 vaizdų ir garsų (bandomoji versija)
-* 2 skirtingų kategorijų
-* Demonstracija už grotų
-* Nuotrauka balso Aprašymas
-* 9 skirtingų kalbų
-* Gyvulio vardas kiekvieno vaizdas
-
-Parsisiųsti šią programą šiandien!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Mokyti kūdikiams ir mažiems vaikams gyvūnai ir jų skamba iki 9 skirtingų kalbų.
-
-Funkcijos apima:
-
-* Daugiau nei 130 vaizdai ir garsai (pilna versija)
-* 27 vaizdų ir garsų (bandomoji versija)
-* 2 skirtingų kategorijų
-* Demonstracija už grotų
-* Nuotrauka balso Aprašymas
-* 9 skirtingų kalbų
-* Gyvulio vardas kiekvieno vaizdas
-
-Parsisiųsti šią programą šiandien!</value>
-  </data>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>Jūsų bandomasis pasibaigęs, prašome įsigyti gauti per 130 paveikslėliai ir garsai!</value>
   </data>

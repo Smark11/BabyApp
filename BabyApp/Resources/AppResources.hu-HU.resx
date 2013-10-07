@@ -521,36 +521,6 @@
   <data name="TrialHasExpiredHeader" xml:space="preserve">
     <value>Próba-birtokol lejárt</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
-
-Funkciók közé tartozik:
-
-* Több mint 130 képek és hangok (teljes verzió)
-* 27 képek és hangok (próba-változat)
-* 2 különböző kategóriák
-* A folyamatos lejátszás indítása
-* Hang leírása
-* 9 különböző nyelveken
-* Minden egyes kép az állat neve
-
-Letölt ez app ma!</value>
-  </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Csecsemők és kisgyermekek állatok és a hangok akár 9 különböző nyelveken tanítani.
-
-Funkciók közé tartozik:
-
-* Több mint 130 képek és hangok (teljes verzió)
-* 27 képek és hangok (próba-változat)
-* 2 különböző kategóriák
-* A folyamatos lejátszás indítása
-* Hang leírása
-* 9 különböző nyelveken
-* Minden egyes kép az állat neve
-
-Letölt ez app ma!</value>
-  </data>
   <data name="TrailHasExpired" xml:space="preserve">
     <value>A próba-birtokol lejárt, kérjük, vásárolja meg a alkalmazás-hoz kap több mint 130 képek és hangok!</value>
   </data>
