@@ -246,6 +246,12 @@ namespace BabyApp
                 CartoonAnimals.Add(new Box("Anteater", "/Assets/Pics/BabyAnimals/anteater80x100.png", "/Assets/Pics/BabyAnimals/anteater480x800.png", "/Assets/Sounds/Animals/anteater.wav"));
                 CartoonAnimals.Add(new Box("Badger", "/Assets/Pics/BabyAnimals/badger80x100.png", "/Assets/Pics/BabyAnimals/badger480x800.png", "/Assets/Sounds/Animals/badger.wav"));
                 CartoonAnimals.Add(new Box("Bear", "/Assets/Pics/BabyAnimals/bear80x100.png", "/Assets/Pics/BabyAnimals/bear480x800.png", "/Assets/Sounds/Animals/bear.wav"));
+
+                CartoonAnimals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+                CartoonAnimals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+                CartoonAnimals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+                CartoonAnimals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
+                CartoonAnimals.Add(new Box("QuestionMark", "/Assets/Pics/questionmark80x100.png", "/Assets/Pics/questionmark480x800.png", ""));
             }
         }
 
@@ -1785,7 +1791,14 @@ namespace BabyApp
 
         private void SwitchCategories_Click(object sender, EventArgs e)
         {
-            SetPivots("");
+            if ((Application.Current as App).IsFreeVersion)
+            {
+                SetPivotsFree("");
+            }
+            else
+            {
+                SetPivots("");
+            }
         }
 
         private void About_Click(object sender, EventArgs e)
